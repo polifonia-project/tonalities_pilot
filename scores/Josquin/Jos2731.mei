@@ -439,8 +439,8 @@
          <note xml:id="note-L61F1" type="placed" dur="1" oct="3" pname="c" stem.dir="up" accid.ges="n" />
         </layer>
        </staff>
-       <harm xml:id="harm-L59F2" place="below" staff="3" tstamp="1.000000" n="2">T</harm>
-       <harm xml:id="harm-L59F4" place="below" staff="2" tstamp="1.000000" n="4">C</harm>
+       <harm xml:id="harm-L59F2" type="del" resp="CGN" place="below" staff="3" tstamp="1.000000" n="2">[T]</harm>
+       <harm xml:id="harm-L59F4" type="del" resp="CGN" place="below" staff="2" tstamp="1.000000" n="4">[C]</harm>
       </measure>
       <measure xml:id="measure-L62" n="12">
        <staff xml:id="staff-L62F5N1" n="1">
@@ -628,7 +628,7 @@
          <note xml:id="note-L108F1" dur="breve" oct="3" pname="f" accid.ges="n" />
         </layer>
        </staff>
-       <harm xml:id="harm-L108F4" place="below" staff="2" tstamp="1.000000" n="4">T</harm>
+       <harm xml:id="harm-L108F4" type="del" resp="CGN" place="below" staff="2" tstamp="1.000000" n="4">[T]</harm>
        <harm xml:id="harm-L108F6" place="below" staff="1" tstamp="1.000000" n="6">C</harm>
        <tie xml:id="tie-L111F3-L113F3" startid="#note-L111F3" endid="#note-L113F3" />
       </measure>
@@ -707,7 +707,7 @@
          <note xml:id="note-L135F1" type="placed" dur="4" oct="3" pname="e" stem.dir="down" accid.ges="n" />
         </layer>
        </staff>
-       <harm xml:id="harm-L128F2" place="below" staff="3" tstamp="1.000000" n="2">T</harm>
+       <harm xml:id="harm-L128F2" type="del" resp="CGN" place="below" staff="3" tstamp="1.000000" n="2">[T]</harm>
        <harm xml:id="harm-L128F4" place="below" staff="2" tstamp="1.000000" n="4">C</harm>
       </measure>
       <measure xml:id="measure-L136" n="23">
@@ -1103,7 +1103,7 @@
          <note xml:id="note-L234F1" type="placed" dur="1" oct="3" pname="e" stem.dir="down" accid.ges="n" />
         </layer>
        </staff>
-       <harm xml:id="harm-L232F2" place="below" staff="3" tstamp="1.000000" n="2">b</harm>
+       <harm xml:id="harm-L232F2" type="del" resp="CGN" place="below" staff="3" tstamp="1.000000" n="2">[b]</harm>
        <harm xml:id="harm-L232F6" place="below" staff="1" tstamp="1.000000" n="6">C</harm>
        <tie xml:id="tie-L235F5-L237F5" startid="#note-L235F5" endid="#note-L237F5" />
       </measure>
@@ -1185,7 +1185,7 @@
         </layer>
        </staff>
        <harm xml:id="harm-L253F4" place="below" staff="2" tstamp="1.000000" n="4">T</harm>
-       <harm xml:id="harm-L253F6" place="below" staff="1" tstamp="1.000000" n="6">C</harm>
+       <harm xml:id="harm-L253F6" resp="CGN" type="del" place="below" staff="1" tstamp="1.000000" n="6">[C]</harm>
       </measure>
       <measure xml:id="measure-L258" n="43">
        <staff xml:id="staff-L258F5N1" n="1">
@@ -1235,6 +1235,7 @@
         </layer>
        </staff>
        <tie xml:id="tie-L269F5-L272F5" startid="#note-L269F5" endid="#note-L272F5" />
+         <harm xml:id="harm-L256F4789ok" resp="CGN" type="add" place="below" staff="3" tstamp="1.000000">T</harm>
       </measure>
       <measure xml:id="measure-L271" n="45">
        <staff xml:id="staff-L271F5N1" n="1">
