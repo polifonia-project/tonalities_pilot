@@ -2,162 +2,166 @@
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
- <meiHead>
-  <fileDesc>
-   <titleStmt>
-    <title />
-   </titleStmt>
-   <pubStmt>
-    <respStmt>
-     <persName xml:id="persname-L302" analog="humdrum:EED" role="digital editor">Jesse Rodin</persName>
-    </respStmt>
-   </pubStmt>
-  </fileDesc>
-  <encodingDesc>
-   <appInfo>
-    <application isodate="2023-01-24T21:49:47" version="3.15.0-dev-5260bd2-dirty">
-     <name>Verovio</name>
-     <p>Transcoded from Humdrum</p>
-    </application>
-   </appInfo>
-   <projectDesc>
-    <p>Encoded by: Will Watson 19/08/2011</p>
-    <p>Version: 2012/05/23/</p>
-   </projectDesc>
-  </encodingDesc>
-  <workList>
-   <work>
-    <identifier analog="humdrum:SCT">NJE 30.6</identifier>
-    <title xml:id="title-L3" analog="humdrum:OTL" type="main" xml:lang="fre">Nimphes, nappés / Circumdederunt me</title>
-    <title xml:id="title-L307" analog="humdrum:Xfi" type="translated">extract -ikern|dissonant -V</title>
-    <composer analog="humdrum:COM" xml:id="person-L1">Josquin des Prez</composer>
-   </work>
-  </workList>
-  <extMeta>
-   <frames xmlns="http://www.humdrum.org/ns/humxml">
-    <metaFrame n="0" token="!!!COM: Josquin des Prez" xml:id="L1">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>COM</referenceKey>
-      <referenceValue>Josquin des Prez</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="1" token="!!!CDT: ~1450-1521/08/27" xml:id="L2">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>CDT</referenceKey>
-      <referenceValue>~1450-1521/08/27</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="2" token="!!!OTL@@FRE: Nimphes, napp&amp;eacute;s / Circumdederunt me" xml:id="L3">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey language="FRE" primary="true">OTL</referenceKey>
-      <referenceValue>Nimphes, napp&amp;eacute;s / Circumdederunt me</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="3" token="!!!AGN: Chanson" xml:id="L4">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>AGN</referenceKey>
-      <referenceValue>Chanson</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="4" token="!!!SCT: NJE 30.6" xml:id="L5">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>SCT</referenceKey>
-      <referenceValue>NJE 30.6</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="5" token="!!!SCA: New Josquin Edition 30.6" xml:id="L6">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>SCA</referenceKey>
-      <referenceValue>New Josquin Edition 30.6</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="6" token="!!!voices: 6" xml:id="L7">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>voices</referenceKey>
-      <referenceValue>6</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="297" token="!!!RDF**kern: l=long note in original notation" xml:id="L298">
-     <frameInfo>
-      <startTime float="528" />
-      <frameType>reference</frameType>
-      <referenceKey>RDF**kern</referenceKey>
-      <referenceValue>l=long note in original notation</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="298" token="!!!RDF**kern: i=editorial accidental" xml:id="L299">
-     <frameInfo>
-      <startTime float="528" />
-      <frameType>reference</frameType>
-      <referenceKey>RDF**kern</referenceKey>
-      <referenceValue>i=editorial accidental</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="299" token="!!!ENC: Will Watson 19/08/2011" xml:id="L300">
-     <frameInfo>
-      <startTime float="528" />
-      <frameType>reference</frameType>
-      <referenceKey>ENC</referenceKey>
-      <referenceValue>Will Watson 19/08/2011</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="300" token="!!!END: 2011/08/19/" xml:id="L301">
-     <frameInfo>
-      <startTime float="528" />
-      <frameType>reference</frameType>
-      <referenceKey>END</referenceKey>
-      <referenceValue>2011/08/19/</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="301" token="!!!EED: Jesse Rodin" xml:id="L302">
-     <frameInfo>
-      <startTime float="528" />
-      <frameType>reference</frameType>
-      <referenceKey>EED</referenceKey>
-      <referenceValue>Jesse Rodin</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="302" token="!!!EEV: 2012/05/23/" xml:id="L303">
-     <frameInfo>
-      <startTime float="528" />
-      <frameType>reference</frameType>
-      <referenceKey>EEV</referenceKey>
-      <referenceValue>2012/05/23/</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="304" token="!!!ONB: Translated from MusicXML and edited on 2011/09/20/ by Craig Sapp" xml:id="L305">
-     <frameInfo>
-      <startTime float="528" />
-      <frameType>reference</frameType>
-      <referenceKey>ONB</referenceKey>
-      <referenceValue>Translated from MusicXML and edited on 2011/09/20/ by Craig Sapp</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="306" token="!!!Xfilter: extract -ikern|dissonant -V" xml:id="L307">
-     <frameInfo>
-      <startTime float="528" />
-      <frameType>reference</frameType>
-      <referenceKey>Xfilter</referenceKey>
-      <referenceValue>extract -ikern|dissonant -V</referenceValue>
-     </frameInfo>
-    </metaFrame>
-   </frames>
-  </extMeta>
- </meiHead>
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <pubStmt>
+            <respStmt>
+               <persName xml:id="persname-L302" analog="humdrum:EED" role="digital editor">Jesse Rodin</persName>
+            </respStmt>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application isodate="2023-01-24T21:49:47" version="3.15.0-dev-5260bd2-dirty">
+               <name>Verovio</name>
+               <p>Transcoded from Humdrum</p>
+            </application>
+            <application xml:id="asu977n2" startdate="2023-09-04T10:01:11" version="0.9.1-p">
+               <name xml:id="nalfcd31">mei-friend</name>
+               <p xml:id="pljknae">First edit by mei-friend 0.9.1-p, 7 August 2023.</p>
+            </application>
+         </appInfo>
+         <projectDesc>
+            <p>Encoded by: Will Watson 19/08/2011</p>
+            <p>Version: 2012/05/23/</p>
+         </projectDesc>
+      </encodingDesc>
+      <workList>
+         <work>
+            <identifier analog="humdrum:SCT">NJE 30.6</identifier>
+            <title xml:id="title-L3" analog="humdrum:OTL" type="main" xml:lang="fre">Nimphes, nappés / Circumdederunt me</title>
+            <title xml:id="title-L307" analog="humdrum:Xfi" type="translated">extract -ikern|dissonant -V</title>
+            <composer analog="humdrum:COM" xml:id="person-L1">Josquin des Prez</composer>
+         </work>
+      </workList>
+      <extMeta>
+         <frames xmlns="http://www.humdrum.org/ns/humxml">
+            <metaFrame n="0" token="!!!COM: Josquin des Prez" xml:id="L1">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>COM</referenceKey>
+                  <referenceValue>Josquin des Prez</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="1" token="!!!CDT: ~1450-1521/08/27" xml:id="L2">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>CDT</referenceKey>
+                  <referenceValue>~1450-1521/08/27</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="2" token="!!!OTL@@FRE: Nimphes, napp&amp;eacute;s / Circumdederunt me" xml:id="L3">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey language="FRE" primary="true">OTL</referenceKey>
+                  <referenceValue>Nimphes, napp&amp;eacute;s / Circumdederunt me</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="3" token="!!!AGN: Chanson" xml:id="L4">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>AGN</referenceKey>
+                  <referenceValue>Chanson</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="4" token="!!!SCT: NJE 30.6" xml:id="L5">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>SCT</referenceKey>
+                  <referenceValue>NJE 30.6</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="5" token="!!!SCA: New Josquin Edition 30.6" xml:id="L6">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>SCA</referenceKey>
+                  <referenceValue>New Josquin Edition 30.6</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="6" token="!!!voices: 6" xml:id="L7">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>voices</referenceKey>
+                  <referenceValue>6</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="297" token="!!!RDF**kern: l=long note in original notation" xml:id="L298">
+               <frameInfo>
+                  <startTime float="528"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>RDF**kern</referenceKey>
+                  <referenceValue>l=long note in original notation</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="298" token="!!!RDF**kern: i=editorial accidental" xml:id="L299">
+               <frameInfo>
+                  <startTime float="528"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>RDF**kern</referenceKey>
+                  <referenceValue>i=editorial accidental</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="299" token="!!!ENC: Will Watson 19/08/2011" xml:id="L300">
+               <frameInfo>
+                  <startTime float="528"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>ENC</referenceKey>
+                  <referenceValue>Will Watson 19/08/2011</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="300" token="!!!END: 2011/08/19/" xml:id="L301">
+               <frameInfo>
+                  <startTime float="528"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>END</referenceKey>
+                  <referenceValue>2011/08/19/</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="301" token="!!!EED: Jesse Rodin" xml:id="L302">
+               <frameInfo>
+                  <startTime float="528"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>EED</referenceKey>
+                  <referenceValue>Jesse Rodin</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="302" token="!!!EEV: 2012/05/23/" xml:id="L303">
+               <frameInfo>
+                  <startTime float="528"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>EEV</referenceKey>
+                  <referenceValue>2012/05/23/</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="304" token="!!!ONB: Translated from MusicXML and edited on 2011/09/20/ by Craig Sapp" xml:id="L305">
+               <frameInfo>
+                  <startTime float="528"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>ONB</referenceKey>
+                  <referenceValue>Translated from MusicXML and edited on 2011/09/20/ by Craig Sapp</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="306" token="!!!Xfilter: extract -ikern|dissonant -V" xml:id="L307">
+               <frameInfo>
+                  <startTime float="528"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>Xfilter</referenceKey>
+                  <referenceValue>extract -ikern|dissonant -V</referenceValue>
+               </frameInfo>
+            </metaFrame>
+         </frames>
+      </extMeta>
+   </meiHead>
  <music>
   <body>
    <mdiv xml:id="m1tjsp0y">
@@ -748,6 +752,7 @@
         </layer>
        </staff>
        <harm xml:id="harm-L256F4789ok" resp="MG" type="add" place="below" staff="6" tstamp="1.000000">B</harm>
+       <harm xml:id="harm-L256F4789fdok" resp="MG" type="add" place="below" staff="1" tstamp="1.000000">c</harm>
       </measure>
       <measure xml:id="measure-L71" n="16">
        <staff xml:id="staff-L71F11N1" n="1">
@@ -902,7 +907,7 @@
        <harm xml:id="harm-L256F4789a" resp="MG" type="add" place="below" staff="6" tstamp="1.000000">T</harm>
        <harm xml:id="harm-L256F4789b" resp="MG" type="add" place="below" staff="3" tstamp="1.000000">C</harm>
        <harm xml:id="harm-L256F4f789b" resp="MG" type="add" place="below" staff="4" tstamp="1.000000">A+</harm>
-       <harm xml:id="harm-L2fr56F4789a" resp="MG" type="add" place="below" staff="1" tstamp="1.000000">t</harm>
+       <harm xml:id="harm-L2fr56F4789a" resp="MG" type="add" place="below" staff="1" tstamp="1.000000">A</harm>
       </measure>
       <measure xml:id="measure-L92" n="20">
        <staff xml:id="staff-L92F11N1" n="1">
@@ -1051,6 +1056,7 @@
        </staff>
        <harm xml:id="harm-L256F4789d" resp="MG" type="add" place="below" staff="6" tstamp="1.000000">T+</harm>
        <harm xml:id="harm-L256F4789e" resp="MG" type="add" place="below" staff="4" tstamp="1.000000">C</harm>
+       <harm xml:id="harm-L256ffF4789e" resp="MG" type="add" place="below" staff="3" tstamp="1.000000">A</harm>
        <tie xml:id="tie-L106F5-L109F5" startid="#note-L106F5" endid="#note-L109F5" />
       </measure>
       <measure xml:id="measure-L108" n="24">
@@ -1354,6 +1360,9 @@
         </layer>
        </staff>
        <tie xml:id="tie-L138F5-L142F5" startid="#note-L138F5" endid="#note-L142F5" />
+       <harm xml:id="harm-L25hjooo6F4789j" resp="MG" type="add" place="below" staff="6" tstamp="1.000000">B+</harm>
+       <harm xml:id="harm-L25ds6F4789j" resp="MG" type="add" place="below" staff="4" tstamp="1.000000">T</harm>
+       <harm xml:id="harm-L256F478dwss9j" resp="MG" type="add" place="below" staff="2" tstamp="1.000000">C</harm>
       </measure>
       <measure xml:id="measure-L141" n="32">
        <staff xml:id="staff-L141F11N1" n="1">
@@ -1467,9 +1476,7 @@
         </layer>
        </staff>
        <harm xml:id="harm-L256F4789j" resp="MG" type="add" place="below" staff="6" tstamp="1.000000">P</harm>
-       <harm xml:id="harm-L256F4789k" resp="MG" type="add" place="below" staff="1" tstamp="1.000000">C</harm>
-       <harm xml:id="harm-L256Fd479k" resp="MG" type="add" place="below" staff="5" tstamp="1.000000">T</harm>
-       <harm xml:id="harm-L256Fd679k" resp="MG" type="add" place="below" staff="2" tstamp="1.000000">A</harm>
+       <harm xml:id="harm-L256Fd679k" resp="MG" type="add" place="below" staff="2" tstamp="1.000000">T</harm>
        <tie xml:id="tie-L152F9-L154F9" startid="#note-L152F9" endid="#note-L154F9" />
       </measure>
       <measure xml:id="measure-L153" n="35">
@@ -1578,6 +1585,9 @@
        </staff>
        <tie xml:id="tie-L161F7-L163F7" startid="#note-L161F7" endid="#note-L163F7" />
        <tie xml:id="tie-L161F3-L163F3" startid="#note-L161F3" endid="#note-L163F3" />
+       <harm xml:id="harm-Lfghj256F4789j" resp="MG" type="add" place="below" staff="6" tstamp="1.000000">P</harm>
+       <harm xml:id="harm-L256F47ghj89j" resp="MG" type="add" place="below" staff="3" tstamp="1.000000">ç</harm>
+       <harm xml:id="harm-L2fdwqayx56F4789j" resp="MG" type="add" place="below" staff="1" tstamp="1.000000">C</harm>
       </measure>
       <measure xml:id="measure-L162" n="38">
        <staff xml:id="staff-L162F11N1" n="1">
@@ -1722,9 +1732,8 @@
          <note xml:id="note-L177F1" dur="1" oct="3" pname="f" accid.ges="n" />
         </layer>
        </staff>
-       <harm xml:id="harm-L256F4789n" resp="MG" type="add" place="below" staff="6" tstamp="1.500000">P–</harm>
-       <harm xml:id="harm-L256F4789p" resp="MG" type="add" place="below" staff="3" tstamp="1.000000">C</harm>
-       <harm xml:id="harm-L256F4089p" resp="MG" type="add" place="below" staff="1" tstamp="1.000000">A</harm>
+       <harm xml:id="harm-L256F4789n" resp="MG" type="add" place="below" staff="6" tstamp="1.500000">P-</harm>
+       <harm xml:id="harm-L256F4089p" resp="MG" type="add" place="below" staff="1" tstamp="1.000000">T</harm>
        <tie xml:id="tie-L177F1-L179F1" startid="#note-L177F1" endid="#note-L179F1" />
       </measure>
       <measure xml:id="measure-L178" n="42">
@@ -1916,10 +1925,10 @@
          <mRest xml:id="mrest-L200F1" />
         </layer>
        </staff>
-       <harm xml:id="harm-L200F6" place="below" staff="4" tstamp="1.000000" n="6">T–</harm>
+       <harm xml:id="harm-L200F6" place="below" staff="4" tstamp="1.000000" n="6">T+</harm>
          <harm xml:id="harm-L200F6d" place="below" staff="5" tstamp="1.000000" n="6">A+</harm>
        <harm xml:id="harm-L200F8" place="below" staff="3" tstamp="1.000000" n="8">C</harm>
-       <harm xml:id="harm-L2d00F8" place="below" staff="1" tstamp="1.000000" n="8">A–</harm>
+       <harm xml:id="harm-L2d00F8" place="below" staff="1" tstamp="1.000000" n="8">A-</harm>
        <tie xml:id="tie-L201F5-L203F5" startid="#note-L201F5" endid="#note-L203F5" />
        <tie xml:id="tie-L201F3-L203F3" startid="#note-L201F3" endid="#note-L203F3" />
       </measure>
@@ -2036,7 +2045,7 @@
         </layer>
        </staff>
        <harm xml:id="harm-L256F4789s" resp="MG" type="add" place="below" staff="6" tstamp="1.000000">P</harm>
-       <harm xml:id="harm-L256F4589s" resp="MG" type="add" place="below" staff="1" tstamp="1.000000">C</harm>
+       <harm xml:id="harm-L256F4589s" resp="MG" type="add" place="below" staff="2" tstamp="1.000000">T+</harm>
        <tie xml:id="tie-L215F9-L218F9" startid="#note-L215F9" endid="#note-L218F9" />
       </measure>
       <measure xml:id="measure-L217" n="50">
@@ -2235,7 +2244,7 @@
        <harm xml:id="harm-L256F4789v" resp="MG" type="add" place="below" staff="3" tstamp="1.000000">C</harm>
        <harm xml:id="harm-L256F4789w" resp="MG" type="add" place="below" staff="4" tstamp="1.000000">T</harm>
        <harm xml:id="harm-L256F4089v" resp="MG" type="add" place="below" staff="2" tstamp="1.000000">A</harm>
-       <harm xml:id="harm-L256fF4089v" resp="MG" type="add" place="below" staff="1" tstamp="1.000000">T</harm>
+       <harm xml:id="harm-L256fF4089v" resp="MG" type="add" place="below" staff="1" tstamp="1.000000">t-</harm>
        <tie xml:id="tie-L237F5-L241F5" startid="#note-L237F5" endid="#note-L241F5" />
       </measure>
       <measure xml:id="measure-L240" n="55">
@@ -2394,7 +2403,7 @@
        <harm xml:id="harm-L256F4789x" resp="MG" type="add" place="below" staff="6" tstamp="1.000000">B+</harm>
        <harm xml:id="harm-L256F4789y" resp="MG" type="add" place="below" staff="2" tstamp="1.000000">A</harm>
        <harm xml:id="harm-L256fF4789y" resp="MG" type="add" place="below" staff="4" tstamp="1.000000">C+</harm>
-       <harm xml:id="harm-L256F478fre9y" resp="MG" type="add" place="below" staff="1" tstamp="1.000000">t–</harm>
+       <harm xml:id="harm-L256F478fre9y" resp="MG" type="add" place="below" staff="1" tstamp="1.000000">t-</harm>
       </measure>
       <measure xml:id="measure-L258" n="59">
        <staff xml:id="staff-L258F11N1" n="1">
@@ -2550,10 +2559,10 @@
          <note xml:id="note-L276F1" dur="1" oct="2" pname="f" accid.ges="n" />
         </layer>
        </staff>
-       <harm xml:id="harm-L256F4789z" resp="MG" type="add" place="below" staff="6" tstamp="1.000000">B–</harm>
+       <harm xml:id="harm-L256F4789z" resp="MG" type="add" place="below" staff="6" tstamp="1.000000">B-</harm>
        <harm xml:id="harm-L256F478a" resp="MG" type="add" place="below" staff="3" tstamp="1.000000">C</harm>
        <harm xml:id="harm-L256F478b" resp="MG" type="add" place="below" staff="4" tstamp="1.000000">T</harm>
-       <harm xml:id="harm-L256F478c" resp="MG" type="add" place="below" staff="5" tstamp="1.000000">A–</harm>
+       <harm xml:id="harm-L256F478c" resp="MG" type="add" place="below" staff="5" tstamp="1.000000">A-</harm>
        <harm xml:id="harm-L256F478gr49y" resp="MG" type="add" place="below" staff="1" tstamp="1.000000">t-</harm>
        <tie xml:id="tie-L276F3-L279F3" startid="#note-L276F3" endid="#note-L279F3" />
       </measure>

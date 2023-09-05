@@ -2,162 +2,166 @@
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
- <meiHead>
-  <fileDesc>
-   <titleStmt>
-    <title />
-   </titleStmt>
-   <pubStmt>
-    <respStmt>
-     <persName xml:id="persname-L268" analog="humdrum:EED" role="digital editor">Jesse Rodin</persName>
-    </respStmt>
-   </pubStmt>
-  </fileDesc>
-  <encodingDesc>
-   <appInfo>
-    <application isodate="2023-01-24T21:50:12" version="3.15.0-dev-5260bd2-dirty">
-     <name>Verovio</name>
-     <p>Transcoded from Humdrum</p>
-    </application>
-   </appInfo>
-   <projectDesc>
-    <p>Encoded by: Will Watson 09/09/2011</p>
-    <p>Version: 2011/10/07/</p>
-   </projectDesc>
-  </encodingDesc>
-  <workList>
-   <work>
-    <identifier analog="humdrum:SCT">NJE 30.7</identifier>
-    <title xml:id="title-L3" analog="humdrum:OTL" type="main" xml:lang="fre">Petite camusette</title>
-    <title xml:id="title-L273" analog="humdrum:Xfi" type="translated">extract -ikern|dissonant -V</title>
-    <composer analog="humdrum:COM" xml:id="person-L1">Josquin des Prez</composer>
-   </work>
-  </workList>
-  <extMeta>
-   <frames xmlns="http://www.humdrum.org/ns/humxml">
-    <metaFrame n="0" token="!!!COM: Josquin des Prez" xml:id="L1">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>COM</referenceKey>
-      <referenceValue>Josquin des Prez</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="1" token="!!!CDT: ~1450-1521/08/27" xml:id="L2">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>CDT</referenceKey>
-      <referenceValue>~1450-1521/08/27</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="2" token="!!!OTL@@FRE: Petite camusette" xml:id="L3">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey language="FRE" primary="true">OTL</referenceKey>
-      <referenceValue>Petite camusette</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="3" token="!!!AGN: Chanson" xml:id="L4">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>AGN</referenceKey>
-      <referenceValue>Chanson</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="4" token="!!!SCT: NJE 30.7" xml:id="L5">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>SCT</referenceKey>
-      <referenceValue>NJE 30.7</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="5" token="!!!SCA: New Josquin Edition 30.7" xml:id="L6">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>SCA</referenceKey>
-      <referenceValue>New Josquin Edition 30.7</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="6" token="!!!voices: 6" xml:id="L7">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>voices</referenceKey>
-      <referenceValue>6</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="263" token="!!!RDF**kern: l=long note in original notation" xml:id="L264">
-     <frameInfo>
-      <startTime float="328" />
-      <frameType>reference</frameType>
-      <referenceKey>RDF**kern</referenceKey>
-      <referenceValue>l=long note in original notation</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="264" token="!!!RDF**kern: i=editorial accidental" xml:id="L265">
-     <frameInfo>
-      <startTime float="328" />
-      <frameType>reference</frameType>
-      <referenceKey>RDF**kern</referenceKey>
-      <referenceValue>i=editorial accidental</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="265" token="!!!ENC: Will Watson 09/09/2011" xml:id="L266">
-     <frameInfo>
-      <startTime float="328" />
-      <frameType>reference</frameType>
-      <referenceKey>ENC</referenceKey>
-      <referenceValue>Will Watson 09/09/2011</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="266" token="!!!END: 2011/09/09/" xml:id="L267">
-     <frameInfo>
-      <startTime float="328" />
-      <frameType>reference</frameType>
-      <referenceKey>END</referenceKey>
-      <referenceValue>2011/09/09/</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="267" token="!!!EED: Jesse Rodin" xml:id="L268">
-     <frameInfo>
-      <startTime float="328" />
-      <frameType>reference</frameType>
-      <referenceKey>EED</referenceKey>
-      <referenceValue>Jesse Rodin</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="268" token="!!!EEV: 2011/10/07/" xml:id="L269">
-     <frameInfo>
-      <startTime float="328" />
-      <frameType>reference</frameType>
-      <referenceKey>EEV</referenceKey>
-      <referenceValue>2011/10/07/</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="270" token="!!!ONB: Translated from MusicXML and edited on 2011/10/07/ by Craig Sapp" xml:id="L271">
-     <frameInfo>
-      <startTime float="328" />
-      <frameType>reference</frameType>
-      <referenceKey>ONB</referenceKey>
-      <referenceValue>Translated from MusicXML and edited on 2011/10/07/ by Craig Sapp</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="272" token="!!!Xfilter: extract -ikern|dissonant -V" xml:id="L273">
-     <frameInfo>
-      <startTime float="328" />
-      <frameType>reference</frameType>
-      <referenceKey>Xfilter</referenceKey>
-      <referenceValue>extract -ikern|dissonant -V</referenceValue>
-     </frameInfo>
-    </metaFrame>
-   </frames>
-  </extMeta>
- </meiHead>
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <pubStmt>
+            <respStmt>
+               <persName xml:id="persname-L268" analog="humdrum:EED" role="digital editor">Jesse Rodin</persName>
+            </respStmt>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application isodate="2023-01-24T21:50:12" version="3.15.0-dev-5260bd2-dirty">
+               <name>Verovio</name>
+               <p>Transcoded from Humdrum</p>
+            </application>
+            <application xml:id="aqpv0qz2" startdate="2023-09-04T10:13:18" version="0.9.1-p">
+               <name xml:id="nysbrmx2">mei-friend</name>
+               <p xml:id="pzss27u1">First edit by mei-friend 0.9.1-p, 7 August 2023.</p>
+            </application>
+         </appInfo>
+         <projectDesc>
+            <p>Encoded by: Will Watson 09/09/2011</p>
+            <p>Version: 2011/10/07/</p>
+         </projectDesc>
+      </encodingDesc>
+      <workList>
+         <work>
+            <identifier analog="humdrum:SCT">NJE 30.7</identifier>
+            <title xml:id="title-L3" analog="humdrum:OTL" type="main" xml:lang="fre">Petite camusette</title>
+            <title xml:id="title-L273" analog="humdrum:Xfi" type="translated">extract -ikern|dissonant -V</title>
+            <composer analog="humdrum:COM" xml:id="person-L1">Josquin des Prez</composer>
+         </work>
+      </workList>
+      <extMeta>
+         <frames xmlns="http://www.humdrum.org/ns/humxml">
+            <metaFrame n="0" token="!!!COM: Josquin des Prez" xml:id="L1">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>COM</referenceKey>
+                  <referenceValue>Josquin des Prez</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="1" token="!!!CDT: ~1450-1521/08/27" xml:id="L2">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>CDT</referenceKey>
+                  <referenceValue>~1450-1521/08/27</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="2" token="!!!OTL@@FRE: Petite camusette" xml:id="L3">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey language="FRE" primary="true">OTL</referenceKey>
+                  <referenceValue>Petite camusette</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="3" token="!!!AGN: Chanson" xml:id="L4">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>AGN</referenceKey>
+                  <referenceValue>Chanson</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="4" token="!!!SCT: NJE 30.7" xml:id="L5">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>SCT</referenceKey>
+                  <referenceValue>NJE 30.7</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="5" token="!!!SCA: New Josquin Edition 30.7" xml:id="L6">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>SCA</referenceKey>
+                  <referenceValue>New Josquin Edition 30.7</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="6" token="!!!voices: 6" xml:id="L7">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>voices</referenceKey>
+                  <referenceValue>6</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="263" token="!!!RDF**kern: l=long note in original notation" xml:id="L264">
+               <frameInfo>
+                  <startTime float="328"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>RDF**kern</referenceKey>
+                  <referenceValue>l=long note in original notation</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="264" token="!!!RDF**kern: i=editorial accidental" xml:id="L265">
+               <frameInfo>
+                  <startTime float="328"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>RDF**kern</referenceKey>
+                  <referenceValue>i=editorial accidental</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="265" token="!!!ENC: Will Watson 09/09/2011" xml:id="L266">
+               <frameInfo>
+                  <startTime float="328"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>ENC</referenceKey>
+                  <referenceValue>Will Watson 09/09/2011</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="266" token="!!!END: 2011/09/09/" xml:id="L267">
+               <frameInfo>
+                  <startTime float="328"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>END</referenceKey>
+                  <referenceValue>2011/09/09/</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="267" token="!!!EED: Jesse Rodin" xml:id="L268">
+               <frameInfo>
+                  <startTime float="328"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>EED</referenceKey>
+                  <referenceValue>Jesse Rodin</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="268" token="!!!EEV: 2011/10/07/" xml:id="L269">
+               <frameInfo>
+                  <startTime float="328"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>EEV</referenceKey>
+                  <referenceValue>2011/10/07/</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="270" token="!!!ONB: Translated from MusicXML and edited on 2011/10/07/ by Craig Sapp" xml:id="L271">
+               <frameInfo>
+                  <startTime float="328"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>ONB</referenceKey>
+                  <referenceValue>Translated from MusicXML and edited on 2011/10/07/ by Craig Sapp</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="272" token="!!!Xfilter: extract -ikern|dissonant -V" xml:id="L273">
+               <frameInfo>
+                  <startTime float="328"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>Xfilter</referenceKey>
+                  <referenceValue>extract -ikern|dissonant -V</referenceValue>
+               </frameInfo>
+            </metaFrame>
+         </frames>
+      </extMeta>
+   </meiHead>
  <music>
   <body>
    <mdiv xml:id="mfaottq">
@@ -407,7 +411,8 @@
         </layer>
        </staff>
        <harm xml:id="harm-L256F4789" resp="MG" type="add" place="below" staff="6" tstamp="1.000000">C</harm>
-       <harm xml:id="harm-L256F4789a" resp="MG" type="add" place="below" staff="1" tstamp="1.000000">T+</harm> 
+       <harm xml:id="harm-L256F4789a" resp="MG" type="add" place="below" staff="1" tstamp="1.000000">T+</harm>
+       <harm xml:id="harm-L2dwq56F4789a" resp="C" type="add" place="below" staff="5" tstamp="1.000000">B+</harm>
       </measure>
       <measure xml:id="measure-L40" n="6">
        <staff xml:id="staff-L40F11N1" n="1">
@@ -540,7 +545,9 @@
        </staff>
        <harm xml:id="harm-L256F4789d" resp="MG" type="add" place="below" staff="6" tstamp="1.000000">B</harm>
        <harm xml:id="harm-L256F4789e" resp="MG" type="add" place="below" staff="4" tstamp="1.000000">T+</harm>
-       <harm xml:id="harm-L256F4789f" resp="MG" type="add" place="below" staff="1" tstamp="1.000000">C+</harm>
+       <harm xml:id="harm-L256F4789f" resp="MG" type="add" place="below" staff="1" tstamp="1.000000">C-</harm>
+       <harm xml:id="harm-ee" resp="MG" type="add" place="below" staff="2" tstamp="1.000000">A+</harm>
+       <harm xml:id="harm-Lfe256F4789f" resp="MG" type="add" place="below" staff="3" tstamp="1.000000">t+</harm>
       </measure>
       <measure xml:id="measure-L61" n="9">
        <staff xml:id="staff-L61F11N1" n="1">
@@ -588,7 +595,7 @@
        </staff>
        <harm xml:id="harm-L256F4789g" resp="MG" type="add" place="below" staff="5" tstamp="1.000000">B</harm>
        <harm xml:id="harm-L256F4789h" resp="MG" type="add" place="below" staff="3" tstamp="1.000000">T+</harm>
-       <harm xml:id="harm-L256F4789i" resp="MG" type="add" place="below" staff="2" tstamp="1.000000">C+</harm>
+       <harm xml:id="harm-L256F4789i" resp="MG" type="add" place="below" staff="2" tstamp="1.000000">C-</harm>
       </measure>
       <measure xml:id="measure-L67" n="10">
        <staff xml:id="staff-L67F11N1" n="1">
@@ -637,6 +644,7 @@
        </staff>
        <harm xml:id="harm-L256F4789j" resp="MG" type="add" place="below" staff="6" tstamp="2.000000">T</harm>
        <harm xml:id="harm-L256F47f89j" resp="MG" type="add" place="below" staff="3" tstamp="2.000000">C+</harm>
+       <harm xml:id="harm-L256F4ff7f89j" resp="MG" type="add" place="below" staff="1" tstamp="2.000000">A</harm>
       </measure>
       <measure xml:id="measure-L72" n="11">
        <staff xml:id="staff-L72F11N1" n="1">
@@ -680,7 +688,12 @@
         </layer>
        </staff>
        <harm xml:id="harm-L256F4789l" resp="MG" type="add" place="below" staff="4" tstamp="1.000000">T</harm>
+       <harm xml:id="harm-L256F47ffe89l" resp="MG" type="add" place="below" staff="2" tstamp="1.000000">C+</harm>
+       <harm xml:id="harm-L256ffeF47ffe89l" resp="MG" type="add" place="below" staff="3" tstamp="1.000000">A+</harm>
+       <harm xml:id="hare2m-L256F4789m" resp="MG" type="add" place="below" staff="5" tstamp="1.000000">b+</harm>
        <harm xml:id="harm-L256F4789m" resp="MG" type="add" place="below" staff="5" tstamp="2.000000">T</harm>
+       <harm xml:id="harm-L256F4ddde7ffe89l" resp="MG" type="add" place="below" staff="2" tstamp="2.000000">A+</harm>
+       <harm xml:id="harm-L2fre56F47ffe89l" resp="MG" type="add" place="below" staff="3" tstamp="2.000000">A+</harm>
       </measure>
       <measure xml:id="measure-L77" n="12">
        <staff xml:id="staff-L77F11N1" n="1">
@@ -726,7 +739,11 @@
         </layer>
        </staff>
        <harm xml:id="harm-L256F4789k" resp="MG" type="add" place="below" staff="3" tstamp="1.000000">T</harm>
+       <harm xml:id="harm-L256Fbhjk4789k" resp="MG" type="add" place="below" staff="2" tstamp="1.000000">C+</harm>
+       <harm xml:id="harm-L256Fbhjk4hj789k" resp="MG" type="add" place="below" staff="2" tstamp="2.000000">A</harm>
+       <harm xml:id="harm-L256Fffbhjk4hj789k" resp="MG" type="add" place="below" staff="4" tstamp="2.000000">C+</harm>
        <harm xml:id="harm-L256F4789n" resp="MG" type="add" place="below" staff="6" tstamp="2.000000">T</harm>
+       <harm xml:id="harm-L256Ffff4gg789n" resp="MG" type="add" place="below" staff="6" tstamp="1.000000">b+</harm>
       </measure>
       <measure xml:id="measure-L82" n="13">
        <staff xml:id="staff-L82F11N1" n="1">
@@ -830,6 +847,9 @@
        <harm xml:id="harm-L256F4789o" resp="MG" type="add" place="below" staff="5" tstamp="1.000000">B</harm>
        <harm xml:id="harm-L256F4789p" resp="MG" type="add" place="below" staff="4" tstamp="1.000000">T</harm>
        <harm xml:id="harm-L256F4789q" resp="MG" type="add" place="below" staff="1" tstamp="1.000000">C</harm>
+       <harm xml:id="harm-L256F478ff9p" resp="MG" type="add" place="below" staff="2" tstamp="1.000000">t+</harm>
+       <harm xml:id="harm-L256F47frew89p" resp="MG" type="add" place="below" staff="3" tstamp="1.000000">A+</harm>
+       <harm xml:id="harm-L2fds56F47frew89p" resp="MG" type="add" place="below" staff="6" tstamp="1.000000">B</harm>
       </measure>
       <measure xml:id="measure-L97" n="15">
        <staff xml:id="staff-L97F11N1" n="1">
@@ -1067,6 +1087,9 @@
        </staff>
        <harm xml:id="harm-L256F4789t" resp="MG" type="add" place="below" staff="5" tstamp="1.000000">C</harm>
        <harm xml:id="harm-L256F4789u" resp="MG" type="add" place="below" staff="4" tstamp="1.000000">T</harm>
+       <harm xml:id="harm-L256F47fe89u" resp="MG" type="add" place="below" staff="1" tstamp="1.000000">t+</harm>
+       <harm xml:id="harm-L25vfds6F4789u" resp="MG" type="add" place="below" staff="3" tstamp="1.000000">A+</harm>
+       <harm xml:id="harm-L256F4tr43789u" resp="MG" type="add" place="below" staff="6" tstamp="1.000000">B+</harm>
       </measure>
       <measure xml:id="measure-L127" n="20">
        <staff xml:id="staff-L127F11N1" n="1">
@@ -1173,6 +1196,8 @@
        </staff>
        <harm xml:id="harm-L256F4789w" resp="MG" type="add" place="below" staff="5" tstamp="1.000000">C</harm>
        <harm xml:id="harm-L256F4789y" resp="MG" type="add" place="below" staff="2" tstamp="2.000000">C</harm>
+       <harm xml:id="harm-L256Fgre4789u" resp="MG" type="add" place="below" staff="6" tstamp="1.000000">B+</harm>
+       <harm xml:id="harm-L256F47fdew89u" resp="MG" type="add" place="below" staff="6" tstamp="2.000000">T+</harm>
       </measure>
       <measure xml:id="measure-L142" n="22">
        <staff xml:id="staff-L142F11N1" n="1">
@@ -1218,7 +1243,9 @@
        </staff>
        <harm xml:id="harm-L256F4789z" resp="MG" type="add" place="below" staff="6" tstamp="1.000000">C</harm>
        <harm xml:id="harm-L256F478a" resp="MG" type="add" place="below" staff="4" tstamp="1.000000">T</harm>
-       <harm xml:id="harm-L256F478b" resp="MG" type="add" place="below" staff="3" tstamp="2.000000">T</harm>
+       <harm xml:id="harm-L256F478b" resp="MG" type="add" place="below" staff="1" tstamp="1.000000">t+</harm>
+       <harm xml:id="harm-L2fdew56F478b" resp="MG" type="add" place="below" staff="3" tstamp="1.000000">A+</harm>
+       <harm xml:id="harm-L256F47fdew8b" resp="MG" type="add" place="below" staff="5" tstamp="1.000000">B+</harm>
       </measure>
       <measure xml:id="measure-L147" n="23">
        <staff xml:id="staff-L147F11N1" n="1">
@@ -1449,6 +1476,8 @@
         </layer>
        </staff>
        <harm xml:id="harm-L256F478g" resp="MG" type="add" place="below" staff="6" tstamp="1.000000">P</harm>
+       <harm xml:id="harm-L256F47fde8g" resp="MG" type="add" place="below" staff="5" tstamp="1.000000">T+</harm>
+       <harm xml:id="harm-L256F4kuztf78g" resp="MG" type="add" place="below" staff="4" tstamp="1.000000">C+</harm>
       </measure>
       <measure xml:id="measure-L178" n="28">
        <staff xml:id="staff-L178F11N1" n="1">
@@ -1667,7 +1696,9 @@
        </staff>
        <harm xml:id="harm-L256F478l" resp="MG" type="add" place="below" staff="6" tstamp="1.000000">B</harm>
        <harm xml:id="harm-L256F478m" resp="MG" type="add" place="below" staff="4" tstamp="1.000000">T+</harm>
-       <harm xml:id="harm-L256F478n" resp="MG" type="add" place="below" staff="1" tstamp="1.000000">C–</harm>
+       <harm xml:id="harm-L256F478n" resp="MG" type="add" place="below" staff="1" tstamp="1.000000">C-</harm>
+       <harm xml:id="harm-L256F4gtr478n" resp="MG" type="add" place="below" staff="2" tstamp="1.000000">A+</harm>
+       <harm xml:id="harm-L256F47fr43w8n" resp="MG" type="add" place="below" staff="3" tstamp="1.000000">t+</harm>
       </measure>
       <measure xml:id="measure-L210" n="33">
        <staff xml:id="staff-L210F11N1" n="1">
@@ -1714,8 +1745,9 @@
         </layer>
        </staff>
        <harm xml:id="harm-L256F478o" resp="MG" type="add" place="below" staff="5" tstamp="1.000000">B</harm>
-       <harm xml:id="harm-L256F478p" resp="MG" type="add" place="below" staff="3" tstamp="1.000000">T</harm>
-       <harm xml:id="harm-L256F478q" resp="MG" type="add" place="below" staff="2" tstamp="1.000000">C–</harm>
+       <harm xml:id="harm-L256F478p" resp="MG" type="add" place="below" staff="3" tstamp="1.000000">T+</harm>
+       <harm xml:id="harm-L256F478q" resp="MG" type="add" place="below" staff="2" tstamp="1.000000">C-</harm>
+       <harm xml:id="harm-L256F4f78q" resp="MG" type="add" place="below" staff="1" tstamp="1.000000">A+</harm>
       </measure>
       <measure xml:id="measure-L216" n="34">
        <staff xml:id="staff-L216F11N1" n="1">
@@ -1764,6 +1796,8 @@
        </staff>
        <harm xml:id="harm-L256F478r" resp="MG" type="add" place="below" staff="6" tstamp="2.000000">T</harm>
        <harm xml:id="harm-L256fF478r" resp="MG" type="add" place="below" staff="3" tstamp="2.000000">C+</harm>
+       <harm xml:id="harm-L256ffffF478r" resp="MG" type="add" place="below" staff="1" tstamp="2.000000">A</harm>
+       <harm xml:id="harm-L25re6F478n" resp="MG" type="add" place="below" staff="4" tstamp="2.000000">A+</harm>
       </measure>
       <measure xml:id="measure-L221" n="35">
        <staff xml:id="staff-L221F11N1" n="1">
@@ -1854,6 +1888,9 @@
        <harm xml:id="harm-L256F478t" resp="MG" type="add" place="below" staff="3" tstamp="1.000000">T</harm>
        <harm xml:id="harm-L256F478u" resp="MG" type="add" place="below" staff="6" tstamp="2.000000">T</harm>
        <harm xml:id="harm-L256Ff478u" resp="MG" type="add" place="below" staff="4" tstamp="2.000000">C+</harm>
+       <harm xml:id="harm-L256F47fe8n" resp="MG" type="add" place="below" staff="2" tstamp="2.000000">A+</harm>
+       <harm xml:id="harm-L256Ffewd478n" resp="MG" type="add" place="below" staff="6" tstamp="1.000000">b+</harm>
+       <harm xml:id="harm-L256F47re43wed8n" resp="MG" type="add" place="below" staff="2" tstamp="1.000000">T+</harm>
       </measure>
       <measure xml:id="measure-L231" n="37">
        <staff xml:id="staff-L231F11N1" n="1">
@@ -1959,6 +1996,9 @@
        <harm xml:id="harm-L256F478v" resp="MG" type="add" place="below" staff="4" tstamp="1.000000">T</harm>
        <harm xml:id="harm-L256F478w" resp="MG" type="add" place="below" staff="5" tstamp="1.000000">B</harm>
        <harm xml:id="harm-L256F478x" resp="MG" type="add" place="below" staff="1" tstamp="1.000000">C</harm>
+         <harm xml:id="harm-Lfdedc56F478v" resp="MG" type="add" place="below" staff="2" tstamp="1.000000">t+</harm>
+         <harm xml:id="harm-L25dswqa6F478v" resp="MG" type="add" place="below" staff="3" tstamp="1.000000">A+</harm>
+         <harm xml:id="harm-L256F4ddw78v" resp="MG" type="add" place="below" staff="6" tstamp="1.000000">A</harm>
       </measure>
       <measure xml:id="measure-L246" n="39">
        <staff xml:id="staff-L246F11N1" n="1">
@@ -2002,10 +2042,11 @@
          <note xml:id="note-L250F1" type="placed" dur="2" oct="2" pname="a" stem.dir="up" accid.ges="n" />
         </layer>
        </staff>
-       <harm xml:id="harm-L247F2" place="below" staff="6" tstamp="1.000000" n="2">B</harm>
-       <harm xml:id="harm-L247F10" place="below" staff="2" tstamp="1.000000" n="10">C</harm>
+       <harm xml:id="harm-L247F2" place="below" staff="6" tstamp="1.000000" n="2">B+</harm>
+       <harm xml:id="harm-L247F10" place="below" staff="2" tstamp="1.000000" n="10">C-</harm>
        <harm xml:id="harm-L256F478y" resp="MG" type="add" place="below" staff="3" tstamp="1.000000">T</harm>
        <harm xml:id="harm-L247F12" resp="MG" type="del" place="below" staff="1" tstamp="1.000000" n="12">t+</harm>
+         <harm xml:id="harm-L256frewsdF478v" resp="MG" type="add" place="below" staff="5" tstamp="1.000000">A+</harm>
       </measure>
       <measure xml:id="measure-L252" n="40">
        <staff xml:id="staff-L252F11N1" n="1">
@@ -2080,6 +2121,7 @@
        </staff>
        <harm xml:id="harm-L256F478z" resp="MG" type="add" place="below" staff="6" tstamp="1.000000">P</harm>
        <harm xml:id="harm-L256F478zz" resp="MG" type="add" place="below" staff="2" tstamp="1.000000">C</harm>
+       <harm xml:id="harm-L256Ffedc478zz" resp="MG" type="add" place="below" staff="5" tstamp="1.000000">T</harm>
       </measure>
      </section>
     </score>
