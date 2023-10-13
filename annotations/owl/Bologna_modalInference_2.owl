@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://modality-tonality.huma-num.fr/analysis"
+         xmlns="http://modality-tonality.huma-num.fr/analysis#"
+         xmlns:musi="https://w3id.org/polifonia/ontology/music-meta/"
+         xmlns:zarl="https://w3id.org/polifonia/ontology/music-analysis/zarlino/"
+         xmlns:term="http://purl.org/dc/terms/"
+         xmlns:cido="http://www.cidoc-crm.org/cidoc-crm/">
+
+<owl:Ontology rdf:about="http://modality-tonality.huma-num.fr/analysis">
+  <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino"/>
+</owl:Ontology>
+
+<owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+
+<owl:AnnotationProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to"/>
+
+<musi:DigitalScore rdf:about="#a216e0ff-1f00-4956-815f-66faad119828">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <owl:sameAs rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Jos2706_C.mei"/>
+</musi:DigitalScore>
+
+<zarl:Cadence rdf:about="#bcf57c97-1c0c-49dd-a549-eef29fba4ceb">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasDegree rdf:resource="#007ca19a-92e2-43f7-aa5b-a8d2e51d8f7c"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:35:20.620283211Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L85F5</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L82F1</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L82F5</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L81F3</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L85F3</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L82F3</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L81F1</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L85F1</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L83F3</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L80F5</cido:P140_assigned_attribute_to>
+</zarl:Cadence>
+
+<zarl:CadencePoint rdf:about="#007ca19a-92e2-43f7-aa5b-a8d2e51d8f7c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesTargetNote rdf:resource="#bbbe2c75-1242-4f81-8131-9ffdf50f98e4"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:35:29.602691091Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L85F1</cido:P140_assigned_attribute_to>
+</zarl:CadencePoint>
+
+<zarl:TargetNote rdf:about="#bbbe2c75-1242-4f81-8131-9ffdf50f98e4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:35:36.686839934Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L85F1</cido:P140_assigned_attribute_to>
+</zarl:TargetNote>
+
+<zarl:Finalis rdf:about="#f1c35e3e-5c90-426c-9ab1-075eb0fc4a8f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:45:25.792746172Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L333F1</cido:P140_assigned_attribute_to>
+</zarl:Finalis>
+
+<zarl:Cadence rdf:about="#3f0fd122-902b-4c6a-9ed2-11bf222e1cb5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasDegree rdf:resource="#5ff70d01-60c5-45a3-adf9-d78bc55ebda9"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:39:39.174268403Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L227F5</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L233F3</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L231F1</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L236F5</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L229F1</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L229F3</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L232F3</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L236F3</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L234F3</cido:P140_assigned_attribute_to>
+</zarl:Cadence>
+
+<zarl:CadencePoint rdf:about="#5ff70d01-60c5-45a3-adf9-d78bc55ebda9">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesTargetNote rdf:resource="#42d73142-beb8-484b-b413-b6b90cbebfe4"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:40:02.661331862Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L236F5</cido:P140_assigned_attribute_to>
+</zarl:CadencePoint>
+
+<zarl:TargetNote rdf:about="#42d73142-beb8-484b-b413-b6b90cbebfe4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:40:19.830570114Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L236F5</cido:P140_assigned_attribute_to>
+</zarl:TargetNote>
+
+<zarl:Cadence rdf:about="#76d36b43-3a76-4e05-8766-db8cf15e4cd0">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasDegree rdf:resource="#69f42123-9d70-4131-8bb5-476b98a47322"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:44:11.460683184Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L334F3</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L330F3</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L333F5</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L333F1</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L331F5</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L328F1</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L329F3</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L328F5</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L331F3</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L328F3</cido:P140_assigned_attribute_to>
+</zarl:Cadence>
+
+<zarl:CadencePoint rdf:about="#69f42123-9d70-4131-8bb5-476b98a47322">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesTargetNote rdf:resource="#858cfced-5c7a-480e-bcc0-d4dd89b6911a"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:44:27.556236085Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L333F1</cido:P140_assigned_attribute_to>
+</zarl:CadencePoint>
+
+<zarl:TargetNote rdf:about="#858cfced-5c7a-480e-bcc0-d4dd89b6911a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:44:51.695305801Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L333F1</cido:P140_assigned_attribute_to>
+</zarl:TargetNote>
+
+<zarl:Cadence rdf:about="#4160175f-3b09-4539-adae-1e5f109e1c39">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasDegree rdf:resource="#011b0174-e87f-49f6-85c0-129e3248c766"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:36:16.827996422Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L191F3</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L188F5</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L188F1</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L192F3</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L192F5</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L193F5</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L190F5</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L190F3</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L195F1</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L189F3</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L195F5</cido:P140_assigned_attribute_to>
+</zarl:Cadence>
+
+<zarl:CadencePoint rdf:about="#011b0174-e87f-49f6-85c0-129e3248c766">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesTargetNote rdf:resource="#eda69876-ccef-43fc-8fa4-ebe0a0e00cf1"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:36:26.854246595Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L195F1</cido:P140_assigned_attribute_to>
+</zarl:CadencePoint>
+
+<zarl:TargetNote rdf:about="#eda69876-ccef-43fc-8fa4-ebe0a0e00cf1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:36:42.314818856Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L195F1</cido:P140_assigned_attribute_to>
+</zarl:TargetNote>
+
+<zarl:Cadence rdf:about="#11f7eef2-c488-4e3c-bde6-fb0e07584c82">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasDegree rdf:resource="#7f7a2a76-422a-42a2-b6af-ae8b09c5a3a3"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:37:25.030635935Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L220F5</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L222F5</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L220F3</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L222F1</cido:P140_assigned_attribute_to>
+</zarl:Cadence>
+
+<zarl:CadencePoint rdf:about="#7f7a2a76-422a-42a2-b6af-ae8b09c5a3a3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesTargetNote rdf:resource="#58685e4b-3209-4dc2-a652-d3d5089c8077"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:38:28.705343983Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L222F1</cido:P140_assigned_attribute_to>
+</zarl:CadencePoint>
+
+<zarl:TargetNote rdf:about="#58685e4b-3209-4dc2-a652-d3d5089c8077">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:39:09.117866282Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L222F1</cido:P140_assigned_attribute_to>
+</zarl:TargetNote>
+
+<zarl:Cadence rdf:about="#797f05ec-1a28-4f9a-baa0-5ab8401959e2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasDegree rdf:resource="#22f3f540-fce5-4f60-a607-1b1ca84a99f6"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:40:47.269892166Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L271F1</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L266F5</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L267F3</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L266F1</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L271F5</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L269F5</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L269F3</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L266F3</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L268F3</cido:P140_assigned_attribute_to>
+</zarl:Cadence>
+
+<zarl:CadencePoint rdf:about="#22f3f540-fce5-4f60-a607-1b1ca84a99f6">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesTargetNote rdf:resource="#c3822d4b-b288-4976-a52b-7f1078877f22"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:41:00.313666926Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L271F1</cido:P140_assigned_attribute_to>
+</zarl:CadencePoint>
+
+<zarl:TargetNote rdf:about="#c3822d4b-b288-4976-a52b-7f1078877f22">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:41:20.950131920Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L271F1</cido:P140_assigned_attribute_to>
+</zarl:TargetNote>
+
+<zarl:Cadence rdf:about="#e36f0ba9-bc75-4e5a-8312-4c7e8b757b4c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasDegree rdf:resource="#1becdf73-7dc8-4e9e-ad67-068da263e262"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:41:44.696062949Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L307F5</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L307F1</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L307F3</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L310F1</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L310F5</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L308F3</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L310F3</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L308F1</cido:P140_assigned_attribute_to>
+</zarl:Cadence>
+
+<zarl:Cadence rdf:about="#d0d20049-d2fc-41ef-8a2b-2f7210df9b82">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:42:05.080684700Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L310F1</cido:P140_assigned_attribute_to>
+</zarl:Cadence>
+
+<zarl:CadencePoint rdf:about="#1becdf73-7dc8-4e9e-ad67-068da263e262">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesTargetNote rdf:resource="#ae93744b-ac73-4d15-afc8-509bd63f7865"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:42:05.080684700Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L310F1</cido:P140_assigned_attribute_to>
+</zarl:CadencePoint>
+
+<zarl:TargetNote rdf:about="#ae93744b-ac73-4d15-afc8-509bd63f7865">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:42:13.460921814Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L310F1</cido:P140_assigned_attribute_to>
+</zarl:TargetNote>
+
+<zarl:Cadence rdf:about="#08dc19c8-710b-42a7-bfb6-d38d33d4d1a4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasDegree rdf:resource="#23a549c3-1640-487c-828e-c3b73128790e"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:34:27.025167314Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L37F5</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L35F3</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L37F1</cido:P140_assigned_attribute_to>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L35F5</cido:P140_assigned_attribute_to>
+</zarl:Cadence>
+
+<zarl:CadencePoint rdf:about="#23a549c3-1640-487c-828e-c3b73128790e">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesTargetNote rdf:resource="#42deace1-6ca4-4fff-ad0f-f3aee008ccdb"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:34:36.207434598Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L37F1</cido:P140_assigned_attribute_to>
+</zarl:CadencePoint>
+
+<zarl:TargetNote rdf:about="#42deace1-6ca4-4fff-ad0f-f3aee008ccdb">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-09T10:34:46.176741487Z</term:created>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+  <cido:P140_assigned_attribute_to rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data-iremus.huma-num.fr/id/a216e0ff-1f00-4956-815f-66faad119828_note-L37F1</cido:P140_assigned_attribute_to>
+</zarl:TargetNote>
+
+
+</rdf:RDF>

@@ -1,0 +1,581 @@
+@prefix core:           <https://w3id.org/polifonia/ontology/core/> .
+@prefix crm:            <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms:        <http://purl.org/dc/terms/> .
+@prefix guillotel2022:  <http://modality-tonality.huma-num.fr/Guillotel_2022#> .
+@prefix iremus:         <http://data-iremus.huma-num.fr/id/> .
+@prefix mm:             <https://w3id.org/polifonia/ontology/music-meta/> .
+@prefix mr:             <https://w3id.org/polifonia/ontology/music-representation/> .
+@prefix owl:            <http://www.w3.org/2002/07/owl#> .
+@prefix praetorius1619: <http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#> .
+@prefix rdfs:           <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sherlock:       <http://data-iremus.huma-num.fr/ns/sherlock#> .
+@prefix zarlino1558:    <https://w3id.org/polifonia/ontology/modal-tonal#> .
+
+iremus:842cdaa8-ae8b-4804-a2f4-9dc1af0b86ff
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T11:03:05.905705110Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote> .
+
+iremus:74ec0bc4-b32c-4132-ac27-7353e374789b
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T10:57:04.786892935Z" ;
+        core:isDerivedFrom    iremus:cf89e79e-ab72-42c5-a5d5-38ce9da7bac9 ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L210F3 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:76c0be47-8c95-47a4-af25-70dd18033a27 .
+
+iremus:76c0be47-8c95-47a4-af25-70dd18033a27
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T10:57:05.431462203Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote> .
+
+iremus:eccd80e6-83a3-4746-a499-b6e269d52ad2
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T11:04:29.856743812Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint> .
+
+iremus:6316dffd-b06f-4c1d-8f91-d13b6d63bdc9
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T11:04:10.676078361Z" ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L322F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L321F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L321F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L323F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L321F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L324F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L322F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L326F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L321F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L322F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L326F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L326F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L326F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L324F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L323F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L322F5 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:fa24e837-eb9c-41e3-83ff-370c59d936cb .
+
+iremus:b4ed6da8-9fd0-4ceb-bf30-1a851e523698
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T11:02:07.663824874Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint> .
+
+iremus:d051d9f2-101f-473f-9244-0b996d5edf67
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T10:49:16.867547521Z" ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L162F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L160F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L162F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L158F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L159F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L159F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L162F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L159F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L160F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L162F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L160F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L160F3 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:92d7db2f-04f2-4ec2-b383-96affe347703 .
+
+iremus:cf89e79e-ab72-42c5-a5d5-38ce9da7bac9
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T10:56:54.644560386Z" ;
+        core:isDerivedFrom    iremus:6b114a2e-01ab-4788-9279-40c56a7002a6 ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L210F3 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:429f9132-026c-4fa5-a252-fc9d7a819792 .
+
+iremus:37c509cd-9bff-4de2-8467-d15f63361b2f
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T11:05:34.336279025Z" ;
+        core:isDerivedFrom    iremus:794bf817-4e94-4096-811a-295b5616351c ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L330F1 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:f67ff65f-9912-40fe-965a-5c49b81f4b7a .
+
+iremus:425f263c-dffb-4984-901c-5f1dce4e84c5
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T10:53:30.760811298Z" ;
+        core:isDerivedFrom    iremus:61dbfb38-744e-448e-87e4-04eaa527e657 ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L183F9 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:7ce9b029-2b64-467e-acdd-66e5cec687d2 .
+
+iremus:61dbfb38-744e-448e-87e4-04eaa527e657
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T10:53:20.893819774Z" ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L178F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L183F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L180F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L181F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L183F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L180F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L176F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L178F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L183F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L181F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L178F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L178F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L180F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L181F3 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:dafc26fc-78d4-44b0-850b-bd6d764ad881 .
+
+iremus:ed05ae6a-c96f-4050-8b9f-b3ccd4408e0a
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T10:53:52.277302896Z" ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L190F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L191F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L190F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L191F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L189F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L189F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L191F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L190F7 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:d86e11f2-1aaa-408d-851c-89276d5854d5 .
+
+iremus:2cd58fb9-bc18-47c1-bb57-a4d37f569dd0
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T10:54:20.535652009Z" ;
+        core:isDerivedFrom    iremus:b3ea03b0-1c30-4140-b6bf-44952167496c ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L191F5 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:7bd7d23e-4bca-4529-a072-41a266c763ea .
+
+iremus:fe4dcdbb-ca85-49a6-9b4c-77e6f6dff1b4
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T10:50:51.322065728Z" ;
+        core:isDerivedFrom    iremus:d051d9f2-101f-473f-9244-0b996d5edf67 ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L162F5 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:da431115-d0e5-41c0-9588-764ebb143186 .
+
+iremus:e0f92ea5-bb3f-4dab-a056-280f573e38f2
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T11:10:33.258127977Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote> .
+
+iremus:cbf83a8d-8c6b-4bbd-af62-9aed8c24ec08
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T11:05:44.891867550Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote> .
+
+iremus:cc34ea35-ceee-4853-ab51-8983f03e4aaf
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T11:00:31.644944064Z" ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L286F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L284F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L289F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L286F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L292F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L287F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L291F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L291F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L284F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L286F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L289F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L290F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L293F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L282F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L293F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L289F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L286F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L284F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L293F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L291F3 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:38eb72ee-ce67-43db-a860-a78db02be0f9 .
+
+iremus:56390a18-bf85-44c0-b1e4-d0e766fbb606
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T11:01:12.593517173Z" ;
+        core:isDerivedFrom    iremus:cc34ea35-ceee-4853-ab51-8983f03e4aaf ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L293F7 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:0d68af1d-1529-4133-b8e7-0a37f6060d85 .
+
+iremus:7cd3f678-9f68-423a-af36-de7c4c59b95f
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T10:55:50.328314529Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint> .
+
+iremus:54c85c5b-b953-4a73-af20-1bc8a505203e
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T10:58:47.752600018Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence> .
+
+iremus:b3ea03b0-1c30-4140-b6bf-44952167496c
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T10:54:04.177804652Z" ;
+        core:isDerivedFrom    iremus:ed05ae6a-c96f-4050-8b9f-b3ccd4408e0a ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L191F5 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:9d1259ed-4f6c-433d-ac41-1d3ebec3c06c .
+
+iremus:c48254c3-5d81-4651-bdc7-0f93eebf7a49
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T11:08:02.733333228Z" ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L337F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L336F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L339F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L339F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L336F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L336F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L341F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L341F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L341F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L338F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L333F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L338F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L338F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L341F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L341F5 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:920da0d3-4ee9-4868-a13a-5f47267c9513 .
+
+iremus:b3c2998e-27a4-4c6f-9a5e-1201a1190202
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T10:58:47.376444903Z" ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L243F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L240F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L241F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L238F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L238F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L243F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L238F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L240F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L241F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L239F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L243F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L238F5 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:54c85c5b-b953-4a73-af20-1bc8a505203e .
+
+iremus:665415a4-8b1f-4ddd-b54d-df5d877999c1
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T10:59:06.900146555Z" ;
+        core:isDerivedFrom    iremus:b3c2998e-27a4-4c6f-9a5e-1201a1190202 ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L243F3 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:fda486fb-567c-4336-beda-73520eb85efc .
+
+iremus:9d1259ed-4f6c-433d-ac41-1d3ebec3c06c
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T10:54:04.585949320Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint> .
+
+iremus:5b537fd4-02e5-40d6-8938-1f9dc8acdd78
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T10:59:13.838198739Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote> .
+
+iremus:64e3f7b9-7dd2-4358-aaff-ab1035da8a2d
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T10:51:01.291618134Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote> .
+
+iremus:1e2f15b2-4f4e-4cd7-931b-de1398b40ef0
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T11:03:05.687252126Z" ;
+        core:isDerivedFrom    iremus:abf34ae0-2448-497b-a5d2-9602e55b18ce ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L309F3 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:842cdaa8-ae8b-4804-a2f4-9dc1af0b86ff .
+
+iremus:920da0d3-4ee9-4868-a13a-5f47267c9513
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T11:08:03.164412324Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence> .
+
+iremus:e5687329-8b26-4af5-97d2-80ab18b94953
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T11:08:52.569023114Z" ;
+        core:isDerivedFrom    iremus:1237788a-65b8-4db9-9ee6-930f0b554788 ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L341F1 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:231c29e3-dc5e-482b-8966-10f7b4f57381 .
+
+iremus:4ef31d2b-6ec6-4431-9b1e-17200c8d3427
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T10:51:00.943848114Z" ;
+        core:isDerivedFrom    iremus:fe4dcdbb-ca85-49a6-9b4c-77e6f6dff1b4 ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L162F5 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:64e3f7b9-7dd2-4358-aaff-ab1035da8a2d .
+
+iremus:f67ff65f-9912-40fe-965a-5c49b81f4b7a
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T11:05:34.675793712Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint> .
+
+iremus:5fc5b1a8-c897-4838-90cf-a0d0757bd5a6
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T10:56:43.110220919Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence> .
+
+iremus:b6e13020-7ae6-4c9e-ab79-915759e5433c
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T11:02:07.438931090Z" ;
+        core:isDerivedFrom    iremus:8edef3c4-2236-458a-ac01-3653be8d29f3 ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L301F5 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:b4ed6da8-9fd0-4ceb-bf30-1a851e523698 .
+
+iremus:cb79eab6-237a-4ed1-81e2-543ca4254a7e
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T11:02:19.481798695Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote> .
+
+iremus:4a0a5986-137f-486d-a9d6-640b0264be6e
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T11:04:37.796411944Z" ;
+        core:isDerivedFrom    iremus:9385cbdf-fa17-404a-bc25-f7ad24c30cb4 ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L326F3 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:2c867540-2b97-43b1-8a46-5cda2f85c4ea .
+
+iremus:429f9132-026c-4fa5-a252-fc9d7a819792
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T10:56:54.988592750Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint> .
+
+iremus:231c29e3-dc5e-482b-8966-10f7b4f57381
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T11:08:52.769800412Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote> .
+
+iremus:ebc9858e-aba9-4f59-8855-0f26a0d35ecb
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T10:58:00.229085209Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote> .
+
+iremus:f582c458-58cd-474b-bd65-3081213bc6e9
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T11:10:50.847446646Z" ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L374F5 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:6d5dd34a-d163-4f9c-9300-a30f83d4c8f2 .
+
+iremus:fa24e837-eb9c-41e3-83ff-370c59d936cb
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T11:04:13.324029126Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence> .
+
+iremus:c5a7d5e5-8093-40a5-96b9-ba1d0708a90c
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T11:10:03.491818331Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence> .
+
+iremus:d86e11f2-1aaa-408d-851c-89276d5854d5
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T10:53:52.610106818Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence> .
+
+iremus:befa567d-5a8e-41f5-b211-202806b15094
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T11:01:23.205631318Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote> .
+
+iremus:8999c5ca-e52a-4b92-b234-d94cb8733f21
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T11:02:44.069577313Z" ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L307F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L308F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L307F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L309F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L309F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L309F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L307F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L307F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L308F1 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:6cef3a3b-0ab1-4698-9ec8-a7d943f9c837 .
+
+iremus:fda486fb-567c-4336-beda-73520eb85efc
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T10:59:07.187919778Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint> .
+
+iremus:2c867540-2b97-43b1-8a46-5cda2f85c4ea
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T11:04:38.136532867Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote> .
+
+iremus:8a63dacd-34b1-428f-b7a7-1b994426290b
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T10:49:48.641360556Z" ;
+        core:isDerivedFrom    iremus:d051d9f2-101f-473f-9244-0b996d5edf67 ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L162F3 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:2b4e00e1-0651-452b-bc3a-b9768ff83295 .
+
+iremus:38eb72ee-ce67-43db-a860-a78db02be0f9
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T11:00:31.897426423Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence> .
+
+iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd
+        a                 mm:DigitalScore , mr:MusicContent ;
+        owl:sameAs        <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Jos2916.mei> ;
+        mr:hasAnnotation  iremus:abf34ae0-2448-497b-a5d2-9602e55b18ce , iremus:8edef3c4-2236-458a-ac01-3653be8d29f3 , iremus:56390a18-bf85-44c0-b1e4-d0e766fbb606 , iremus:d051d9f2-101f-473f-9244-0b996d5edf67 , iremus:8b20d490-0187-4de7-b5d9-b93a22f69a98 , iremus:cf89e79e-ab72-42c5-a5d5-38ce9da7bac9 , iremus:665415a4-8b1f-4ddd-b54d-df5d877999c1 , iremus:f582c458-58cd-474b-bd65-3081213bc6e9 , iremus:cc34ea35-ceee-4853-ab51-8983f03e4aaf , iremus:0b58201e-b484-409f-b6d4-d14c05c6437c , iremus:b3c2998e-27a4-4c6f-9a5e-1201a1190202 , iremus:742f1e96-99ea-4962-96fe-3d09c158fce4 , iremus:9385cbdf-fa17-404a-bc25-f7ad24c30cb4 , iremus:fe4dcdbb-ca85-49a6-9b4c-77e6f6dff1b4 , iremus:b3ea03b0-1c30-4140-b6bf-44952167496c , iremus:37c509cd-9bff-4de2-8467-d15f63361b2f , iremus:61dbfb38-744e-448e-87e4-04eaa527e657 , iremus:8999c5ca-e52a-4b92-b234-d94cb8733f21 , iremus:b6e13020-7ae6-4c9e-ab79-915759e5433c , iremus:020ed202-e073-4a59-a7df-a22351602ed1 , iremus:e5687329-8b26-4af5-97d2-80ab18b94953 , iremus:c48254c3-5d81-4651-bdc7-0f93eebf7a49 , iremus:425f263c-dffb-4984-901c-5f1dce4e84c5 , iremus:4ef31d2b-6ec6-4431-9b1e-17200c8d3427 , iremus:2cd58fb9-bc18-47c1-bb57-a4d37f569dd0 , iremus:6b114a2e-01ab-4788-9279-40c56a7002a6 , iremus:6316dffd-b06f-4c1d-8f91-d13b6d63bdc9 , iremus:1211873a-ea6d-4ec7-8ec8-7de7c91f4a58 , iremus:4a0a5986-137f-486d-a9d6-640b0264be6e , iremus:ed05ae6a-c96f-4050-8b9f-b3ccd4408e0a , iremus:7f53b7b5-1416-421f-8f6a-ad7a602d1e2f , iremus:cfe16b68-6947-44b4-88ba-5472009d8507 , iremus:1237788a-65b8-4db9-9ee6-930f0b554788 , iremus:02428c81-0651-41e8-9a08-4589ee713c6a , iremus:e0d69a4a-3a38-4a5c-99fc-43c58f395304 , iremus:1e2f15b2-4f4e-4cd7-931b-de1398b40ef0 , iremus:f97bce78-b71e-4260-bc57-f0456ea4a96d , iremus:794bf817-4e94-4096-811a-295b5616351c , iremus:4e721961-a128-4e53-8077-379b42f58e2d , iremus:74ec0bc4-b32c-4132-ac27-7353e374789b , iremus:8a63dacd-34b1-428f-b7a7-1b994426290b , iremus:34886bb6-1dcc-4a08-99b4-f0ea4bfe313c , iremus:fc31db09-8542-4ee1-8cbf-026d526f879a , iremus:6436930b-c90a-4e75-aebc-679ea59dda61 ;
+        mr:hasFragment    iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L160F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L323F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L241F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L282F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L210F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L287F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L322F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L293F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L205F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L329F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L196F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L339F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L341F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L297F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L326F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L240F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L336F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L200F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L200F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L371F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L299F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L289F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L243F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L162F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L238F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L291F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L181F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L234F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L232F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L159F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L190F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L336F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L189F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L330F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L284F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L198F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L290F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L297F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L231F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L200F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L289F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L196F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L328F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L369F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L341F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L307F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L238F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L232F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L197F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L336F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L230F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L234F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L243F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L328F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L208F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L162F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L371F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L321F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L196F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L307F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L341F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L370F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L240F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L322F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L309F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L243F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L160F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L301F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L372F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L190F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L330F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L322F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L326F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L178F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L324F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L160F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L210F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L298F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L333F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L291F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L286F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L238F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L374F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L207F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L297F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L183F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L159F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L208F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L291F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L321F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L206F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L292F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L289F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L191F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L341F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L301F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L338F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L210F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L238F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L181F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L230F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L286F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L337F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L239F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L309F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L190F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L339F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L191F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L324F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L307F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L181F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L162F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L286F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L284F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L160F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L299F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L189F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L230F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L180F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L198F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L298F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L241F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L338F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L180F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L206F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L330F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L200F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L178F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L293F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L368F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L197F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L195F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L297F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L183F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L374F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L191F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L234F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L327F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L176F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L322F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L162F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L286F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L309F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L183F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L374F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L341F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L180F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L198F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L206F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L308F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L338F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L307F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L207F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L308F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L178F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L284F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L326F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L368F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L299F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L298F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L178F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L229F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L158F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L207F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L231F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L234F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L301F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L159F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L323F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L293F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L321F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L321F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L326F9 .
+
+iremus:e0d69a4a-3a38-4a5c-99fc-43c58f395304
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T11:01:22.493081518Z" ;
+        core:isDerivedFrom    iremus:56390a18-bf85-44c0-b1e4-d0e766fbb606 ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L293F7 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:befa567d-5a8e-41f5-b211-202806b15094 .
+
+iremus:f97bce78-b71e-4260-bc57-f0456ea4a96d
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T11:10:03.076416313Z" ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L368F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L374F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L371F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L374F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L372F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L369F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L368F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L371F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L374F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L370F5 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:c5a7d5e5-8093-40a5-96b9-ba1d0708a90c .
+
+iremus:fc31db09-8542-4ee1-8cbf-026d526f879a
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T11:05:44.665919868Z" ;
+        core:isDerivedFrom    iremus:37c509cd-9bff-4de2-8467-d15f63361b2f ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L330F1 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:cbf83a8d-8c6b-4bbd-af62-9aed8c24ec08 .
+
+iremus:6cef3a3b-0ab1-4698-9ec8-a7d943f9c837
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T11:02:44.409399284Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence> .
+
+iremus:794bf817-4e94-4096-811a-295b5616351c
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T11:05:20.322833725Z" ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L328F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L327F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L326F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L326F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L330F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L326F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L328F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L329F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L326F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L330F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L330F5 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:8b47b4cb-d36d-4d38-aa41-17f481f66667 .
+
+iremus:7bd7d23e-4bca-4529-a072-41a266c763ea
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T10:54:20.753717750Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote> .
+
+iremus:b6aa896a-9f5d-46b0-b7d7-614b33ed77da
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T11:01:58.300735745Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence> .
+
+iremus:6436930b-c90a-4e75-aebc-679ea59dda61
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T10:57:59.840358703Z" ;
+        core:isDerivedFrom    iremus:020ed202-e073-4a59-a7df-a22351602ed1 ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L234F1 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:ebc9858e-aba9-4f59-8855-0f26a0d35ecb .
+
+iremus:7ad010b3-1b59-4581-b6f2-1e5472c74602
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T10:55:29.276371768Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence> .
+
+iremus:d6f0d711-f0ec-433a-abf6-838519e6cb82
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T10:57:47.078115244Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint> .
+
+iremus:6d5dd34a-d163-4f9c-9300-a30f83d4c8f2
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T11:10:51.107921265Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/Finalis> .
+
+iremus:020ed202-e073-4a59-a7df-a22351602ed1
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T10:57:46.893055043Z" ;
+        core:isDerivedFrom    iremus:cfe16b68-6947-44b4-88ba-5472009d8507 ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L234F1 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:d6f0d711-f0ec-433a-abf6-838519e6cb82 .
+
+iremus:6b114a2e-01ab-4788-9279-40c56a7002a6
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T10:56:42.778745244Z" ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L205F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L206F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L206F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L208F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L206F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L208F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L210F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L207F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L210F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L207F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L207F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L210F7 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:5fc5b1a8-c897-4838-90cf-a0d0757bd5a6 .
+
+iremus:8b20d490-0187-4de7-b5d9-b93a22f69a98
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T10:55:28.957903712Z" ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L198F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L200F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L197F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L200F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L195F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L200F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L198F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L198F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L200F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L196F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L196F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L196F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L197F3 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:7ad010b3-1b59-4581-b6f2-1e5472c74602 .
+
+iremus:34886bb6-1dcc-4a08-99b4-f0ea4bfe313c
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T11:10:18.102899881Z" ;
+        core:isDerivedFrom    iremus:f97bce78-b71e-4260-bc57-f0456ea4a96d ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L374F5 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:9cf0a0a0-7247-4560-9bd5-cb3783523f35 .
+
+iremus:9cf0a0a0-7247-4560-9bd5-cb3783523f35
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T11:10:18.350513161Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint> .
+
+iremus:876db90c-7d32-4ca1-b309-8b7cdd8675ad
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T11:02:58.415647778Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint> .
+
+iremus:dafc26fc-78d4-44b0-850b-bd6d764ad881
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T10:53:21.273432698Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence> .
+
+iremus:4e721961-a128-4e53-8077-379b42f58e2d
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T10:53:39.133881943Z" ;
+        core:isDerivedFrom    iremus:425f263c-dffb-4984-901c-5f1dce4e84c5 ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L183F9 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:36b8ef7e-7e4b-4d61-8255-587552dae138 .
+
+iremus:daba9511-1faf-4a1f-b80e-bc27d4852548
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T10:55:59.984935682Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote> .
+
+iremus:36b8ef7e-7e4b-4d61-8255-587552dae138
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T10:53:39.358139741Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote> .
+
+iremus:829188b3-7003-4289-aa2a-9f08704e2aa4
+        a                   mr:Analysis ;
+        core:title          "Bologna_modalInference_3" ;
+        mr:hasAnnotation    iremus:74ec0bc4-b32c-4132-ac27-7353e374789b , iremus:02428c81-0651-41e8-9a08-4589ee713c6a , iremus:794bf817-4e94-4096-811a-295b5616351c , iremus:425f263c-dffb-4984-901c-5f1dce4e84c5 , iremus:c48254c3-5d81-4651-bdc7-0f93eebf7a49 , iremus:fe4dcdbb-ca85-49a6-9b4c-77e6f6dff1b4 , iremus:37c509cd-9bff-4de2-8467-d15f63361b2f , iremus:8edef3c4-2236-458a-ac01-3653be8d29f3 , iremus:e0d69a4a-3a38-4a5c-99fc-43c58f395304 , iremus:b6e13020-7ae6-4c9e-ab79-915759e5433c , iremus:abf34ae0-2448-497b-a5d2-9602e55b18ce , iremus:4ef31d2b-6ec6-4431-9b1e-17200c8d3427 , iremus:8a63dacd-34b1-428f-b7a7-1b994426290b , iremus:1237788a-65b8-4db9-9ee6-930f0b554788 , iremus:f97bce78-b71e-4260-bc57-f0456ea4a96d , iremus:1211873a-ea6d-4ec7-8ec8-7de7c91f4a58 , iremus:e5687329-8b26-4af5-97d2-80ab18b94953 , iremus:6436930b-c90a-4e75-aebc-679ea59dda61 , iremus:61dbfb38-744e-448e-87e4-04eaa527e657 , iremus:020ed202-e073-4a59-a7df-a22351602ed1 , iremus:d051d9f2-101f-473f-9244-0b996d5edf67 , iremus:1e2f15b2-4f4e-4cd7-931b-de1398b40ef0 , iremus:cf89e79e-ab72-42c5-a5d5-38ce9da7bac9 , iremus:fc31db09-8542-4ee1-8cbf-026d526f879a , iremus:f582c458-58cd-474b-bd65-3081213bc6e9 , iremus:8999c5ca-e52a-4b92-b234-d94cb8733f21 , iremus:9385cbdf-fa17-404a-bc25-f7ad24c30cb4 , iremus:4e721961-a128-4e53-8077-379b42f58e2d , iremus:b3ea03b0-1c30-4140-b6bf-44952167496c , iremus:b3c2998e-27a4-4c6f-9a5e-1201a1190202 , iremus:cc34ea35-ceee-4853-ab51-8983f03e4aaf , iremus:742f1e96-99ea-4962-96fe-3d09c158fce4 , iremus:8b20d490-0187-4de7-b5d9-b93a22f69a98 , iremus:6316dffd-b06f-4c1d-8f91-d13b6d63bdc9 , iremus:2cd58fb9-bc18-47c1-bb57-a4d37f569dd0 , iremus:7f53b7b5-1416-421f-8f6a-ad7a602d1e2f , iremus:ed05ae6a-c96f-4050-8b9f-b3ccd4408e0a , iremus:4a0a5986-137f-486d-a9d6-640b0264be6e , iremus:34886bb6-1dcc-4a08-99b4-f0ea4bfe313c , iremus:56390a18-bf85-44c0-b1e4-d0e766fbb606 , iremus:6b114a2e-01ab-4788-9279-40c56a7002a6 , iremus:cfe16b68-6947-44b4-88ba-5472009d8507 , iremus:0b58201e-b484-409f-b6d4-d14c05c6437c , iremus:665415a4-8b1f-4ddd-b54d-df5d877999c1 ;
+        mr:involvesAnalyst  iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 .
+
+iremus:0b58201e-b484-409f-b6d4-d14c05c6437c
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T10:55:59.390282381Z" ;
+        core:isDerivedFrom    iremus:7f53b7b5-1416-421f-8f6a-ad7a602d1e2f ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L200F3 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:daba9511-1faf-4a1f-b80e-bc27d4852548 .
+
+iremus:9385cbdf-fa17-404a-bc25-f7ad24c30cb4
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T11:04:29.554810912Z" ;
+        core:isDerivedFrom    iremus:6316dffd-b06f-4c1d-8f91-d13b6d63bdc9 ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L326F3 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:eccd80e6-83a3-4746-a499-b6e269d52ad2 .
+
+iremus:92d7db2f-04f2-4ec2-b383-96affe347703
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T10:49:17.251583861Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence> .
+
+iremus:da431115-d0e5-41c0-9588-764ebb143186
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T10:50:51.564768437Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint> .
+
+iremus:1237788a-65b8-4db9-9ee6-930f0b554788
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T11:08:41.262879195Z" ;
+        core:isDerivedFrom    iremus:c48254c3-5d81-4651-bdc7-0f93eebf7a49 ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L341F1 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:6a2c6a91-4540-4789-8fae-e0e013fafc51 .
+
+iremus:cfe16b68-6947-44b4-88ba-5472009d8507
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T10:57:35.527247671Z" ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L234F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L230F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L231F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L234F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L230F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L232F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L234F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L230F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L234F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L229F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L231F1 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L232F3 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:bef69547-d9e1-4576-82c8-24cc286fea2d .
+
+iremus:8edef3c4-2236-458a-ac01-3653be8d29f3
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T11:01:57.885738152Z" ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L298F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L297F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L299F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L297F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L297F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L301F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L301F9 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L298F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L297F3 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L299F5 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L299F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L298F7 , iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L301F7 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:b6aa896a-9f5d-46b0-b7d7-614b33ed77da .
+
+iremus:2b4e00e1-0651-452b-bc3a-b9768ff83295
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T10:49:48.888366735Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint> .
+
+iremus:0d68af1d-1529-4133-b8e7-0a37f6060d85
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T11:01:13.368608468Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint> .
+
+iremus:7ce9b029-2b64-467e-acdd-66e5cec687d2
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T10:53:31.102639765Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint> .
+
+iremus:6a2c6a91-4540-4789-8fae-e0e013fafc51
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T11:08:41.803375115Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint> .
+
+iremus:bef69547-d9e1-4576-82c8-24cc286fea2d
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T10:57:36.052273212Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence> .
+
+iremus:7f53b7b5-1416-421f-8f6a-ad7a602d1e2f
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T10:55:45.463570802Z" ;
+        core:isDerivedFrom    iremus:8b20d490-0187-4de7-b5d9-b93a22f69a98 ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L200F3 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:7cd3f678-9f68-423a-af36-de7c4c59b95f .
+
+iremus:02428c81-0651-41e8-9a08-4589ee713c6a
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T10:59:13.633334433Z" ;
+        core:isDerivedFrom    iremus:665415a4-8b1f-4ddd-b54d-df5d877999c1 ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L243F3 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:5b537fd4-02e5-40d6-8938-1f9dc8acdd78 .
+
+iremus:8b47b4cb-d36d-4d38-aa41-17f481f66667
+        a                mr:Observation ;
+        dcterms:created  "2023-10-09T11:05:20.614131838Z" ;
+        mr:hasSubject    <https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence> .
+
+iremus:1211873a-ea6d-4ec7-8ec8-7de7c91f4a58
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T11:02:19.276468597Z" ;
+        core:isDerivedFrom    iremus:b6e13020-7ae6-4c9e-ab79-915759e5433c ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L301F5 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:cb79eab6-237a-4ed1-81e2-543ca4254a7e .
+
+iremus:742f1e96-99ea-4962-96fe-3d09c158fce4
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T11:10:32.847322068Z" ;
+        core:isDerivedFrom    iremus:34886bb6-1dcc-4a08-99b4-f0ea4bfe313c ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L374F5 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:e0f92ea5-bb3f-4dab-a056-280f573e38f2 .
+
+iremus:abf34ae0-2448-497b-a5d2-9602e55b18ce
+        a                     mr:Annotation ;
+        dcterms:created       "2023-10-09T11:02:57.958846671Z" ;
+        core:isDerivedFrom    iremus:8999c5ca-e52a-4b92-b234-d94cb8733f21 ;
+        mr:describesFragment  iremus:e0f8c0af-54fa-434c-9740-989ffa7111cd_note-L309F3 ;
+        mr:hasAnnotator       iremus:bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3 ;
+        mr:hasObservation     iremus:876db90c-7d32-4ca1-b309-8b7cdd8675ad .
