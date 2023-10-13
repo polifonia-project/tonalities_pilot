@@ -1,7 +1,9 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/polifonia/ontology/music-meta/"
-     xml:base="https://w3id.org/polifonia/ontology/music-meta/"
+<rdf:RDF xmlns="https://w3id.org/polifonia/ontology/music-meta#"
+     xml:base="https://w3id.org/polifonia/ontology/music-meta"
+     xmlns:cc="http://creativecommons.org/ns#"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:mm="https://w3id.org/polifonia/ontology/music-meta/"
      xmlns:mo="http://purl.org/ontology/mo/"
      xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:mus="http://data.doremus.org/ontology#"
@@ -15,33 +17,33 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann/"
-     xmlns:cc="http://creativecommons.org/ns#"
      xmlns:core1="http://purl.org/ontology/ao/core#"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/music-meta">
         <owl:versionIRI rdf:resource="https://w3id.org/polifonia/ontology/music-meta/1.0/"/>
         <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/core/0.1"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
         <dc:creator xml:lang="en">Andrea Poltronieri</dc:creator>
         <dc:creator xml:lang="en">Jacopo de Berardinis</dc:creator>
         <dc:creator xml:lang="en">Nicolas Lazzari</dc:creator>
         <dc:creator xml:lang="en">Valentina Carriero</dc:creator>
         <dc:creator xml:lang="en">Valentina Presutti</dc:creator>
+        <dc:description xml:lang="en">The Music Meta ontology is a rich and flexible semantic model to describe music metadata related to artists, compositions, performances, recordings, and links. 
+We follow eXtreme Design methodologies and best practices for data engineering, to reflect the perspectives and the requirements of various stakeholders into the design of the model, while leveraging ontology design patterns and accounting for provenance at different levels (claims, links).
+Music Meta provides alignments to other schema, such as Music Ontology, DOREMUS, and Wikidata.</dc:description>
         <dc:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <dc:title xml:lang="en">Music Meta Ontology</dc:title>
+        <terms:issued>&quot;2023-04-12&quot;^^xsd:date</terms:issued>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
-        <cc:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <terms:modified>&quot;2023-07-17&quot;^^xsd:date</terms:modified>
+        <vann:preferredNamespacePrefix>mm:</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>https://w3id.org/polifonia/ontology/music-meta/</vann:preferredNamespaceUri>
+        <rdfs:comment>Christophe Guillotel-Nothann: Classes and properties added for Encoder, Editor, EncodingSituation and EditionSituation</rdfs:comment>
         <rdfs:comment xml:lang="en">The Music Meta ontology is a rich and flexible semantic model to describe music metadata related to artists, compositions, performances, recordings, and links. 
 We follow eXtreme Design methodologies and best practices for data engineering, to reflect the perspectives and the requirements of various stakeholders into the design of the model, while leveraging ontology design patterns and accounting for provenance at different levels (claims, links).
 Music Meta provides alignments to other schema, such as Music Ontology, DOREMUS, and Wikidata.</rdfs:comment>
         <rdfs:label xml:lang="en">Music Meta Ontology</rdfs:label>
-        <dc:title xml:lang="en">Music Meta Ontology</dc:title>
-        <dc:description xml:lang="en">The Music Meta ontology is a rich and flexible semantic model to describe music metadata related to artists, compositions, performances, recordings, and links. 
-We follow eXtreme Design methodologies and best practices for data engineering, to reflect the perspectives and the requirements of various stakeholders into the design of the model, while leveraging ontology design patterns and accounting for provenance at different levels (claims, links).
-Music Meta provides alignments to other schema, such as Music Ontology, DOREMUS, and Wikidata.</dc:description>
         <owl:versionInfo xml:lang="en">1.0</owl:versionInfo>
-        <terms:modified>"2023-07-17"^^xsd:date</terms:modified>
-        <terms:issued>"2023-04-12"^^xsd:date</terms:issued>
-        <vann:preferredNamespacePrefix>mm:</vann:preferredNamespacePrefix>
-        <vann:preferredNamespaceUri>https://w3id.org/polifonia/ontology/music-meta/</vann:preferredNamespaceUri>
     </owl:Ontology>
     
 
@@ -57,9 +59,21 @@ Music Meta provides alignments to other schema, such as Music Ontology, DOREMUS,
     
 
 
+    <!-- http://creativecommons.org/ns#license -->
+
+    <owl:AnnotationProperty rdf:about="http://creativecommons.org/ns#license"/>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/creator -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
     
 
 
@@ -69,9 +83,39 @@ Music Meta provides alignments to other schema, such as Music Ontology, DOREMUS,
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
     <!-- http://purl.org/dc/terms/license -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
     
 
 
@@ -299,6 +343,46 @@ Music Meta provides alignments to other schema, such as Music Ontology, DOREMUS,
     
 
 
+    <!-- https://w3id.org/polifonia/ontology/music-meta/hasEditionSituation -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-meta/hasEditionSituation">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/music-meta/isEditionSituationOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-meta/Score"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-meta/EditionSituation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-meta/hasEditor -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-meta/hasEditor">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/music-meta/isEditorOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-meta/EditionSituation"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-meta/Editor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-meta/hasEncoder -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-meta/hasEncoder">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/music-meta/isEncoderOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-meta/EncodingSituation"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-meta/Encoder"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-meta/hasEncodingSituation -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-meta/hasEncodingSituation">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/music-meta/isEncodingSituationOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-meta/Score"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-meta/EncodingSituation"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/polifonia/ontology/music-meta/hasEquipment -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-meta/hasEquipment">
@@ -328,6 +412,7 @@ Music Meta provides alignments to other schema, such as Music Ontology, DOREMUS,
     <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-meta/hasGenre">
         <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/music-meta/isGenreOf"/>
         <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-meta/MusicArtist"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-meta/MusicEntity"/>
         <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-meta/MusicGenre"/>
         <rdfs:comment xml:lang="en">Has genre</rdfs:comment>
         <rdfs:comment xml:lang="en">pecifies the genre or genres associated with a MusicArtist. This property represents the relationship between a MusicArtist and the MusicGenre(s) that are attributed or associated with their artistic output or musical style. It indicates the genre(s) that best describe the musical genre(s) or genres in which the MusicArtist operates or specializes.</rdfs:comment>
@@ -609,6 +694,42 @@ Music Meta provides alignments to other schema, such as Music Ontology, DOREMUS,
     
 
 
+    <!-- https://w3id.org/polifonia/ontology/music-meta/isEditionSituationOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-meta/isEditionSituationOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-meta/EditionSituation"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-meta/Score"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-meta/isEditorOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-meta/isEditorOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-meta/Editor"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-meta/EditionSituation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-meta/isEncoderOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-meta/isEncoderOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-meta/Encoder"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-meta/EncodingSituation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-meta/isEncodingSituationOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-meta/isEncodingSituationOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-meta/EncodingSituation"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-meta/Score"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/polifonia/ontology/music-meta/isEquipmentOf -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-meta/isEquipmentOf">
@@ -648,6 +769,7 @@ Music Meta provides alignments to other schema, such as Music Ontology, DOREMUS,
     <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-meta/isGenreOf">
         <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-meta/MusicGenre"/>
         <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-meta/MusicArtist"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-meta/MusicEntity"/>
         <rdfs:comment xml:lang="en">Inverse relationship of &quot;hasGenre.&quot; It specifies that a MusicGenre is attributed or associated with a MusicArtist.</rdfs:comment>
         <rdfs:label xml:lang="en">Is genre of</rdfs:label>
     </owl:ObjectProperty>
@@ -1085,6 +1207,7 @@ Music Meta provides alignments to other schema, such as Music Ontology, DOREMUS,
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
 
 
     <!-- https://w3id.org/polifonia/ontology/core/AgentRole -->
@@ -1452,6 +1575,134 @@ Music Meta provides alignments to other schema, such as Music Ontology, DOREMUS,
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-meta/Score"/>
         <rdfs:comment xml:lang="en">A digital or electronic version of a musical score. It encompasses the digital representation of musical notation, allowing for electronic distribution, display, and manipulation of the score.</rdfs:comment>
         <rdfs:label xml:lang="en">DigitalScore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-meta/EditionSituation -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-meta/EditionSituation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/core/Situation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasPlace"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/Place"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasTimeInterval"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/TimeInterval"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-meta/hasEditor"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-meta/Editor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasPlace"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/Place"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasTimeInterval"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/TimeInterval"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-meta/hasEditor"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-meta/Editor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-meta/Editor -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-meta/Editor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/core/Agent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-meta/isEditorOf"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-meta/EditionSituation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-meta/isEditorOf"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-meta/EditionSituation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-meta/Encoder -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-meta/Encoder">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/core/Agent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-meta/isEncoderOf"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-meta/EncodingSituation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-meta/isEncoderOf"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-meta/EncodingSituation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-meta/EncodingSituation -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-meta/EncodingSituation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/core/Situation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasPlace"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/Place"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasTimeInterval"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/TimeInterval"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-meta/hasEncoder"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-meta/Encoder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasPlace"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/Place"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasTimeInterval"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/TimeInterval"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-meta/hasEncoder"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-meta/Encoder"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1912,6 +2163,12 @@ Music Meta provides alignments to other schema, such as Music Ontology, DOREMUS,
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-meta/isGenreOf"/>
                 <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-meta/MusicArtist"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-meta/isGenreOf"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-meta/MusicEntity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">A specific category or classification of music that shares common characteristics, styles, or cultural origins. It encompasses distinct musical traditions, styles, or movements that define a particular genre.</rdfs:comment>
@@ -2431,12 +2688,12 @@ Music Meta provides alignments to other schema, such as Music Ontology, DOREMUS,
      -->
 
     <rdf:Description rdf:about="https://w3id.org/polifonia/ontology/music-meta/Instrumentation">
-        <rdfs:comment xml:lang="en">The arrangement or combination of musical instruments used in a composition, performance, or recording. It describes the specific instruments, their roles, and how they interact to create the overall sound and texture of the music. It can include properties such as instruments used, roles, and techniques.</rdfs:comment>
         <rdfs:label xml:lang="en">Instrumentation</rdfs:label>
+        <rdfs:comment xml:lang="en">The arrangement or combination of musical instruments used in a composition, performance, or recording. It describes the specific instruments, their roles, and how they interact to create the overall sound and texture of the music. It can include properties such as instruments used, roles, and techniques.</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
