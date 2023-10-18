@@ -25,19 +25,19 @@ contributors:
 - Christophe Guillotel-Nothmann <>
 - Antoine Lebrun <>
 related-components:
- - informed-by:
+- informed-by:
   - https://github.com/polifonia-project/tonalities_pilot/tree/main/validation/interface 
- - story:
+- story:
   - Sethus#1_ConflictingTheoreticalInterpretations
   - Sethus#2_CreateRelevantCorpus
   - Sethus#1_ConflictingAnalyticalAnnotations  	
- - persona:
+- persona:
   - Sethus
- - evaluated-in:
+- evaluated-in:
   - https://github.com/polifonia-project/tonalities_pilot/tree/main/validation/interface 
- - serves:
+- serves:
   - https://github.com/Amleth/sherlock-tonalities/
-funder:
+  - funder:
   - name: Horizon 2020 Framework Programme
     url: https://cordis.europa.eu/programme/id/H2020-EC
     grant-agreement: "https://cordis.europa.eu/project/id/101004746"
