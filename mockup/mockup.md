@@ -11,7 +11,7 @@ pilot:
 project: polifonia-project
 resource: https://github.com/polifonia-project/tonalities_pilot/tree/main/mockup 
 release-date: 2021/01/25
-release-number: 1.1
+release-number: v1.1
 release-link: https://github.com/polifonia-project/tonalities_pilot/tree/main/mockup 
 changelog: https://github.com/polifonia-project/tonalities_pilot/blob/main/mockup/changeLog.md
 licence:
