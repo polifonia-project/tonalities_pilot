@@ -17,6 +17,8 @@ changelog: https://github.com/polifonia-project/tonalities_pilot/blob/main/mocku
 licence:
 - CC-BY_v4 
 copyright: "Copyright (c) 2023 The Polifonia Project Contributors"
+bibliography:
+- main-publication: "Gurrieri, M., Guillotel-Nothmann, C., Bottini, T., & Poullet-Pagès, F. (2022, octobre 23). Tonalities' Collaborative Annotation Interface for Music Analysis."
 contributors:
 - Thomas Bottini <>
 - Adam Filaber <>
