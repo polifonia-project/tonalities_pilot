@@ -21,7 +21,7 @@ contributors:
 - Thomas Bottini <>
 - Adam Filaber <>
 - Félix Poullet-Pagès <>
-- Marco Gurrieri <>
+- Marco Gurrieri <margur78>
 - Christophe Guillotel-Nothmann <>
 - Antoine Lebrun <>
 related-components:
