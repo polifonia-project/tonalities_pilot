@@ -21,7 +21,9 @@ def completeGraph(g):
     mr = Namespace ('https://w3id.org/polifonia/ontology/music-representation/')
     mm = Namespace ('https://w3id.org/polifonia/ontology/music-meta/')  
     crm = Namespace ('http://www.cidoc-crm.org/cidoc-crm/')  
-    sherlock = Namespace ('http://data-iremus.huma-num.fr/ns/sherlock')  
+    sherlock = Namespace ('http://data-iremus.huma-num.fr/ns/sherlock#') 
+    iremus = Namespace ('http://data-iremus.huma-num.fr/id/') 
+     
     
     g.bind('dcterms', dcterms)
     g.bind('owl', owl)
@@ -31,6 +33,7 @@ def completeGraph(g):
     g.bind('mm', mm)  
     g.bind('crm', crm)
     g.bind('sherlock', sherlock)
+    g.bind('iremus', iremus)
     
 
     # add IRI 
@@ -49,8 +52,7 @@ def completeGraph(g):
     g.add((crm.P9_consists_of, rdf.type, owl.ObjectProperty))
     g.add((dcterms.created, rdf.type, owl.AnnotationProperty))
     g.add((dcterms.creator, rdf.type, owl.AnnotationProperty))
-    
-    
+    g.add((sherlock.has_document_context, rdf.type, owl.AnnotationProperty))
     
     
     return g
@@ -144,7 +146,12 @@ def createObservationFromIRI (E13Name):
     
     
 def createMusicProjectionFromIRI (musicProjectionIRI, E13Name):
-    className = musicProjectionIRI.split("/")[-1]
+    if "#" in musicProjectionIRI:
+        className = musicProjectionIRI.split("#")[-1]
+        
+    else:
+    
+        className = musicProjectionIRI.split("/")[-1]
     theoreticalModel = getTheoreticalOntologyForIRI (musicProjectionIRI)
     
     with targetOnto:
@@ -173,9 +180,18 @@ def getAnnotatorFromIRI (annotatorIRI):
 
 def getTheoreticalOntologyForIRI (observationIRI):
     ''' import the corresponding ontology if necessary ''' 
-    className = observationIRI.split("/")[-1]
-    modelBaseIri = observationIRI.replace(className, "")
-    ontoName = modelBaseIri.split("/")[-2]
+    if "#" in observationIRI:
+        className = observationIRI.split("#")[-1]
+        modelBaseIri = observationIRI.replace("#" + className, "#")
+        ontoName = modelBaseIri.split("/")[-1].replace("#", "")
+        
+    else:
+    
+        className = observationIRI.split("/")[-1]
+        modelBaseIri = observationIRI.replace(className, "")
+        ontoName = modelBaseIri.split("/")[-2]
+    
+    
      
     ontologyExists = False
     for importedOnto in targetOnto.imported_ontologies:
@@ -208,11 +224,15 @@ def createAnnotationFromE28IRI(E28IRI):
             annotationInstance.hasFragment.append(createFragmentFromIRI(fragment))
         
         E13Name = E13_140List_filterdE13_with_P177_P2[0].name
+        print (len (E13_140List_filterdE13_with_P177_P2))
         annotationInstance.hasObservation = createObservationFromIRI(E13Name)
         
-        for musicProjection in E13_140List_filterdE13_with_P177_P2[0].P141_assigned:
-            annotationInstance.hasObservation.hasSubject.append(createMusicProjectionFromIRI(musicProjection, E13Name))
-            
+        for E13_140List_filterdE13_with_P177_P2_E in E13_140List_filterdE13_with_P177_P2:
+            if len (E13_140List_filterdE13_with_P177_P2) == 2:
+                    print ()
+            for musicProjection in E13_140List_filterdE13_with_P177_P2_E.P141_assigned:
+                annotationInstance.hasObservation.hasSubject.append(createMusicProjectionFromIRI(musicProjection, E13Name))
+             
             
         for annotator in E13_P141List_filterdE13_with_P177_P67[0].P14_carried_out_by:
             annotationInstance.hasAnnotator.append(getAnnotatorFromIRI(annotator)) 
@@ -269,18 +289,43 @@ def createAnalysis():
                 
     return analysisList
             
+def bindAnnotationsToScore (score):
+    for annotation in targetOnto.search(is_a = get_ontology("https://w3id.org/polifonia/ontology/music-representation/").Annotation):
+        score.hasAnnotation.append(annotation)
+
+def setScore():
+    ''' get the score iri '''
+    has_document_contextBool = False
+    scoreIRI = None
+    for E13 in onto.search (is_a = onto.E13_Attribute_Assignment):
+        if has_document_contextBool == True: break
+        if hasattr(E13, "has_document_context"):
+            for element in E13.has_document_context:
+                scoreIRI = element
+                has_document_contextBool = True
+                break
+    
+    if "_" in scoreIRI:
+        scoreIRI = scoreIRI.split("_")[0]
+    scoreName = scoreIRI.split("/")[-1]
+    
+    with targetOnto:
+        scoreInstance = get_ontology("https://w3id.org/polifonia/ontology/music-meta/").Score(scoreName)
+        
+    return scoreInstance 
+    
 
 if __name__ == '__main__':
     pass
 
 ''' paths to import and export '''
 
-importFilePath = "/Users/christophe/Documents/GitHub/tonalities-pilot/annotations/ttl/CIDOC.ttl" 
-targetFilePath = "/Users/christophe/Documents/GitHub/tonalities-pilot/annotations/owl/CIDOC_PON.owl"
+importFilePath = "/Users/christophe/Documents/GitHub/tonalities-pilot/annotations/cidoc/Bologna_modalInference_1.ttl" 
+targetFilePath = "/Users/christophe/Documents/GitHub/tonalities-pilot/annotations/music-representation/Bologna_modalInference_1.owl"
 
 ontoDic = {
     "Cadences_FilaberGuillotelGurrieri_2023": "https://raw.githubusercontent.com/polifonia-project/music-analysis-ontology/main/annotationModels/Cadences_FilaberGuillotelGurrieri_2023.owl",
-    "zarlino": "https://raw.githubusercontent.com/polifonia-project/music-analysis-ontology/refactor/ontology/zarlino.owl",
+    "zarlino": "https://raw.githubusercontent.com/polifonia-project/music-analysis-ontology/main/annotationModels/zarlino.owl",
     "Fugues": "https://github.com/polifonia-project/music-analysis-ontology/blob/main/annotationModels/Fugue.owl"
     }
 
@@ -301,8 +346,7 @@ targetOnto.imported_ontologies.append(get_ontology("https://raw.githubuserconten
 
 ''' create analyses =>E7'''
 analysisList = createAnalysis () 
-
-
+ 
 
 ''' get all E28 iris (they correspond to annotations) ''' 
 E28IRIList = getE28List()
@@ -314,6 +358,9 @@ topE28List = getTopAnnotationIRIs (E28IRIList)
 for topE28IRI in topE28List:
     createAnnotationFromE28IRI(topE28IRI)
 
+''' set score and connect annotationns '''
+
+bindAnnotationsToScore(setScore())
 
 ''' write onto file '''
 targetOnto.save(file = targetFilePath)
