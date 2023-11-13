@@ -11,7 +11,11 @@ with open('conf.yaml') as f:
 
 mei_files = glob.glob('../../scores/**/*.mei', recursive=True)
 
-os.remove('scores-url-list.txt')
+try:
+    os.remove('scores-url-list.txt')
+except:
+    pass
+
 with open('scores-url-list.txt', 'w') as flist:
     for f in mei_files:
         url = f \

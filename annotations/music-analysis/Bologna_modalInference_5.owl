@@ -1,0 +1,594 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="https://w3id.org/polifonia/ontology/music-analysis/"
+         xmlns:zarl="https://w3id.org/polifonia/ontology/music-analysis/zarlino/"
+         xmlns:x_1.1="http://purl.org/dc/elements/1.1/"
+         xmlns:term="http://purl.org/dc/terms/"
+         xmlns:musi="https://w3id.org/polifonia/ontology/music-projection/"
+         xmlns="https://w3id.org/polifonia/ontology/music-analysis/">
+
+<owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/music-analysis">
+  <owl:imports rdf:resource="https://raw.githubusercontent.com/polifonia-project/music-analysis-ontology/main/theoreticalModels/zarlino.owl"/>
+</owl:Ontology>
+
+<zarl:Cadence rdf:about="048187b1-0894-4b46-9e8e-25cd75236391_Cadence">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasDegree rdf:resource="00df79b6-796f-48c0-9932-3ca5b9ea01c0_CadencePoint"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L52F3"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L52F1"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L56F3"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L54F3"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L53F1"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L56F1"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:40:24.041030873Z</term:created>
+</zarl:Cadence>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L52F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L52F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L56F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L54F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L53F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L56F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<zarl:CadencePoint rdf:about="00df79b6-796f-48c0-9932-3ca5b9ea01c0_CadencePoint">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasTargetNote rdf:resource="850c1db8-7c6b-43a8-a689-d42c0ed1e122_TargetNote"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L56F1"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:40:35.607710586Z</term:created>
+</zarl:CadencePoint>
+
+<zarl:TargetNote rdf:about="850c1db8-7c6b-43a8-a689-d42c0ed1e122_TargetNote">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L56F1"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:41:15.828974832Z</term:created>
+</zarl:TargetNote>
+
+<zarl:Cadence rdf:about="0d6c1840-efff-463c-8068-3ae6aa63b102_Cadence">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasDegree rdf:resource="87e85a75-1c60-4c27-8878-15c32dc8ea7f_CadencePoint"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L88F1"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L89F1"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L90F5"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L88F3"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L92F1"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L92F5"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L89F3"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L88F5"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L92F3"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:43:33.313465517Z</term:created>
+</zarl:Cadence>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L88F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L89F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L90F5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L88F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L92F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L92F5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L89F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L88F5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L92F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<zarl:CadencePoint rdf:about="87e85a75-1c60-4c27-8878-15c32dc8ea7f_CadencePoint">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasTargetNote rdf:resource="a9ba3803-bdce-41cf-80a4-05bd048b4243_TargetNote"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L92F1"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:44:06.186173576Z</term:created>
+</zarl:CadencePoint>
+
+<zarl:TargetNote rdf:about="a9ba3803-bdce-41cf-80a4-05bd048b4243_TargetNote">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L92F1"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:44:29.278931896Z</term:created>
+</zarl:TargetNote>
+
+<zarl:Cadence rdf:about="c0eb0053-5ebd-4a9b-bcd1-3200eaf88751_Cadence">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasDegree rdf:resource="da0275c9-8558-4f4c-b611-7021668ff68f_CadencePoint"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L281F1"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L281F5"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L282F5"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L283F5"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L281F3"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L279F1"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L279F5"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L283F1"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L279F3"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L283F3"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:55:50.907717475Z</term:created>
+</zarl:Cadence>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L281F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L281F5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L282F5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L283F5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L281F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L279F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L279F5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L283F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L279F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L283F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<zarl:CadencePoint rdf:about="da0275c9-8558-4f4c-b611-7021668ff68f_CadencePoint">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasTargetNote rdf:resource="11024132-08ae-4381-a32f-d10d101c53cc_TargetNote"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L283F1"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:56:07.864203162Z</term:created>
+</zarl:CadencePoint>
+
+<zarl:TargetNote rdf:about="11024132-08ae-4381-a32f-d10d101c53cc_TargetNote">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L283F1"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:56:22.692205642Z</term:created>
+</zarl:TargetNote>
+
+<zarl:Cadence rdf:about="3f655e45-9b22-4ad5-8128-0e4b7fdf6859_Cadence">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasDegree rdf:resource="43334925-5c85-48c2-8116-8dd80493fb97_CadencePoint"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L106F1"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L110F1"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L106F3"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L107F1"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L110F3"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L108F3"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:46:15.248910023Z</term:created>
+</zarl:Cadence>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L106F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L110F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L106F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L107F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L110F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L108F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<zarl:CadencePoint rdf:about="43334925-5c85-48c2-8116-8dd80493fb97_CadencePoint">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasTargetNote rdf:resource="7ca71e02-5498-45ca-be02-a66762538653_TargetNote"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L110F1"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:46:28.747268524Z</term:created>
+</zarl:CadencePoint>
+
+<zarl:TargetNote rdf:about="7ca71e02-5498-45ca-be02-a66762538653_TargetNote">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L110F1"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:49:23.591768689Z</term:created>
+</zarl:TargetNote>
+
+<zarl:Cadence rdf:about="10e7a42d-a114-459a-a436-78a313f8d9bd_Cadence">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasDegree rdf:resource="7a2e24b3-da25-43f8-8d1a-9d51a5870333_CadencePoint"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L253F5"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L253F1"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L255F5"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L257F1"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L260F5"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L257F5"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L260F1"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L258F5"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:54:14.922601979Z</term:created>
+</zarl:Cadence>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L253F5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L253F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L255F5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L257F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L260F5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L257F5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L260F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L258F5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<zarl:CadencePoint rdf:about="7a2e24b3-da25-43f8-8d1a-9d51a5870333_CadencePoint">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasTargetNote rdf:resource="dad7ea74-5aca-4978-b3b3-5da764c5bb5b_TargetNote"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L260F5"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:54:50.456536920Z</term:created>
+</zarl:CadencePoint>
+
+<zarl:TargetNote rdf:about="dad7ea74-5aca-4978-b3b3-5da764c5bb5b_TargetNote">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L260F5"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:55:06.209712523Z</term:created>
+</zarl:TargetNote>
+
+<zarl:Cadence rdf:about="09b15825-fe36-4c9e-afd9-ea28908f2275_Cadence">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasDegree rdf:resource="62c321e4-e81e-424e-9dd2-66b77e5035af_CadencePoint"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L126F5"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L126F3"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L130F3"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L128F5"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L130F5"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L127F3"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:49:46.448733634Z</term:created>
+</zarl:Cadence>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L126F5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L126F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L130F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L128F5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L130F5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L127F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<zarl:CadencePoint rdf:about="62c321e4-e81e-424e-9dd2-66b77e5035af_CadencePoint">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasTargetNote rdf:resource="86201bd6-67a2-4f2f-91a8-0f1d1fe85891_TargetNote"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L130F3"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:50:01.165345738Z</term:created>
+</zarl:CadencePoint>
+
+<zarl:TargetNote rdf:about="86201bd6-67a2-4f2f-91a8-0f1d1fe85891_TargetNote">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L130F3"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:50:10.244232578Z</term:created>
+</zarl:TargetNote>
+
+<zarl:Cadence rdf:about="82892542-78b3-442b-9663-668157c76207_Cadence">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasDegree rdf:resource="2d5bb256-8f50-4ad1-a871-fed247658b10_CadencePoint"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L149F3"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L151F3"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L153F3"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L152F1"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L151F1"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L150F1"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L153F1"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L156F1"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L154F3"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L156F3"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L149F1"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:51:04.737122137Z</term:created>
+</zarl:Cadence>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L149F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L151F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L153F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L152F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L151F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L150F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L153F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L156F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L154F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L156F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L149F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<zarl:CadencePoint rdf:about="2d5bb256-8f50-4ad1-a871-fed247658b10_CadencePoint">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasTargetNote rdf:resource="96c05c94-21de-4107-a329-b475fa7d4b64_TargetNote"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L156F1"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:51:23.428403761Z</term:created>
+</zarl:CadencePoint>
+
+<zarl:TargetNote rdf:about="96c05c94-21de-4107-a329-b475fa7d4b64_TargetNote">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L156F1"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:51:31.154993208Z</term:created>
+</zarl:TargetNote>
+
+<zarl:Finalis rdf:about="88a5d138-4689-42ca-a53a-6c724b9794af_Finalis">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L283F1"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:56:36.343235578Z</term:created>
+</zarl:Finalis>
+
+<zarl:Cadence rdf:about="700a900a-dae1-46eb-86f3-ecb94418b890_Cadence">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasDegree rdf:resource="b8f1b345-b10d-4240-8200-fe2bc1ce19ed_CadencePoint"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L75F3"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L78F1"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L74F1"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L75F1"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L74F3"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L78F3"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:41:54.808481372Z</term:created>
+</zarl:Cadence>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L75F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L78F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L74F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L75F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L74F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L78F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<zarl:CadencePoint rdf:about="b8f1b345-b10d-4240-8200-fe2bc1ce19ed_CadencePoint">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasTargetNote rdf:resource="d87637c7-6ba0-4894-a9dd-4794b8d02401_TargetNote"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L78F1"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:42:59.440854683Z</term:created>
+</zarl:CadencePoint>
+
+<zarl:TargetNote rdf:about="d87637c7-6ba0-4894-a9dd-4794b8d02401_TargetNote">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L78F1"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:43:13.106179372Z</term:created>
+</zarl:TargetNote>
+
+<zarl:Mode rdf:about="db3a7138-1d37-43bd-9231-ae91e77dd109_Mode">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasFinalis rdf:resource="30b8a0ab-c9a2-432c-af17-5d2e2ccb8ce9_Finalis"/>
+  <zarl:isInDiatonicSystem rdf:resource="769891ec-1e20-4056-a9a9-c06879eaccc8_Transposed"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-09T14:38:59.574361515Z</term:created>
+</zarl:Mode>
+
+<zarl:Finalis rdf:about="30b8a0ab-c9a2-432c-af17-5d2e2ccb8ce9_Finalis">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L283F3"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-09T14:39:37.390207838Z</term:created>
+</zarl:Finalis>
+
+<zarl:Transposed rdf:about="769891ec-1e20-4056-a9a9-c06879eaccc8_Transposed">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L18F1"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11-09T14:39:59.209129897Z</term:created>
+</zarl:Transposed>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L18F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<zarl:Cadence rdf:about="08539ec5-e9c7-45f1-ae36-cb8646e8ace3_Cadence">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasDegree rdf:resource="3a507b67-d041-43e5-a336-e63a1138fa8b_CadencePoint"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L239F1"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L242F3"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L239F3"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L241F3"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L243F1"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L243F3"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L241F1"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:52:38.275729607Z</term:created>
+</zarl:Cadence>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L239F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L242F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L239F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L241F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L243F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L243F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<musi:Note rdf:about="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L241F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Note>
+
+<zarl:CadencePoint rdf:about="3a507b67-d041-43e5-a336-e63a1138fa8b_CadencePoint">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasTargetNote rdf:resource="325179b9-d6d2-4c6e-90d9-d21db877f327_TargetNote"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L243F1"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:53:18.809899902Z</term:created>
+</zarl:CadencePoint>
+
+<zarl:TargetNote rdf:about="325179b9-d6d2-4c6e-90d9-d21db877f327_TargetNote">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="8b5c6768-49e0-4066-8899-a5e09406eea3_note-L243F1"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/576525db-5ade-4927-8af0-e80689404f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-10T09:53:32.127515035Z</term:created>
+</zarl:TargetNote>
+
+
+</rdf:RDF>
