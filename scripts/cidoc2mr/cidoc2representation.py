@@ -163,7 +163,7 @@ def createMusicProjectionFromIRI (musicProjectionIRI, E13Name):
 
 def createAnnotatorFromIRI (annotatorIRI):    
     with targetOnto:
-            annotatorInstance = get_ontology("https://w3id.org/polifonia/ontology/music-representation/").Annotator(annotatorIRI.split("/")[-1])
+            annotatorInstance = get_ontology("https://w3id.org/polifonia/ontology/music-representation/").Annotator(annotatorIRI.iri.split("/")[-1])
              
             ''' TODO: complete information here ''' 
     return annotatorInstance
@@ -171,7 +171,7 @@ def createAnnotatorFromIRI (annotatorIRI):
 
 def getAnnotatorFromIRI (annotatorIRI): 
     for annotator in targetOnto.search(is_a = get_ontology("https://w3id.org/polifonia/ontology/music-representation/").Annotator):
-        if annotator.name == annotatorIRI.split("/")[-1]:
+        if annotator.name == annotatorIRI.iri.split("/")[-1]:
             return annotator 
     return createAnnotatorFromIRI (annotatorIRI)
         
@@ -223,15 +223,17 @@ def createAnnotationFromE28IRI(E28IRI):
         for fragment in  E13_P141List_filterdE13_with_P177_P67[0].P140_assigned_attribute_to:
             annotationInstance.hasFragment.append(createFragmentFromIRI(fragment))
         
+  
         E13Name = E13_140List_filterdE13_with_P177_P2[0].name
         print (len (E13_140List_filterdE13_with_P177_P2))
+ 
         annotationInstance.hasObservation = createObservationFromIRI(E13Name)
         
         for E13_140List_filterdE13_with_P177_P2_E in E13_140List_filterdE13_with_P177_P2:
             if len (E13_140List_filterdE13_with_P177_P2) == 2:
                     print ()
             for musicProjection in E13_140List_filterdE13_with_P177_P2_E.P141_assigned:
-                annotationInstance.hasObservation.hasSubject.append(createMusicProjectionFromIRI(musicProjection, E13Name))
+                annotationInstance.hasObservation.hasSubject.append(createMusicProjectionFromIRI(musicProjection, E13_140List_filterdE13_with_P177_P2_E.name))
              
             
         for annotator in E13_P141List_filterdE13_with_P177_P67[0].P14_carried_out_by:
@@ -265,7 +267,7 @@ def getTopAnnotationIRIs(E28IRIList):
 
 def createAnalystFromIRI (E21IRI):   
     with targetOnto:
-        analystInstance = get_ontology("https://w3id.org/polifonia/ontology/music-representation/").Analyst(E21IRI.split("/")[-1])
+        analystInstance = get_ontology("https://w3id.org/polifonia/ontology/music-representation/").Analyst(E21IRI.iri.split("/")[-1])
         
         '''TODO: specify names etc. '''
         
@@ -304,6 +306,8 @@ def setScore():
                 scoreIRI = element
                 has_document_contextBool = True
                 break
+    if isinstance(scoreIRI, str) == False:
+        scoreIRI = scoreIRI.iri
     
     if "_" in scoreIRI:
         scoreIRI = scoreIRI.split("_")[0]
@@ -320,8 +324,8 @@ if __name__ == '__main__':
 
 ''' paths to import and export '''
 
-importFilePath = "/Users/christophe/Documents/GitHub/tonalities-pilot/annotations/cidoc/Bologna_modalInference_1.ttl" 
-targetFilePath = "/Users/christophe/Documents/GitHub/tonalities-pilot/annotations/music-representation/Bologna_modalInference_1.owl"
+importFilePath = "/Users/christophe/Documents/GitHub/tonalities-pilot/annotations/cidoc/Test_mr2Cidoc.ttl" 
+targetFilePath = "/Users/christophe/Documents/GitHub/tonalities-pilot/annotations/music-representation/Test_mr2Cidoc.owl"
 
 ontoDic = {
     "Cadences_FilaberGuillotelGurrieri_2023": "https://raw.githubusercontent.com/polifonia-project/music-analysis-ontology/main/annotationModels/Cadences_FilaberGuillotelGurrieri_2023.owl",
@@ -339,7 +343,7 @@ onto = get_ontology("temp.rdf").load() # import from Tonalities
 
 ''' this is the target graph, i.e. where the data will be fed in ''' 
 targetOnto = get_ontology("analysisOntology.rdf").load()
-targetOnto.base_iri = "http://modality-tonality.huma-num.fr/analysis/"
+targetOnto.base_iri = "http://modality-tonality.huma-num.fr/representation/"
 
 ''' import music representation ''' 
 targetOnto.imported_ontologies.append(get_ontology("https://raw.githubusercontent.com/polifonia-project/music-representation-ontology/main/ontology/music-representation.owl").load())
@@ -361,6 +365,10 @@ for topE28IRI in topE28List:
 ''' set score and connect annotationns '''
 
 bindAnnotationsToScore(setScore())
+
+''' remove imports ''' # workaround to avoid missing redirections etc.
+
+targetOnto.imported_ontologies= []
 
 ''' write onto file '''
 targetOnto.save(file = targetFilePath)
