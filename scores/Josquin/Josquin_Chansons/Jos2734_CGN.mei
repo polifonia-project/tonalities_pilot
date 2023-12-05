@@ -2,194 +2,198 @@
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
- <meiHead>
-  <fileDesc>
-   <titleStmt>
-    <title />
-   </titleStmt>
-   <pubStmt>
-    <respStmt>
-     <persName xml:id="persname-L458" analog="humdrum:EED" role="digital editor">Jesse Rodin</persName>
-    </respStmt>
-   </pubStmt>
-  </fileDesc>
-  <encodingDesc>
-   <appInfo>
-    <application isodate="2023-01-24T20:15:23" version="3.15.0-dev-5260bd2-dirty">
-     <name>Verovio</name>
-     <p>Transcoded from Humdrum</p>
-    </application>
-   </appInfo>
-   <projectDesc>
-    <p>Encoded by: Jesse Rodin; Victoria Chang 2011/07/26/</p>
-    <p>Version: 2011/08/09/</p>
-   </projectDesc>
-  </encodingDesc>
-  <workList>
-   <work>
-    <identifier analog="humdrum:SCT">NJE 27.34</identifier>
-    <title xml:id="title-L3" analog="humdrum:OTL" type="main" xml:lang="fra">Si j'ay perdu mon amy</title>
-    <title xml:id="title-L463" analog="humdrum:Xfi" type="translated">extract -ikern|dissonant -V</title>
-    <composer analog="humdrum:COM" xml:id="person-L1">Josquin des Prez</composer>
-   </work>
-  </workList>
-  <extMeta>
-   <frames xmlns="http://www.humdrum.org/ns/humxml">
-    <metaFrame n="0" token="!!!COM: Josquin des Prez" xml:id="L1">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>COM</referenceKey>
-      <referenceValue>Josquin des Prez</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="1" token="!!!CDT: ~1450-1521/08/27" xml:id="L2">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>CDT</referenceKey>
-      <referenceValue>~1450-1521/08/27</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="2" token="!!!OTL@@FRA: Si j'ay perdu mon amy" xml:id="L3">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey language="FRA" primary="true">OTL</referenceKey>
-      <referenceValue>Si j'ay perdu mon amy</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="3" token="!!!AGN: Chanson" xml:id="L4">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>AGN</referenceKey>
-      <referenceValue>Chanson</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="4" token="!!!SCT: NJE 27.34" xml:id="L5">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>SCT</referenceKey>
-      <referenceValue>NJE 27.34</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="5" token="!!!SCA: New Josquin Edition 27.34" xml:id="L6">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>SCA</referenceKey>
-      <referenceValue>New Josquin Edition 27.34</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="6" token="!!!voices: 3" xml:id="L7">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>voices</referenceKey>
-      <referenceValue>3</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="449" token="!!!RDF**kern: l=long note in original notation" xml:id="L450">
-     <frameInfo>
-      <startTime float="568" />
-      <frameType>reference</frameType>
-      <referenceKey>RDF**kern</referenceKey>
-      <referenceValue>l=long note in original notation</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="450" token="!!!RDF**kern: i=editorial accidental" xml:id="L451">
-     <frameInfo>
-      <startTime float="568" />
-      <frameType>reference</frameType>
-      <referenceKey>RDF**kern</referenceKey>
-      <referenceValue>i=editorial accidental</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="451" token="!!!SMS: ParisBNF 1597: anon." xml:id="L452">
-     <frameInfo>
-      <startTime float="568" />
-      <frameType>reference</frameType>
-      <referenceKey>SMS</referenceKey>
-      <referenceValue>ParisBNF 1597: anon.</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="452" token="!!!SMS: SGallS 461: Josquin" xml:id="L453">
-     <frameInfo>
-      <startTime float="568" />
-      <frameType>reference</frameType>
-      <referenceKey>SMS</referenceKey>
-      <referenceValue>SGallS 461: Josquin</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="453" token="!!!SMS: Antico 1536: Josquin" xml:id="L454">
-     <frameInfo>
-      <startTime float="568" />
-      <frameType>reference</frameType>
-      <referenceKey>SMS</referenceKey>
-      <referenceValue>Antico 1536: Josquin</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="454" token="!!!SMS: LeRoy 1578: Josquin" xml:id="L455">
-     <frameInfo>
-      <startTime float="568" />
-      <frameType>reference</frameType>
-      <referenceKey>SMS</referenceKey>
-      <referenceValue>LeRoy 1578: Josquin</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="455" token="!!!ENC: Jesse Rodin; Victoria Chang 2011/07/26/" xml:id="L456">
-     <frameInfo>
-      <startTime float="568" />
-      <frameType>reference</frameType>
-      <referenceKey>ENC</referenceKey>
-      <referenceValue>Jesse Rodin; Victoria Chang 2011/07/26/</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="456" token="!!!END: 2011/08/09/" xml:id="L457">
-     <frameInfo>
-      <startTime float="568" />
-      <frameType>reference</frameType>
-      <referenceKey>END</referenceKey>
-      <referenceValue>2011/08/09/</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="457" token="!!!EED: Jesse Rodin" xml:id="L458">
-     <frameInfo>
-      <startTime float="568" />
-      <frameType>reference</frameType>
-      <referenceKey>EED</referenceKey>
-      <referenceValue>Jesse Rodin</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="458" token="!!!EEV: 2011/08/09/" xml:id="L459">
-     <frameInfo>
-      <startTime float="568" />
-      <frameType>reference</frameType>
-      <referenceKey>EEV</referenceKey>
-      <referenceValue>2011/08/09/</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="460" token="!!!ONB: Translated from MusicXML and edited on 2011/08/09/ by Craig Sapp" xml:id="L461">
-     <frameInfo>
-      <startTime float="568" />
-      <frameType>reference</frameType>
-      <referenceKey>ONB</referenceKey>
-      <referenceValue>Translated from MusicXML and edited on 2011/08/09/ by Craig Sapp</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="462" token="!!!Xfilter: extract -ikern|dissonant -V" xml:id="L463">
-     <frameInfo>
-      <startTime float="568" />
-      <frameType>reference</frameType>
-      <referenceKey>Xfilter</referenceKey>
-      <referenceValue>extract -ikern|dissonant -V</referenceValue>
-     </frameInfo>
-    </metaFrame>
-   </frames>
-  </extMeta>
- </meiHead>
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <pubStmt>
+            <respStmt>
+               <persName xml:id="persname-L458" analog="humdrum:EED" role="digital editor">Jesse Rodin</persName>
+            </respStmt>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application isodate="2023-01-24T20:15:23" version="3.15.0-dev-5260bd2-dirty">
+               <name>Verovio</name>
+               <p>Transcoded from Humdrum</p>
+            </application>
+            <application xml:id="ax4ie6k1" startdate="2023-11-24T15:53:44" version="1.0.3p" enddate="2023-11-24T15:54:20">
+               <name xml:id="nehmqey2">mei-friend</name>
+               <p xml:id="p13nb1i1">First edit by mei-friend 1.0.3p, 1 November 2023.</p>
+            </application>
+         </appInfo>
+         <projectDesc>
+            <p>Encoded by: Jesse Rodin; Victoria Chang 2011/07/26/</p>
+            <p>Version: 2011/08/09/</p>
+         </projectDesc>
+      </encodingDesc>
+      <workList>
+         <work>
+            <identifier analog="humdrum:SCT">NJE 27.34</identifier>
+            <title xml:id="title-L3" analog="humdrum:OTL" type="main" xml:lang="fra">Si j'ay perdu mon amy</title>
+            <title xml:id="title-L463" analog="humdrum:Xfi" type="translated">extract -ikern|dissonant -V</title>
+            <composer analog="humdrum:COM" xml:id="person-L1">Josquin des Prez</composer>
+         </work>
+      </workList>
+      <extMeta>
+         <frames xmlns="http://www.humdrum.org/ns/humxml">
+            <metaFrame n="0" token="!!!COM: Josquin des Prez" xml:id="L1">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>COM</referenceKey>
+                  <referenceValue>Josquin des Prez</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="1" token="!!!CDT: ~1450-1521/08/27" xml:id="L2">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>CDT</referenceKey>
+                  <referenceValue>~1450-1521/08/27</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="2" token="!!!OTL@@FRA: Si j'ay perdu mon amy" xml:id="L3">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey language="FRA" primary="true">OTL</referenceKey>
+                  <referenceValue>Si j'ay perdu mon amy</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="3" token="!!!AGN: Chanson" xml:id="L4">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>AGN</referenceKey>
+                  <referenceValue>Chanson</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="4" token="!!!SCT: NJE 27.34" xml:id="L5">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>SCT</referenceKey>
+                  <referenceValue>NJE 27.34</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="5" token="!!!SCA: New Josquin Edition 27.34" xml:id="L6">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>SCA</referenceKey>
+                  <referenceValue>New Josquin Edition 27.34</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="6" token="!!!voices: 3" xml:id="L7">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>voices</referenceKey>
+                  <referenceValue>3</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="449" token="!!!RDF**kern: l=long note in original notation" xml:id="L450">
+               <frameInfo>
+                  <startTime float="568"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>RDF**kern</referenceKey>
+                  <referenceValue>l=long note in original notation</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="450" token="!!!RDF**kern: i=editorial accidental" xml:id="L451">
+               <frameInfo>
+                  <startTime float="568"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>RDF**kern</referenceKey>
+                  <referenceValue>i=editorial accidental</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="451" token="!!!SMS: ParisBNF 1597: anon." xml:id="L452">
+               <frameInfo>
+                  <startTime float="568"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>SMS</referenceKey>
+                  <referenceValue>ParisBNF 1597: anon.</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="452" token="!!!SMS: SGallS 461: Josquin" xml:id="L453">
+               <frameInfo>
+                  <startTime float="568"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>SMS</referenceKey>
+                  <referenceValue>SGallS 461: Josquin</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="453" token="!!!SMS: Antico 1536: Josquin" xml:id="L454">
+               <frameInfo>
+                  <startTime float="568"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>SMS</referenceKey>
+                  <referenceValue>Antico 1536: Josquin</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="454" token="!!!SMS: LeRoy 1578: Josquin" xml:id="L455">
+               <frameInfo>
+                  <startTime float="568"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>SMS</referenceKey>
+                  <referenceValue>LeRoy 1578: Josquin</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="455" token="!!!ENC: Jesse Rodin; Victoria Chang 2011/07/26/" xml:id="L456">
+               <frameInfo>
+                  <startTime float="568"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>ENC</referenceKey>
+                  <referenceValue>Jesse Rodin; Victoria Chang 2011/07/26/</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="456" token="!!!END: 2011/08/09/" xml:id="L457">
+               <frameInfo>
+                  <startTime float="568"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>END</referenceKey>
+                  <referenceValue>2011/08/09/</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="457" token="!!!EED: Jesse Rodin" xml:id="L458">
+               <frameInfo>
+                  <startTime float="568"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>EED</referenceKey>
+                  <referenceValue>Jesse Rodin</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="458" token="!!!EEV: 2011/08/09/" xml:id="L459">
+               <frameInfo>
+                  <startTime float="568"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>EEV</referenceKey>
+                  <referenceValue>2011/08/09/</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="460" token="!!!ONB: Translated from MusicXML and edited on 2011/08/09/ by Craig Sapp" xml:id="L461">
+               <frameInfo>
+                  <startTime float="568"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>ONB</referenceKey>
+                  <referenceValue>Translated from MusicXML and edited on 2011/08/09/ by Craig Sapp</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="462" token="!!!Xfilter: extract -ikern|dissonant -V" xml:id="L463">
+               <frameInfo>
+                  <startTime float="568"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>Xfilter</referenceKey>
+                  <referenceValue>extract -ikern|dissonant -V</referenceValue>
+               </frameInfo>
+            </metaFrame>
+         </frames>
+      </extMeta>
+   </meiHead>
  <music>
   <body>
    <mdiv xml:id="msd94oq">
@@ -328,6 +332,8 @@
         </layer>
        </staff>
        <tie xml:id="tie-L38F3-L40F3" startid="#note-L38F3" endid="#note-L40F3" />
+         <harm xml:id="harm-L256Fr432wedds4789ok" resp="CGN" type="add" place="below" staff="3" tstamp="1.000000">T</harm>
+         <harm xml:id="harm-L256Fr432wsedds4789ok" resp="CGN" type="add" place="below" staff="2" tstamp="1.000000">A</harm>
       </measure>
       <measure xml:id="measure-L39" n="5">
        <staff xml:id="staff-L39F5N1" n="1">
@@ -400,6 +406,8 @@
        </staff>
        <tie xml:id="tie-L55F5-L58F5" startid="#note-L55F5" endid="#note-L58F5" />
        <tie xml:id="tie-L56F1-L58F1" startid="#note-L56F1" endid="#note-L58F1" />
+         <harm xml:id="harm-L256Fr432wedd9ok" resp="CGN" type="add" place="below" staff="2" tstamp="1.000000">T</harm>
+         <harm xml:id="harm-L256Fr4389ok" resp="CGN" type="add" place="below" staff="1" tstamp="1.000000">A</harm>
       </measure>
       <measure xml:id="measure-L57" n="8">
        <staff xml:id="staff-L57F5N1" n="1">
@@ -659,9 +667,6 @@
          <note xml:id="note-L113F1" dur="breve" oct="2" pname="a" accid.ges="n" />
         </layer>
        </staff>
-       <harm xml:id="harm-L113F2" place="below" staff="3" tstamp="1.000000" n="2">T</harm>
-       <harm xml:id="harm-L113F4" resp="CGN" type="corr" place="below" staff="2" tstamp="1.000000" n="4">C-</harm>
-       <harm xml:id="harm-L1d13F4" resp="CGN" type="corr" place="below" staff="1" tstamp="1.000000" n="4">A-</harm>
        <tie xml:id="tie-L118F3-L120F3" startid="#note-L118F3" endid="#note-L120F3" />
        <tie xml:id="tie-L113F1-L120F1" startid="#note-L113F1" endid="#note-L120F1" />
       </measure>
@@ -878,6 +883,8 @@
        </staff>
        <tie xml:id="tie-L166F5-L169F5" startid="#note-L166F5" endid="#note-L169F5" />
        <tie xml:id="tie-L167F1-L169F1" startid="#note-L167F1" endid="#note-L169F1" />
+         <harm xml:id="harm-L256Fr432weddds4789ok" resp="CGN" type="add" place="below" staff="2" tstamp="1.000000">T</harm>
+         <harm xml:id="harm-L256Fr432wedds4dsa789ok" resp="CGN" type="add" place="below" staff="1" tstamp="1.000000">C</harm>
       </measure>
       <measure xml:id="measure-L168" n="28">
        <staff xml:id="staff-L168F5N1" n="1">
@@ -1137,9 +1144,6 @@
          <note xml:id="note-L224F1" dur="breve" oct="2" pname="a" accid.ges="n" />
         </layer>
        </staff>
-       <harm xml:id="harm-L224F2" place="below" staff="3" tstamp="1.000000" n="2">T</harm>
-       <harm xml:id="harm-L224F4" resp="CGN" type="corr" place="below" staff="2" tstamp="1.000000" n="4">C-</harm>
-       <harm xml:id="harm-L1dw13F4" resp="CGN" type="corr" place="below" staff="1" tstamp="1.000000" n="4">A+</harm>
        <tie xml:id="tie-L229F3-L231F3" startid="#note-L229F3" endid="#note-L231F3" />
        <tie xml:id="tie-L224F1-L231F1" startid="#note-L224F1" endid="#note-L231F1" />
       </measure>
@@ -1197,6 +1201,9 @@
        <tie xml:id="tie-L242F5-L244F5" startid="#note-L242F5" endid="#note-L244F5" />
        <tie xml:id="tie-L242F3-L244F3" startid="#note-L242F3" endid="#note-L244F3" />
        <tie xml:id="tie-L240F1-L244F1" startid="#note-L240F1" endid="#note-L244F1" />
+         <harm xml:id="harm-L256Fr432wedok" resp="CGN" type="add" place="below" staff="2" tstamp="1.000000">T-</harm>
+         <harm xml:id="harm-L256Fr432wedds4ok" resp="CGN" type="add" place="below" staff="1" tstamp="1.000000">C-</harm>
+         <harm xml:id="harm-L256Fr432wedds47sa89ok" resp="CGN" type="add" place="below" staff="3" tstamp="1.000000">B/</harm>
       </measure>
       <measure xml:id="measure-L243" n="41">
        <staff xml:id="staff-L243F5N1" n="1">
@@ -1541,8 +1548,8 @@
          <note xml:id="note-L324F1" type="placed" dur="4" oct="3" pname="e" stem.dir="down" accid.ges="n" />
         </layer>
        </staff>
-       <harm xml:id="harm-L318F2" type="del" resp="CGN"  place="below" staff="3" tstamp="1.000000" n="2">[C]</harm>
-       <harm xml:id="harm-L318F6" type="del" resp="CGN" place="below" staff="1" tstamp="1.000000" n="6">[T]</harm>
+       <harm xml:id="harm-L318F2" type="del" resp="CGN"  place="below" staff="3" tstamp="1.000000" n="2">C</harm>
+       <harm xml:id="harm-L318F6" type="del" resp="CGN" place="below" staff="1" tstamp="1.000000" n="6">T</harm>
       </measure>
       <measure xml:id="measure-L325" n="55">
        <staff xml:id="staff-L325F5N1" n="1">
@@ -1650,6 +1657,9 @@
          <note xml:id="note-L352F1" type="placed" dur="4" oct="3" pname="b" stem.dir="down" accid.ges="f" />
         </layer>
        </staff>
+         <harm xml:id="harm-L256Fr432wezuj89ok" resp="CGN" type="add" place="below" staff="3" tstamp="1.000000">T-</harm>
+         <harm xml:id="harm-L256Fr432iujm789ok" resp="CGN" type="add" place="below" staff="1" tstamp="1.000000">A</harm>
+         <harm xml:id="harm-L256Fr432wedds4ds789ok" resp="CGN" type="add" place="below" staff="2" tstamp="1.000000">A-</harm>
       </measure>
       <measure xml:id="measure-L353" n="59">
        <staff xml:id="staff-L353F5N1" n="1">

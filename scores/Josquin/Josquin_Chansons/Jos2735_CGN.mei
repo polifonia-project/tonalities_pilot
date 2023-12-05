@@ -2,178 +2,182 @@
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
- <meiHead>
-  <fileDesc>
-   <titleStmt>
-    <title>Si jeusse Marion</title>
-   </titleStmt>
-   <pubStmt>
-    <respStmt>
-     <persName xml:id="persname-L313" analog="humdrum:EED" role="digital editor">Jesse Rodin</persName>
-    </respStmt>
-   </pubStmt>
-  </fileDesc>
-  <encodingDesc>
-   <appInfo>
-    <application isodate="2023-01-24T20:16:01" version="3.15.0-dev-5260bd2-dirty">
-     <name>Verovio</name>
-     <p>Transcoded from Humdrum</p>
-    </application>
-   </appInfo>
-   <projectDesc>
-    <p>Encoded by: Chris Gage 06-07-2012</p>
-    <p>Version: 2012/06/21/</p>
-   </projectDesc>
-  </encodingDesc>
-  <workList>
-   <work>
-    <identifier analog="humdrum:SCT">NJE 27.35</identifier>
-    <title xml:id="title-L3" analog="humdrum:OTL" type="main">Si jeusse Marion</title>
-    <title xml:id="title-L318" analog="humdrum:Xfi" type="translated">extract -ikern|dissonant -V</title>
-    <composer cert="unknown" analog="humdrum:COA" xml:id="person-L1">Josquin des Prez</composer>
-   </work>
-  </workList>
-  <extMeta>
-   <frames xmlns="http://www.humdrum.org/ns/humxml">
-    <metaFrame n="0" token="!!!COA: Josquin des Prez" xml:id="L1">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>COA</referenceKey>
-      <referenceValue>Josquin des Prez</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="1" token="!!!CDT: ~1450-1521/08/27" xml:id="L2">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>CDT</referenceKey>
-      <referenceValue>~1450-1521/08/27</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="2" token="!!!OTL: Si jeusse Marion" xml:id="L3">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>OTL</referenceKey>
-      <referenceValue>Si jeusse Marion</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="3" token="!!!AGN: Chanson" xml:id="L4">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>AGN</referenceKey>
-      <referenceValue>Chanson</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="4" token="!!!SCT: NJE 27.35" xml:id="L5">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>SCT</referenceKey>
-      <referenceValue>NJE 27.35</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="5" token="!!!SCA: New Josquin Edition 27.35" xml:id="L6">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>SCA</referenceKey>
-      <referenceValue>New Josquin Edition 27.35</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="6" token="!!!voices: 3" xml:id="L7">
-     <frameInfo>
-      <startTime float="0" />
-      <frameType>reference</frameType>
-      <referenceKey>voices</referenceKey>
-      <referenceValue>3</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="306" token="!!!RDF**kern: l=long note in original notation" xml:id="L307">
-     <frameInfo>
-      <startTime float="392" />
-      <frameType>reference</frameType>
-      <referenceKey>RDF**kern</referenceKey>
-      <referenceValue>l=long note in original notation</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="307" token="!!!RDF**kern: i=editorial accidental" xml:id="L308">
-     <frameInfo>
-      <startTime float="392" />
-      <frameType>reference</frameType>
-      <referenceKey>RDF**kern</referenceKey>
-      <referenceValue>i=editorial accidental</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="308" token="!!!RDF**kern: V=start of tuplet marker" xml:id="L309">
-     <frameInfo>
-      <startTime float="392" />
-      <frameType>reference</frameType>
-      <referenceKey>RDF**kern</referenceKey>
-      <referenceValue>V=start of tuplet marker</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="309" token="!!!RDF**kern: Z=end of tuplet marker" xml:id="L310">
-     <frameInfo>
-      <startTime float="392" />
-      <frameType>reference</frameType>
-      <referenceKey>RDF**kern</referenceKey>
-      <referenceValue>Z=end of tuplet marker</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="310" token="!!!ENC: Chris Gage 06-07-2012" xml:id="L311">
-     <frameInfo>
-      <startTime float="392" />
-      <frameType>reference</frameType>
-      <referenceKey>ENC</referenceKey>
-      <referenceValue>Chris Gage 06-07-2012</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="311" token="!!!END: 2012/06/07/" xml:id="L312">
-     <frameInfo>
-      <startTime float="392" />
-      <frameType>reference</frameType>
-      <referenceKey>END</referenceKey>
-      <referenceValue>2012/06/07/</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="312" token="!!!EED: Jesse Rodin" xml:id="L313">
-     <frameInfo>
-      <startTime float="392" />
-      <frameType>reference</frameType>
-      <referenceKey>EED</referenceKey>
-      <referenceValue>Jesse Rodin</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="313" token="!!!EEV: 2012/06/21/" xml:id="L314">
-     <frameInfo>
-      <startTime float="392" />
-      <frameType>reference</frameType>
-      <referenceKey>EEV</referenceKey>
-      <referenceValue>2012/06/21/</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="315" token="!!!ONB: Translated from MusicXML and edited on 2012/06/21/ by Craig Sapp" xml:id="L316">
-     <frameInfo>
-      <startTime float="392" />
-      <frameType>reference</frameType>
-      <referenceKey>ONB</referenceKey>
-      <referenceValue>Translated from MusicXML and edited on 2012/06/21/ by Craig Sapp</referenceValue>
-     </frameInfo>
-    </metaFrame>
-    <metaFrame n="317" token="!!!Xfilter: extract -ikern|dissonant -V" xml:id="L318">
-     <frameInfo>
-      <startTime float="392" />
-      <frameType>reference</frameType>
-      <referenceKey>Xfilter</referenceKey>
-      <referenceValue>extract -ikern|dissonant -V</referenceValue>
-     </frameInfo>
-    </metaFrame>
-   </frames>
-  </extMeta>
- </meiHead>
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Si jeusse Marion</title>
+         </titleStmt>
+         <pubStmt>
+            <respStmt>
+               <persName xml:id="persname-L313" analog="humdrum:EED" role="digital editor">Jesse Rodin</persName>
+            </respStmt>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application isodate="2023-01-24T20:16:01" version="3.15.0-dev-5260bd2-dirty">
+               <name>Verovio</name>
+               <p>Transcoded from Humdrum</p>
+            </application>
+            <application xml:id="a4tdmgx1" startdate="2023-11-24T15:50:47" version="1.0.3p" enddate="2023-11-24T15:50:56">
+               <name xml:id="nsrqv0y2">mei-friend</name>
+               <p xml:id="pw6ulzl2">First edit by mei-friend 1.0.3p, 1 November 2023.</p>
+            </application>
+         </appInfo>
+         <projectDesc>
+            <p>Encoded by: Chris Gage 06-07-2012</p>
+            <p>Version: 2012/06/21/</p>
+         </projectDesc>
+      </encodingDesc>
+      <workList>
+         <work>
+            <identifier analog="humdrum:SCT">NJE 27.35</identifier>
+            <title xml:id="title-L3" analog="humdrum:OTL" type="main">Si jeusse Marion</title>
+            <title xml:id="title-L318" analog="humdrum:Xfi" type="translated">extract -ikern|dissonant -V</title>
+            <composer cert="unknown" analog="humdrum:COA" xml:id="person-L1">Josquin des Prez</composer>
+         </work>
+      </workList>
+      <extMeta>
+         <frames xmlns="http://www.humdrum.org/ns/humxml">
+            <metaFrame n="0" token="!!!COA: Josquin des Prez" xml:id="L1">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>COA</referenceKey>
+                  <referenceValue>Josquin des Prez</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="1" token="!!!CDT: ~1450-1521/08/27" xml:id="L2">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>CDT</referenceKey>
+                  <referenceValue>~1450-1521/08/27</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="2" token="!!!OTL: Si jeusse Marion" xml:id="L3">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>OTL</referenceKey>
+                  <referenceValue>Si jeusse Marion</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="3" token="!!!AGN: Chanson" xml:id="L4">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>AGN</referenceKey>
+                  <referenceValue>Chanson</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="4" token="!!!SCT: NJE 27.35" xml:id="L5">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>SCT</referenceKey>
+                  <referenceValue>NJE 27.35</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="5" token="!!!SCA: New Josquin Edition 27.35" xml:id="L6">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>SCA</referenceKey>
+                  <referenceValue>New Josquin Edition 27.35</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="6" token="!!!voices: 3" xml:id="L7">
+               <frameInfo>
+                  <startTime float="0"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>voices</referenceKey>
+                  <referenceValue>3</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="306" token="!!!RDF**kern: l=long note in original notation" xml:id="L307">
+               <frameInfo>
+                  <startTime float="392"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>RDF**kern</referenceKey>
+                  <referenceValue>l=long note in original notation</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="307" token="!!!RDF**kern: i=editorial accidental" xml:id="L308">
+               <frameInfo>
+                  <startTime float="392"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>RDF**kern</referenceKey>
+                  <referenceValue>i=editorial accidental</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="308" token="!!!RDF**kern: V=start of tuplet marker" xml:id="L309">
+               <frameInfo>
+                  <startTime float="392"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>RDF**kern</referenceKey>
+                  <referenceValue>V=start of tuplet marker</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="309" token="!!!RDF**kern: Z=end of tuplet marker" xml:id="L310">
+               <frameInfo>
+                  <startTime float="392"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>RDF**kern</referenceKey>
+                  <referenceValue>Z=end of tuplet marker</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="310" token="!!!ENC: Chris Gage 06-07-2012" xml:id="L311">
+               <frameInfo>
+                  <startTime float="392"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>ENC</referenceKey>
+                  <referenceValue>Chris Gage 06-07-2012</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="311" token="!!!END: 2012/06/07/" xml:id="L312">
+               <frameInfo>
+                  <startTime float="392"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>END</referenceKey>
+                  <referenceValue>2012/06/07/</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="312" token="!!!EED: Jesse Rodin" xml:id="L313">
+               <frameInfo>
+                  <startTime float="392"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>EED</referenceKey>
+                  <referenceValue>Jesse Rodin</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="313" token="!!!EEV: 2012/06/21/" xml:id="L314">
+               <frameInfo>
+                  <startTime float="392"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>EEV</referenceKey>
+                  <referenceValue>2012/06/21/</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="315" token="!!!ONB: Translated from MusicXML and edited on 2012/06/21/ by Craig Sapp" xml:id="L316">
+               <frameInfo>
+                  <startTime float="392"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>ONB</referenceKey>
+                  <referenceValue>Translated from MusicXML and edited on 2012/06/21/ by Craig Sapp</referenceValue>
+               </frameInfo>
+            </metaFrame>
+            <metaFrame n="317" token="!!!Xfilter: extract -ikern|dissonant -V" xml:id="L318">
+               <frameInfo>
+                  <startTime float="392"/>
+                  <frameType>reference</frameType>
+                  <referenceKey>Xfilter</referenceKey>
+                  <referenceValue>extract -ikern|dissonant -V</referenceValue>
+               </frameInfo>
+            </metaFrame>
+         </frames>
+      </extMeta>
+   </meiHead>
  <music>
   <body>
    <mdiv xml:id="moegbo">
