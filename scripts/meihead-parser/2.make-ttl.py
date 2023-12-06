@@ -1,9 +1,5 @@
 # grep -rh "2<" . | grep referenceKey | awk '{$1=$1};1' | sort | uniq
-# TODO <referenceKey language="LAT" primary="true">OTL2</referenceKey>
-# TODO <referenceKey>CDT2</referenceKey>
-# TODO <referenceKey>COA2</referenceKey>
-# TODO <referenceKey>COM2</referenceKey>
-# TODO <referenceKey>OTL2</referenceKey>
+# TODO cert
 
 import html
 import json
@@ -86,7 +82,11 @@ def _extract_composers(data):
     # workList* > work > composer
     with suppress(KeyError):
         for work in data['meiHead']['workList']:
-            composers.append(work['composer'])
+            for composer in work['composer']:
+                if composer['analog'] == 'humdrum:COA':
+                    attributed_composers.append(composer['value'])
+                else:
+                    composers.append(composer['value'])
 
     # extMeta > frames > metaFrame > frameInfo > referenceValue when referenceKey=COM
     with suppress(KeyError):
@@ -124,14 +124,14 @@ def _extract_composers(data):
             if (data['meiHead']['workDesc']['work']['titleStmt']['respStmt']['name']['role'] == 'composer'):
                 composers.append(data['meiHead']['workDesc']['work']['titleStmt']['respStmt']['name']['value'])
 
-    composers += extract_humdrum_frame(data, 'COM')
+    composers += read_humdrum_frame(data, 'COM')
 
     # Détection du compositeur attribué
 
     # extMeta > frames > metaFrame > frameInfo > referenceValue when referenceKey=COA
     with suppress(KeyError):
         for metaFrame in data['meiHead']['extMeta']['frames']:
-            if metaFrame['frameInfo']['referenceKey'] in ['COA', 'COA1', 'COA2']:
+            if metaFrame['frameInfo']['referenceKey'] in ['COA', 'COA1', 'COA2', 'COA3', 'COA4']:
                 if metaFrame['frameInfo']['referenceValue'] in composers:
                     composers.remove(metaFrame['frameInfo']['referenceValue'])
                 attributed_composers.append(metaFrame['frameInfo']['referenceValue'])
@@ -139,7 +139,10 @@ def _extract_composers(data):
     composers = list(set([clean(c) for c in composers]))
     attributed_composers = list(set([clean(c) for c in attributed_composers]))
 
-    return {'composers': composers, 'attributed_composers': attributed_composers}
+    return {
+        'composers': composers,
+        'attributed_composers': attributed_composers
+    }
 
 
 def extract_composers(data):
@@ -176,12 +179,14 @@ def _extract_all_kind_of_titles(data):
 
     # compute data
     for title in titles_data:
-        if 'type' in title and title['type'] == 'subordinate':
-            subordinate_titles.append(title['value'])
-        else:
-            titles.append(' '.join(title['value'].split()))
+        if title:
+            if 'type' in title and title['type'] == 'subordinate':
+                subordinate_titles.append(title['value'])
+            else:
+                titles.append(' '.join(title['value'].split()))
 
-    titles += extract_humdrum_frame(data, 'OTL')
+    titles += read_humdrum_frame(data, 'OTL')
+    titles += read_humdrum_frame(data, 'OTL2')
 
     return [list(set(titles)), list(set(subordinate_titles))]
 
@@ -214,27 +219,43 @@ def extract_distributor(data):
 def extract_editors(data):
     editors = []
 
-    # fileDesc > titleStmt > respStmt > persName{@role=editor}
+    # fileDesc > titleStmt > respStmt > persName{@role="editor"}
     with suppress(KeyError):
         if (type(data['meiHead']['fileDesc']['titleStmt']['respStmt']['persName']) is list):
             for persName in data['meiHead']['fileDesc']['titleStmt']['respStmt']['persName']:
                 if persName['role'] == 'editor':
                     editors.append(persName['value'])
 
+    # fileDesc > pubStmt > respStmt > persName{@role="editor"}
+    with suppress(KeyError):
+        if (type(data['meiHead']['fileDesc']['pubStmt']['respStmt']['persName']) is list):
+            for persName in data['meiHead']['fileDesc']['pubStmt']['respStmt']['persName']:
+                if persName['role'] == 'editor' and persName['analog'] != 'humdrum:EED':
+                    editors.append(persName['value'])
+
     return editors
 
 
 def extract_digital_editors(data):
-    editors = []
+    digital_editors = []
 
-    # fileDesc > pubStmt > respStmt > persName{@role=editor}
+    # fileDesc > pubStmt > respStmt > persName{@role="digital editor"}
     with suppress(KeyError):
         if (type(data['meiHead']['fileDesc']['pubStmt']['respStmt']['persName']) is list):
             for persName in data['meiHead']['fileDesc']['pubStmt']['respStmt']['persName']:
                 if persName['role'] == 'digital editor':
-                    editors.append(' '.join(persName['value'].replace('\n', '').split()))
+                    digital_editors.append(' '.join(persName['value'].replace('\n', '').split()))
 
-    return editors
+    digital_editors += read_humdrum_frame(data, 'EED')
+
+    # fileDesc > pubStmt > respStmt > persName{@role="editor" @analog="humdrum:EED"}
+    with suppress(KeyError):
+        if (type(data['meiHead']['fileDesc']['pubStmt']['respStmt']['persName']) is list):
+            for persName in data['meiHead']['fileDesc']['pubStmt']['respStmt']['persName']:
+                if persName['role'] == 'editor' and persName['analog'] == 'humdrum:EED':
+                    digital_editors.append(persName['value'])
+
+    return list(set(digital_editors))
 
 
 def extract_lyricists(data):
@@ -280,12 +301,12 @@ def extract_scholarly_catalogue_abbreviation_and_number(data):
             if work['identifier']['analog'] == 'humdrum:SCT':
                 catalogue_numbers.append(work['identifier']['value'])
 
-    catalogue_numbers += extract_humdrum_frame(data, 'SCT')
+    catalogue_numbers += read_humdrum_frame(data, 'SCT')
 
     return list(set(catalogue_numbers))
 
 
-def extract_humdrum_frame(data, key):
+def read_humdrum_frame(data, key):
     values = []
 
     # extMeta > frames* > metaFrame > frameInfo
@@ -294,17 +315,17 @@ def extract_humdrum_frame(data, key):
             if (metaFrame['frameInfo']['referenceKey']) == key:
                 values.append(metaFrame['frameInfo']['referenceValue'])
 
-    return values
+    return [clean(x) for x in values]
 
 
 def extract_composer_s_dates(data):
-    return extract_humdrum_frame(data, 'CDT')
+    return read_humdrum_frame(data, 'CDT') + read_humdrum_frame(data, 'CDT2')
 
 
 def extract_genres(data):
     genres = []
 
-    for genre in extract_humdrum_frame(data, 'AGN'):
+    for genre in read_humdrum_frame(data, 'AGN'):
         _genres = genre.split(';')
         _genres = [g.strip() for g in _genres]
         genres += _genres
@@ -313,36 +334,74 @@ def extract_genres(data):
 
 
 def extract_scholarly_catalogue(data):
-    return extract_humdrum_frame(data, 'SCA')
+    return read_humdrum_frame(data, 'SCA')
 
 
 def extract_voices(data):
-    return extract_humdrum_frame(data, 'voices')
+    return read_humdrum_frame(data, 'voices')
 
 
 def extract_encoders(data):
-    return extract_humdrum_frame(data, 'ENC')
+    return read_humdrum_frame(data, 'ENC')
 
 
 def extract_encoding_dates_of_the_electronic_document(data):
-    return extract_humdrum_frame(data, 'END')
-
-
-def extract_electronic_editors(data):
-    return extract_humdrum_frame(data, 'EED')
+    return read_humdrum_frame(data, 'END')
 
 
 def extract_electronic_edition_versions(data):
-    return extract_humdrum_frame(data, 'EEV')
+    return read_humdrum_frame(data, 'EEV')
 
 
 def extract_nota_bene(data):
-    return [clean(x) for x in extract_humdrum_frame(data, 'ONB')]
+    return read_humdrum_frame(data, 'ONB')
+
+
+def extract_number(data):
+    return read_humdrum_frame(data, 'ONM')
+
+
+def extract_movement_designation(data):
+    return read_humdrum_frame(data, 'OMD')
+
+
+def extract_title_of_larger_work(data):
+    return read_humdrum_frame(data, 'OPR')
+
+
+def extract_rdfkern(data):
+    return read_humdrum_frame(data, 'RDF**kern')
+
+
+def extract_manuscript_source_name(data):
+    return read_humdrum_frame(data, 'SMS')
+
+
+def extract_system_decoration(data):
+    return read_humdrum_frame(data, 'system-decoration')
+
+
+def extract_voices_opr(data):
+    return read_humdrum_frame(data, 'voices-OPR')
+
+
+def extract_voices(data):
+    return read_humdrum_frame(data, 'voices')
+
+
+def extract_project_description(data):
+    with suppress(KeyError):
+        # encodingDesc > projectDesc > p*
+        return [x['value'] for x in (data['meiHead']['encodingDesc']['projectDesc']['p'])]
+    return []
 
 ########################################################################################################################
 # CALL SHERLOCK API
 ########################################################################################################################
 
+
+extract_functions = [v for k, v in globals().items() if k.startswith('extract_') and callable(v)]
+extract_functions = sorted(extract_functions, key=lambda x: x.__name__)
 
 for i, file in enumerate(mei_files_url):
     r = requests.post(
@@ -356,9 +415,9 @@ for i, file in enumerate(mei_files_url):
 
         print(f"    🌲 {i}/{len(mei_files_url)} 🌲 {file.replace('https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores', '')} 🌲")
 
-        for _ in ['composers', 'titles', 'subordinate_titles', 'composers', 'attributed_composers', 'editors', 'digital_editors', 'encoding_date', 'encoding_applications', 'distributor', 'lyricists', 'composer_s_dates', 'genres', 'scholarly_catalogue', 'scholarly_catalogue_abbreviation_and_number', 'voices', 'encoders', 'encoding_dates_of_the_electronic_document', 'electronic_edition_versions', 'nota_bene']:
-            func = globals()['extract_' + _]
-            print(f"    {_.ljust(50)} : {func(data)}")
+        for func in extract_functions:
+            func_name = func.__name__.replace('extract_', '')
+            print(f"    {func_name.ljust(50)} : {func(data)}")
 
     except requests.exceptions.HTTPError as err:
         pprint(file)
