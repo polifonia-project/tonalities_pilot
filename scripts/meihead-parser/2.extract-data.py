@@ -205,6 +205,8 @@ def extract_editors(data):
             if persName['role'] == 'editor' and persName['analog'] != 'humdrum:EED':
                 x.append(persName['value'])
 
+    x += _extract_role(data, 'arranger')
+
     return x
 
 
@@ -230,10 +232,6 @@ def extract_digital_editors(data):
 
 def extract_lyricists(data):
     return _extract_role(data, 'lyricist')
-
-
-def extract_arrangers(data):
-    return _extract_role(data, 'arranger')
 
 
 def extract_encoding_applications(data):
@@ -378,8 +376,6 @@ def pick_names(x):
 # python3 2.extract-data.py | grep • | grep -v "\[\]" | sort | uniq
 def cleanup_metadata(d):
     for k, v in d.items():
-        if k == "arrangers":
-            d[k] = pick_names(v)
         if k == "attributed_composers":
             pass
         if k == "composer_s_dates":
