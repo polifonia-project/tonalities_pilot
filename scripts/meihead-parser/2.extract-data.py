@@ -406,7 +406,6 @@ def cleanup_metadata(d):
         if k == "lyricists":
             pass
         if k == "manuscript_sources_names":
-            print('•', v)
             pass
         if k == "movement_designation":
             pass
