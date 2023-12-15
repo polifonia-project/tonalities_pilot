@@ -475,7 +475,9 @@ for i, file in enumerate(mei_files_url):
             print(f"   ERROR — {err}")
 
     if data:
-        d = {}
+        d = {
+            "score_uri": file
+        }
         for func in extract_functions:
             func_name = func.__name__.replace('extract_', '')
             x = func(data)

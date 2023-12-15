@@ -1,7 +1,7 @@
 import glob
 import json
 import os
-from rdflib import DCTERMS, Graph, Namespace, OWL, RDF, RDFS
+from rdflib import DCTERMS, Graph, Literal, Namespace, OWL, RDF, RDFS, URIRef
 import sys
 
 ################################################################################
@@ -37,10 +37,7 @@ for f in metadata_json_files:
     data = json.load(f)
     f.close()
 
-    for k, v in data.items():
-        if not v:
-            continue
-        print(v)
+    g.add((URIRef(data['score_uri']), RDF.type, MM['DigitalScore']))
 
 ################################################################################
 # THAT'S ALL FOLKS!
