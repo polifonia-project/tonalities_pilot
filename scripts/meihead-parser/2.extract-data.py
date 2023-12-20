@@ -434,6 +434,10 @@ def cleanup_metadata(d):
         if k == "voices_opr":
             pass
 
+    for k, v in d.items():
+        if k not in ['score_uri', 'encoding_applications']:
+            d[k] = sorted(v)
+
     return d
 
 ########################################################################################################################
