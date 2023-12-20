@@ -282,7 +282,7 @@ def read_humdrum_frame(data, key):
 
 
 def extract_composer_s_dates(data):
-    return read_humdrum_frame(data, 'CDT') + read_humdrum_frame(data, 'CDT2')
+    return list(set(read_humdrum_frame(data, 'CDT') + read_humdrum_frame(data, 'CDT2')))
 
 
 def extract_genres(data):
@@ -396,7 +396,7 @@ def cleanup_metadata(d):
         if k == "encoding_applications":
             pass
         if k == "encoding_dates":
-            d[k] = [str(v)]
+            d[k] = [str(v)] if d[k] else []
         if k == "encoding_dates_of_the_electronic_document":
             if v:
                 d[k] = [(lambda x: x[:-1] if x[-1] == '/' else x)(x) for x in v]

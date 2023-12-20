@@ -1,19 +1,20 @@
 import glob
 import json
 import os
-from rdflib import DCTERMS, Graph, Literal, Namespace, OWL, RDF, RDFS, URIRef
+from rdflib import DCTERMS, Graph, Literal, Namespace, OWL, RDF, RDFS, URIRef, XSD
 import sys
 
 ################################################################################
 # SETUP
 ################################################################################
 
-g = Graph()
 
 S = Namespace('http://data-iremus.huma-num.fr/id/')
 PC = Namespace('https://w3id.org/polifonia/ontology/core/')
 MR = Namespace('https://w3id.org/polifonia/ontology/music-representation/')
 MM = Namespace('https://w3id.org/polifonia/ontology/music-meta/')
+
+g = Graph(base=S)
 
 g.bind('dcterms', DCTERMS)
 g.bind('owl', OWL)
@@ -38,33 +39,84 @@ for f in metadata_json_files:
     data = json.load(f)
     f.close()
 
-    score_uri = URIRef(data['score_uri'])
+    score = URIRef(data['score_uri'])
 
     # https://github.com/polifonia-project/tonalities_pilot/blob/main/scores/scoresMeta_.owl
-    g.add((score_uri, RDF.type, MM['DigitalScore']))
-    edtionSituation = URIRef(cache.get_uuid([data['score_uri'], 'editionSituation', 'uuid'], True))
-    g.add((edtionSituation, RDF.type, MM['EditionSituation']))
+
+    g.add((score, RDF.type, MM['DigitalScore']))
+    music_entity = URIRef(cache.get_uuid([data['score_uri'], 'MusicEntity', 'uuid'], True))
+    g.add((music_entity, RDF.type, MM['MusicEntity']))
+    instrumentation = URIRef(cache.get_uuid([data['score_uri'], 'Instrumentation', 'uuid'], True))
+    g.add((music_entity, PC['hasPart'], instrumentation))
+    g.add((instrumentation, MM['hasScore'], score))
+    creative_process = URIRef(cache.get_uuid([data['score_uri'], 'CreativeProcess', 'uuid'], True))
+    g.add((creative_process, RDF.type, MM['CreativeProcess']))
+    g.add((creative_process, MM['creates'], music_entity))
+    creative_action = URIRef(cache.get_uuid([data['score_uri'], 'CreativeAction', 'uuid'], True))
+    g.add((creative_action, RDF.type, MM['CreativeAction']))
+    g.add((creative_process, MM['involvesCreativeAction'], creative_action))
+    creative_task = URIRef(cache.get_uuid([data['score_uri'], 'CreativeTask', 'uuid'], True))
+    g.add((creative_task, RDF.type, PC['CreativeTask']))
+    g.add((creative_task, RDF.type, MM['MusicWriting']))
+    g.add((creative_action, PC['executesTask'], creative_task))
+    publication_situation = URIRef(cache.get_uuid([data['score_uri'], 'PublicationSituation', 'uuid'], True))
+    original_edition_situation = URIRef(cache.get_uuid([data['score_uri'], 'OriginalEditionSituation', 'uuid'], True))
+    digital_edition_situation = URIRef(cache.get_uuid([data['score_uri'], 'DigitalEditionSituation', 'uuid'], True))
+    encoding_situation = URIRef(cache.get_uuid([data['score_uri'], 'EncodingSituation', 'uuid'], True))
+    g.add((publication_situation, RDF.type, MM['PublicationSituation']))
+    g.add((original_edition_situation, RDF.type, MM['OriginalEditionSituation']))
+    g.add((digital_edition_situation, RDF.type, MM['DigitalEditionSituation']))
+    g.add((encoding_situation, RDF.type, MM['EncodingSituation']))
+    g.add((score, MM['hasPublicationSituation'], publication_situation))
+    g.add((score, MM['hasOriginalEditionSituation'], original_edition_situation))
+    g.add((score, MM['hasDigitalEditionSituation'], digital_edition_situation))
+    g.add((score, MM['hasEncodingSituation'], encoding_situation))
+    g.add((digital_edition_situation, PC['isDerivedFrom'], original_edition_situation))
 
     for k, v in data.items():
         if k == "attributed_composers":
-            pass
+            for x in v:
+                composer = URIRef(cache.get_uuid(['composers', x, 'uuid'], True))
+                g.add((composer, RDF.type, MM['MusicArtist']))
+                g.add((creative_action, PC['involvesAgent'], composer))
+                g.add((composer, PC['isInvolvedIn'], creative_process))
+                g.add((composer, PC['name'], Literal(x)))
         if k == "composer_s_dates":
+            # C'est vraiment n'importe quoi, cf. Jos2710_CGN.mei
             pass
         if k == "composers":
-            pass
+            for x in v:
+                composer = URIRef(cache.get_uuid(['composers', x, 'uuid'], True))
+                g.add((composer, RDF.type, MM['MusicArtist']))
+                g.add((creative_action, PC['involvesAgent'], composer))
+                g.add((composer, PC['isInvolvedIn'], creative_process))
+                g.add((composer, PC['name'], Literal(x)))
         if k == "digital_editors":
-            pass
+            for x in v:
+                editor = URIRef(cache.get_uuid(['persons', x, 'uuid'], True))
+                g.add((digital_edition_situation, MM['hasEditor'], editor))
         if k == "distributors":
             pass
         if k == "editors":
-            pass
+            for x in v:
+                editor = URIRef(cache.get_uuid(['persons', x, 'uuid'], True))
+                g.add((original_edition_situation, MM['hasEditor'], editor))
         if k == "electronic_edition_versions":
             pass
         if k == "encoders":
-            pass
+            for x in v:
+                encoder = URIRef(cache.get_uuid(['persons', x, 'uuid'], True))
+                g.add((encoding_situation, MM['hasEncoder'], encoder))
         if k == "encoding_applications":
             pass
         if k == "encoding_dates":
+            for x in v:
+                x = x[:10]
+                time_interval = URIRef(cache.get_uuid([score, 'EncodingSituation', 'TimeInterval', x, 'uuid'], True))
+                g.add((encoding_situation, PC['hasTimeInterval'], time_interval))
+                g.add((time_interval, RDF.type, PC['TimeInterval']))
+                g.add((time_interval, PC['startTime'], Literal(x, datatype=XSD.date)))
+                g.add((time_interval, PC['endTime'], Literal(x, datatype=XSD.date)))
             pass
         if k == "encoding_dates_of_the_electronic_document":
             pass
@@ -97,7 +149,7 @@ for f in metadata_json_files:
         if k == "titles":
             for i in range(0, len(v)):
                 title_uri = URIRef(cache.get_uuid([data['score_uri'], 'titles', i], True))
-                g.add((score_uri, PC['hasTitle'], S[title_uri]))
+                g.add((score, PC['hasTitle'], S[title_uri]))
                 g.add((S[title_uri], RDF.type, PC['Title']))
                 g.add((S[title_uri], PC['name'], Literal(v[i])))
             pass
@@ -180,11 +232,6 @@ cache.bye()
 #         licence = targetOnto.MusicArtist(getUUID())
 #         licence.coreName.append(licence)
 #         return licence
-
-# def getMusicArtists(rootElement):
-#     meiComposers = getTextNodesFromXpath(rootElement, "//mei:work/mei:composer")
-#     humDrumComposers = getMetaDataFromHumdrumCodes(rootElement, "COM")
-#     return concatenateLists([meiComposers, humDrumComposers])
 
 # def getMusicArtistInstance (musicArtistName):
 #     #name
@@ -371,8 +418,7 @@ cache.bye()
 #     ''' read the mei file and get metadata'''
 #     rootElement = getRoot(meiURI)
 
-#     ''' composer, title '''
-#     musicArtists = getMusicArtists(rootElement)
+#     ''' title '''
 #     titles = getTitles (rootElement)
 
 
@@ -413,11 +459,6 @@ cache.bye()
 #         compositionPartInstance.hasInstrumentation.append(instrumentationInstance)
 #         instrumentationInstance.hasScore.append(digitalScoreInstance)
 #         digitalScoreInstance.hasPublicationSituation.append (publicationSituationInstance)
-
-#         ''' does a composer exist ? '''
-#         for element in musicArtists:
-#             musicArtistInstance = getMusicArtistInstance(element)
-#             creativeActionInstance.involvesAgent.append(musicArtistInstance)
 
 #         ''' does an opus statement exist '''
 #         for element in opusStatements:
