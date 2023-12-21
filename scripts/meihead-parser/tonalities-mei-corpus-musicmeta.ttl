@@ -938,6 +938,9 @@
     core:executesTask <3d2bf955-7cb9-43df-b973-a694124a5ada> ;
     core:involvesAgent <396a7bcc-c62d-4692-b3fd-98f58be34343> .
 
+<0e6261bc-6f41-4092-87f0-fcefa2f05c48> a core:CreativeTask,
+        mm:MusicWriting .
+
 <0e8e97ef-1ea8-4916-ab2d-a47b29e4713f> mm:hasScore <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/256.mei> .
 
 <0e9e7506-3bd0-4aec-8cbf-c42db500a624> a mm:DigitalEditionSituation ;
@@ -2326,6 +2329,10 @@
 
 <24e9b8cc-c8bc-4e10-b429-0440cd5aa22b> a mm:EncodingSituation .
 
+<2514df7c-42f7-46a0-a9ac-fb62fdd736b8> a mm:CreativeAction ;
+    core:executesTask <0e6261bc-6f41-4092-87f0-fcefa2f05c48> ;
+    core:involvesAgent <e3645306-b9bb-4d27-b029-29737800cc2d> .
+
 <25169868-47ad-4d7e-b075-93271cd0e2b4> a mm:DigitalEditionSituation ;
     core:isDerivedFrom <e06b8314-2ad5-469a-bb73-3a517e2e6aed> ;
     mm:hasEditor <0394b380-c78d-44e1-99ff-dacf26a77cd4> .
@@ -2362,6 +2369,9 @@
 <25bad52c-d6db-46b0-babf-b6aecbd98f6f> a mm:CreativeAction ;
     core:executesTask <aa9282c0-7c68-45f9-8d28-4b9714831c04> ;
     core:involvesAgent <fdb8ee87-ddbf-4599-9906-8e15c3221a70> .
+
+<25bc47f9-aecc-4d7c-9ede-0afa0d2ae514> a mm:EncodingSituation ;
+    core:hasTimeInterval <9b40c983-32c8-4255-80b7-920cb73416db> .
 
 <25c33d40-b786-425f-8468-0807c08de3e0> a mm:CreativeProcess ;
     mm:creates <07a8a3e4-c36d-40dd-a0ed-1c1f8c90d426> ;
@@ -2626,6 +2636,10 @@
 <2a5846d2-401b-4507-a7f8-5f0e147f39e0> a mm:DigitalEditionSituation ;
     core:isDerivedFrom <c15ddaad-3937-4d4f-9fa6-947526c82bc0> .
 
+<2a625656-3d0c-4859-a3e7-ce6129358301> a core:TimeInterval ;
+    core:endTime "2023-12-18"^^xsd:date ;
+    core:startTime "2023-12-18"^^xsd:date .
+
 <2a6683bb-5268-46e8-b1e6-d2fe96ed9750> a core:CreativeTask,
         mm:MusicWriting .
 
@@ -2752,6 +2766,10 @@
 
 <2c8c8b4a-f38d-4b4c-b6f0-7597de643eb1> a mm:EncodingSituation ;
     mm:hasEncoder <386a699b-cdf4-43a1-b21e-2b4e0659e473> .
+
+<2ca13290-2054-48a3-9857-6f543a2938bc> a mm:CreativeAction ;
+    core:executesTask <59c6f408-7dc8-454c-80ee-a0272f5e4e41> ;
+    core:involvesAgent <e3645306-b9bb-4d27-b029-29737800cc2d> .
 
 <2ca6fc8c-8868-442a-9a4d-af12a3fb866f> a mm:DigitalEditionSituation ;
     core:isDerivedFrom <8d5c9464-14a5-4551-8ed9-e149011868c2> .
@@ -3898,6 +3916,8 @@
 
 <3fef5ac6-c661-40cd-bd97-78fd3dd0b45d> a core:CreativeTask,
         mm:MusicWriting .
+
+<3ffb46f0-616f-4de4-95f9-375aadee1dcc> a mm:PublicationSituation .
 
 <401bdc86-bff1-40ff-a067-e747c585dcf6> a mm:DigitalEditionSituation ;
     core:isDerivedFrom <ba8da7e8-0f6b-431d-aaa1-eb00e72732ab> .
@@ -5572,6 +5592,9 @@
 <5982cbca-750f-4373-937b-08a95d0ce48d> a mm:MusicEntity ;
     core:hasPart <5d5967fa-9677-43f7-8caa-bd61b3f03ab1> .
 
+<59c6f408-7dc8-454c-80ee-a0272f5e4e41> a core:CreativeTask,
+        mm:MusicWriting .
+
 <59d85912-2fc9-4fbd-ad6b-99810d807387> a mm:CreativeProcess ;
     mm:creates <c5b49400-e1c3-40dd-996c-53f73790f3ef> ;
     mm:involvesCreativeAction <e28bff97-fa90-44bb-ab69-94449174e1b4> .
@@ -6850,6 +6873,9 @@
 <6db5d426-6f82-4165-9ddf-f8822228f625> a core:CreativeTask,
         mm:MusicWriting .
 
+<6dc98ef9-b485-4b9d-8a25-48533d8b3515> a mm:EncodingSituation ;
+    core:hasTimeInterval <2a625656-3d0c-4859-a3e7-ce6129358301> .
+
 <6de43828-f8d4-474c-837e-2ce7298302e1> a core:CreativeTask,
         mm:MusicWriting .
 
@@ -7565,6 +7591,9 @@
 
 <78bf0948-f623-4775-949f-a2353acde384> a mm:MusicEntity ;
     core:hasPart <dd5c83d6-ead9-4c87-b3ed-786375a089e3> .
+
+<78dfab2d-09c7-40ad-a4a3-781717154fe7> a mm:EncodingSituation ;
+    core:hasTimeInterval <a9ec1101-ade3-43ae-849e-513d49415150> .
 
 <78ec4149-bcfb-4afe-a81d-5187f0ba8c41> a mm:PublicationSituation .
 
@@ -9105,6 +9134,8 @@
 
 <905b368e-e26f-4ad4-a663-8a92b7f78952> a mm:PublicationSituation .
 
+<90632c31-fcc3-40ec-a93d-6213e154695d> mm:hasScore <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_Ego_Veni.mei> .
+
 <9068fe2f-9557-45c2-b1f8-165fafcde6ea> a mm:CreativeProcess ;
     mm:creates <14ded879-aa4b-45dc-84f5-cf3892bd5252> ;
     mm:involvesCreativeAction <48933bba-392c-4319-b581-de86be2c89ab> .
@@ -9520,6 +9551,9 @@
     mm:creates <d0262250-a614-43b7-9861-f3bb7901b02c> ;
     mm:involvesCreativeAction <9a2be33c-d5f6-4936-843c-55a49083dfa8> .
 
+<97e27058-e809-474f-8fe9-6704db22e94b> a mm:DigitalEditionSituation ;
+    core:isDerivedFrom <08567ee4-4882-4ad9-aa96-eea183d172b2> .
+
 <97fdd6d8-6db3-49ae-b0b7-d5981ffe4755> a mm:CreativeProcess ;
     mm:creates <fabb04d0-86d5-4589-b8bb-c0e9ae6e7af4> ;
     mm:involvesCreativeAction <ee414747-1828-4f12-9b50-33ee1f34a76b> .
@@ -9743,6 +9777,10 @@
 <9b3c1545-14f0-4dc1-8fa1-fb9060933af7> a mm:MusicArtist ;
     core:isInvolvedIn <e05c71c2-c10c-4d17-bd5c-447ea914c151> ;
     core:name "Johannes Joye" .
+
+<9b40c983-32c8-4255-80b7-920cb73416db> a core:TimeInterval ;
+    core:endTime "2023-12-20"^^xsd:date ;
+    core:startTime "2023-12-20"^^xsd:date .
 
 <9b4579e8-9a5d-4dbe-af93-b8aeeeacd4ea> a core:CreativeTask,
         mm:MusicWriting .
@@ -10265,6 +10303,9 @@
 <a3ce79da-e224-49dd-b990-ebd5526d4b6f> a mm:MusicEntity ;
     core:hasPart <06d23822-bd99-448c-83d8-d62f2881b147> .
 
+<a3d77d6e-2588-4eda-97fa-fdff05c433fa> a mm:DigitalEditionSituation ;
+    core:isDerivedFrom <ccdb499e-d4d1-4c0f-a6c4-3dc2e4773dd1> .
+
 <a3fd1dd8-628b-4ba0-b2e1-5ccc36f5b710> a mm:DigitalEditionSituation ;
     core:isDerivedFrom <690327e0-24a5-4996-9df1-17b6fded94e0> .
 
@@ -10667,6 +10708,10 @@
 <a9dbb448-1c30-4f80-bd04-84572248d648> a mm:CreativeProcess ;
     mm:creates <a7666e06-944d-47f9-b188-648af7e809d8> ;
     mm:involvesCreativeAction <813c64ff-7221-45a0-9c75-96dff2d7bd71> .
+
+<a9ec1101-ade3-43ae-849e-513d49415150> a core:TimeInterval ;
+    core:endTime "2023-12-18"^^xsd:date ;
+    core:startTime "2023-12-18"^^xsd:date .
 
 <a9eff19e-89ad-40fa-943f-1f0b279eaf6c> a mm:PublicationSituation .
 
@@ -11084,6 +11129,8 @@
     core:involvesAgent <59e58438-1bc1-4c32-af91-ebedaec571b5>,
         <fdb8ee87-ddbf-4599-9906-8e15c3221a70> .
 
+<b0e53c4e-3de1-49dc-ae0f-433e5da0c03a> a mm:PublicationSituation .
+
 <b0f87765-4ce7-46d7-a11d-e6fa78f550f7> a mm:CreativeProcess ;
     mm:creates <377ab448-c1cb-4946-a1db-124dc8722e01> ;
     mm:involvesCreativeAction <e68db684-e70b-4b6f-a6e0-16763e5b0fc6> .
@@ -11107,6 +11154,10 @@
     core:isDerivedFrom <e824b7e8-5987-4d5f-8823-7beb31ffb4c6> .
 
 <b1523555-6a65-40c4-993d-f2e45df204d8> mm:hasScore <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/038.mei> .
+
+<b1724888-e79b-488a-9f50-7939657a89da> a mm:CreativeProcess ;
+    mm:creates <c09d3f78-5dd1-4b96-af81-eac5d1c47cc7> ;
+    mm:involvesCreativeAction <2ca13290-2054-48a3-9857-6f543a2938bc> .
 
 <b1840600-c656-4b02-93a6-3046afc4ce59> mm:hasScore <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2729_CGN.mei> .
 
@@ -11738,6 +11789,9 @@
     core:executesTask <19d4d186-b33a-46cf-806e-d29a747e3882> ;
     core:involvesAgent <fdb8ee87-ddbf-4599-9906-8e15c3221a70> .
 
+<bd3d4ab1-5911-4e71-9ef6-c633c3d673ee> a mm:DigitalEditionSituation ;
+    core:isDerivedFrom <36f609bd-78ea-4bb9-a5d6-3572f70cc30e> .
+
 <bd55b9ec-1a45-4983-b441-330b243bc477> a mm:DigitalEditionSituation ;
     core:isDerivedFrom <4d98ddce-ae19-474a-807c-3625befad365> .
 
@@ -11978,6 +12032,9 @@
         mm:MusicWriting .
 
 <c05cfa01-491f-4020-a4d7-0766d81b95c1> a mm:PublicationSituation .
+
+<c09d3f78-5dd1-4b96-af81-eac5d1c47cc7> a mm:MusicEntity ;
+    core:hasPart <e8ff2fd9-21ab-408f-8f6d-ce7c53ac8f58> .
 
 <c09dc0ea-a034-4942-9ac8-904caa8c2582> a mm:PublicationSituation .
 
@@ -12531,6 +12588,8 @@
 
 <ca2f26c5-0956-4070-ad71-42a8ff6256e9> mm:hasScore <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/261.mei> .
 
+<ca38f959-8536-4ff7-874c-27c5c23b7736> a mm:PublicationSituation .
+
 <ca3ad54d-6e72-4e82-9f3e-a53268fda0a0> a core:CreativeTask,
         mm:MusicWriting .
 
@@ -12723,6 +12782,13 @@
 <ce3e35d8-ed3f-455f-9165-a41bfb33bee6> a core:CreativeTask,
         mm:MusicWriting .
 
+<ce3e4bbc-04f6-4b79-ae56-cd8294409aea> a mm:CreativeProcess ;
+    mm:creates <fd008373-f0c9-407f-a347-8db9eecf894d> ;
+    mm:involvesCreativeAction <2514df7c-42f7-46a0-a9ac-fb62fdd736b8> .
+
+<ce5aadf2-332d-493d-8a5c-4c5be4a3997d> a mm:MusicEntity ;
+    core:hasPart <90632c31-fcc3-40ec-a93d-6213e154695d> .
+
 <ce5edd05-8dd4-41d2-ba4c-3c3ee03eeb0d> a mm:DigitalEditionSituation ;
     core:isDerivedFrom <3ec38afa-cef1-4681-83d8-911353d705aa> .
 
@@ -12737,6 +12803,8 @@
 <ce84705f-af95-45d9-9e38-f1eeb2bc765d> a mm:CreativeProcess ;
     mm:creates <23160e3f-abb9-4420-9909-ba446ecc05b5> ;
     mm:involvesCreativeAction <0140706d-a611-4153-8949-a113ef05df2a> .
+
+<ce886cd7-cddf-49b6-a998-31ee2dbd0f6e> mm:hasScore <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_EgoRosaSaron_1.mei> .
 
 <ce8923d8-e7f9-47b4-b54e-3d3d097fb291> a mm:CreativeAction ;
     core:executesTask <f9b75df8-cf69-4276-96d2-ff1570eb8a93> ;
@@ -13283,6 +13351,10 @@
 <d843f0fa-ace8-42f9-9112-05b81ff8d462> a mm:CreativeProcess ;
     mm:creates <48ccaa32-76e1-4418-a327-d0b296c2307e> ;
     mm:involvesCreativeAction <7d125288-251f-4b73-8c4a-39ca8dd492ca> .
+
+<d86a092d-00ea-4b21-ba02-692586c2ea2a> a mm:CreativeProcess ;
+    mm:creates <ce5aadf2-332d-493d-8a5c-4c5be4a3997d> ;
+    mm:involvesCreativeAction <f88fadb1-23dd-41e5-a1d4-c4590408e2ab> .
 
 <d86c05f3-c631-4d69-8d3a-23eaf148b030> a mm:PublicationSituation .
 
@@ -14277,6 +14349,9 @@
 
 <e6e5284c-91e2-4401-aadd-91e112a126e4> a mm:PublicationSituation .
 
+<e6e6a70d-c60e-4f85-abc6-9901347e73e0> a core:CreativeTask,
+        mm:MusicWriting .
+
 <e6ef3512-2a5b-4ee3-bb30-6d9fe15f0231> a mm:DigitalEditionSituation ;
     core:isDerivedFrom <5ac37ec9-c9b4-41b2-b43a-50146e73432f> ;
     mm:hasEditor <0394b380-c78d-44e1-99ff-dacf26a77cd4> .
@@ -14396,6 +14471,8 @@
 <e8fba73b-daa2-4f82-b74d-823401479449> a mm:CreativeProcess ;
     mm:creates <10f00027-dce7-4421-86a4-d3e44be4a5af> ;
     mm:involvesCreativeAction <f96ee31d-1b18-4625-b462-4a0689031646> .
+
+<e8ff2fd9-21ab-408f-8f6d-ce7c53ac8f58> mm:hasScore <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_EgoRosaSaron_2.mei> .
 
 <e90a13ec-6176-4737-a52a-78f59b5bfe8c> a mm:MusicEntity ;
     core:hasPart <9e112d2d-d82d-48ae-a2c6-5fcf4f516804> .
@@ -15321,6 +15398,10 @@
 
 <f88605bd-8ceb-4cbb-bf7a-35fcd15c153d> a mm:PublicationSituation .
 
+<f88fadb1-23dd-41e5-a1d4-c4590408e2ab> a mm:CreativeAction ;
+    core:executesTask <e6e6a70d-c60e-4f85-abc6-9901347e73e0> ;
+    core:involvesAgent <e3645306-b9bb-4d27-b029-29737800cc2d> .
+
 <f8b65fbb-287b-423f-9579-b854e781db68> mm:hasScore <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/305.mei> .
 
 <f8c1bc17-a303-4a59-ae2c-f97a4d8cb7e0> a mm:CreativeProcess ;
@@ -15565,6 +15646,9 @@
 <fce7ed9a-ee56-4779-b982-3d79fe97f2ca> a mm:CreativeAction ;
     core:executesTask <67f0f31f-59da-49f5-8318-973656ebe58a> ;
     core:involvesAgent <fdb8ee87-ddbf-4599-9906-8e15c3221a70> .
+
+<fd008373-f0c9-407f-a347-8db9eecf894d> a mm:MusicEntity ;
+    core:hasPart <ce886cd7-cddf-49b6-a998-31ee2dbd0f6e> .
 
 <fd049c3f-a245-485e-94ce-ccdf757b78b0> a core:CreativeTask,
         mm:MusicWriting .
@@ -17445,6 +17529,9 @@
 <d283dd90-6998-45a3-a191-2e607ffcce91> a core:Title ;
     core:name "Vom Himmel hoch, da komm ich her" .
 
+<d2865af6-de03-4071-95a6-ac2fd75d4344> a core:Title ;
+    core:name "Ego veni in hortum meum" .
+
 <d317d0cf-a188-4f58-86df-d9fcad202ee3> a core:Title ;
     core:name "Ach bleib bei uns, Herr Jesu Christ" .
 
@@ -17456,6 +17543,9 @@
 
 <d43cd84d-a78b-4ca7-a97a-36eff648e7e4> a core:Title ;
     core:name "Was Gott tut, das ist wohlgetan" .
+
+<d4cbd1c2-5ceb-4f36-8596-17d0d082b617> a core:Title ;
+    core:name "Ego rosa Saron" .
 
 <d5752877-3054-4bca-af7f-aa907c5bc907> a core:Title ;
     core:name "Christus, der uns selig macht" .
@@ -17666,6 +17756,9 @@
 
 <f4ce1d06-ba27-4886-949d-0fe211af1b8d> a core:Title ;
     core:name "Douleur me bat" .
+
+<f4fd98e8-9167-4011-9098-4f39f3c8846d> a core:Title ;
+    core:name "Ego rosa Saron" .
 
 <f55abf47-ad07-493b-babe-045195bc024e> a core:Title ;
     core:name "Jesu meines Herzens Freud" .
@@ -22326,6 +22419,27 @@
     mm:hasOriginalEditionSituation <690327e0-24a5-4996-9df1-17b6fded94e0> ;
     mm:hasPublicationSituation <1e110111-4809-47a8-8b73-f980c0cd60d1> .
 
+<https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_EgoRosaSaron_1.mei> a mm:DigitalScore ;
+    core:hasTitle <d4cbd1c2-5ceb-4f36-8596-17d0d082b617> ;
+    mm:hasDigitalEditionSituation <bd3d4ab1-5911-4e71-9ef6-c633c3d673ee> ;
+    mm:hasEncodingSituation <78dfab2d-09c7-40ad-a4a3-781717154fe7> ;
+    mm:hasOriginalEditionSituation <36f609bd-78ea-4bb9-a5d6-3572f70cc30e> ;
+    mm:hasPublicationSituation <ca38f959-8536-4ff7-874c-27c5c23b7736> .
+
+<https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_EgoRosaSaron_2.mei> a mm:DigitalScore ;
+    core:hasTitle <f4fd98e8-9167-4011-9098-4f39f3c8846d> ;
+    mm:hasDigitalEditionSituation <97e27058-e809-474f-8fe9-6704db22e94b> ;
+    mm:hasEncodingSituation <6dc98ef9-b485-4b9d-8a25-48533d8b3515> ;
+    mm:hasOriginalEditionSituation <08567ee4-4882-4ad9-aa96-eea183d172b2> ;
+    mm:hasPublicationSituation <b0e53c4e-3de1-49dc-ae0f-433e5da0c03a> .
+
+<https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_Ego_Veni.mei> a mm:DigitalScore ;
+    core:hasTitle <d2865af6-de03-4071-95a6-ac2fd75d4344> ;
+    mm:hasDigitalEditionSituation <a3d77d6e-2588-4eda-97fa-fdff05c433fa> ;
+    mm:hasEncodingSituation <25bc47f9-aecc-4d7c-9ede-0afa0d2ae514> ;
+    mm:hasOriginalEditionSituation <ccdb499e-d4d1-4c0f-a6c4-3dc2e4773dd1> ;
+    mm:hasPublicationSituation <3ffb46f0-616f-4de4-95f9-375aadee1dcc> .
+
 <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei> a mm:DigitalScore ;
     core:hasTitle <764406b0-50d6-496c-9b44-f0d3a7f2ac00> ;
     mm:hasDigitalEditionSituation <3e4eab50-b32c-4ef9-953a-6db2c04488e6> ;
@@ -22390,6 +22504,9 @@
     core:name "Jacquet de Mantua" .
 
 <07c74bdc-2e25-4d9c-b530-6f4788f71163> a mm:OriginalEditionSituation .
+
+<08567ee4-4882-4ad9-aa96-eea183d172b2> a mm:OriginalEditionSituation ;
+    mm:hasEditor <3fcabc39-6bbb-4dab-84ab-3e7499362cc5> .
 
 <086c0378-993b-43fd-9878-97b0d601f1e2> a mm:OriginalEditionSituation .
 
@@ -22697,6 +22814,9 @@
 <367a806a-d062-401c-9ef3-32e3b8a0df50> a mm:OriginalEditionSituation .
 
 <36dff5a8-889d-4d6e-a205-dd08a9150d2f> a mm:OriginalEditionSituation .
+
+<36f609bd-78ea-4bb9-a5d6-3572f70cc30e> a mm:OriginalEditionSituation ;
+    mm:hasEditor <3fcabc39-6bbb-4dab-84ab-3e7499362cc5> .
 
 <3733b57d-5c81-45db-b1b6-ba3e5316ba1b> a mm:OriginalEditionSituation .
 
@@ -23611,6 +23731,9 @@
 
 <cbc2d11f-e10a-4221-996c-2bc820d41e75> a mm:OriginalEditionSituation .
 
+<ccdb499e-d4d1-4c0f-a6c4-3dc2e4773dd1> a mm:OriginalEditionSituation ;
+    mm:hasEditor <3fcabc39-6bbb-4dab-84ab-3e7499362cc5> .
+
 <ccea416e-99f9-47be-abe1-aed0ea5b4605> a mm:OriginalEditionSituation .
 
 <cd60075c-6915-4726-89c0-9d9a716b5604> a mm:OriginalEditionSituation .
@@ -24046,13 +24169,6 @@
     mm:creates <77ca68ab-4a4d-47ac-822f-0258479b819b> ;
     mm:involvesCreativeAction <407ead3a-c3af-4b76-8ac7-de72c3949555> .
 
-<e3645306-b9bb-4d27-b029-29737800cc2d> a mm:MusicArtist ;
-    core:isInvolvedIn <39fc5d3e-c474-4863-86f7-fd8005a09b42>,
-        <4ada72ff-b7e7-4473-ad05-d60305fb9cdd>,
-        <bad45bc9-b65c-4bc8-81fb-5f619bea9b7c>,
-        <f8c1bc17-a303-4a59-ae2c-f97a4d8cb7e0> ;
-    core:name "Gioseffo Zarlino" .
-
 <151eb44b-48e8-447e-8724-2cfb29e61a3e> a mm:MusicArtist ;
     core:isInvolvedIn <0b74bd7b-5a1e-4e09-ab25-371166c5637a>,
         <143d1d70-eed4-4db9-afd5-8678f82452cc>,
@@ -24087,6 +24203,16 @@
         <9947ca41-1908-4c5b-8773-5863779767de>,
         <fa19d995-1036-49f5-851c-b98c48f1632b> ;
     core:name "Adrian Willaert (c.1490-1562)" .
+
+<e3645306-b9bb-4d27-b029-29737800cc2d> a mm:MusicArtist ;
+    core:isInvolvedIn <39fc5d3e-c474-4863-86f7-fd8005a09b42>,
+        <4ada72ff-b7e7-4473-ad05-d60305fb9cdd>,
+        <b1724888-e79b-488a-9f50-7939657a89da>,
+        <bad45bc9-b65c-4bc8-81fb-5f619bea9b7c>,
+        <ce3e4bbc-04f6-4b79-ae56-cd8294409aea>,
+        <d86a092d-00ea-4b21-ba02-692586c2ea2a>,
+        <f8c1bc17-a303-4a59-ae2c-f97a4d8cb7e0> ;
+    core:name "Gioseffo Zarlino" .
 
 <af03d34c-cb6c-48b1-9246-7dc8eef81e45> a mm:MusicArtist ;
     core:isInvolvedIn <2a260b39-2d72-4bb1-92c0-487bc2e5b7e3>,
