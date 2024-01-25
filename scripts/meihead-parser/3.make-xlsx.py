@@ -23,7 +23,7 @@ for f in json_files:
     with open(f, 'r', encoding='utf-8') as f:
         d = json.load(f)
         for k, v in d.items():
-            if k == "encoding_applications":
+            if k in ["score_uri", "encoding_applications"]:
                 d[k] = [json.dumps(v)]
             d[k] = ' 🍄 '.join(d[k])
         d['_score'] = '/'.join(f.name.split('/')[1:]).replace('.json', '')
