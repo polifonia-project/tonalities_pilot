@@ -121,7 +121,11 @@ for f in metadata_json_files:
         if k == "encoding_dates_of_the_electronic_document":
             pass
         if k == "genres":
-            pass
+            for x in v:
+                genre = URIRef(cache.get_uuid(['genres', x, 'uuid'], True))
+                g.add((music_entity, MM['hasGenre'], genre))
+                g.add((genre, RDF.type, MM['MusicGenre']))
+                g.add((genre, RDFS.label, Literal(x, datatype=XSD.string)))
         if k == "lyricists":
             pass
         if k == "manuscript_sources_names":
