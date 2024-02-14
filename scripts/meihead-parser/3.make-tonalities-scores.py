@@ -19,8 +19,8 @@ for f in json_files:
         d = json.load(f)
         json_object.append({
             "score_uri": d['score_uri'],
-            "composers": '🍄'.join(d['composers']),
-            "titles": '🍄'.join(d['titles']),
+            "composers": ' 🍄 '.join(d['composers']),
+            "titles": ' 🍄 '.join(d['titles']),
         })
 
 # ########################################################################################################################
