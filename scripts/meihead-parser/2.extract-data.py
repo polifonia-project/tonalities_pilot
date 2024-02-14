@@ -49,29 +49,33 @@ def normalise(s):
 def _extract_role(data, role):
     x = []
 
-    # fileDesc > titleStmt > respStmt > persName{@role=?}
+    # fileDesc > titleStmt > respStmt* > persName{@role=?}
     with suppress(KeyError):
-        for persName in data['meiHead']['fileDesc']['titleStmt']['respStmt']['persName']:
-            if persName['role'] == role:
-                x.append(persName['value'])
+        for respStmt in data['meiHead']['fileDesc']['titleStmt']['respStmt']:
+            for persName in respStmt['persName']:
+                if persName['role'] == role:
+                    x.append(persName['value'])
 
-    # fileDesc > sourceDesc > source > titleStmt > respStmt > name{@role=?}
+    # fileDesc > sourceDesc > source > titleStmt > respStmt* > name{@role=?}
     with suppress(KeyError):
-        for name in data['meiHead']['fileDesc']['sourceDesc']['source']['titleStmt']['respStmt']['name']:
-            if name['role'] == role:
-                x.append(name['value'])
+        for respStmt in data['meiHead']['fileDesc']['sourceDesc']['source']['titleStmt']['respStmt']:
+            for name in respStmt['name']:
+                if name['role'] == role:
+                    x.append(name['value'])
 
-    # fileDesc > titleStmt > respStmt > name{@role=?}
+    # fileDesc > titleStmt > respStmt* > name{@role=?}
     with suppress(KeyError):
-        for name in data['meiHead']['fileDesc']['titleStmt']['respStmt']['name']:
-            if name['role'] == role:
-                x.append(name['value'])
+        for respStmt in data['meiHead']['fileDesc']['titleStmt']['respStmt']:
+            for name in respStmt['name']:
+                if name['role'] == role:
+                    x.append(name['value'])
 
-    # workDesc > work > titleStmt > respStmt > name{@role=composer}
+    # workDesc > work > titleStmt > respStmt* > name{@role=composer}
     with suppress(KeyError):
-        for name in data['meiHead']['workDesc']['work']['titleStmt']['respStmt']['name']:
-            if name['role'] == role:
-                x.append(name['value'])
+        for respStmt in data['meiHead']['workDesc']['work']['titleStmt']['respStmt']:
+            for name in respStmt['name']:
+                if name['role'] == role:
+                    x.append(name['value'])
 
     return list(set(x))
 
@@ -193,17 +197,19 @@ def extract_distributors(data):
 def extract_editors(data):
     x = []
 
-    # fileDesc > titleStmt > respStmt > persName{@role="editor"}
+    # fileDesc > titleStmt > respStmt* > persName{@role="editor"}
     with suppress(KeyError):
-        for persName in data['meiHead']['fileDesc']['titleStmt']['respStmt']['persName']:
-            if persName['role'] == 'editor':
-                x.append(persName['value'])
+        for respStmt in data['meiHead']['fileDesc']['titleStmt']['respStmt']:
+            for persName in respStmt['persName']:
+                if persName['role'] == 'editor':
+                    x.append(persName['value'])
 
-    # fileDesc > pubStmt > respStmt > persName{@role="editor"}
+    # fileDesc > pubStmt > respStmt* > persName{@role="editor"}
     with suppress(KeyError):
-        for persName in data['meiHead']['fileDesc']['pubStmt']['respStmt']['persName']:
-            if persName['role'] == 'editor' and persName['analog'] != 'humdrum:EED':
-                x.append(persName['value'])
+        for respStmt in data['meiHead']['fileDesc']['pubStmt']['respStmt']:
+            for persName in respStmt['persName']:
+                if persName['role'] == 'editor' and persName['analog'] != 'humdrum:EED':
+                    x.append(persName['value'])
 
     x += _extract_role(data, 'arranger')
 
@@ -213,19 +219,21 @@ def extract_editors(data):
 def extract_digital_editors(data):
     x = []
 
-    # fileDesc > pubStmt > respStmt > persName{@role="digital editor"}
+    # fileDesc > pubStmt > respStmt* > persName{@role="digital editor"}
     with suppress(KeyError):
-        for persName in data['meiHead']['fileDesc']['pubStmt']['respStmt']['persName']:
-            if persName['role'] == 'digital editor':
-                x.append(' '.join(persName['value'].replace('\n', '').split()))
+        for respStmt in data['meiHead']['fileDesc']['pubStmt']['respStmt']:
+            for persName in respStmt['persName']:
+                if persName['role'] == 'digital editor':
+                    x.append(' '.join(persName['value'].replace('\n', '').split()))
 
     x += read_humdrum_frame(data, 'EED')
 
-    # fileDesc > pubStmt > respStmt > persName{@role="editor" @analog="humdrum:EED"}
+    # fileDesc > pubStmt > respStmt* > persName{@role="editor" @analog="humdrum:EED"}
     with suppress(KeyError):
-        for persName in data['meiHead']['fileDesc']['pubStmt']['respStmt']['persName']:
-            if persName['role'] == 'editor' and persName['analog'] == 'humdrum:EED':
-                x.append(persName['value'])
+        for respStmt in data['meiHead']['fileDesc']['pubStmt']['respStmt']:
+            for persName in respStmt['persName']:
+                if persName['role'] == 'editor' and persName['analog'] == 'humdrum:EED':
+                    x.append(persName['value'])
 
     return list(set(x))
 
@@ -475,8 +483,7 @@ for i, file in enumerate(mei_files_url):
             with open(cache_file, 'w', encoding='utf-8') as f:
                 json.dump(data, f, ensure_ascii=False, indent=4)
         except requests.exceptions.HTTPError as err:
-            print(f"   {file}")
-            print(f"   ERROR — {err}")
+            print(f"   ERROR — {err} — {file}")
 
     if data:
         d = {
