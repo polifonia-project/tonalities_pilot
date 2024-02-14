@@ -27,5 +27,5 @@ for f in json_files:
 # # THAT'S ALL FOLKS!
 # ########################################################################################################################
 
-with open("tonalities-scores.json", "w") as outfile:
-    outfile.write(json.dumps(json_object, indent=4))
+with open("tonalities-scores.json", "w", encoding='utf8') as outfile:
+    outfile.write(json.dumps(json_object, indent=4, ensure_ascii=False))
