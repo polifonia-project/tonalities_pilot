@@ -1,0 +1,909 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="https://data-iremus.huma-num.fr/sherlock/id/representation/"
+         xmlns:musi="https://w3id.org/polifonia/ontology/music-representation/"
+         xmlns:musi2="https://w3id.org/polifonia/ontology/music-meta/"
+         xmlns:core="https://w3id.org/polifonia/ontology/core/"
+         xmlns:term="http://purl.org/dc/terms/"
+         xmlns="https://data-iremus.huma-num.fr/sherlock/id/representation/">
+
+<owl:Ontology rdf:about="https://data-iremus.huma-num.fr/sherlock/id/representation">
+  <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/music-representation"/>
+  <owl:imports rdf:resource="http://purl.org/dc/terms"/>
+</owl:Ontology>
+
+<musi:Annotator rdf:about="5d7bdf74-addd-418b-ab43-38af4e70c158">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Annotator>
+
+<musi2:Score rdf:about="https://raw.githubusercontent.com/guillotel-nothmann/Josquin/main/Josquin_Chansons/Jos2806_CGN.mei"/>
+
+<musi:Analysis rdf:about="38a842fe-2b80-481f-ae1f-723dba0a9d54">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:involvesAnalyst rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <core:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cadence analysis with Cadences_FilaberGuillotelGurrieri_2023</core:title>
+</musi:Analysis>
+
+<musi2:Score rdf:about="https://raw.githubusercontent.com/guillotel-nothmann/Josquin/main/Josquin_Chansons/Jos2807_CGN.mei">
+  <musi:hasAnnotation rdf:resource="88aea161-1f83-490f-9b42-9ad736c09afa"/>
+  <musi:hasAnnotation rdf:resource="f4d82d82-a4c9-4560-bc49-92f538aa94cf"/>
+  <musi:hasAnnotation rdf:resource="34c03832-eede-4e8c-b201-73b727d0f7e4"/>
+  <musi:hasAnnotation rdf:resource="d8be2405-9eb5-4cd0-b694-2bb87297c54d"/>
+  <musi:hasAnnotation rdf:resource="2099ed1b-b2e4-48c7-bb0e-edba820b6d81"/>
+  <musi:hasAnnotation rdf:resource="1b0b16f2-8652-4ace-955b-4e4cc2abdd8f"/>
+  <musi:hasAnnotation rdf:resource="565da3a3-2b76-4c5a-bf5d-4f0b5f559380"/>
+  <musi:hasAnnotation rdf:resource="62b577cf-6daf-490f-917a-25f723c71723"/>
+  <musi:hasAnnotation rdf:resource="5202bb81-b01f-4a42-a4a8-fbfff58a77cf"/>
+  <musi:hasAnnotation rdf:resource="e8477edc-b178-46a0-bbe0-51d63867799f"/>
+  <musi:hasAnnotation rdf:resource="0e5ad579-3e9c-421b-8269-9cc2270050ca"/>
+  <musi:hasAnnotation rdf:resource="28293718-812a-44ab-8809-0e23dcb300a7"/>
+  <musi:hasAnnotation rdf:resource="3092630c-3358-4377-a016-336c5d477a8e"/>
+  <musi:hasAnnotation rdf:resource="ec272c41-425a-4d02-a366-d58179edda35"/>
+  <musi:hasAnnotation rdf:resource="630010af-7fe3-4b94-b137-c456ede35ed1"/>
+  <musi:hasAnnotation rdf:resource="0ad2eae5-e271-4830-94c3-d5eb6361e4ec"/>
+  <musi:hasAnnotation rdf:resource="2f034c32-9b33-4689-b388-86a77dde5224"/>
+  <musi:hasAnnotation rdf:resource="15a1803c-54a3-4cf8-8507-e0bc9a798eec"/>
+  <musi:hasAnnotation rdf:resource="680e9a6d-b63a-41e2-b9d7-47443fe76099"/>
+  <musi:hasAnnotation rdf:resource="7438da9b-737b-482b-8746-769629b78bb6"/>
+  <musi:hasAnnotation rdf:resource="4086e7cb-eb11-4c1e-83cf-e8bb89ff3685"/>
+  <musi:hasAnnotation rdf:resource="9bf5357c-7ed1-4345-a8ea-51cdb0a9d814"/>
+  <musi:hasAnnotation rdf:resource="32fc93cf-8a27-4881-8190-def73da40eeb"/>
+  <musi:hasAnnotation rdf:resource="de228231-1700-4c64-91d5-255a7ad99439"/>
+  <musi:hasAnnotation rdf:resource="da7ea67d-fed1-460b-b324-bfcbcf3a4112"/>
+  <musi:hasAnnotation rdf:resource="55a8cd6d-03f0-40fb-88dc-81a9fe787642"/>
+  <musi:hasAnnotation rdf:resource="dab9a6bc-49a7-4cd8-8f82-b0eb1a7d9868"/>
+  <musi:hasAnnotation rdf:resource="36d94be0-3ff3-4b60-96f3-e9a27301a15c"/>
+  <musi:hasAnnotation rdf:resource="b639591c-f135-453f-a2da-cf3ebc176709"/>
+  <musi:hasAnnotation rdf:resource="780f2bea-0b5b-4c63-b417-23a5dd17c883"/>
+  <musi:hasAnnotation rdf:resource="fb9c051a-9fa0-4a8a-8ba2-f81f2983314a"/>
+  <musi:hasAnnotation rdf:resource="fd31fd81-ea4b-4404-a4ba-c665cf937f9f"/>
+  <musi:hasAnnotation rdf:resource="72341227-29b5-4e06-9f86-6102beb038cc"/>
+  <musi:hasAnnotation rdf:resource="57da06d4-0e85-4420-b1fe-436367604c92"/>
+  <musi:hasAnnotation rdf:resource="9be8c08d-5b3e-411c-817b-a3de1a5d068e"/>
+  <musi:hasAnnotation rdf:resource="dc693d10-aade-4902-980d-be33d6c3dc52"/>
+  <musi:hasAnnotation rdf:resource="40b1b388-608a-49af-ac7b-533c6603f464"/>
+  <musi:hasAnnotation rdf:resource="04411bb6-881b-4d6f-94f2-12a4b6387dfb"/>
+  <musi:hasAnnotation rdf:resource="5f7e7bba-6531-486b-ab14-4ed499deee51"/>
+  <musi:hasAnnotation rdf:resource="4a73f2c0-2041-4a00-a18c-c8b386ac5ce4"/>
+  <musi:hasAnnotation rdf:resource="9572611d-68ec-4dc3-83fe-32e640cb1290"/>
+  <musi:hasAnnotation rdf:resource="eaf2ca21-a6f9-432c-b996-7bcb67402f68"/>
+</musi2:Score>
+
+<musi:Analysis rdf:about="7d24e960-498a-4173-b79c-9a068b0e9861">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasAnnotation rdf:resource="88aea161-1f83-490f-9b42-9ad736c09afa"/>
+  <musi:hasAnnotation rdf:resource="f4d82d82-a4c9-4560-bc49-92f538aa94cf"/>
+  <musi:hasAnnotation rdf:resource="34c03832-eede-4e8c-b201-73b727d0f7e4"/>
+  <musi:hasAnnotation rdf:resource="d8be2405-9eb5-4cd0-b694-2bb87297c54d"/>
+  <musi:hasAnnotation rdf:resource="2099ed1b-b2e4-48c7-bb0e-edba820b6d81"/>
+  <musi:hasAnnotation rdf:resource="1b0b16f2-8652-4ace-955b-4e4cc2abdd8f"/>
+  <musi:hasAnnotation rdf:resource="565da3a3-2b76-4c5a-bf5d-4f0b5f559380"/>
+  <musi:hasAnnotation rdf:resource="62b577cf-6daf-490f-917a-25f723c71723"/>
+  <musi:hasAnnotation rdf:resource="5202bb81-b01f-4a42-a4a8-fbfff58a77cf"/>
+  <musi:hasAnnotation rdf:resource="e8477edc-b178-46a0-bbe0-51d63867799f"/>
+  <musi:hasAnnotation rdf:resource="0e5ad579-3e9c-421b-8269-9cc2270050ca"/>
+  <musi:hasAnnotation rdf:resource="28293718-812a-44ab-8809-0e23dcb300a7"/>
+  <musi:hasAnnotation rdf:resource="3092630c-3358-4377-a016-336c5d477a8e"/>
+  <musi:hasAnnotation rdf:resource="ec272c41-425a-4d02-a366-d58179edda35"/>
+  <musi:hasAnnotation rdf:resource="630010af-7fe3-4b94-b137-c456ede35ed1"/>
+  <musi:hasAnnotation rdf:resource="0ad2eae5-e271-4830-94c3-d5eb6361e4ec"/>
+  <musi:hasAnnotation rdf:resource="2f034c32-9b33-4689-b388-86a77dde5224"/>
+  <musi:hasAnnotation rdf:resource="15a1803c-54a3-4cf8-8507-e0bc9a798eec"/>
+  <musi:hasAnnotation rdf:resource="680e9a6d-b63a-41e2-b9d7-47443fe76099"/>
+  <musi:hasAnnotation rdf:resource="7438da9b-737b-482b-8746-769629b78bb6"/>
+  <musi:hasAnnotation rdf:resource="4086e7cb-eb11-4c1e-83cf-e8bb89ff3685"/>
+  <musi:hasAnnotation rdf:resource="9bf5357c-7ed1-4345-a8ea-51cdb0a9d814"/>
+  <musi:hasAnnotation rdf:resource="32fc93cf-8a27-4881-8190-def73da40eeb"/>
+  <musi:hasAnnotation rdf:resource="de228231-1700-4c64-91d5-255a7ad99439"/>
+  <musi:hasAnnotation rdf:resource="da7ea67d-fed1-460b-b324-bfcbcf3a4112"/>
+  <musi:hasAnnotation rdf:resource="55a8cd6d-03f0-40fb-88dc-81a9fe787642"/>
+  <musi:hasAnnotation rdf:resource="dab9a6bc-49a7-4cd8-8f82-b0eb1a7d9868"/>
+  <musi:hasAnnotation rdf:resource="36d94be0-3ff3-4b60-96f3-e9a27301a15c"/>
+  <musi:hasAnnotation rdf:resource="b639591c-f135-453f-a2da-cf3ebc176709"/>
+  <musi:hasAnnotation rdf:resource="780f2bea-0b5b-4c63-b417-23a5dd17c883"/>
+  <musi:hasAnnotation rdf:resource="fb9c051a-9fa0-4a8a-8ba2-f81f2983314a"/>
+  <musi:hasAnnotation rdf:resource="fd31fd81-ea4b-4404-a4ba-c665cf937f9f"/>
+  <musi:hasAnnotation rdf:resource="72341227-29b5-4e06-9f86-6102beb038cc"/>
+  <musi:hasAnnotation rdf:resource="57da06d4-0e85-4420-b1fe-436367604c92"/>
+  <musi:hasAnnotation rdf:resource="9be8c08d-5b3e-411c-817b-a3de1a5d068e"/>
+  <musi:hasAnnotation rdf:resource="dc693d10-aade-4902-980d-be33d6c3dc52"/>
+  <musi:hasAnnotation rdf:resource="40b1b388-608a-49af-ac7b-533c6603f464"/>
+  <musi:hasAnnotation rdf:resource="04411bb6-881b-4d6f-94f2-12a4b6387dfb"/>
+  <musi:hasAnnotation rdf:resource="5f7e7bba-6531-486b-ab14-4ed499deee51"/>
+  <musi:hasAnnotation rdf:resource="4a73f2c0-2041-4a00-a18c-c8b386ac5ce4"/>
+  <musi:hasAnnotation rdf:resource="9572611d-68ec-4dc3-83fe-32e640cb1290"/>
+  <musi:hasAnnotation rdf:resource="eaf2ca21-a6f9-432c-b996-7bcb67402f68"/>
+  <musi:involvesAnalyst rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <core:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cadence analysis with Cadences_FilaberGuillotelGurrieri_2023</core:title>
+</musi:Analysis>
+
+<musi:Annotation rdf:about="88aea161-1f83-490f-9b42-9ad736c09afa">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="c1b4ec27-751c-46a7-a7f8-692ab061f532_note-L92F7"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="fe94f412-13d6-4507-98a3-057899a4e235"/>
+  <core:isDerivedFrom rdf:resource="72341227-29b5-4e06-9f86-6102beb038cc"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="fe94f412-13d6-4507-98a3-057899a4e235">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cantizans_C"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="c1b4ec27-751c-46a7-a7f8-692ab061f532_note-L92F7">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="f4d82d82-a4c9-4560-bc49-92f538aa94cf">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="82a5bdfe-951c-44d7-8421-63946ad85cee_note-L157F7"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="887ecf7b-53af-472a-a7c9-013ca154c7c4"/>
+  <core:isDerivedFrom rdf:resource="57da06d4-0e85-4420-b1fe-436367604c92"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="887ecf7b-53af-472a-a7c9-013ca154c7c4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cantizans_C"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="82a5bdfe-951c-44d7-8421-63946ad85cee_note-L157F7">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="34c03832-eede-4e8c-b201-73b727d0f7e4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="544cdeb0-b12c-4fc0-961c-3b444885e889_note-L214F7"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="c4b8b547-0c2e-4019-a4ac-c842ecc7a63a"/>
+  <core:isDerivedFrom rdf:resource="9be8c08d-5b3e-411c-817b-a3de1a5d068e"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="c4b8b547-0c2e-4019-a4ac-c842ecc7a63a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cantizans_C"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="544cdeb0-b12c-4fc0-961c-3b444885e889_note-L214F7">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="d8be2405-9eb5-4cd0-b694-2bb87297c54d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="bc1956a8-9468-4327-964e-47f7cc8c1bd2_note-L275F7"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="dde78ed2-7cd2-493e-b8c1-00bfc98a6c43"/>
+  <core:isDerivedFrom rdf:resource="dc693d10-aade-4902-980d-be33d6c3dc52"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="dde78ed2-7cd2-493e-b8c1-00bfc98a6c43">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cantizans_C"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="bc1956a8-9468-4327-964e-47f7cc8c1bd2_note-L275F7">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="2099ed1b-b2e4-48c7-bb0e-edba820b6d81">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="ea868dce-2f52-4693-8aea-58a39ad97c44_note-L289F7"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="db60c2b0-912f-4a93-836f-0dc267211d00"/>
+  <core:isDerivedFrom rdf:resource="40b1b388-608a-49af-ac7b-533c6603f464"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="db60c2b0-912f-4a93-836f-0dc267211d00">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Altizans_A"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Reinforcement"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="ea868dce-2f52-4693-8aea-58a39ad97c44_note-L289F7">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="1b0b16f2-8652-4ace-955b-4e4cc2abdd8f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="1b71fa2b-6109-4deb-b8c3-334d4843b98d_note-L349F7"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="749682c4-b948-45a7-87cd-f0870324e190"/>
+  <core:isDerivedFrom rdf:resource="04411bb6-881b-4d6f-94f2-12a4b6387dfb"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="749682c4-b948-45a7-87cd-f0870324e190">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cantizans_C"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="1b71fa2b-6109-4deb-b8c3-334d4843b98d_note-L349F7">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="565da3a3-2b76-4c5a-bf5d-4f0b5f559380">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="caf9c876-bede-484d-95f2-558905b73c51_note-L92F5"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="fb69d0a5-aec0-479c-97bf-68d4bf79d1c0"/>
+  <core:isDerivedFrom rdf:resource="72341227-29b5-4e06-9f86-6102beb038cc"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="fb69d0a5-aec0-479c-97bf-68d4bf79d1c0">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Altizans_A"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Reinforcement"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="caf9c876-bede-484d-95f2-558905b73c51_note-L92F5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="62b577cf-6daf-490f-917a-25f723c71723">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="6bcf8877-0fb6-41d3-8d63-f9d511026e6f_note-L106F5"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="6c71a862-ad2a-4de1-8025-b0957ebda317"/>
+  <core:isDerivedFrom rdf:resource="5f7e7bba-6531-486b-ab14-4ed499deee51"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="6c71a862-ad2a-4de1-8025-b0957ebda317">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Altizans_A"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="6bcf8877-0fb6-41d3-8d63-f9d511026e6f_note-L106F5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="5202bb81-b01f-4a42-a4a8-fbfff58a77cf">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="c26ce77e-1fa7-463d-b4d7-17a6dd21a8a9_note-L157F5"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="59573cf2-9ef4-4151-8466-9d1b90e0ed99"/>
+  <core:isDerivedFrom rdf:resource="57da06d4-0e85-4420-b1fe-436367604c92"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="59573cf2-9ef4-4151-8466-9d1b90e0ed99">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Altizans_A"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Reinforcement"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="c26ce77e-1fa7-463d-b4d7-17a6dd21a8a9_note-L157F5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="e8477edc-b178-46a0-bbe0-51d63867799f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="0ab1bfd9-4d5c-4ea4-b625-51bfa7c5996f_note-L171F5"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="3feb78e4-a3e0-4758-9aac-cfccd5efd117"/>
+  <core:isDerivedFrom rdf:resource="4a73f2c0-2041-4a00-a18c-c8b386ac5ce4"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="3feb78e4-a3e0-4758-9aac-cfccd5efd117">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Altizans_A"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Continuation"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="0ab1bfd9-4d5c-4ea4-b625-51bfa7c5996f_note-L171F5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="0e5ad579-3e9c-421b-8269-9cc2270050ca">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="b7bef177-a37a-471d-aff5-520b14c69437_note-L228F5"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="f0935f81-14af-4189-8edd-010cbcd49e52"/>
+  <core:isDerivedFrom rdf:resource="9572611d-68ec-4dc3-83fe-32e640cb1290"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="f0935f81-14af-4189-8edd-010cbcd49e52">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Altizans_A"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Continuation"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="b7bef177-a37a-471d-aff5-520b14c69437_note-L228F5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="28293718-812a-44ab-8809-0e23dcb300a7">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="5fee4454-8d7f-45e7-8892-e6343a63a17d_note-L289F5"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="3b562d4a-6f88-4a7f-8afa-7b7c5b4aaada"/>
+  <core:isDerivedFrom rdf:resource="40b1b388-608a-49af-ac7b-533c6603f464"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="3b562d4a-6f88-4a7f-8afa-7b7c5b4aaada">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Altizans_A"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Continuation"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="5fee4454-8d7f-45e7-8892-e6343a63a17d_note-L289F5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="3092630c-3358-4377-a016-336c5d477a8e">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="ae3af331-f6c6-4dbd-b85a-f4929bd48d01_note-L349F5"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="3c6c34bb-c75c-4514-a01c-ff8f36164d8b"/>
+  <core:isDerivedFrom rdf:resource="04411bb6-881b-4d6f-94f2-12a4b6387dfb"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="3c6c34bb-c75c-4514-a01c-ff8f36164d8b">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Altizans_A"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="ae3af331-f6c6-4dbd-b85a-f4929bd48d01_note-L349F5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="ec272c41-425a-4d02-a366-d58179edda35">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="95962934-00ef-4071-9a60-2923d3a17010_note-L72F3"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="cd6319a6-b577-45ef-a274-124c24d2879c"/>
+  <core:isDerivedFrom rdf:resource="eaf2ca21-a6f9-432c-b996-7bcb67402f68"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="cd6319a6-b577-45ef-a274-124c24d2879c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cantizans_C"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="95962934-00ef-4071-9a60-2923d3a17010_note-L72F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="630010af-7fe3-4b94-b137-c456ede35ed1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="13811a7a-50af-481c-9079-da9269dab1dd_note-L93F3"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="e5faf205-a4bb-45cb-9c83-c809658036f2"/>
+  <core:isDerivedFrom rdf:resource="72341227-29b5-4e06-9f86-6102beb038cc"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="e5faf205-a4bb-45cb-9c83-c809658036f2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Tenorizans_T"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Continuation"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="13811a7a-50af-481c-9079-da9269dab1dd_note-L93F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="0ad2eae5-e271-4830-94c3-d5eb6361e4ec">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="3534ef0c-d374-4719-b716-449bce2c5a3b_note-L106F3"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="213e24e3-7570-4fc0-9045-f273e9b2cd1f"/>
+  <core:isDerivedFrom rdf:resource="5f7e7bba-6531-486b-ab14-4ed499deee51"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="213e24e3-7570-4fc0-9045-f273e9b2cd1f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cantizans_C"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="3534ef0c-d374-4719-b716-449bce2c5a3b_note-L106F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="2f034c32-9b33-4689-b388-86a77dde5224">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="24c7bb55-c215-4f07-9e54-4622feb5e0ac_note-L158F3"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="6ebb6784-14ba-489d-bd82-dbedf2566c84"/>
+  <core:isDerivedFrom rdf:resource="57da06d4-0e85-4420-b1fe-436367604c92"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="6ebb6784-14ba-489d-bd82-dbedf2566c84">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Tenorizans_T"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Continuation"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="24c7bb55-c215-4f07-9e54-4622feb5e0ac_note-L158F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="15a1803c-54a3-4cf8-8507-e0bc9a798eec">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="7e844ddf-1b23-40ae-a827-177db87e424b_note-L171F3"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="f8f66b6f-38e2-4a6e-bce8-e44f3d2f0719"/>
+  <core:isDerivedFrom rdf:resource="4a73f2c0-2041-4a00-a18c-c8b386ac5ce4"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="f8f66b6f-38e2-4a6e-bce8-e44f3d2f0719">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cantizans_C"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="7e844ddf-1b23-40ae-a827-177db87e424b_note-L171F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="680e9a6d-b63a-41e2-b9d7-47443fe76099">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="5d14bc22-8906-4552-8097-f649d691b90f_note-L215F3"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="b0fa1171-ff82-4068-8177-f6ac748f6d6c"/>
+  <core:isDerivedFrom rdf:resource="9be8c08d-5b3e-411c-817b-a3de1a5d068e"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="b0fa1171-ff82-4068-8177-f6ac748f6d6c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Tenorizans_T"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Continuation"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="5d14bc22-8906-4552-8097-f649d691b90f_note-L215F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="7438da9b-737b-482b-8746-769629b78bb6">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="fa6cd09d-77ba-4528-af71-28e0f6d655d8_note-L228F3"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="ed538806-d679-48a0-99b0-d3d53da07ba9"/>
+  <core:isDerivedFrom rdf:resource="9572611d-68ec-4dc3-83fe-32e640cb1290"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="ed538806-d679-48a0-99b0-d3d53da07ba9">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cantizans_C"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="fa6cd09d-77ba-4528-af71-28e0f6d655d8_note-L228F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="4086e7cb-eb11-4c1e-83cf-e8bb89ff3685">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="d23a9a51-6ab4-4f02-9349-3d45888843ae_note-L276F3"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="4948bfb4-103b-41ba-af17-9640d9002b91"/>
+  <core:isDerivedFrom rdf:resource="dc693d10-aade-4902-980d-be33d6c3dc52"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="4948bfb4-103b-41ba-af17-9640d9002b91">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Tenorizans_T"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Continuation"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="d23a9a51-6ab4-4f02-9349-3d45888843ae_note-L276F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="9bf5357c-7ed1-4345-a8ea-51cdb0a9d814">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="297c84c5-abc9-4764-861b-a95ecfef5700_note-L289F3"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="6004e0e8-a100-40d0-8846-05c09d43c0e3"/>
+  <core:isDerivedFrom rdf:resource="40b1b388-608a-49af-ac7b-533c6603f464"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="6004e0e8-a100-40d0-8846-05c09d43c0e3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cantizans_C"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="297c84c5-abc9-4764-861b-a95ecfef5700_note-L289F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="32fc93cf-8a27-4881-8190-def73da40eeb">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="047897d0-45b4-4c0c-96af-695d36ba8fd6_note-L349F3"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="3e7193f8-3c52-4f57-8806-ad92bc0b670e"/>
+  <core:isDerivedFrom rdf:resource="04411bb6-881b-4d6f-94f2-12a4b6387dfb"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="3e7193f8-3c52-4f57-8806-ad92bc0b670e">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Tenorizans_T"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="047897d0-45b4-4c0c-96af-695d36ba8fd6_note-L349F3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="de228231-1700-4c64-91d5-255a7ad99439">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="5eb99d86-e9f7-4541-bd8b-20ecee008058_note-L92F1"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="4772304c-f396-471a-a036-5fd06b74060d"/>
+  <core:isDerivedFrom rdf:resource="72341227-29b5-4e06-9f86-6102beb038cc"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="4772304c-f396-471a-a036-5fd06b74060d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Reinforcement"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Bassizans_b"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="5eb99d86-e9f7-4541-bd8b-20ecee008058_note-L92F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="da7ea67d-fed1-460b-b324-bfcbcf3a4112">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="861a02a0-1f83-4a44-9dae-79b349010858_note-L106F1"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="324c59b2-fb10-4d42-9506-16f7620b2e38"/>
+  <core:isDerivedFrom rdf:resource="5f7e7bba-6531-486b-ab14-4ed499deee51"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="324c59b2-fb10-4d42-9506-16f7620b2e38">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Tenorizans_T"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="861a02a0-1f83-4a44-9dae-79b349010858_note-L106F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="55a8cd6d-03f0-40fb-88dc-81a9fe787642">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="2290944a-a486-4fc6-8604-67f024885251_note-L157F1"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="6efd83d0-8507-4bda-a20f-9de34ada403b"/>
+  <core:isDerivedFrom rdf:resource="57da06d4-0e85-4420-b1fe-436367604c92"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="6efd83d0-8507-4bda-a20f-9de34ada403b">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Reinforcement"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Bassizans_b"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="2290944a-a486-4fc6-8604-67f024885251_note-L157F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="dab9a6bc-49a7-4cd8-8f82-b0eb1a7d9868">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="78e78aaf-4607-4a29-a9e0-56a64938f5b1_note-L171F1"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="1a251284-bbb4-4d5a-8ce7-5c347f10237d"/>
+  <core:isDerivedFrom rdf:resource="4a73f2c0-2041-4a00-a18c-c8b386ac5ce4"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="1a251284-bbb4-4d5a-8ce7-5c347f10237d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Tenorizans_T"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="78e78aaf-4607-4a29-a9e0-56a64938f5b1_note-L171F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="36d94be0-3ff3-4b60-96f3-e9a27301a15c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="4318bc3c-a09b-40ab-a889-6de4b954b504_note-L214F1"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="efd2807b-b865-4f00-8e7b-f1dd75505357"/>
+  <core:isDerivedFrom rdf:resource="9be8c08d-5b3e-411c-817b-a3de1a5d068e"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="efd2807b-b865-4f00-8e7b-f1dd75505357">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Bassizans_b"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Continuation"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="4318bc3c-a09b-40ab-a889-6de4b954b504_note-L214F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="b639591c-f135-453f-a2da-cf3ebc176709">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="114cafe5-e787-437b-a702-5771b967c875_note-L228F1"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="efa83f48-9522-4a89-83fa-73215b0367b6"/>
+  <core:isDerivedFrom rdf:resource="9572611d-68ec-4dc3-83fe-32e640cb1290"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="efa83f48-9522-4a89-83fa-73215b0367b6">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Tenorizans_T"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Continuation"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="114cafe5-e787-437b-a702-5771b967c875_note-L228F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="780f2bea-0b5b-4c63-b417-23a5dd17c883">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="3fab3fef-f07a-40f6-9152-af200cfb80ac_note-L275F1"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="ec3d5c8a-0f59-4319-996a-18b4c76708d4"/>
+  <core:isDerivedFrom rdf:resource="dc693d10-aade-4902-980d-be33d6c3dc52"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="ec3d5c8a-0f59-4319-996a-18b4c76708d4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Bassizans_b"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Continuation"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="3fab3fef-f07a-40f6-9152-af200cfb80ac_note-L275F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="fb9c051a-9fa0-4a8a-8ba2-f81f2983314a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="bdf138e0-42da-4002-9361-30812e332b3c_note-L289F1"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="733f356d-a536-44b1-8544-138d2c8fd010"/>
+  <core:isDerivedFrom rdf:resource="40b1b388-608a-49af-ac7b-533c6603f464"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="733f356d-a536-44b1-8544-138d2c8fd010">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Tenorizans_T"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="bdf138e0-42da-4002-9361-30812e332b3c_note-L289F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="fd31fd81-ea4b-4404-a4ba-c665cf937f9f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="534f1472-8c43-4197-aab0-2bdadff6addd_note-L349F1"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="cb8f6e86-858f-4fac-8aa6-46ef6108fd05"/>
+  <core:isDerivedFrom rdf:resource="04411bb6-881b-4d6f-94f2-12a4b6387dfb"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="cb8f6e86-858f-4fac-8aa6-46ef6108fd05">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Bassizans_B"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Fragment rdf:about="534f1472-8c43-4197-aab0-2bdadff6addd_note-L349F1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Fragment>
+
+<musi:Annotation rdf:about="72341227-29b5-4e06-9f86-6102beb038cc">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="c1b4ec27-751c-46a7-a7f8-692ab061f532_note-L92F7"/>
+  <musi:describesFragment rdf:resource="caf9c876-bede-484d-95f2-558905b73c51_note-L92F5"/>
+  <musi:describesFragment rdf:resource="13811a7a-50af-481c-9079-da9269dab1dd_note-L93F3"/>
+  <musi:describesFragment rdf:resource="5eb99d86-e9f7-4541-bd8b-20ecee008058_note-L92F1"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="74377bfc-8368-407e-aed7-3a41deeacf85"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="74377bfc-8368-407e-aed7-3a41deeacf85">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cadence"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="57da06d4-0e85-4420-b1fe-436367604c92">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="82a5bdfe-951c-44d7-8421-63946ad85cee_note-L157F7"/>
+  <musi:describesFragment rdf:resource="c26ce77e-1fa7-463d-b4d7-17a6dd21a8a9_note-L157F5"/>
+  <musi:describesFragment rdf:resource="24c7bb55-c215-4f07-9e54-4622feb5e0ac_note-L158F3"/>
+  <musi:describesFragment rdf:resource="2290944a-a486-4fc6-8604-67f024885251_note-L157F1"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="039e5277-57d8-436a-9e15-663f86314584"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="039e5277-57d8-436a-9e15-663f86314584">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cadence"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="9be8c08d-5b3e-411c-817b-a3de1a5d068e">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="544cdeb0-b12c-4fc0-961c-3b444885e889_note-L214F7"/>
+  <musi:describesFragment rdf:resource="5d14bc22-8906-4552-8097-f649d691b90f_note-L215F3"/>
+  <musi:describesFragment rdf:resource="4318bc3c-a09b-40ab-a889-6de4b954b504_note-L214F1"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="270d1b69-4b83-415c-824d-82c84071280a"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="270d1b69-4b83-415c-824d-82c84071280a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cadence"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="dc693d10-aade-4902-980d-be33d6c3dc52">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="bc1956a8-9468-4327-964e-47f7cc8c1bd2_note-L275F7"/>
+  <musi:describesFragment rdf:resource="d23a9a51-6ab4-4f02-9349-3d45888843ae_note-L276F3"/>
+  <musi:describesFragment rdf:resource="3fab3fef-f07a-40f6-9152-af200cfb80ac_note-L275F1"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="a4f5810a-5f0e-4cf5-b62e-3aea62440ba2"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="a4f5810a-5f0e-4cf5-b62e-3aea62440ba2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cadence"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="40b1b388-608a-49af-ac7b-533c6603f464">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="ea868dce-2f52-4693-8aea-58a39ad97c44_note-L289F7"/>
+  <musi:describesFragment rdf:resource="5fee4454-8d7f-45e7-8892-e6343a63a17d_note-L289F5"/>
+  <musi:describesFragment rdf:resource="297c84c5-abc9-4764-861b-a95ecfef5700_note-L289F3"/>
+  <musi:describesFragment rdf:resource="bdf138e0-42da-4002-9361-30812e332b3c_note-L289F1"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="f53e0b96-d9c0-468e-bbf5-20d7c7e803fe"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="f53e0b96-d9c0-468e-bbf5-20d7c7e803fe">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cadence"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="04411bb6-881b-4d6f-94f2-12a4b6387dfb">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="1b71fa2b-6109-4deb-b8c3-334d4843b98d_note-L349F7"/>
+  <musi:describesFragment rdf:resource="ae3af331-f6c6-4dbd-b85a-f4929bd48d01_note-L349F5"/>
+  <musi:describesFragment rdf:resource="047897d0-45b4-4c0c-96af-695d36ba8fd6_note-L349F3"/>
+  <musi:describesFragment rdf:resource="534f1472-8c43-4197-aab0-2bdadff6addd_note-L349F1"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="160e5820-38bc-43d7-a884-0433f0baf5ce"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="160e5820-38bc-43d7-a884-0433f0baf5ce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cadence"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="5f7e7bba-6531-486b-ab14-4ed499deee51">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="6bcf8877-0fb6-41d3-8d63-f9d511026e6f_note-L106F5"/>
+  <musi:describesFragment rdf:resource="3534ef0c-d374-4719-b716-449bce2c5a3b_note-L106F3"/>
+  <musi:describesFragment rdf:resource="861a02a0-1f83-4a44-9dae-79b349010858_note-L106F1"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="c38dd534-a743-4abc-9790-8f44be6f2e53"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="c38dd534-a743-4abc-9790-8f44be6f2e53">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cadence"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="4a73f2c0-2041-4a00-a18c-c8b386ac5ce4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="0ab1bfd9-4d5c-4ea4-b625-51bfa7c5996f_note-L171F5"/>
+  <musi:describesFragment rdf:resource="7e844ddf-1b23-40ae-a827-177db87e424b_note-L171F3"/>
+  <musi:describesFragment rdf:resource="78e78aaf-4607-4a29-a9e0-56a64938f5b1_note-L171F1"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="ccff7211-0128-47d9-aee5-c3c896107f9a"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="ccff7211-0128-47d9-aee5-c3c896107f9a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cadence"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="9572611d-68ec-4dc3-83fe-32e640cb1290">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="b7bef177-a37a-471d-aff5-520b14c69437_note-L228F5"/>
+  <musi:describesFragment rdf:resource="fa6cd09d-77ba-4528-af71-28e0f6d655d8_note-L228F3"/>
+  <musi:describesFragment rdf:resource="114cafe5-e787-437b-a702-5771b967c875_note-L228F1"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="2d3dc8b1-8080-4a9c-9b2d-59f9993a88e0"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="2d3dc8b1-8080-4a9c-9b2d-59f9993a88e0">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cadence"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="eaf2ca21-a6f9-432c-b996-7bcb67402f68">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="95962934-00ef-4071-9a60-2923d3a17010_note-L72F3"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="e78faac2-fda2-4088-9173-598537461161"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="e78faac2-fda2-4088-9173-598537461161">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cadence"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-27 22:08:31.376460</term:created>
+</musi:Observation>
+
+
+</rdf:RDF>
