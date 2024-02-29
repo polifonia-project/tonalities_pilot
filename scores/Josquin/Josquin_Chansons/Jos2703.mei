@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
@@ -169,51 +170,51 @@
       <pgHead xml:id="pv30uh3">
        <rend xml:id="r1pnsvom" halign="center" valign="middle">
         <rend xml:id="ruf9xkl" fontsize="large">Cela sans plus</rend>
-        <lb xml:id="lql03gu"/>&#160;
-<lb xml:id="lh18qhh"/>&#160;</rend>
+        <lb xml:id="lql03gu" /> 
+<lb xml:id="lh18qhh" /> </rend>
        <rend xml:id="r191sw6l" halign="right" valign="bottom" fontsize="small">Josquin des Prez</rend>
-       <rend xml:id="rp30b4h" halign="right" valign="bottom" fontsize="small">1450&#8211;1521</rend>
+       <rend xml:id="rp30b4h" halign="right" valign="bottom" fontsize="small">1450–1521</rend>
       </pgHead>
       <staffGrp xml:id="slh1v18" symbol="bracket">
        <staffDef xml:id="staffdef-L8F5" n="1" lines="5">
         <label xml:id="label-L11F5">Superius</label>
         <labelAbbr xml:id="labelabbr-L12F5">S</labelAbbr>
-        <clef xml:id="clef-L16F5" shape="G" line="2"/>
-        <keySig xml:id="keysig-L18F5" sig="1f"/>
-        <meterSig xml:id="metersig-L19F5" count="2" unit="1" form="invis"/>
-        <mensur xml:id="mensur-L20F5" sign="C" slash="1"/>
-        <instrDef xml:id="iwexi2h" midi.instrnum="52" midi.instrname="Choir_Aahs"/>
+        <clef xml:id="clef-L16F5" shape="G" line="2" />
+        <keySig xml:id="keysig-L18F5" sig="1f" />
+        <meterSig xml:id="metersig-L19F5" count="2" unit="1" form="invis" />
+        <mensur xml:id="mensur-L20F5" sign="C" slash="1" />
+        <instrDef xml:id="iwexi2h" midi.instrnum="52" midi.instrname="Choir_Aahs" />
        </staffDef>
        <staffDef xml:id="staffdef-L8F3" n="2" lines="5">
         <label xml:id="label-L11F3">Tenor</label>
         <labelAbbr xml:id="labelabbr-L12F3">T</labelAbbr>
-        <clef xml:id="clef-L16F3" shape="G" line="2" dis="8" dis.place="below"/>
-        <keySig xml:id="keysig-L18F3" sig="1f"/>
-        <meterSig xml:id="metersig-L19F3" count="2" unit="1" form="invis"/>
-        <mensur xml:id="mensur-L20F3" sign="C" slash="1"/>
-        <instrDef xml:id="i1v32nvg" midi.instrnum="52" midi.instrname="Choir_Aahs"/>
+        <clef xml:id="clef-L16F3" shape="G" line="2" dis="8" dis.place="below" />
+        <keySig xml:id="keysig-L18F3" sig="1f" />
+        <meterSig xml:id="metersig-L19F3" count="2" unit="1" form="invis" />
+        <mensur xml:id="mensur-L20F3" sign="C" slash="1" />
+        <instrDef xml:id="i1v32nvg" midi.instrnum="52" midi.instrname="Choir_Aahs" />
        </staffDef>
        <staffDef xml:id="staffdef-L8F1" n="3" lines="5">
         <label xml:id="label-L11F1">Contra</label>
         <labelAbbr xml:id="labelabbr-L12F1">C</labelAbbr>
-        <clef xml:id="clef-L16F1" shape="F" line="4"/>
-        <keySig xml:id="keysig-L18F1" sig="2f"/>
-        <meterSig xml:id="metersig-L19F1" count="2" unit="1" form="invis"/>
-        <mensur xml:id="mensur-L20F1" sign="C" slash="1"/>
-        <instrDef xml:id="ib3t7zx" midi.instrnum="52" midi.instrname="Choir_Aahs"/>
+        <clef xml:id="clef-L16F1" shape="F" line="4" />
+        <keySig xml:id="keysig-L18F1" sig="2f" />
+        <meterSig xml:id="metersig-L19F1" count="2" unit="1" form="invis" />
+        <mensur xml:id="mensur-L20F1" sign="C" slash="1" />
+        <instrDef xml:id="ib3t7zx" midi.instrnum="52" midi.instrname="Choir_Aahs" />
        </staffDef>
       </staffGrp>
      </scoreDef>
      <section xml:id="section-L8F1">
       <choice xml:id="c1v81o2q">
        <orig xml:id="o84yhjt">
-        <expansion plist="#label-A #label-B" xml:id="expansion-L13F1"/>
+        <expansion plist="#label-A #label-B" xml:id="expansion-L13F1" />
        </orig>
        <reg xml:id="r1rsiyg0" type="Part1">
-        <expansion plist="#label-A" xml:id="expansion-L14F1" type="Part1"/>
+        <expansion plist="#label-A" xml:id="expansion-L14F1" type="Part1" />
        </reg>
        <reg xml:id="r1px65ln" type="Part2">
-        <expansion plist="#label-B" xml:id="expansion-L15F1" type="Part2"/>
+        <expansion plist="#label-B" xml:id="expansion-L15F1" type="Part2" />
        </reg>
       </choice>
       <section xml:id="label-A">
@@ -511,6 +512,9 @@
          </layer>
         </staff>
         <tie xml:id="tie-L71F3-L73F3" startid="#note-L71F3" endid="#note-L73F3"/>
+       <harm xml:id="harm-L256F4789ok" resp="CGN" type="add" place="below" staff="1" tstamp="1.000000">C</harm>
+          <harm xml:id="harm-L256Fv4789ok" resp="CGN" type="add" place="below" staff="2" tstamp="1.000000">T–</harm>
+          <harm xml:id="harm-L256Fv4d789ok" resp="CGN" type="add" place="below" staff="3" tstamp="1.000000">b–</harm>
        </measure>
        <measure xml:id="measure-L72" n="15">
         <staff xml:id="staff-L72F5N1" n="1">
@@ -548,6 +552,8 @@
           <note xml:id="note-L76F1" dur="breve" oct="3" pname="f" accid.ges="n"/>
          </layer>
         </staff>
+        <harm xml:id="harm-L76F2" place="below" staff="3" tstamp="1.000000" n="2">T</harm>
+        <harm xml:id="harm-L76F4" place="below" staff="2" tstamp="1.000000" n="4">C</harm>
         <tie xml:id="tie-L76F1-L78F1" startid="#note-L76F1" endid="#note-L78F1"/>
        </measure>
        <measure xml:id="measure-L77" n="17">
@@ -827,7 +833,10 @@
           <note xml:id="note-L133F1" dur="1" oct="2" pname="b" accid.ges="f"/>
          </layer>
         </staff>
-        </measure>
+        <harm xml:id="harm-L132F2" resp="CGN" type="corr" place="below" staff="3" tstamp="1.000000" n="2">b+</harm>
+        <harm xml:id="harm-L132F4" place="below" resp="CGN" type="corr" staff="2" tstamp="1.000000" n="4">C–</harm>
+        <harm xml:id="harm-L132F6" place="below" resp="CGN" type="corr" staff="1" tstamp="1.000000" n="6">T–</harm>
+       </measure>
        <measure xml:id="measure-L136" n="29">
         <staff xml:id="staff-L136F5N1" n="1">
          <layer xml:id="layer-L136F5N1" n="1">
@@ -938,7 +947,9 @@
         <fermata xml:id="fermata-L162F5" staff="1" startid="#note-L162F5" place="above"/>
         <fermata xml:id="fermata-L162F3" staff="2" startid="#note-L162F3" place="above"/>
         <fermata xml:id="fermata-L162F1" staff="3" startid="#note-L162F1" place="above"/>
-          </measure>
+          <harm xml:id="harm-L2564789ok" resp="CGN" type="add" place="below" staff="3" tstamp="1.000000">P</harm>
+          <harm xml:id="harm-L256F479ok" resp="CGN" type="add" place="below" staff="1" tstamp="1.000000">T</harm>
+       </measure>
        <measure xml:id="measure-L163" n="34">
         <staff xml:id="staff-L163F5N1" n="1">
          <layer xml:id="layer-L163F5N1" n="1">
@@ -1432,7 +1443,10 @@
           <note xml:id="note-L270F1" type="placed" dur="4" oct="3" pname="c" stem.dir="up" accid.ges="n"/>
          </layer>
         </staff>
-          </measure>
+          <harm xml:id="harm-L256789ok" resp="CGN" type="add" place="below" staff="1" tstamp="1.000000">C</harm>
+           <harm xml:id="harm-L2567uhn989ok" resp="CGN" type="add" place="below" staff="2" tstamp="1.000000">T</harm>
+           <harm xml:id="harm-L2567ugrhn989ok" resp="CGN" type="add" place="below" staff="3" tstamp="1.000000">b+</harm>
+       </measure>
        <measure xml:id="measure-L271" right="end" n="55">
         <staff xml:id="staff-L271F5N1" n="1">
          <layer xml:id="layer-L271F5N1" n="1">
@@ -1449,7 +1463,8 @@
           <note xml:id="note-L272F1" dur.ges="breve" dur="long" oct="3" pname="g" accid.ges="n"/>
          </layer>
         </staff>
-           </measure>
+           <harm xml:id="harm-eed" resp="CGN" type="add" place="below" staff="3" tstamp="1.000000">B</harm>
+       </measure>
       </section>
      </section>
     </score>
