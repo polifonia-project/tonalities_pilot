@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:cido="http://www.cidoc-crm.org/cidoc-crm/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:sher="http://data-iremus.huma-num.fr/ns/sherlock#"
+   xmlns:term="http://purl.org/dc/terms/"
+>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/110ef243-91df-4ad9-b7aa-b5596bf107af">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
+    <cido:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-29 11:23:54.119085</cido:P82a_begin_of_the_begin>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/21816195-6708-4bbd-a758-ee354bb84900">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/106a17fb-8288-44ca-be95-ab07d8a46175">
+    <cido:P2_has_type rdf:resource="http://data-iremus.huma-num.fr/id/21816195-6708-4bbd-a758-ee354bb84900"/>
+    <term:creator rdf:resource="http://data-iremus.huma-num.fr/id/5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+    <sher:has_privacy_type rdf:resource="http://data-iremus.huma-num.fr/id/cabe46bf-23d4-4392-aa20-b3eb21ad7dfd"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <cido:P1_is_identified_by rdf:resource="http://data-iremus.huma-num.fr/id/ddb55e68-b7cc-432a-bb43-669c1f429bfa"/>
+    <cido:P14_carried_out_by rdf:resource="http://data-iremus.huma-num.fr/id/5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/5d7bdf74-addd-418b-ab43-38af4e70c158">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/ddb55e68-b7cc-432a-bb43-669c1f429bfa">
+    <cido:P190_has_symbolic_content rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cadence analysis with Cadences_FilaberGuillotelGurrieri_2023</cido:P190_has_symbolic_content>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="http://www.cidoc-crm.org/cidoc-crm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/cabe46bf-23d4-4392-aa20-b3eb21ad7dfd">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+</rdf:RDF>

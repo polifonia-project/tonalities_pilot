@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="https://data-iremus.huma-num.fr/sherlock/id/representation/"
+         xmlns:musi="https://w3id.org/polifonia/ontology/music-representation/"
+         xmlns:musi2="https://w3id.org/polifonia/ontology/music-meta/"
+         xmlns:core="https://w3id.org/polifonia/ontology/core/"
+         xmlns:term="http://purl.org/dc/terms/"
+         xmlns="https://data-iremus.huma-num.fr/sherlock/id/representation/">
+
+<owl:Ontology rdf:about="https://data-iremus.huma-num.fr/sherlock/id/representation">
+  <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/music-representation"/>
+  <owl:imports rdf:resource="http://purl.org/dc/terms"/>
+</owl:Ontology>
+
+<musi:Annotator rdf:about="5d7bdf74-addd-418b-ab43-38af4e70c158">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Annotator>
+
+<musi2:Score rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2833.mei">
+  <musi:hasAnnotation rdf:resource="539e2422-5cd7-4f30-b987-705c8f07e25b"/>
+  <musi:hasAnnotation rdf:resource="c03106e8-80f4-479b-935d-b6419f6ec17d"/>
+  <musi:hasAnnotation rdf:resource="97135255-857d-4558-8dc7-99bd33ab4092"/>
+  <musi:hasAnnotation rdf:resource="18bdf2ed-98cc-420c-9d41-1f92f81c56d1"/>
+  <musi:hasAnnotation rdf:resource="e6aed413-d48e-4473-b90f-49f6386b9aaa"/>
+  <musi:hasAnnotation rdf:resource="7e8dbb82-5e59-4e22-a9ed-7d4688f0b555"/>
+  <musi:hasAnnotation rdf:resource="b6f48392-a207-4971-b8f0-18da7e9ad96d"/>
+  <musi:hasAnnotation rdf:resource="5da9b9c6-6075-4a04-b8c9-61029601fa58"/>
+  <musi:hasAnnotation rdf:resource="18929d9a-1473-4093-a764-d0adc8f52ef0"/>
+</musi2:Score>
+
+<musi:Analysis rdf:about="9aaaad66-9b12-4493-bb54-d7097c13c5da">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasAnnotation rdf:resource="539e2422-5cd7-4f30-b987-705c8f07e25b"/>
+  <musi:hasAnnotation rdf:resource="c03106e8-80f4-479b-935d-b6419f6ec17d"/>
+  <musi:hasAnnotation rdf:resource="97135255-857d-4558-8dc7-99bd33ab4092"/>
+  <musi:hasAnnotation rdf:resource="18bdf2ed-98cc-420c-9d41-1f92f81c56d1"/>
+  <musi:hasAnnotation rdf:resource="e6aed413-d48e-4473-b90f-49f6386b9aaa"/>
+  <musi:hasAnnotation rdf:resource="7e8dbb82-5e59-4e22-a9ed-7d4688f0b555"/>
+  <musi:hasAnnotation rdf:resource="b6f48392-a207-4971-b8f0-18da7e9ad96d"/>
+  <musi:hasAnnotation rdf:resource="5da9b9c6-6075-4a04-b8c9-61029601fa58"/>
+  <musi:hasAnnotation rdf:resource="18929d9a-1473-4093-a764-d0adc8f52ef0"/>
+  <musi:involvesAnalyst rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <core:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cadence analysis with Cadences_FilaberGuillotelGurrieri_2023</core:title>
+</musi:Analysis>
+
+<musi:Annotation rdf:about="539e2422-5cd7-4f30-b987-705c8f07e25b">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2833.mei#note-L61F7"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="db02e011-b92c-4eb4-8ad4-a46bc71430a9"/>
+  <core:isDerivedFrom rdf:resource="b6f48392-a207-4971-b8f0-18da7e9ad96d"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-29 11:23:01.483919</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="db02e011-b92c-4eb4-8ad4-a46bc71430a9">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Tenorizans_T"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-29 11:23:01.483919</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="c03106e8-80f4-479b-935d-b6419f6ec17d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2833.mei#note-L91F7"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="70586e7b-35a4-4c2f-8b71-212aa10d67d9"/>
+  <core:isDerivedFrom rdf:resource="5da9b9c6-6075-4a04-b8c9-61029601fa58"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-29 11:23:01.483919</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="70586e7b-35a4-4c2f-8b71-212aa10d67d9">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Tenorizans_T"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-29 11:23:01.483919</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="97135255-857d-4558-8dc7-99bd33ab4092">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2833.mei#note-L144F7"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="81782527-ed1a-43a0-8386-d9ff345d223a"/>
+  <core:isDerivedFrom rdf:resource="18929d9a-1473-4093-a764-d0adc8f52ef0"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-29 11:23:01.483919</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="81782527-ed1a-43a0-8386-d9ff345d223a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Altizans_A"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-29 11:23:01.483919</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="18bdf2ed-98cc-420c-9d41-1f92f81c56d1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2833.mei#note-L91F5"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="11dc551c-f97b-499d-988b-b6f715772dd3"/>
+  <core:isDerivedFrom rdf:resource="5da9b9c6-6075-4a04-b8c9-61029601fa58"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-29 11:23:01.483919</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="11dc551c-f97b-499d-988b-b6f715772dd3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cantizans_C"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-29 11:23:01.483919</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="e6aed413-d48e-4473-b90f-49f6386b9aaa">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2833.mei#rest-L144F3"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="894d1968-d7b1-4489-80d5-7b6ca46c64f7"/>
+  <core:isDerivedFrom rdf:resource="18929d9a-1473-4093-a764-d0adc8f52ef0"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-29 11:23:01.483919</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="894d1968-d7b1-4489-80d5-7b6ca46c64f7">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Interruption"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cantizans_C"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-29 11:23:01.483919</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="7e8dbb82-5e59-4e22-a9ed-7d4688f0b555">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2833.mei#note-L144F1"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="dc08f02b-50b2-45a2-abfe-67e21a094717"/>
+  <core:isDerivedFrom rdf:resource="18929d9a-1473-4093-a764-d0adc8f52ef0"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-29 11:23:01.483919</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="dc08f02b-50b2-45a2-abfe-67e21a094717">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Bassizans_P"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-29 11:23:01.483919</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="b6f48392-a207-4971-b8f0-18da7e9ad96d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2833.mei#note-L61F7"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="b7778bb6-b8bf-44e6-9e3c-20d020b04b20"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-29 11:23:01.483919</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="b7778bb6-b8bf-44e6-9e3c-20d020b04b20">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cadence"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-29 11:23:01.483919</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="5da9b9c6-6075-4a04-b8c9-61029601fa58">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2833.mei#note-L91F7"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2833.mei#note-L91F5"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="34839ba4-5555-46d2-a276-e63913a0d682"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-29 11:23:01.483919</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="34839ba4-5555-46d2-a276-e63913a0d682">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cadence"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-29 11:23:01.483919</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="18929d9a-1473-4093-a764-d0adc8f52ef0">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2833.mei#note-L144F7"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2833.mei#rest-L144F3"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2833.mei#note-L144F1"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="6857a680-e2b5-4624-9f1c-035ff1e86b48"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-29 11:23:01.483919</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="6857a680-e2b5-4624-9f1c-035ff1e86b48">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cadence"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-29 11:23:01.483919</term:created>
+</musi:Observation>
+
+
+</rdf:RDF>

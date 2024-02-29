@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="https://data-iremus.huma-num.fr/sherlock/id/representation/"
+         xmlns:musi="https://w3id.org/polifonia/ontology/music-representation/"
+         xmlns:musi2="https://w3id.org/polifonia/ontology/music-meta/"
+         xmlns:core="https://w3id.org/polifonia/ontology/core/"
+         xmlns:term="http://purl.org/dc/terms/"
+         xmlns="https://data-iremus.huma-num.fr/sherlock/id/representation/">
+
+<owl:Ontology rdf:about="https://data-iremus.huma-num.fr/sherlock/id/representation">
+  <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/music-representation"/>
+  <owl:imports rdf:resource="http://purl.org/dc/terms"/>
+</owl:Ontology>
+
+<musi:Annotator rdf:about="5d7bdf74-addd-418b-ab43-38af4e70c158">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Annotator>
+
+<musi2:Score rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2836.mei">
+  <musi:hasAnnotation rdf:resource="6e874409-a467-4b27-868d-408cf47cd191"/>
+  <musi:hasAnnotation rdf:resource="295410a3-4a2b-4304-b3f3-a651a9cb2c82"/>
+</musi2:Score>
+
+<musi:Analysis rdf:about="71b2c7d0-b7a3-4343-b638-0fec0630bfe4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasAnnotation rdf:resource="6e874409-a467-4b27-868d-408cf47cd191"/>
+  <musi:hasAnnotation rdf:resource="295410a3-4a2b-4304-b3f3-a651a9cb2c82"/>
+  <musi:involvesAnalyst rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <core:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cadence analysis with Cadences_FilaberGuillotelGurrieri_2023</core:title>
+</musi:Analysis>
+
+<musi:Annotation rdf:about="6e874409-a467-4b27-868d-408cf47cd191">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2836.mei#note-L254F1"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="42687951-9420-429d-b688-76eb132cc9d0"/>
+  <core:isDerivedFrom rdf:resource="295410a3-4a2b-4304-b3f3-a651a9cb2c82"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-29 11:23:01.961774</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="42687951-9420-429d-b688-76eb132cc9d0">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Bassizans_B"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-29 11:23:01.961774</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="295410a3-4a2b-4304-b3f3-a651a9cb2c82">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2836.mei#note-L254F1"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="b020703d-7263-4e02-a5a5-52abbac74b0a"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-29 11:23:01.961774</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="b020703d-7263-4e02-a5a5-52abbac74b0a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cadence"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-02-29 11:23:01.961774</term:created>
+</musi:Observation>
+
+
+</rdf:RDF>
