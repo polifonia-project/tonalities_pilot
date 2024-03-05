@@ -1,0 +1,985 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="https://data-iremus.huma-num.fr/sherlock/id/representation/"
+         xmlns:musi="https://w3id.org/polifonia/ontology/music-representation/"
+         xmlns:musi2="https://w3id.org/polifonia/ontology/music-meta/"
+         xmlns:core="https://w3id.org/polifonia/ontology/core/"
+         xmlns:term="http://purl.org/dc/terms/"
+         xmlns="https://data-iremus.huma-num.fr/sherlock/id/representation/">
+
+<owl:Ontology rdf:about="https://data-iremus.huma-num.fr/sherlock/id/representation">
+  <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/music-representation"/>
+  <owl:imports rdf:resource="http://purl.org/dc/terms"/>
+</owl:Ontology>
+
+<musi:Annotator rdf:about="5d7bdf74-addd-418b-ab43-38af4e70c158">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Annotator>
+
+<musi2:Score rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei">
+  <musi:hasAnnotation rdf:resource="9b038454-8d55-4fc7-bd39-de18ccd1e8a9"/>
+  <musi:hasAnnotation rdf:resource="015aa347-e393-4a1e-a7af-c3e6a54a0ae0"/>
+  <musi:hasAnnotation rdf:resource="10317c11-f0c5-42b7-be4d-da255f911823"/>
+  <musi:hasAnnotation rdf:resource="a80a3099-63fc-4ff5-8159-92e908df43bb"/>
+  <musi:hasAnnotation rdf:resource="690c4d74-1267-4b6b-91f2-e344ae39a66d"/>
+  <musi:hasAnnotation rdf:resource="46418bce-65df-493d-ad5d-0144db76f424"/>
+  <musi:hasAnnotation rdf:resource="b0c3073c-82ae-44b8-b73c-39888d6b021b"/>
+  <musi:hasAnnotation rdf:resource="fc9fb47c-4180-45be-9558-0b9a65114439"/>
+  <musi:hasAnnotation rdf:resource="c19edaf4-5c5c-4e92-b199-6fbd7b456feb"/>
+  <musi:hasAnnotation rdf:resource="64d1f98a-5846-4349-b73b-84b00e310734"/>
+  <musi:hasAnnotation rdf:resource="6730eceb-3c78-4692-ae19-c5e5a09c0632"/>
+  <musi:hasAnnotation rdf:resource="f4176c11-7d42-4add-b1d1-1e99086f75ff"/>
+  <musi:hasAnnotation rdf:resource="bfdf89db-5d20-487c-938a-2a27dd1a3079"/>
+  <musi:hasAnnotation rdf:resource="4339a89c-15ac-49c5-bf65-b3b223b1c180"/>
+  <musi:hasAnnotation rdf:resource="36ee50b3-dbcd-4f0e-85cb-71f908a39112"/>
+  <musi:hasAnnotation rdf:resource="715b6fb5-af5d-4800-9b5c-d6ab332eecb1"/>
+  <musi:hasAnnotation rdf:resource="d5086690-105b-41c6-a8ec-f6c1cfb09180"/>
+  <musi:hasAnnotation rdf:resource="6820efa9-af82-45f6-b5ae-36cdac665794"/>
+  <musi:hasAnnotation rdf:resource="07d29b33-7887-44c2-a795-e985c2059192"/>
+  <musi:hasAnnotation rdf:resource="570d8ade-e657-480d-9877-7d55e466051b"/>
+  <musi:hasAnnotation rdf:resource="00a549d2-b1b1-4be4-a75c-87c885809be1"/>
+  <musi:hasAnnotation rdf:resource="1ac14455-3302-4baa-a616-ec49b19a9905"/>
+  <musi:hasAnnotation rdf:resource="95a40df7-e61c-4034-90a2-913b1520ec32"/>
+  <musi:hasAnnotation rdf:resource="379f566e-944b-478f-8ba4-c5528093cdd7"/>
+</musi2:Score>
+
+<musi:Analysis rdf:about="6eea9d23-67d6-46a0-b896-04ebc3016301">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasAnnotation rdf:resource="9b038454-8d55-4fc7-bd39-de18ccd1e8a9"/>
+  <musi:hasAnnotation rdf:resource="015aa347-e393-4a1e-a7af-c3e6a54a0ae0"/>
+  <musi:hasAnnotation rdf:resource="10317c11-f0c5-42b7-be4d-da255f911823"/>
+  <musi:hasAnnotation rdf:resource="a80a3099-63fc-4ff5-8159-92e908df43bb"/>
+  <musi:hasAnnotation rdf:resource="690c4d74-1267-4b6b-91f2-e344ae39a66d"/>
+  <musi:hasAnnotation rdf:resource="46418bce-65df-493d-ad5d-0144db76f424"/>
+  <musi:hasAnnotation rdf:resource="b0c3073c-82ae-44b8-b73c-39888d6b021b"/>
+  <musi:hasAnnotation rdf:resource="fc9fb47c-4180-45be-9558-0b9a65114439"/>
+  <musi:hasAnnotation rdf:resource="c19edaf4-5c5c-4e92-b199-6fbd7b456feb"/>
+  <musi:hasAnnotation rdf:resource="64d1f98a-5846-4349-b73b-84b00e310734"/>
+  <musi:hasAnnotation rdf:resource="6730eceb-3c78-4692-ae19-c5e5a09c0632"/>
+  <musi:hasAnnotation rdf:resource="f4176c11-7d42-4add-b1d1-1e99086f75ff"/>
+  <musi:hasAnnotation rdf:resource="bfdf89db-5d20-487c-938a-2a27dd1a3079"/>
+  <musi:hasAnnotation rdf:resource="4339a89c-15ac-49c5-bf65-b3b223b1c180"/>
+  <musi:hasAnnotation rdf:resource="36ee50b3-dbcd-4f0e-85cb-71f908a39112"/>
+  <musi:hasAnnotation rdf:resource="715b6fb5-af5d-4800-9b5c-d6ab332eecb1"/>
+  <musi:hasAnnotation rdf:resource="d5086690-105b-41c6-a8ec-f6c1cfb09180"/>
+  <musi:hasAnnotation rdf:resource="6820efa9-af82-45f6-b5ae-36cdac665794"/>
+  <musi:hasAnnotation rdf:resource="07d29b33-7887-44c2-a795-e985c2059192"/>
+  <musi:hasAnnotation rdf:resource="570d8ade-e657-480d-9877-7d55e466051b"/>
+  <musi:hasAnnotation rdf:resource="00a549d2-b1b1-4be4-a75c-87c885809be1"/>
+  <musi:hasAnnotation rdf:resource="1ac14455-3302-4baa-a616-ec49b19a9905"/>
+  <musi:hasAnnotation rdf:resource="95a40df7-e61c-4034-90a2-913b1520ec32"/>
+  <musi:hasAnnotation rdf:resource="379f566e-944b-478f-8ba4-c5528093cdd7"/>
+  <musi:involvesAnalyst rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <core:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cadence analysis with Cadences_FilaberGuillotelGurrieri_2023</core:title>
+</musi:Analysis>
+
+<musi:Annotation rdf:about="9b038454-8d55-4fc7-bd39-de18ccd1e8a9">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-56"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-60"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-64"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-67"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-79"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-89"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="4c00f3a1-6799-4cc2-97ac-47c74083898b"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="4c00f3a1-6799-4cc2-97ac-47c74083898b">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/E-"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="015aa347-e393-4a1e-a7af-c3e6a54a0ae0">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-83"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-90"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-99"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-107"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="5dbfc251-b62f-4f0d-b940-a687f3a964cf"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="5dbfc251-b62f-4f0d-b940-a687f3a964cf">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/A-"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="10317c11-f0c5-42b7-be4d-da255f911823">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-84"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-92"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-101"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-109"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="5bda1e29-e73a-4a03-bf62-d354097a18be"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="5bda1e29-e73a-4a03-bf62-d354097a18be">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/G"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/FirstInversion"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="a80a3099-63fc-4ff5-8159-92e908df43bb">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-114"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-122"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-128"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-135"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-116"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-123"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-129"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-136"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-119"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-125"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-131"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="3722c391-8a03-4cc9-bc2f-57f690f7a112"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="3722c391-8a03-4cc9-bc2f-57f690f7a112">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/C"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MinorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="690c4d74-1267-4b6b-91f2-e344ae39a66d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-142"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-150"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-157"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-165"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-143"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-151"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-167"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="85a7ba7b-83b8-4244-9b52-533a9e7eff86"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="85a7ba7b-83b8-4244-9b52-533a9e7eff86">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/F"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MinorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/FirstInversion"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="75af7830-cf6d-4338-be83-c7aabd7816a3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-143"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="81b0551c-4ebc-41a3-896f-fd9282c007a1"/>
+  <core:isDerivedFrom rdf:resource="690c4d74-1267-4b6b-91f2-e344ae39a66d"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="81b0551c-4ebc-41a3-896f-fd9282c007a1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="46418bce-65df-493d-ad5d-0144db76f424">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-145"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-153"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-159"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-147"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-154"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-170"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="330747fe-5e36-406c-9b32-eb4b313cb875"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="330747fe-5e36-406c-9b32-eb4b313cb875">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/B-"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="75fdd0f3-a38e-416d-a700-9eef8c4eb41d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-145"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="f84d93e1-587a-4f47-98a5-0535eb88f937"/>
+  <core:isDerivedFrom rdf:resource="46418bce-65df-493d-ad5d-0144db76f424"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="f84d93e1-587a-4f47-98a5-0535eb88f937">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="591632cf-e1e0-4962-832a-28902d949485">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-153"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="42f5ccc7-8b9a-4f6f-9d3f-c54018e45e32"/>
+  <core:isDerivedFrom rdf:resource="46418bce-65df-493d-ad5d-0144db76f424"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="42f5ccc7-8b9a-4f6f-9d3f-c54018e45e32">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="b0c3073c-82ae-44b8-b73c-39888d6b021b">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-175"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-180"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-184"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-189"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-195"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-201"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-207"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-211"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-198"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-203"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-239"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-231"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-216"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-223"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-242"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="856eb2ce-3c90-4948-8136-d54ca187fe49"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="856eb2ce-3c90-4948-8136-d54ca187fe49">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/E-"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="ed2c9995-e1c6-4d34-a051-8383f5e06c66">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-198"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="755dd052-0d9a-4f45-9539-40ee4e6be79f"/>
+  <core:isDerivedFrom rdf:resource="b0c3073c-82ae-44b8-b73c-39888d6b021b"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="755dd052-0d9a-4f45-9539-40ee4e6be79f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="91583946-1fd7-48c6-b2a5-de46bdf36b41">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-203"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="8ed0d4c4-8c18-4023-a15d-38c481dbd33a"/>
+  <core:isDerivedFrom rdf:resource="b0c3073c-82ae-44b8-b73c-39888d6b021b"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="8ed0d4c4-8c18-4023-a15d-38c481dbd33a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="cec7befb-1f4c-4bdb-957c-d0f113538257">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-242"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="f845e959-7a80-4743-9abd-045635f5cdf4"/>
+  <core:isDerivedFrom rdf:resource="b0c3073c-82ae-44b8-b73c-39888d6b021b"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="f845e959-7a80-4743-9abd-045635f5cdf4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="fc9fb47c-4180-45be-9558-0b9a65114439">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-243"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-217"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-225"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-233"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-245"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="d3e8d3ec-250e-44ae-b169-d0cb94c13459"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="d3e8d3ec-250e-44ae-b169-d0cb94c13459">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/C"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MinorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="7d85fe5c-fcf7-461d-82f3-71ac92407502">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-245"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="2fe748bd-7950-4283-ae5f-69d58ac01af7"/>
+  <core:isDerivedFrom rdf:resource="fc9fb47c-4180-45be-9558-0b9a65114439"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="2fe748bd-7950-4283-ae5f-69d58ac01af7">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="c19edaf4-5c5c-4e92-b199-6fbd7b456feb">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-218"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-226"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-235"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-247"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-219"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-227"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-249"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="b2661516-d0de-458e-a5bf-5344793bed6b"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="b2661516-d0de-458e-a5bf-5344793bed6b">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/F"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/FirstInversion"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="3e50cba8-15d4-4057-b0b2-7d990fd634d3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-219"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="eff4cdf7-51c6-44f3-86a2-b83d30f734f3"/>
+  <core:isDerivedFrom rdf:resource="c19edaf4-5c5c-4e92-b199-6fbd7b456feb"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="eff4cdf7-51c6-44f3-86a2-b83d30f734f3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="64d1f98a-5846-4349-b73b-84b00e310734">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-254"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-264"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-277"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-287"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-256"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-267"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-279"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-257"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-269"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-281"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-282"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-289"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-292"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="db5a3330-c1d8-4da5-9675-207789344ad5"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="db5a3330-c1d8-4da5-9675-207789344ad5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/B-"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="930199de-5733-49bb-a9c5-a6773d44d612">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-256"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="50300ff6-c1fa-42b5-b628-028a2d9b7d3f"/>
+  <core:isDerivedFrom rdf:resource="64d1f98a-5846-4349-b73b-84b00e310734"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="50300ff6-c1fa-42b5-b628-028a2d9b7d3f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="511d0615-9df8-45ac-95b6-10e829741be4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-267"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="1aaa5529-d4dc-429f-a991-a81270f0a25f"/>
+  <core:isDerivedFrom rdf:resource="64d1f98a-5846-4349-b73b-84b00e310734"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="1aaa5529-d4dc-429f-a991-a81270f0a25f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="2aba9bc3-dcae-40db-bb38-56921a7dae3e">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-279"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="09d4bbeb-77b2-4c98-8a0f-f2ab73f13665"/>
+  <core:isDerivedFrom rdf:resource="64d1f98a-5846-4349-b73b-84b00e310734"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="09d4bbeb-77b2-4c98-8a0f-f2ab73f13665">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="3628aeb7-a1e8-407d-ac08-f87177ec595f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-292"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="3587d019-6f0b-42ba-a5d1-93ab8f9a7ce2"/>
+  <core:isDerivedFrom rdf:resource="64d1f98a-5846-4349-b73b-84b00e310734"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="3587d019-6f0b-42ba-a5d1-93ab8f9a7ce2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="6730eceb-3c78-4692-ae19-c5e5a09c0632">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-297"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-304"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-314"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-324"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-299"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-316"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-325"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="f550c6dd-2f76-4c83-842c-cfa6bf9985bd"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="f550c6dd-2f76-4c83-842c-cfa6bf9985bd">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/E-"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/FirstInversion"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="b33a3f2d-624e-4f3b-93df-24ec79145189">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-299"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="4edb06a5-7800-48fe-83d9-76df73c8d164"/>
+  <core:isDerivedFrom rdf:resource="6730eceb-3c78-4692-ae19-c5e5a09c0632"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="4edb06a5-7800-48fe-83d9-76df73c8d164">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="68f6d4fc-4df5-4833-adf8-f6299d029f76">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-316"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="1d39b0b8-5d28-44b3-9fa2-6f7d10b49f38"/>
+  <core:isDerivedFrom rdf:resource="6730eceb-3c78-4692-ae19-c5e5a09c0632"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="1d39b0b8-5d28-44b3-9fa2-6f7d10b49f38">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="0d66e8c4-6da1-4287-88c5-dc6f7cd2563d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-325"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="5d5c1d7a-9cf5-42d1-b9bb-5101c8948eee"/>
+  <core:isDerivedFrom rdf:resource="6730eceb-3c78-4692-ae19-c5e5a09c0632"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="5d5c1d7a-9cf5-42d1-b9bb-5101c8948eee">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="f4176c11-7d42-4add-b1d1-1e99086f75ff">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-300"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-308"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-317"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-326"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="217c3153-cffd-4e63-8d9e-2147f3b0ac0e"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="217c3153-cffd-4e63-8d9e-2147f3b0ac0e">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/C"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MinorSeventhChord"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/FirstInversion"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="bfdf89db-5d20-487c-938a-2a27dd1a3079">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-318"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-301"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-310"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-328"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-320"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="daebf5b7-3eb6-43bf-b8c5-fbdaa6abbcfc"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="daebf5b7-3eb6-43bf-b8c5-fbdaa6abbcfc">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/F"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="c6a9dd88-9efc-42d1-ac1e-e8ecbd5235e2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-320"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="0bfb3f55-6c74-426c-b6a1-ddcdf2717f56"/>
+  <core:isDerivedFrom rdf:resource="bfdf89db-5d20-487c-938a-2a27dd1a3079"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="0bfb3f55-6c74-426c-b6a1-ddcdf2717f56">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="4339a89c-15ac-49c5-bf65-b3b223b1c180">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-332"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-339"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-344"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-350"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-335"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-341"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-346"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-353"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="33353ffc-e9ba-4af2-b82d-4df7976b9371"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="33353ffc-e9ba-4af2-b82d-4df7976b9371">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/B-"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="36ee50b3-dbcd-4f0e-85cb-71f908a39112">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-359"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-370"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-380"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-390"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-361"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-373"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-363"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-374"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-382"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-392"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="93fe45fe-1f65-4ac7-869c-10ab1c1b0419"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="93fe45fe-1f65-4ac7-869c-10ab1c1b0419">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/E-"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="a4808dcf-e034-45f4-9938-50a30dce9815">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-361"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="630b47d3-ffd7-4ce1-8ffe-e277054acfe1"/>
+  <core:isDerivedFrom rdf:resource="36ee50b3-dbcd-4f0e-85cb-71f908a39112"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="630b47d3-ffd7-4ce1-8ffe-e277054acfe1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="11edd261-58c6-40c2-a5a8-5644ac5343ae">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-373"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="ed606865-5c5d-47ab-a32e-3f9fd7f0c6c8"/>
+  <core:isDerivedFrom rdf:resource="36ee50b3-dbcd-4f0e-85cb-71f908a39112"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="ed606865-5c5d-47ab-a32e-3f9fd7f0c6c8">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="151e4e1a-9ddc-4a75-a9db-26ef2f6afb11">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-392"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="9eb0978a-7c52-4dad-b873-3982f86137f0"/>
+  <core:isDerivedFrom rdf:resource="36ee50b3-dbcd-4f0e-85cb-71f908a39112"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="9eb0978a-7c52-4dad-b873-3982f86137f0">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="715b6fb5-af5d-4800-9b5c-d6ab332eecb1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-394"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-365"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-375"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-384"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-396"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="8cd98ec3-6050-41e1-98df-3f2327161f91"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="8cd98ec3-6050-41e1-98df-3f2327161f91">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/A-"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/FirstInversion"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="9d4338d6-e3b7-4ea1-813d-8fc2c36bf8b0">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-396"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="ea0a3885-ae04-47af-a88e-ebd8f16c4f58"/>
+  <core:isDerivedFrom rdf:resource="715b6fb5-af5d-4800-9b5c-d6ab332eecb1"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="ea0a3885-ae04-47af-a88e-ebd8f16c4f58">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="d5086690-105b-41c6-a8ec-f6c1cfb09180">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-366"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-377"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-386"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-398"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="7e5ccde7-ac3d-45b7-af7d-2a96c59ac718"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="7e5ccde7-ac3d-45b7-af7d-2a96c59ac718">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/E"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/DiminishedSeventhChord"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="6820efa9-af82-45f6-b5ae-36cdac665794">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-403"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-413"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-422"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-428"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-405"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-414"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="0ec01044-529e-4b56-b3ba-0421c5e2b671"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="0ec01044-529e-4b56-b3ba-0421c5e2b671">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/F"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MinorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="5ae96414-35fa-402d-8996-1f2a4abb7b0b">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-403"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="93dba2e5-cbf4-4af3-a1c3-f8bfde7f873f"/>
+  <core:isDerivedFrom rdf:resource="6820efa9-af82-45f6-b5ae-36cdac665794"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="93dba2e5-cbf4-4af3-a1c3-f8bfde7f873f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="aa7d9575-789c-4edf-b3a6-26462439f63b">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-413"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="de7239bc-e7d2-4596-8d94-9f46e2d7faa0"/>
+  <core:isDerivedFrom rdf:resource="6820efa9-af82-45f6-b5ae-36cdac665794"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="de7239bc-e7d2-4596-8d94-9f46e2d7faa0">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="07d29b33-7887-44c2-a795-e985c2059192">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-407"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-415"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-423"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-429"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="79ec726f-2086-444c-b841-a451bcbdc4cc"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="79ec726f-2086-444c-b841-a451bcbdc4cc">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/C"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MinorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="570d8ade-e657-480d-9877-7d55e466051b">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-409"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-418"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-425"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-431"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="3826e664-6fb9-4731-96ee-ebd752899c14"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="3826e664-6fb9-4731-96ee-ebd752899c14">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/E-"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/DominantSeventhChord"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/ThirdInversion"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="00a549d2-b1b1-4be4-a75c-87c885809be1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-436"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-443"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-452"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-464"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-438"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-454"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-465"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="a78f7ba1-5d50-49e4-baec-fc1c870d6269"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="a78f7ba1-5d50-49e4-baec-fc1c870d6269">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/A-"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/FirstInversion"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="d3d63524-9810-477e-8517-b9d3471dd000">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-438"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="390d70e7-6da2-436e-8d1d-4bfa623bf6b2"/>
+  <core:isDerivedFrom rdf:resource="00a549d2-b1b1-4be4-a75c-87c885809be1"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="390d70e7-6da2-436e-8d1d-4bfa623bf6b2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="734dc7b5-7268-45ca-ad3b-91ed9f97e06b">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-454"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="38bb8f71-aacc-4fc4-8422-9b4d2651d13d"/>
+  <core:isDerivedFrom rdf:resource="00a549d2-b1b1-4be4-a75c-87c885809be1"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="38bb8f71-aacc-4fc4-8422-9b4d2651d13d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="2c8092df-a9a9-4cf6-8961-d530605ea0eb">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-465"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="46b70bc1-7630-44c4-83de-b6b036c39157"/>
+  <core:isDerivedFrom rdf:resource="00a549d2-b1b1-4be4-a75c-87c885809be1"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="46b70bc1-7630-44c4-83de-b6b036c39157">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="1ac14455-3302-4baa-a616-ec49b19a9905">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-439"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-447"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-456"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-467"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="88eeb6fd-19d3-4efe-a499-81f769d5ad2c"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="88eeb6fd-19d3-4efe-a499-81f769d5ad2c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/F"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MinorSeventhChord"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/FirstInversion"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="95a40df7-e61c-4034-90a2-913b1520ec32">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-457"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-440"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-449"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-469"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-460"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="d9560457-4bc3-44d4-b6a8-6ae81fedcf43"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="d9560457-4bc3-44d4-b6a8-6ae81fedcf43">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/B-"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="bc527729-0767-4cbf-a7c5-4233e73102ab">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-460"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="5566d2a8-6b50-45e2-8bb9-111dbe8aa224"/>
+  <core:isDerivedFrom rdf:resource="95a40df7-e61c-4034-90a2-913b1520ec32"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="5566d2a8-6b50-45e2-8bb9-111dbe8aa224">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="379f566e-944b-478f-8ba4-c5528093cdd7">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-474"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-479"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-484"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/108.mei#m-488"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="69b98f0c-9280-4955-afeb-a1a328fca96a"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="69b98f0c-9280-4955-afeb-a1a328fca96a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/E-"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 09:45:46.273298</term:created>
+</musi:Observation>
+
+
+</rdf:RDF>
