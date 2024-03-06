@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="https://data-iremus.huma-num.fr/sherlock/id/representation/"
+         xmlns:musi="https://w3id.org/polifonia/ontology/music-meta/"
+         xmlns:musi2="https://w3id.org/polifonia/ontology/music-representation/"
+         xmlns:core="https://w3id.org/polifonia/ontology/core/"
+         xmlns="https://data-iremus.huma-num.fr/sherlock/id/representation/">
+
+<owl:Ontology rdf:about="https://data-iremus.huma-num.fr/sherlock/id/representation">
+  <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/music-representation"/>
+  <owl:imports rdf:resource="http://purl.org/dc/terms"/>
+</owl:Ontology>
+
+<musi:Score rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2701.mei"/>
+
+<musi2:Analysis rdf:about="3daa7f59-ff43-4840-90b3-63ed925570d1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi2:involvesAnalyst rdf:resource="630b6877-1e41-4464-bb5c-02b3d494e1be"/>
+  <core:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cadence analysis with Cadences_FilaberGuillotelGurrieri_2023</core:title>
+</musi2:Analysis>
+
+<musi2:Annotator rdf:about="630b6877-1e41-4464-bb5c-02b3d494e1be">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi2:Annotator>
+
+
+</rdf:RDF>
