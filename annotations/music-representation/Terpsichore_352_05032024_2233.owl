@@ -1,0 +1,641 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="https://data-iremus.huma-num.fr/sherlock/id/representation/"
+         xmlns:musi="https://w3id.org/polifonia/ontology/music-representation/"
+         xmlns:musi2="https://w3id.org/polifonia/ontology/music-meta/"
+         xmlns:core="https://w3id.org/polifonia/ontology/core/"
+         xmlns:term="http://purl.org/dc/terms/"
+         xmlns="https://data-iremus.huma-num.fr/sherlock/id/representation/">
+
+<owl:Ontology rdf:about="https://data-iremus.huma-num.fr/sherlock/id/representation">
+  <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/music-representation"/>
+  <owl:imports rdf:resource="http://purl.org/dc/terms"/>
+</owl:Ontology>
+
+<musi:Annotator rdf:about="5d7bdf74-addd-418b-ab43-38af4e70c158">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</musi:Annotator>
+
+<musi2:Score rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei">
+  <musi:hasAnnotation rdf:resource="a9c52b50-13c5-44a2-8ab4-28bf6b93e7df"/>
+  <musi:hasAnnotation rdf:resource="7674447e-17eb-4f2b-9241-328b025fd3ee"/>
+  <musi:hasAnnotation rdf:resource="7c80ceb9-2cbb-45f6-811b-28e188b01813"/>
+  <musi:hasAnnotation rdf:resource="6493a1bf-fff6-4d90-9caf-2fd8c4f3f8d2"/>
+  <musi:hasAnnotation rdf:resource="9971e5e0-6c64-4cd1-9032-3eeb882345a1"/>
+  <musi:hasAnnotation rdf:resource="63e0da70-6e8f-4486-a89a-f19ca56f594a"/>
+  <musi:hasAnnotation rdf:resource="44d40f6b-879d-404f-a315-799ab9122c14"/>
+  <musi:hasAnnotation rdf:resource="d18db15e-804c-4347-b20b-5c17b6065b66"/>
+  <musi:hasAnnotation rdf:resource="2c5b1c55-a903-4eb4-91de-9a332e53563f"/>
+  <musi:hasAnnotation rdf:resource="6a9c3530-b2c4-4af3-a337-f4e2d5b307cf"/>
+  <musi:hasAnnotation rdf:resource="341df2d0-a7ea-4eee-ac69-35343d5262f1"/>
+  <musi:hasAnnotation rdf:resource="020edc9a-e5a9-427a-b92b-fa43337b4b84"/>
+  <musi:hasAnnotation rdf:resource="2ddbcd59-e348-45c3-8a8f-c7fe7b497958"/>
+  <musi:hasAnnotation rdf:resource="e8085c01-2069-4429-914b-30d6876abd55"/>
+  <musi:hasAnnotation rdf:resource="4e8cea07-ad71-4408-a29d-d4b283219f47"/>
+</musi2:Score>
+
+<musi:Analysis rdf:about="be95e6bc-9091-4975-ada3-be27fb596f4f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasAnnotation rdf:resource="a9c52b50-13c5-44a2-8ab4-28bf6b93e7df"/>
+  <musi:hasAnnotation rdf:resource="7674447e-17eb-4f2b-9241-328b025fd3ee"/>
+  <musi:hasAnnotation rdf:resource="7c80ceb9-2cbb-45f6-811b-28e188b01813"/>
+  <musi:hasAnnotation rdf:resource="6493a1bf-fff6-4d90-9caf-2fd8c4f3f8d2"/>
+  <musi:hasAnnotation rdf:resource="9971e5e0-6c64-4cd1-9032-3eeb882345a1"/>
+  <musi:hasAnnotation rdf:resource="63e0da70-6e8f-4486-a89a-f19ca56f594a"/>
+  <musi:hasAnnotation rdf:resource="44d40f6b-879d-404f-a315-799ab9122c14"/>
+  <musi:hasAnnotation rdf:resource="d18db15e-804c-4347-b20b-5c17b6065b66"/>
+  <musi:hasAnnotation rdf:resource="2c5b1c55-a903-4eb4-91de-9a332e53563f"/>
+  <musi:hasAnnotation rdf:resource="6a9c3530-b2c4-4af3-a337-f4e2d5b307cf"/>
+  <musi:hasAnnotation rdf:resource="341df2d0-a7ea-4eee-ac69-35343d5262f1"/>
+  <musi:hasAnnotation rdf:resource="020edc9a-e5a9-427a-b92b-fa43337b4b84"/>
+  <musi:hasAnnotation rdf:resource="2ddbcd59-e348-45c3-8a8f-c7fe7b497958"/>
+  <musi:hasAnnotation rdf:resource="e8085c01-2069-4429-914b-30d6876abd55"/>
+  <musi:hasAnnotation rdf:resource="4e8cea07-ad71-4408-a29d-d4b283219f47"/>
+  <musi:involvesAnalyst rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <core:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chord analysis</core:title>
+</musi:Analysis>
+
+<musi:Annotation rdf:about="a9c52b50-13c5-44a2-8ab4-28bf6b93e7df">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-61"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-75"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-86"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-70"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-81"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="904de777-8b23-462b-8b54-1d8bd3bc20dd"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="904de777-8b23-462b-8b54-1d8bd3bc20dd">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/C"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="7674447e-17eb-4f2b-9241-328b025fd3ee">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-62"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-76"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-87"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-81"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-70"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="d93d97ae-0cd9-428a-806c-23dabcc04bef"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="d93d97ae-0cd9-428a-806c-23dabcc04bef">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/G"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="7c80ceb9-2cbb-45f6-811b-28e188b01813">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-63"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-71"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-82"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-77"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-88"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-65"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="f4e0b856-ebf6-4ba8-889c-db5b3cced49b"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="f4e0b856-ebf6-4ba8-889c-db5b3cced49b">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/A"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MinorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="ba3475a5-999a-4164-89f3-6e4595d10661">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-65"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="c60f7ecf-60e6-436a-b356-a70e2e721b16"/>
+  <core:isDerivedFrom rdf:resource="7c80ceb9-2cbb-45f6-811b-28e188b01813"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="c60f7ecf-60e6-436a-b356-a70e2e721b16">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="6493a1bf-fff6-4d90-9caf-2fd8c4f3f8d2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-66"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-72"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-83"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-89"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-77"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-67"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-78"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="446c2ea8-ddf2-4fec-a6f4-eee917caed7f"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="446c2ea8-ddf2-4fec-a6f4-eee917caed7f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/F"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="81a2aa8c-f8b6-451d-81ef-9395d03df792">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-67"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="0a750697-4c32-47f3-9fc0-41124a56ee09"/>
+  <core:isDerivedFrom rdf:resource="6493a1bf-fff6-4d90-9caf-2fd8c4f3f8d2"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="0a750697-4c32-47f3-9fc0-41124a56ee09">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="9971e5e0-6c64-4cd1-9032-3eeb882345a1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-98"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-102"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-110"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-115"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-119"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="4fbf76a6-8adc-4f74-9cc2-e2e7b9183470"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="4fbf76a6-8adc-4f74-9cc2-e2e7b9183470">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/E"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="63e0da70-6e8f-4486-a89a-f19ca56f594a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-104"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-111"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-99"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-116"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-120"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-106"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-107"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-112"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="0e03778f-502c-43aa-a907-503d144f1823"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="0e03778f-502c-43aa-a907-503d144f1823">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/F"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="a46bdf74-82ac-495c-bb60-5577c2edbd97">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-106"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="c8ebdc53-2f55-4125-8128-aa7e781aef7b"/>
+  <core:isDerivedFrom rdf:resource="63e0da70-6e8f-4486-a89a-f19ca56f594a"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="c8ebdc53-2f55-4125-8128-aa7e781aef7b">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="08dc106f-3b5d-490e-beff-dbb5a32f87a0">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-112"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="cbdd143f-76f2-482d-827b-1292fadfaf55"/>
+  <core:isDerivedFrom rdf:resource="63e0da70-6e8f-4486-a89a-f19ca56f594a"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="cbdd143f-76f2-482d-827b-1292fadfaf55">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="44d40f6b-879d-404f-a315-799ab9122c14">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-128"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-133"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-124"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-138"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-142"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-129"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-134"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-125"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-135"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="2bd2efae-6202-42ae-9d6f-8f70a4656411"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="2bd2efae-6202-42ae-9d6f-8f70a4656411">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/C"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="d18db15e-804c-4347-b20b-5c17b6065b66">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-147"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-169"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-160"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-156"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-165"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-148"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-170"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-150"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-172"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="5e7008c7-99fb-4231-bd24-468c22b4ae0d"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="5e7008c7-99fb-4231-bd24-468c22b4ae0d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/G"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="6745b559-211f-4451-a53c-75a5fbc83547">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-148"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="a9c0d67e-4944-44ed-ad11-fe9c16051be0"/>
+  <core:isDerivedFrom rdf:resource="d18db15e-804c-4347-b20b-5c17b6065b66"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="a9c0d67e-4944-44ed-ad11-fe9c16051be0">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="154b0452-cc4e-4e49-b7ff-ead5f00caaf9">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-170"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="eda1b668-3f36-4437-9ecd-59b203dd3891"/>
+  <core:isDerivedFrom rdf:resource="d18db15e-804c-4347-b20b-5c17b6065b66"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="eda1b668-3f36-4437-9ecd-59b203dd3891">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="fd960b2f-47dd-465d-ab79-41e180c49151">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-172"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="e93632ff-cebf-4608-a2dc-7ecefa7094f8"/>
+  <core:isDerivedFrom rdf:resource="d18db15e-804c-4347-b20b-5c17b6065b66"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="e93632ff-cebf-4608-a2dc-7ecefa7094f8">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="2c5b1c55-a903-4eb4-91de-9a332e53563f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-151"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-161"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-173"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-156"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-165"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="ebdb07bb-cc4b-4fb0-9425-70a06a9904dc"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="ebdb07bb-cc4b-4fb0-9425-70a06a9904dc">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/D"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="6a9c3530-b2c4-4af3-a337-f4e2d5b307cf">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-153"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-157"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-162"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-166"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-174"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-178"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-183"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-187"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-191"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-195"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="138f8d1f-060c-431f-8284-405bb5866f22"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="138f8d1f-060c-431f-8284-405bb5866f22">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/G"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="341df2d0-a7ea-4eee-ac69-35343d5262f1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-200"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-221"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-206"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-211"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-216"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-201"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-222"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="3c9ed360-08e4-4517-83cc-c7f28726e3ca"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="3c9ed360-08e4-4517-83cc-c7f28726e3ca">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/D"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MinorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="e58eb12a-5941-4b5e-a594-bfd778c5869d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-201"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="f4e17558-a613-48e8-a4f3-7adf171c713e"/>
+  <core:isDerivedFrom rdf:resource="341df2d0-a7ea-4eee-ac69-35343d5262f1"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="f4e17558-a613-48e8-a4f3-7adf171c713e">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="4ca5726e-62b4-40bf-9945-7618871c57a2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-222"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="4b8e58ff-98ca-4201-b36f-dc86d0909023"/>
+  <core:isDerivedFrom rdf:resource="341df2d0-a7ea-4eee-ac69-35343d5262f1"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="4b8e58ff-98ca-4201-b36f-dc86d0909023">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="020edc9a-e5a9-427a-b92b-fa43337b4b84">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-202"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-207"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-212"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-217"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-223"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-238"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-242"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-248"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-252"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-229"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-231"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="e6d5b340-b61d-4eed-a4f9-10f8313e97ff"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="e6d5b340-b61d-4eed-a4f9-10f8313e97ff">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/F"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="de919886-ff8e-4de1-b940-84a896f1542c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-231"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="6f3fb996-4706-4eb3-9a6b-1a5af30d966d"/>
+  <core:isDerivedFrom rdf:resource="020edc9a-e5a9-427a-b92b-fa43337b4b84"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="6f3fb996-4706-4eb3-9a6b-1a5af30d966d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="2ddbcd59-e348-45c3-8a8f-c7fe7b497958">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-233"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-243"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-249"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-253"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-239"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-235"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-245"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-258"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-272"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-266"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-283"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-279"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-259"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-273"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-260"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-274"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-262"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="dcba58d8-06d6-4e60-a647-054014702275"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="dcba58d8-06d6-4e60-a647-054014702275">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/C"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="a33a8b3b-6627-48f3-be37-2eea3176eaf7">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-235"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="9f2cc910-a348-41b1-8593-c3d0d932b015"/>
+  <core:isDerivedFrom rdf:resource="2ddbcd59-e348-45c3-8a8f-c7fe7b497958"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="9f2cc910-a348-41b1-8593-c3d0d932b015">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="1e6b1958-a0ff-4a32-84ba-a4e2bf425879">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-245"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="07f8ec77-906d-4827-9a4e-d7f454140d35"/>
+  <core:isDerivedFrom rdf:resource="2ddbcd59-e348-45c3-8a8f-c7fe7b497958"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="07f8ec77-906d-4827-9a4e-d7f454140d35">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="6fc12dff-14c0-498a-a7be-954166d71431">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-259"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="96abdca1-4f00-4333-bbb3-eeaecd4ee28d"/>
+  <core:isDerivedFrom rdf:resource="2ddbcd59-e348-45c3-8a8f-c7fe7b497958"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="96abdca1-4f00-4333-bbb3-eeaecd4ee28d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="903d42a4-8423-4ad8-981a-e994a61d3c17">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-273"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="a67a543a-e2e7-40df-b789-4f6bdf1bffa7"/>
+  <core:isDerivedFrom rdf:resource="2ddbcd59-e348-45c3-8a8f-c7fe7b497958"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="a67a543a-e2e7-40df-b789-4f6bdf1bffa7">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="196a1f6a-d0a7-4931-a148-d90e20a3488c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-262"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="80b3a9a8-824d-4891-b985-a0d00f379b8e"/>
+  <core:isDerivedFrom rdf:resource="2ddbcd59-e348-45c3-8a8f-c7fe7b497958"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="80b3a9a8-824d-4891-b985-a0d00f379b8e">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="e8085c01-2069-4429-914b-30d6876abd55">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-267"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-263"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-275"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-280"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-284"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-269"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="a2afab66-1b37-4961-9e16-ef29b8077c49"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="a2afab66-1b37-4961-9e16-ef29b8077c49">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/G"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="9dd9ee0c-defd-4306-9e2b-b39291ecfac4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-269"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="5e5894b2-646e-4d5e-b0e0-60e9448e4631"/>
+  <core:isDerivedFrom rdf:resource="e8085c01-2069-4429-914b-30d6876abd55"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="5e5894b2-646e-4d5e-b0e0-60e9448e4631">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+<musi:Annotation rdf:about="4e8cea07-ad71-4408-a29d-d4b283219f47">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-288"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-293"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-297"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-301"/>
+  <musi:describesFragment rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/352.mei#m-305"/>
+  <musi:hasAnnotator rdf:resource="5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <musi:hasObservation rdf:resource="12359021-def4-4dd7-81f9-ccfed451d462"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Annotation>
+
+<musi:Observation rdf:about="12359021-def4-4dd7-81f9-ccfed451d462">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/C"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad"/>
+  <musi:hasSubject rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-05 22:33:09.376284</term:created>
+</musi:Observation>
+
+
+</rdf:RDF>
