@@ -8,7 +8,6 @@ import sys
 # SETUP
 ################################################################################
 
-
 S = Namespace('http://data-iremus.huma-num.fr/id/')
 PC = Namespace('https://w3id.org/polifonia/ontology/core/')
 MR = Namespace('https://w3id.org/polifonia/ontology/music-representation/')
