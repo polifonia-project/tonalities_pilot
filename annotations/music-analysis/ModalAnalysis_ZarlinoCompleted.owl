@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="https://w3id.org/polifonia/ontology/music-analysis/"
+         xmlns:zarl="https://w3id.org/polifonia/ontology/music-analysis/zarlino/"
+         xmlns:x_1.1="http://purl.org/dc/elements/1.1/"
+         xmlns:term="http://purl.org/dc/terms/"
+         xmlns:musi="https://w3id.org/polifonia/ontology/music-projection/"
+         xmlns:core="https://w3id.org/polifonia/ontology/core/"
+         xmlns="https://w3id.org/polifonia/ontology/music-analysis/">
+
+<owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/music-analysis">
+  <owl:imports rdf:resource="https://raw.githubusercontent.com/polifonia-project/music-analysis-ontology/main/theoreticalModels/zarlino.owl"/>
+  <owl:imports rdf:resource="zarlino"/>
+</owl:Ontology>
+
+<rdf:Description rdf:about="https://w3id.org/polifonia/ontology/music-projection/Natural">
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L20F5"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-20T14:49:13.803149557Z</term:created>
+</rdf:Description>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L20F5"/>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L243F3"/>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L237F3"/>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L237F5"/>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L238F3"/>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L243F1"/>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L239F3"/>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L239F5"/>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L243F5"/>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L241F5"/>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L237F1"/>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L240F3"/>
+
+<zarl:Mode rdf:about="add25d16-f49a-4d89-a863-aeddb7ab26a6_Mode">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:isDefinedBy rdf:resource="c6e1e7c6-c8f9-43e1-99b7-af03523e81aa_Cadence"/>
+  <zarl:hasAmbitus rdf:resource="b5385960-a8e7-47ad-89d7-995b2ac36d94"/>
+  <zarl:hasFinalis rdf:resource="205cb9d2-91b5-4e6d-b0d5-e39006e782a5_Finalis"/>
+  <zarl:hasInitialNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L20F5"/>
+  <zarl:hasInitialNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L20F3"/>
+  <zarl:hasInitialNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L29F1"/>
+  <zarl:isInDiatonicSystem rdf:resource="zarlino/Untransposed"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-17T10:07:54.035123950Z</term:created>
+</zarl:Mode>
+
+<zarl:Finalis rdf:about="205cb9d2-91b5-4e6d-b0d5-e39006e782a5_Finalis">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L243F3"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-17T14:34:38.606096066Z</term:created>
+</zarl:Finalis>
+
+<zarl:Part rdf:about="7461d14b-2cf5-44e4-9b4d-999de0dc329a_Part">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasPartType rdf:resource="bde5476e-e786-4f24-b583-67d965c43a00_Cantus"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L20F5"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-20T14:45:56.499551315Z</term:created>
+</zarl:Part>
+
+<zarl:Cantus rdf:about="bde5476e-e786-4f24-b583-67d965c43a00_Cantus">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L20F5"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-20T14:46:24.043000205Z</term:created>
+</zarl:Cantus>
+
+<musi:C1 rdf:about="a1ada237-fb25-42a7-8bd1-a35c0a719f05_C1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L20F5"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-20T14:48:57.338487476Z</term:created>
+</musi:C1>
+
+<zarl:Cadence rdf:about="c6e1e7c6-c8f9-43e1-99b7-af03523e81aa_Cadence">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasTargetNote rdf:resource="a30c0794-cc6a-4ca2-a2f2-b24076a2287b_TargetNote"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L237F3"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L243F3"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L237F5"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L238F3"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L243F1"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L239F3"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L239F5"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L243F5"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L241F5"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L237F1"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L240F3"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-17T14:47:06.887146201Z</term:created>
+</zarl:Cadence>
+
+<zarl:TargetNote rdf:about="a30c0794-cc6a-4ca2-a2f2-b24076a2287b_TargetNote">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L243F3"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-19T20:56:39.709717265Z</term:created>
+</zarl:TargetNote>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L20F3"/>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2705.mei#note-L29F1"/>
+
+<zarl:Ambitus rdf:about="b5385960-a8e7-47ad-89d7-995b2ac36d94">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:composedOf rdf:resource="245e1b13-d4bf-413d-b08a-78cdb8999a1b"/>
+  <zarl:composedOf rdf:resource="37816917-bab5-4a64-b41a-a49aeb78c71b"/>
+  <zarl:composedOf rdf:resource="41fe11a6-1b44-4784-bac7-26430cbb4aa8"/>
+</zarl:Ambitus>
+
+<zarl:Part rdf:about="ff92a00d-719d-4114-a3ed-6492ac04eaa2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasAmbitus rdf:resource="245e1b13-d4bf-413d-b08a-78cdb8999a1b"/>
+  <zarl:hasPartType rdf:resource="f0cb945f-f2e5-4dc8-a29a-527bb9c99d37"/>
+</zarl:Part>
+
+<zarl:Cantus rdf:about="f0cb945f-f2e5-4dc8-a29a-527bb9c99d37">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</zarl:Cantus>
+
+<zarl:Ambitus rdf:about="245e1b13-d4bf-413d-b08a-78cdb8999a1b">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:isAmbitusOf rdf:resource="ff92a00d-719d-4114-a3ed-6492ac04eaa2"/>
+  <zarl:hasHighestPitch rdf:resource="168e0096-f9a4-4541-979f-107f1ea52765"/>
+  <zarl:hasLowestPitch rdf:resource="0fd80458-98df-4e9f-b258-443fe93b3dd6"/>
+  <musi:hasAmbitusType rdf:resource="zarlino/AuthenticAmbitus"/>
+  <musi:hasAmbitusType rdf:resource="zarlino/ExpandedAmbitus"/>
+</zarl:Ambitus>
+
+<musi:Note rdf:about="0fd80458-98df-4e9f-b258-443fe93b3dd6">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitch rdf:resource="e4d3188c-f57e-4814-b672-377c9e4777b4"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="e4d3188c-f57e-4814-b672-377c9e4777b4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/B"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="168e0096-f9a4-4541-979f-107f1ea52765">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitch rdf:resource="bdad34b0-cf09-4703-9620-daeadb636e1e"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="bdad34b0-cf09-4703-9620-daeadb636e1e">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/D"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</musi:hasOctave>
+</musi:Pitch>
+
+<zarl:Part rdf:about="73f557e6-0447-415b-9906-197e0028e27f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasAmbitus rdf:resource="37816917-bab5-4a64-b41a-a49aeb78c71b"/>
+  <zarl:hasPartType rdf:resource="ffdadcc7-34f7-4492-a34b-77bf3557b49d"/>
+</zarl:Part>
+
+<zarl:Tenor rdf:about="ffdadcc7-34f7-4492-a34b-77bf3557b49d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</zarl:Tenor>
+
+<zarl:Ambitus rdf:about="37816917-bab5-4a64-b41a-a49aeb78c71b">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:isAmbitusOf rdf:resource="73f557e6-0447-415b-9906-197e0028e27f"/>
+  <zarl:hasHighestPitch rdf:resource="ae772c0a-aea1-4096-9fc7-6c690e1d5caa"/>
+  <zarl:hasLowestPitch rdf:resource="4391ecf2-50e9-46f7-8b58-ebdf0f758ed4"/>
+  <musi:hasAmbitusType rdf:resource="zarlino/AuthenticAmbitus"/>
+  <musi:hasAmbitusType rdf:resource="zarlino/ExpandedAmbitus"/>
+</zarl:Ambitus>
+
+<musi:Note rdf:about="4391ecf2-50e9-46f7-8b58-ebdf0f758ed4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitch rdf:resource="d21f1eb2-d349-4190-9081-e63ff59cfc0a"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="d21f1eb2-d349-4190-9081-e63ff59cfc0a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/A"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="ae772c0a-aea1-4096-9fc7-6c690e1d5caa">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitch rdf:resource="49f1d6b5-3223-4e75-b733-ae05e8510473"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="49f1d6b5-3223-4e75-b733-ae05e8510473">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/F"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</musi:hasOctave>
+</musi:Pitch>
+
+<zarl:Part rdf:about="8bcc9d8b-4bc0-40be-8add-d20280d50ae6">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasAmbitus rdf:resource="41fe11a6-1b44-4784-bac7-26430cbb4aa8"/>
+  <zarl:hasPartType rdf:resource="452415ca-404c-4d06-a0c5-9f2b84415207"/>
+</zarl:Part>
+
+<zarl:Bassus rdf:about="452415ca-404c-4d06-a0c5-9f2b84415207">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</zarl:Bassus>
+
+<zarl:Ambitus rdf:about="41fe11a6-1b44-4784-bac7-26430cbb4aa8">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:isAmbitusOf rdf:resource="8bcc9d8b-4bc0-40be-8add-d20280d50ae6"/>
+  <zarl:hasHighestPitch rdf:resource="11073f37-8e0f-4343-ae22-2081a555f752"/>
+  <zarl:hasLowestPitch rdf:resource="e6b7ba55-7a7d-483d-86cc-e99965fd986d"/>
+  <musi:hasAmbitusType rdf:resource="zarlino/AuthenticAmbitus"/>
+  <musi:hasAmbitusType rdf:resource="zarlino/RegularAmbitus"/>
+</zarl:Ambitus>
+
+<musi:Note rdf:about="e6b7ba55-7a7d-483d-86cc-e99965fd986d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitch rdf:resource="7a9cf59f-835b-4fdb-b4d1-3a1e79e107ed"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="7a9cf59f-835b-4fdb-b4d1-3a1e79e107ed">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/A"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="11073f37-8e0f-4343-ae22-2081a555f752">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitch rdf:resource="c0efd67f-d4eb-48b4-bfde-68c6b6c12436"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="c0efd67f-d4eb-48b4-bfde-68c6b6c12436">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/A"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+
+</rdf:RDF>
