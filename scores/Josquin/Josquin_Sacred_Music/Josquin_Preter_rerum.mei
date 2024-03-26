@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
@@ -41,6 +41,55 @@
                      <rend xml:id="rrwlhi1" halign="center" valign="bottom">©</rend>
                   </pgFoot>
                   <staffGrp xml:id="swtys8c">
+                     <staffDef xml:id="P1" n="1" lines="5" ppq="1">
+                        <label xml:id="l995a48">Superius</label>
+                        <labelAbbr xml:id="l2i1dn2">S.</labelAbbr>
+                        <instrDef xml:id="ivjzq6i" midi.channel="0" midi.instrnum="52" midi.volume="78.00%" />
+                        <clef xml:id="cxzvam" shape="G" line="2"  />
+                        <keySig xml:id="k1qceqbg" mode="major" sig="1f" />
+                        <meterSig xml:id="mu80m5y" count="6" unit="1" />
+                     </staffDef>
+                     <staffDef xml:id="P2" n="2" lines="5" ppq="1">
+                        <label xml:id="l1htdzzk">Altus I</label>
+                        <labelAbbr xml:id="l10hszb1">A. I</labelAbbr>
+                        <instrDef xml:id="i1ae9m1k" midi.channel="1" midi.instrnum="52" midi.volume="78.00%" />
+                        <clef xml:id="cu9f0ay" shape="G" line="2" dis="8" dis.place="below" />
+                        <keySig xml:id="kk06y8" mode="major" sig="1f" />
+                        <meterSig xml:id="m1knhaqo" count="6" unit="1" />
+                     </staffDef>
+                     <staffDef xml:id="P3" n="3" lines="5" ppq="1">
+                        <label xml:id="l1hgbm4p">Altus II</label>
+                        <labelAbbr xml:id="ljcwhf6">A. II</labelAbbr>
+                        <instrDef xml:id="i103s8l" midi.channel="2" midi.instrnum="52" midi.volume="78.00%" />
+                        <clef xml:id="c61vo45" shape="G" line="2" dis="8" dis.place="below" />
+                        <keySig xml:id="k7ly017" mode="major" sig="1f" />
+                        <meterSig xml:id="mno3lau" count="6" unit="1" />
+                     </staffDef>
+                     <staffDef xml:id="P4" n="4" lines="5" ppq="1">
+                        <label xml:id="l10d4x16">Tenor</label>
+                        <labelAbbr xml:id="l40mgb4">T.</labelAbbr>
+                        <instrDef xml:id="i81awnx" midi.channel="3" midi.instrnum="52" midi.volume="78.00%" />
+                        <clef xml:id="c1if3ydn" shape="G" line="2" dis="8" dis.place="below" />
+                        <keySig xml:id="k2e2cc0" mode="major" sig="1f" />
+                        <meterSig xml:id="m1dogtlf" count="6" unit="1" />
+                     </staffDef>
+                     <staffDef xml:id="P5" n="5" lines="5" ppq="1">
+                        <label xml:id="lrscgg">Bassus I</label>
+                        <labelAbbr xml:id="l1t1zf13">B.  I</labelAbbr>
+                        <instrDef xml:id="ij1i22u" midi.channel="4" midi.instrnum="52" midi.volume="78.00%" />
+                        <clef xml:id="c3g0rbf" shape="F" line="4" />
+                        <keySig xml:id="k158n2id" mode="major" sig="1f" />
+                        <meterSig xml:id="m6dcfa3" count="6" unit="1" />
+                     </staffDef>
+                     <staffDef xml:id="P6" n="6" lines="5" ppq="1">
+                        <label xml:id="llt9ipe">Bassus II</label>
+                        <labelAbbr xml:id="l1n94rz1">B. II</labelAbbr>
+                        <instrDef xml:id="i1n3zy5y" midi.channel="5" midi.instrnum="52" midi.volume="78.00%" />
+                        <clef xml:id="cjxdyzq" shape="F" line="4" />
+                        <keySig xml:id="k1mjo9im" mode="major" sig="1f" />
+                        <meterSig xml:id="m1g97g1x" count="6" unit="1" />
+                     </staffDef>
+                     <!-- <staffGrp xml:id="swtys8c">
                      <staffDef xml:id="P1" n="1" lines="5" ppq="1">
                         <label xml:id="l995a48">Superius</label>
                         <labelAbbr xml:id="l2i1dn2">S.</labelAbbr>
@@ -88,7 +137,7 @@
                         <clef xml:id="cjxdyzq" shape="F" line="4" />
                         <keySig xml:id="k1mjo9im" mode="major" sig="1f" />
                         <meterSig xml:id="m1g97g1x" count="6" unit="1" />
-                     </staffDef>
+                     </staffDef> -->
                   </staffGrp>
                </scoreDef>
                <section xml:id="s80lm4g">
