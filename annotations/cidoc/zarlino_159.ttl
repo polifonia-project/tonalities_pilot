@@ -1,0 +1,319 @@
+@prefix chordsCommonPractices: <https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/> .
+@prefix corpus:                <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/> .
+@prefix crm:                   <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms:               <http://purl.org/dc/terms/> .
+@prefix fugue:                 <https://w3id.org/polifonia/ontology/modal-tonal/Fugue/> .
+@prefix guillotel:             <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix guillotel2023:         <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix interpretation:        <https://w3id.org/polifonia/ontology/music-analysis/interpretation/> .
+@prefix iremus:                <http://data-iremus.huma-num.fr/id/> .
+@prefix lrmoo:                 <https://www.iflastandards.info/lrm/lrmoo> .
+@prefix manganisabaino:        <https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/> .
+@prefix mei:                   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei#> .
+@prefix oldFugue:              <https://w3id.org/polifonia/ontology/modal-tonal/Fugue#> .
+@prefix sherlock:              <http://data-iremus.huma-num.fr/ns/sherlock#> .
+@prefix zarlino:               <https://w3id.org/polifonia/ontology/music-analysis/zarlino/> .
+
+iremus:21816195-6708-4bbd-a758-ee354bb84900
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Knowledge production"@en , "Production de connaissances"@fr .
+
+iremus:cfbb66a8-c396-478f-b1ec-9066aa7e395e
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        dcterms:created                 "2024-03-26T12:50:32.830177312Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:887debd0-2c68-4a79-b5a5-98e33258359a;
+        crm:P141_assigned               iremus:4eeff3d4-6034-403b-9c62-38fe9c2b9dbe;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:f2e7bb47-19e9-49b5-b197-6984338818e6
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        dcterms:created                 "2024-03-26T12:51:25.127317244Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n18cgxjh;
+        crm:P141_assigned               iremus:cbca2358-3d05-4e7b-9496-8185624c3f21;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:026ada0e-dd22-4219-a09a-4cfd4789aba6
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        dcterms:created                 "2024-03-26T12:51:35.659471547Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:2f4f52f2-7c56-4895-9051-3da9fb9fad44;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:602d6e27-d0ee-4e4d-b42b-3422f7c72a4c
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        dcterms:created                 "2024-03-26T12:50:44.487756687Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:887debd0-2c68-4a79-b5a5-98e33258359a;
+        crm:P141_assigned               iremus:666ab717-289a-4e6a-9323-2d71f4a88184;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:89f1e013-ce82-44a5-9c6c-1b42064b1279
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        dcterms:created                 "2024-03-26T12:51:25.436509611Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:ca8e1f2f-f80a-499a-8cf2-9dab5031557b;
+        crm:P141_assigned               iremus:cbca2358-3d05-4e7b-9496-8185624c3f21;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:6f384188-039a-4b7d-a498-b5abd4e62d3a
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        dcterms:created                 "2024-03-26T12:51:35.495000029Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:nen1u15;
+        crm:P141_assigned               iremus:2f4f52f2-7c56-4895-9051-3da9fb9fad44;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:2e0d24cf-1084-48bd-a702-a1a41fb4d929
+        a                          crm:E7_Activity;
+        sherlock:has_privacy_type  iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd;
+        dcterms:creator            iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P14_carried_out_by     iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P1_is_identified_by    "Modes_CGN";
+        crm:P2_has_type            iremus:21816195-6708-4bbd-a758-ee354bb84900;
+        crm:P4_has_time-span       iremus:5f4a2aab-1fa6-47c9-89f7-43b00c41bb21;
+        crm:P9_consists_of         iremus:07a17c25-00e9-49d1-a5d8-8eac2ea6cedd , iremus:cfed68b8-23e8-4f09-87b4-736e0bd5ed6f , iremus:e7a58f3d-f25d-4f54-a5f8-e8c2a15a1113 , iremus:cfbb66a8-c396-478f-b1ec-9066aa7e395e , iremus:5c9a3d1f-9ef7-4b7b-a69a-b849804bf142 , iremus:76ae01bb-dbd5-4baf-bd44-73297cc57a7d , iremus:f2e7bb47-19e9-49b5-b197-6984338818e6 , iremus:026ada0e-dd22-4219-a09a-4cfd4789aba6 , iremus:7fd39192-4285-4210-a9b3-cc0a3e3e50ab , iremus:0ee7f905-6200-4cad-998d-19ae3b326da7 , iremus:6f384188-039a-4b7d-a498-b5abd4e62d3a , iremus:d02ba979-1f83-4006-aa00-f2fa7e259064 , iremus:9b79de4e-c9e7-4a26-b4b4-f138e976087e , iremus:a9dd520f-58c6-41e0-a2b2-1c6df2d3989a , iremus:3b52f5a3-3f5d-46fe-86ba-cc581dc30b17 , iremus:602d6e27-d0ee-4e4d-b42b-3422f7c72a4c , iremus:35f8a3b4-ed9a-4bc1-ab58-227a1512e195 , iremus:033954a5-4e85-41da-b444-73a11b52cd0c , iremus:78b587b5-4b0b-4c30-9fe6-30d7cccaeff8 , iremus:02e4b50c-8015-4343-888d-4ec97484cd0b , iremus:e758ce23-6271-4958-816f-e9431281caeb , iremus:486381bb-28d7-47e4-86c3-3bffffd75e3d , iremus:079d5d7a-f1f4-42d0-9d9f-c2b9c89c6d9c , iremus:89f1e013-ce82-44a5-9c6c-1b42064b1279 .
+
+iremus:02e4b50c-8015-4343-888d-4ec97484cd0b
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        dcterms:created                 "2024-03-26T12:50:39.506993030Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:6abfa82d-195f-4635-9cc4-df1fe11e95de;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:76ae01bb-dbd5-4baf-bd44-73297cc57a7d
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        dcterms:created                 "2024-03-26T12:50:32.519448363Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1pad31j;
+        crm:P141_assigned               iremus:4eeff3d4-6034-403b-9c62-38fe9c2b9dbe;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:e7a58f3d-f25d-4f54-a5f8-e8c2a15a1113
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        dcterms:created                 "2024-03-26T12:51:29.955739593Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:e966ee59-227e-4348-95f3-b7516d6fe7b4;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:cfed68b8-23e8-4f09-87b4-736e0bd5ed6f
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        dcterms:created                 "2024-03-26T12:50:39.373278620Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:nprjwb9;
+        crm:P141_assigned               iremus:6abfa82d-195f-4635-9cc4-df1fe11e95de;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:35f8a3b4-ed9a-4bc1-ab58-227a1512e195
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        dcterms:created                 "2024-03-26T12:50:23.525882067Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:887debd0-2c68-4a79-b5a5-98e33258359a;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:079d5d7a-f1f4-42d0-9d9f-c2b9c89c6d9c
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        dcterms:created                 "2024-03-26T12:49:53.525203855Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:83b58006-8505-4960-a845-d54ae5d74e5b;
+        crm:P141_assigned               zarlino:Mode;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:486381bb-28d7-47e4-86c3-3bffffd75e3d
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        dcterms:created                 "2024-03-26T12:50:44.261344391Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:666ab717-289a-4e6a-9323-2d71f4a88184;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3
+        a                              crm:E41_Appellation;
+        crm:P190_has_symbolic_content  "Christophe Guillotel-Nothmann";
+        crm:P2_has_type                iremus:73ea8d74-3526-4f6a-8830-dd369795650d .
+
+iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3
+        a                              crm:E42_Identifier;
+        crm:P190_has_symbolic_content  "0000-0002-4817-3686";
+        crm:P2_has_type                iremus:d7ef2583-ff31-4913-9ed3-bc3a1c664b21 .
+
+iremus:a9dd520f-58c6-41e0-a2b2-1c6df2d3989a
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        dcterms:created                 "2024-03-26T12:51:29.823356733Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1yfhgaz;
+        crm:P141_assigned               iremus:e966ee59-227e-4348-95f3-b7516d6fe7b4;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:7fd39192-4285-4210-a9b3-cc0a3e3e50ab
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        dcterms:created                 "2024-03-26T12:51:35.978963712Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:ca8e1f2f-f80a-499a-8cf2-9dab5031557b;
+        crm:P141_assigned               iremus:2f4f52f2-7c56-4895-9051-3da9fb9fad44;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:9b79de4e-c9e7-4a26-b4b4-f138e976087e
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        dcterms:created                 "2024-03-26T12:50:44.126865413Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:nxjf617;
+        crm:P141_assigned               iremus:666ab717-289a-4e6a-9323-2d71f4a88184;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:07a17c25-00e9-49d1-a5d8-8eac2ea6cedd
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        dcterms:created                 "2024-03-26T12:51:16.452044376Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n18cgxjh , mei:n1hwymfa , mei:noys85h , mei:nosfdyt , mei:nkqxkq7 , mei:nen1u15 , mei:n1yfhgaz , mei:n14lkc63 , mei:n9qvcmj , mei:nug0yds , mei:n1nifcj1 , mei:n1q1tlvz , mei:n1rnmrgq , mei:n1c5n0ek , mei:n1b90rho , mei:n1sgqe6 , mei:n13kcpwk;
+        crm:P141_assigned               iremus:ca8e1f2f-f80a-499a-8cf2-9dab5031557b;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Draft"@en , "Brouillon"@fr .
+
+iremus:5d7bdf74-addd-418b-ab43-38af4e70c158
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , crm:E21_Person;
+        dcterms:created          "2022-09-08T12:36:04.142112601Z";
+        crm:P1_is_identified_by  iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3 , iremus:481efbd2-651d-4cc8-9075-a261df46e6d6 , iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3 , iremus:68f4c1ef-da9c-40af-a8be-5e4a92e8c7fe .
+
+iremus:033954a5-4e85-41da-b444-73a11b52cd0c
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        dcterms:created                 "2024-03-26T12:50:39.685833628Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:887debd0-2c68-4a79-b5a5-98e33258359a;
+        crm:P141_assigned               iremus:6abfa82d-195f-4635-9cc4-df1fe11e95de;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:5c9a3d1f-9ef7-4b7b-a69a-b849804bf142
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        dcterms:created                 "2024-03-26T12:49:53.376040466Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        crm:P141_assigned               iremus:83b58006-8505-4960-a845-d54ae5d74e5b;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:e758ce23-6271-4958-816f-e9431281caeb
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        dcterms:created                 "2024-03-26T12:50:32.659848886Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:4eeff3d4-6034-403b-9c62-38fe9c2b9dbe;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+<https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>
+        a       crm:E1_CRM_Entity .
+
+iremus:d02ba979-1f83-4006-aa00-f2fa7e259064
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        dcterms:created                 "2024-03-26T12:51:25.263700996Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:cbca2358-3d05-4e7b-9496-8185624c3f21;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:78b587b5-4b0b-4c30-9fe6-30d7cccaeff8
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        dcterms:created                 "2024-03-26T12:51:30.121183167Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:ca8e1f2f-f80a-499a-8cf2-9dab5031557b;
+        crm:P141_assigned               iremus:e966ee59-227e-4348-95f3-b7516d6fe7b4;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:0ee7f905-6200-4cad-998d-19ae3b326da7
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        dcterms:created                 "2024-03-26T12:51:16.587413440Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:ca8e1f2f-f80a-499a-8cf2-9dab5031557b;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:3b52f5a3-3f5d-46fe-86ba-cc581dc30b17
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Quando_fra_l'altre_donne.mei>;
+        dcterms:created                 "2024-03-26T12:50:23.386204651Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:nprjwb9 , mei:n17axljt , mei:n6o8muo , mei:n17wabdx , mei:n1pad31j , mei:n1omv8j , mei:noet0p , mei:nxjf617 , mei:n110f3cd , mei:n1ddwbri;
+        crm:P141_assigned               iremus:887debd0-2c68-4a79-b5a5-98e33258359a;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:5f4a2aab-1fa6-47c9-89f7-43b00c41bb21
+        a                            crm:E52_Time-span;
+        crm:P82a_begin_of_the_begin  "2024-03-26T12:49:42.363134109Z" .

@@ -1,0 +1,319 @@
+@prefix chordsCommonPractices: <https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/> .
+@prefix corpus:                <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/> .
+@prefix crm:                   <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms:               <http://purl.org/dc/terms/> .
+@prefix fugue:                 <https://w3id.org/polifonia/ontology/modal-tonal/Fugue/> .
+@prefix guillotel:             <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix guillotel2023:         <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix interpretation:        <https://w3id.org/polifonia/ontology/music-analysis/interpretation/> .
+@prefix iremus:                <http://data-iremus.huma-num.fr/id/> .
+@prefix lrmoo:                 <https://www.iflastandards.info/lrm/lrmoo> .
+@prefix manganisabaino:        <https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/> .
+@prefix mei:                   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei#> .
+@prefix oldFugue:              <https://w3id.org/polifonia/ontology/modal-tonal/Fugue#> .
+@prefix sherlock:              <http://data-iremus.huma-num.fr/ns/sherlock#> .
+@prefix zarlino:               <https://w3id.org/polifonia/ontology/music-analysis/zarlino/> .
+
+iremus:21816195-6708-4bbd-a758-ee354bb84900
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Knowledge production"@en , "Production de connaissances"@fr .
+
+iremus:8ce4ec92-3d16-46af-a3d0-ca06a735ee7b
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        dcterms:created                 "2024-03-26T09:44:08.481966007Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:53d20344-39c2-4ef9-926a-42364eb4f160;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:6317a9dd-7aed-4806-960f-856e8030762d
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        dcterms:created                 "2024-03-26T09:44:03.559901821Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1cl23r8;
+        crm:P141_assigned               iremus:dc5bca20-243f-4174-8b1d-0e880142a740;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:09b0c369-6a39-40b5-bfcd-3bc7ea000869
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        dcterms:created                 "2024-03-26T09:43:42.007423202Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1dnyu1n , mei:n1hno3o2 , mei:n1cl23r8 , mei:n16ayi9n , mei:nqtc3jv , mei:na59yaj , mei:naqj1xf , mei:n1m9uuup , mei:nbgyjue , mei:n15dt7k1 , mei:n1y2ipap , mei:nar70l1 , mei:n1bjmbfi , mei:n10il79c , mei:n1smzgq6 , mei:n11yhhbr , mei:n1z0dxwc , mei:n1g54qqn , mei:ne2qfqp , mei:n5wesaj , mei:n10xbcei , mei:no0omq5;
+        crm:P141_assigned               iremus:a963b8db-7bc2-4129-872a-0d354d8f94f3;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:4b193afd-9d4b-4a4c-ae95-991caae369f4
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        dcterms:created                 "2024-03-26T09:45:06.778989665Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n13bgsc9 , mei:nuuajpx , mei:n14na3y2 , mei:nhgrvo0 , mei:n1plnrj1 , mei:n1ll6am , mei:n1ihtroa , mei:nurfp4l , mei:n10g7rrw , mei:nay8n4g , mei:n13ly5vj , mei:nuohvks , mei:n1ud9a2b , mei:n18r8thc , mei:n1c112r1 , mei:n1xv50ke , mei:n1dnsvq0 , mei:nzcrab4;
+        crm:P141_assigned               iremus:3761ac36-32db-4a74-82f2-f7dc92aa47d3;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3
+        a                              crm:E41_Appellation;
+        crm:P190_has_symbolic_content  "Christophe Guillotel-Nothmann";
+        crm:P2_has_type                iremus:73ea8d74-3526-4f6a-8830-dd369795650d .
+
+iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3
+        a                              crm:E42_Identifier;
+        crm:P190_has_symbolic_content  "0000-0002-4817-3686";
+        crm:P2_has_type                iremus:d7ef2583-ff31-4913-9ed3-bc3a1c664b21 .
+
+iremus:3bcd0641-5b30-4ed9-a5f3-418b72094f86
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        dcterms:created                 "2024-03-26T09:45:20.329240417Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:092adee6-3a9b-4e25-ada7-05d2c4d7658e;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:011a532f-b393-4fe5-b6e7-5156d8172335
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        dcterms:created                 "2024-03-26T09:43:42.143207161Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:a963b8db-7bc2-4129-872a-0d354d8f94f3;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:7d51fa32-e709-451c-bc3b-36a6ca761678
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        dcterms:created                 "2024-03-26T09:45:15.756040861Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:3761ac36-32db-4a74-82f2-f7dc92aa47d3;
+        crm:P141_assigned               iremus:c29e5849-92be-41bc-a4fe-d011bea980d7;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:fe4849d1-a36c-4c26-acb9-e30b961bce48
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        dcterms:created                 "2024-03-26T09:44:03.844289811Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:a963b8db-7bc2-4129-872a-0d354d8f94f3;
+        crm:P141_assigned               iremus:dc5bca20-243f-4174-8b1d-0e880142a740;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Draft"@en , "Brouillon"@fr .
+
+iremus:93a3061d-69c3-404b-88ee-578de07bfde8
+        a                          crm:E7_Activity;
+        sherlock:has_privacy_type  iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd;
+        dcterms:creator            iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P14_carried_out_by     iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P1_is_identified_by    "Modes_CGN";
+        crm:P2_has_type            iremus:21816195-6708-4bbd-a758-ee354bb84900;
+        crm:P4_has_time-span       iremus:06c6c1c5-ed32-4025-a6a6-6ba6d34229a3;
+        crm:P9_consists_of         iremus:2ff73ecc-afab-412e-8b24-f6f97084a3f9 , iremus:bdb24e30-f73c-4025-be16-3977f929b7bb , iremus:4b193afd-9d4b-4a4c-ae95-991caae369f4 , iremus:7d51fa32-e709-451c-bc3b-36a6ca761678 , iremus:6fb9c3e6-2ec6-4cfc-99eb-ce572745a7ac , iremus:6317a9dd-7aed-4806-960f-856e8030762d , iremus:3bcd0641-5b30-4ed9-a5f3-418b72094f86 , iremus:2c017268-e758-4b3b-9166-8c9eb6ab7cbf , iremus:5029648d-9d72-4d82-ba1d-b8f34a6c40a3 , iremus:f0638f7a-6096-4cce-b6db-210d31615b82 , iremus:f4825213-b27b-49e7-80b9-ed183b065773 , iremus:45fdfa40-123b-49d8-b683-431d05bd47e9 , iremus:1026a756-b016-406d-b7e0-6b403b305cea , iremus:8ce4ec92-3d16-46af-a3d0-ca06a735ee7b , iremus:81aea637-7a1b-4667-9d4b-599b131d6f26 , iremus:844458b0-11b8-482e-b850-30abc1bbf640 , iremus:09b0c369-6a39-40b5-bfcd-3bc7ea000869 , iremus:011a532f-b393-4fe5-b6e7-5156d8172335 , iremus:99ca2338-62a4-4df2-84be-e7b97b109fac , iremus:2aadd685-edf3-4c80-ad4f-5a1b39cd2f6e , iremus:23009727-26f6-4205-aef6-dc399d09a6e2 , iremus:861ed028-8fd0-4bcd-916b-8e04bb31ef7a , iremus:b7b5d10f-4512-4442-951f-6b8ef5d06f98 , iremus:fe4849d1-a36c-4c26-acb9-e30b961bce48 .
+
+iremus:5d7bdf74-addd-418b-ab43-38af4e70c158
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , crm:E21_Person;
+        dcterms:created          "2022-09-08T12:36:04.142112601Z";
+        crm:P1_is_identified_by  iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3 , iremus:481efbd2-651d-4cc8-9075-a261df46e6d6 , iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3 , iremus:68f4c1ef-da9c-40af-a8be-5e4a92e8c7fe .
+
+iremus:f0638f7a-6096-4cce-b6db-210d31615b82
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        dcterms:created                 "2024-03-26T09:44:08.347047464Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1dnyu1n;
+        crm:P141_assigned               iremus:53d20344-39c2-4ef9-926a-42364eb4f160;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:81aea637-7a1b-4667-9d4b-599b131d6f26
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        dcterms:created                 "2024-03-26T09:45:15.467386656Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:nuohvks;
+        crm:P141_assigned               iremus:c29e5849-92be-41bc-a4fe-d011bea980d7;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:23009727-26f6-4205-aef6-dc399d09a6e2
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        dcterms:created                 "2024-03-26T09:43:54.892767363Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1hno3o2;
+        crm:P141_assigned               iremus:d921157b-6254-4292-ac66-bb3043e7ceaf;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:99ca2338-62a4-4df2-84be-e7b97b109fac
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        dcterms:created                 "2024-03-26T09:44:03.688203385Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:dc5bca20-243f-4174-8b1d-0e880142a740;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:06c6c1c5-ed32-4025-a6a6-6ba6d34229a3
+        a                            crm:E52_Time-span;
+        crm:P82a_begin_of_the_begin  "2024-03-26T09:42:50.915331872Z" .
+
+iremus:2ff73ecc-afab-412e-8b24-f6f97084a3f9
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        dcterms:created                 "2024-03-26T09:44:08.638576354Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:a963b8db-7bc2-4129-872a-0d354d8f94f3;
+        crm:P141_assigned               iremus:53d20344-39c2-4ef9-926a-42364eb4f160;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:2aadd685-edf3-4c80-ad4f-5a1b39cd2f6e
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        dcterms:created                 "2024-03-26T09:45:06.941577300Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:3761ac36-32db-4a74-82f2-f7dc92aa47d3;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:5029648d-9d72-4d82-ba1d-b8f34a6c40a3
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        dcterms:created                 "2024-03-26T09:45:30.089331549Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:3761ac36-32db-4a74-82f2-f7dc92aa47d3;
+        crm:P141_assigned               iremus:2570e051-4abc-4b97-be21-e5562703269f;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:bdb24e30-f73c-4025-be16-3977f929b7bb
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        dcterms:created                 "2024-03-26T09:45:29.928947160Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:2570e051-4abc-4b97-be21-e5562703269f;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:861ed028-8fd0-4bcd-916b-8e04bb31ef7a
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        dcterms:created                 "2024-03-26T09:45:15.596747345Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:c29e5849-92be-41bc-a4fe-d011bea980d7;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:f4825213-b27b-49e7-80b9-ed183b065773
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        dcterms:created                 "2024-03-26T09:45:20.509267957Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:3761ac36-32db-4a74-82f2-f7dc92aa47d3;
+        crm:P141_assigned               iremus:092adee6-3a9b-4e25-ada7-05d2c4d7658e;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:2c017268-e758-4b3b-9166-8c9eb6ab7cbf
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        dcterms:created                 "2024-03-26T09:45:20.188557838Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:nzcrab4;
+        crm:P141_assigned               iremus:092adee6-3a9b-4e25-ada7-05d2c4d7658e;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:844458b0-11b8-482e-b850-30abc1bbf640
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        dcterms:created                 "2024-03-26T09:43:55.029593833Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:d921157b-6254-4292-ac66-bb3043e7ceaf;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:45fdfa40-123b-49d8-b683-431d05bd47e9
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        dcterms:created                 "2024-03-26T09:45:29.796146888Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1ll6am;
+        crm:P141_assigned               iremus:2570e051-4abc-4b97-be21-e5562703269f;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+<https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>
+        a       crm:E1_CRM_Entity .
+
+iremus:1026a756-b016-406d-b7e0-6b403b305cea
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        dcterms:created                 "2024-03-26T09:43:55.180924528Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:a963b8db-7bc2-4129-872a-0d354d8f94f3;
+        crm:P141_assigned               iremus:d921157b-6254-4292-ac66-bb3043e7ceaf;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:6fb9c3e6-2ec6-4cfc-99eb-ce572745a7ac
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        dcterms:created                 "2024-03-26T09:43:00.388391317Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:1b9a6d26-4fa3-480a-8b86-706208e660d9;
+        crm:P141_assigned               zarlino:Mode;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:b7b5d10f-4512-4442-951f-6b8ef5d06f98
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        dcterms:created                 "2024-03-26T09:43:00.237854461Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Ove_ch'i_posi_gli_occhi_lassi_o_giri.mei>;
+        crm:P141_assigned               iremus:1b9a6d26-4fa3-480a-8b86-706208e660d9;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .

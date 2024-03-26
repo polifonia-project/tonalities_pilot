@@ -1,0 +1,286 @@
+@prefix chordsCommonPractices: <https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/> .
+@prefix corpus:                <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/> .
+@prefix crm:                   <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms:               <http://purl.org/dc/terms/> .
+@prefix fugue:                 <https://w3id.org/polifonia/ontology/modal-tonal/Fugue/> .
+@prefix guillotel:             <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix guillotel2023:         <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix interpretation:        <https://w3id.org/polifonia/ontology/music-analysis/interpretation/> .
+@prefix iremus:                <http://data-iremus.huma-num.fr/id/> .
+@prefix lrmoo:                 <https://www.iflastandards.info/lrm/lrmoo> .
+@prefix manganisabaino:        <https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/> .
+@prefix mei:                   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_L'aura.mei#> .
+@prefix oldFugue:              <https://w3id.org/polifonia/ontology/modal-tonal/Fugue#> .
+@prefix sherlock:              <http://data-iremus.huma-num.fr/ns/sherlock#> .
+@prefix zarlino:               <https://w3id.org/polifonia/ontology/music-analysis/zarlino/> .
+
+iremus:de829473-233a-4f11-af4f-d27dafa2de23
+        a                          crm:E7_Activity;
+        sherlock:has_privacy_type  iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd;
+        dcterms:creator            iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P14_carried_out_by     iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P1_is_identified_by    "Modes_CGN";
+        crm:P2_has_type            iremus:21816195-6708-4bbd-a758-ee354bb84900;
+        crm:P4_has_time-span       iremus:1eed26e9-5b89-4569-a117-4ee2d4166d7b;
+        crm:P9_consists_of         iremus:bd386617-6ab6-4328-9b9d-027fd46cf17d , iremus:48560e24-6a89-443c-9022-4518ff4fe02a , iremus:2ba9917a-ce5f-4c65-b8c2-2ad99357e56c , iremus:cbb4d7b9-88ab-4ae6-a544-f8dd39ffa126 , iremus:a2dd3295-ff23-44cc-bbc1-dd66552f9b17 , iremus:90da39e8-eb12-4d5f-a25b-24a124e1d3f1 , iremus:6d481b9d-d985-4456-b833-191244aeea42 , iremus:3fe51a53-cc40-412b-ab71-f2635fcf5c5f , iremus:7b35999f-ca0e-4af9-8931-cfc427b0f176 , iremus:e9e4d10b-a997-4ddf-9882-d58d3aa41be3 , iremus:fde70569-afc5-4926-a6ba-c2b1550f683f , iremus:2f4f5bac-e457-43a8-aa52-a2f99b7197c1 , iremus:172bbc8f-cec6-42f9-858e-fb9cd4b65fd0 , iremus:e671ac7f-d944-4edc-a85d-24b73ea60ed4 , iremus:ea295c64-48c8-40f1-8367-e96100b19e53 , iremus:16f0d811-08be-4375-9f52-6d3774285dd4 , iremus:34bdbdea-f725-4f43-bc3a-9122e04ff002 , iremus:aec00599-8db4-4350-aafa-19324e4c5203 , iremus:81439635-035e-4721-805a-70e096fe5169 , iremus:3de6c33a-39fa-4e42-9ec1-ed56e18ec651 , iremus:ecaf5ef9-70ce-404e-be00-f74ef4028cdc .
+
+iremus:21816195-6708-4bbd-a758-ee354bb84900
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Knowledge production"@en , "Production de connaissances"@fr .
+
+iremus:ecaf5ef9-70ce-404e-be00-f74ef4028cdc
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_L'aura.mei>;
+        dcterms:created                 "2024-03-26T10:15:25.257783019Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:28a93630-8bad-4fa4-8e17-c0b46d397ea7;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:7b35999f-ca0e-4af9-8931-cfc427b0f176
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_L'aura.mei>;
+        dcterms:created                 "2024-03-26T10:16:41.364527736Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:e18086c4-6e7b-4699-8475-1c42a48367eb;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:aec00599-8db4-4350-aafa-19324e4c5203
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_L'aura.mei>;
+        dcterms:created                 "2024-03-26T10:16:47.667106564Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:3d66927c-65fd-4d29-bae4-bce26b8377a0;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:6d481b9d-d985-4456-b833-191244aeea42
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_L'aura.mei>;
+        dcterms:created                 "2024-03-26T10:14:36.714618337Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_L'aura.mei>;
+        crm:P141_assigned               iremus:20724cef-96cf-4c2a-9c33-ca6b97ab10c8;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:2ba9917a-ce5f-4c65-b8c2-2ad99357e56c
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_L'aura.mei>;
+        dcterms:created                 "2024-03-26T10:15:25.130529190Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:nc4xyc6;
+        crm:P141_assigned               iremus:28a93630-8bad-4fa4-8e17-c0b46d397ea7;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:e9e4d10b-a997-4ddf-9882-d58d3aa41be3
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_L'aura.mei>;
+        dcterms:created                 "2024-03-26T10:16:56.645311341Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:ce1ac89d-d527-458c-ba35-c76818c21e55;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3
+        a                              crm:E41_Appellation;
+        crm:P190_has_symbolic_content  "Christophe Guillotel-Nothmann";
+        crm:P2_has_type                iremus:73ea8d74-3526-4f6a-8830-dd369795650d .
+
+iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3
+        a                              crm:E42_Identifier;
+        crm:P190_has_symbolic_content  "0000-0002-4817-3686";
+        crm:P2_has_type                iremus:d7ef2583-ff31-4913-9ed3-bc3a1c664b21 .
+
+iremus:e671ac7f-d944-4edc-a85d-24b73ea60ed4
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_L'aura.mei>;
+        dcterms:created                 "2024-03-26T10:15:15.853037143Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:839dfe09-2619-4a3c-85ab-75dc2d69a2bd;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:3fe51a53-cc40-412b-ab71-f2635fcf5c5f
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_L'aura.mei>;
+        dcterms:created                 "2024-03-26T10:15:25.441454623Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:839dfe09-2619-4a3c-85ab-75dc2d69a2bd;
+        crm:P141_assigned               iremus:28a93630-8bad-4fa4-8e17-c0b46d397ea7;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:bd386617-6ab6-4328-9b9d-027fd46cf17d
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_L'aura.mei>;
+        dcterms:created                 "2024-03-26T10:16:56.526990280Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:nm0bnkg;
+        crm:P141_assigned               iremus:ce1ac89d-d527-458c-ba35-c76818c21e55;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:cbb4d7b9-88ab-4ae6-a544-f8dd39ffa126
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_L'aura.mei>;
+        dcterms:created                 "2024-03-26T10:16:52.484528555Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1bhjs7j;
+        crm:P141_assigned               iremus:ceb3def3-3cbd-45dc-8a03-f2ac458cb650;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Draft"@en , "Brouillon"@fr .
+
+iremus:ea295c64-48c8-40f1-8367-e96100b19e53
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_L'aura.mei>;
+        dcterms:created                 "2024-03-26T10:16:52.633582801Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:ceb3def3-3cbd-45dc-8a03-f2ac458cb650;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:5d7bdf74-addd-418b-ab43-38af4e70c158
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , crm:E21_Person;
+        dcterms:created          "2022-09-08T12:36:04.142112601Z";
+        crm:P1_is_identified_by  iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3 , iremus:481efbd2-651d-4cc8-9075-a261df46e6d6 , iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3 , iremus:68f4c1ef-da9c-40af-a8be-5e4a92e8c7fe .
+
+iremus:90da39e8-eb12-4d5f-a25b-24a124e1d3f1
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_L'aura.mei>;
+        dcterms:created                 "2024-03-26T10:15:21.522490445Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:839dfe09-2619-4a3c-85ab-75dc2d69a2bd;
+        crm:P141_assigned               iremus:8dffb751-a3c3-4451-b84c-a04ccfabba48;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:48560e24-6a89-443c-9022-4518ff4fe02a
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_L'aura.mei>;
+        dcterms:created                 "2024-03-26T10:16:56.794895809Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:e18086c4-6e7b-4699-8475-1c42a48367eb;
+        crm:P141_assigned               iremus:ce1ac89d-d527-458c-ba35-c76818c21e55;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:a2dd3295-ff23-44cc-bbc1-dd66552f9b17
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_L'aura.mei>;
+        dcterms:created                 "2024-03-26T10:14:36.843920655Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:20724cef-96cf-4c2a-9c33-ca6b97ab10c8;
+        crm:P141_assigned               zarlino:Mode;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+<https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_L'aura.mei>
+        a       crm:E1_CRM_Entity .
+
+iremus:2f4f5bac-e457-43a8-aa52-a2f99b7197c1
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_L'aura.mei>;
+        dcterms:created                 "2024-03-26T10:15:15.704362282Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1ynxbsk , mei:nc4xyc6 , mei:n1mrzxy , mei:n1fuv6eb , mei:n1s0euat , mei:n16e4xgl , mei:n1rce30p , mei:nwt9y5d , mei:n1xm7mdz , mei:nrw24lz , mei:n1i2ky66 , mei:n1rnpr0h , mei:nvkylrw , mei:n1hkjgvk , mei:n1wexqsg , mei:n1lcvizb , mei:nhrpoo , mei:nbqe1iw , mei:ntoh2qe , mei:n1yy2atx , mei:n1m5tkfm , mei:n16h1t3q;
+        crm:P141_assigned               iremus:839dfe09-2619-4a3c-85ab-75dc2d69a2bd;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:34bdbdea-f725-4f43-bc3a-9122e04ff002
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_L'aura.mei>;
+        dcterms:created                 "2024-03-26T10:16:52.787776778Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:e18086c4-6e7b-4699-8475-1c42a48367eb;
+        crm:P141_assigned               iremus:ceb3def3-3cbd-45dc-8a03-f2ac458cb650;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:81439635-035e-4721-805a-70e096fe5169
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_L'aura.mei>;
+        dcterms:created                 "2024-03-26T10:16:47.540784759Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1kl27h0;
+        crm:P141_assigned               iremus:3d66927c-65fd-4d29-bae4-bce26b8377a0;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:1eed26e9-5b89-4569-a117-4ee2d4166d7b
+        a                            crm:E52_Time-span;
+        crm:P82a_begin_of_the_begin  "2024-03-26T10:14:27.902864761Z" .
+
+iremus:172bbc8f-cec6-42f9-858e-fb9cd4b65fd0
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_L'aura.mei>;
+        dcterms:created                 "2024-03-26T10:15:21.363025781Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:8dffb751-a3c3-4451-b84c-a04ccfabba48;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:16f0d811-08be-4375-9f52-6d3774285dd4
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_L'aura.mei>;
+        dcterms:created                 "2024-03-26T10:15:21.227501197Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1ynxbsk;
+        crm:P141_assigned               iremus:8dffb751-a3c3-4451-b84c-a04ccfabba48;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:3de6c33a-39fa-4e42-9ec1-ed56e18ec651
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_L'aura.mei>;
+        dcterms:created                 "2024-03-26T10:16:47.816934107Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:e18086c4-6e7b-4699-8475-1c42a48367eb;
+        crm:P141_assigned               iremus:3d66927c-65fd-4d29-bae4-bce26b8377a0;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:fde70569-afc5-4926-a6ba-c2b1550f683f
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_L'aura.mei>;
+        dcterms:created                 "2024-03-26T10:16:41.229522159Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1kl27h0 , mei:n108dnc8 , mei:noo9vze , mei:n13r6pv8 , mei:nbrp02b , mei:nsa48o9 , mei:n16808k3 , mei:n1a35xma , mei:nm0bnkg , mei:nax7nql , mei:neatn3f , mei:n1bhjs7j , mei:n1v1757f;
+        crm:P141_assigned               iremus:e18086c4-6e7b-4699-8475-1c42a48367eb;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
