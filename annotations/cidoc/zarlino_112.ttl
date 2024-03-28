@@ -1,0 +1,319 @@
+@prefix chordsCommonPractices: <https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/> .
+@prefix corpus:                <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/> .
+@prefix crm:                   <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms:               <http://purl.org/dc/terms/> .
+@prefix fugue:                 <https://w3id.org/polifonia/ontology/modal-tonal/Fugue/> .
+@prefix guillotel:             <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix guillotel2023:         <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix interpretation:        <https://w3id.org/polifonia/ontology/music-analysis/interpretation/> .
+@prefix iremus:                <http://data-iremus.huma-num.fr/id/> .
+@prefix lrmoo:                 <https://www.iflastandards.info/lrm/lrmoo> .
+@prefix manganisabaino:        <https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/> .
+@prefix mei:                   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#> .
+@prefix oldFugue:              <https://w3id.org/polifonia/ontology/modal-tonal/Fugue#> .
+@prefix sherlock:              <http://data-iremus.huma-num.fr/ns/sherlock#> .
+@prefix zarlino:               <https://w3id.org/polifonia/ontology/music-analysis/zarlino/> .
+
+iremus:21816195-6708-4bbd-a758-ee354bb84900
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Knowledge production"@en , "Production de connaissances"@fr .
+
+iremus:0e7c59e8-b498-4e8e-afb7-af7e664fbb86
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Willaert_Audite_insulae.mei;
+        dcterms:created                 "2024-03-27T07:44:41.228061723Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1rgd6fi;
+        crm:P141_assigned               iremus:b2f1577a-8f86-4807-aeca-3fe054313edc;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:962e5f4e-cd3a-4db5-87f0-539501a20a8c
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Willaert_Audite_insulae.mei;
+        dcterms:created                 "2024-03-27T07:43:39.317045370Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:a7c484c6-e4c3-4280-af54-982768fc7e51;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:9882f6e6-4bb7-48e1-b125-935fd840c1e7
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Willaert_Audite_insulae.mei;
+        dcterms:created                 "2024-03-27T07:43:34.620174128Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:f3e7b3b1-ddf1-4231-ab65-736a3620cb6a;
+        crm:P141_assigned               iremus:ab1df5b2-46e7-437d-8345-cc2fa404ddd5;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:69367e08-eb26-4307-a040-14712317ad22
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Willaert_Audite_insulae.mei;
+        dcterms:created                 "2024-03-27T07:43:23.351923483Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1v6l1x , mei:n1jjzol2 , mei:n1tdurjt , mei:n1urz78f , mei:n2d1gd9 , mei:n1dmgju4 , mei:neanfws , mei:n2rz5ew , mei:n1lmii0s , mei:n8t5a7s , mei:n1lq4c81 , mei:n40hd3t , mei:n11vl6ts , mei:naaomyb , mei:n1saflzm , mei:n1te8jgx , mei:n1e4gz62 , mei:n1bj25yi , mei:nc6snzq , mei:n1uxuqht;
+        crm:P141_assigned               iremus:f3e7b3b1-ddf1-4231-ab65-736a3620cb6a;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+corpus:Willaert_Audite_insulae.mei
+        a       crm:E1_CRM_Entity .
+
+iremus:e8ea473c-745f-4c99-aae1-4b1fbaf91c56
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Willaert_Audite_insulae.mei;
+        dcterms:created                 "2024-03-27T07:43:48.453567335Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:f3e7b3b1-ddf1-4231-ab65-736a3620cb6a;
+        crm:P141_assigned               iremus:00201af0-1336-4899-8078-d28cf82d0057;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3
+        a                              crm:E41_Appellation;
+        crm:P190_has_symbolic_content  "Christophe Guillotel-Nothmann";
+        crm:P2_has_type                iremus:73ea8d74-3526-4f6a-8830-dd369795650d .
+
+iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3
+        a                              crm:E42_Identifier;
+        crm:P190_has_symbolic_content  "0000-0002-4817-3686";
+        crm:P2_has_type                iremus:d7ef2583-ff31-4913-9ed3-bc3a1c664b21 .
+
+iremus:e428ebb7-fe81-4bb4-a25e-ac9ffa8a8387
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Willaert_Audite_insulae.mei;
+        dcterms:created                 "2024-03-27T07:44:28.155269293Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:b51ad153-eafd-4bbe-b3ea-cfeeae5e900d;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:ed7dfc97-f302-41e8-b23f-dcb9cca65fdb
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Willaert_Audite_insulae.mei;
+        dcterms:created                 "2024-03-27T07:43:34.238169344Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:ab1df5b2-46e7-437d-8345-cc2fa404ddd5;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:ac671630-b814-4203-aa01-e4e110d2c901
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Willaert_Audite_insulae.mei;
+        dcterms:created                 "2024-03-27T07:44:35.364663138Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:b51ad153-eafd-4bbe-b3ea-cfeeae5e900d;
+        crm:P141_assigned               iremus:2b8cd68e-57dd-4479-90c4-3acc451ffd75;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:02f4101c-4edb-4ee1-9b7a-0c3b6481ca81
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Willaert_Audite_insulae.mei;
+        dcterms:created                 "2024-03-27T07:44:49.227727137Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1tcypho;
+        crm:P141_assigned               iremus:9aa9ad7f-de63-488a-8fd5-c5892c16ad2e;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:ac5ea6eb-45bb-45a1-84c7-42e728d7a72b
+        a                            crm:E52_Time-span;
+        crm:P82a_begin_of_the_begin  "2024-03-27T07:42:20.406294660Z" .
+
+iremus:a8ca3b0b-f478-4c43-8222-df01d39c2c2d
+        a                          crm:E7_Activity;
+        sherlock:has_privacy_type  iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd;
+        dcterms:creator            iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P14_carried_out_by     iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P1_is_identified_by    "Modes_CGN";
+        crm:P2_has_type            iremus:21816195-6708-4bbd-a758-ee354bb84900;
+        crm:P4_has_time-span       iremus:ac5ea6eb-45bb-45a1-84c7-42e728d7a72b;
+        crm:P9_consists_of         iremus:e428ebb7-fe81-4bb4-a25e-ac9ffa8a8387 , iremus:a472c915-7b33-415e-9504-6b21d07994e5 , iremus:2a86b219-9aa3-45cf-b273-614543ba550b , iremus:5f05e965-6bb3-4765-bb81-85d6e13c0d9d , iremus:ed7dfc97-f302-41e8-b23f-dcb9cca65fdb , iremus:57d1e59e-8954-4c9f-a7da-248ac57ceb91 , iremus:ecc93370-b9f6-44f9-9f63-ad9a2783eeba , iremus:69367e08-eb26-4307-a040-14712317ad22 , iremus:d82a6335-e7c4-4b0e-851f-6d20391d8ab1 , iremus:a4fa0708-0e21-4e26-be3a-574f257bc9bb , iremus:182e8b5a-fa15-495e-9af1-6385f81a0dfd , iremus:9882f6e6-4bb7-48e1-b125-935fd840c1e7 , iremus:7867e14a-a5e0-4885-a64b-c0fd3eafeba3 , iremus:70145ce7-f440-43c9-ae85-9d7d17cb31a0 , iremus:e8ea473c-745f-4c99-aae1-4b1fbaf91c56 , iremus:45221a35-84ac-4c7f-8104-50ca00dd7181 , iremus:962e5f4e-cd3a-4db5-87f0-539501a20a8c , iremus:ac671630-b814-4203-aa01-e4e110d2c901 , iremus:02f4101c-4edb-4ee1-9b7a-0c3b6481ca81 , iremus:43b3550e-08ba-4a11-ad69-207f6e2640c9 , iremus:b3aee4be-13c3-44b1-a676-526ed3330c5e , iremus:d7f3f4ee-7837-4423-9604-4bac9b64e4f7 , iremus:0e7c59e8-b498-4e8e-afb7-af7e664fbb86 , iremus:dbe17753-bc68-4ffb-93e1-fffce0160eec .
+
+iremus:b3aee4be-13c3-44b1-a676-526ed3330c5e
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Willaert_Audite_insulae.mei;
+        dcterms:created                 "2024-03-27T07:43:39.146149677Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:naaomyb;
+        crm:P141_assigned               iremus:a7c484c6-e4c3-4280-af54-982768fc7e51;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Draft"@en , "Brouillon"@fr .
+
+iremus:7867e14a-a5e0-4885-a64b-c0fd3eafeba3
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Willaert_Audite_insulae.mei;
+        dcterms:created                 "2024-03-27T07:43:33.981738017Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1e4gz62;
+        crm:P141_assigned               iremus:ab1df5b2-46e7-437d-8345-cc2fa404ddd5;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:5d7bdf74-addd-418b-ab43-38af4e70c158
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , crm:E21_Person;
+        dcterms:created          "2022-09-08T12:36:04.142112601Z";
+        crm:P1_is_identified_by  iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3 , iremus:481efbd2-651d-4cc8-9075-a261df46e6d6 , iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3 , iremus:68f4c1ef-da9c-40af-a8be-5e4a92e8c7fe .
+
+iremus:70145ce7-f440-43c9-ae85-9d7d17cb31a0
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Willaert_Audite_insulae.mei;
+        dcterms:created                 "2024-03-27T07:43:48.259559050Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:00201af0-1336-4899-8078-d28cf82d0057;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:dbe17753-bc68-4ffb-93e1-fffce0160eec
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Willaert_Audite_insulae.mei;
+        dcterms:created                 "2024-03-27T07:44:34.986749562Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1j708qb;
+        crm:P141_assigned               iremus:2b8cd68e-57dd-4479-90c4-3acc451ffd75;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:2a86b219-9aa3-45cf-b273-614543ba550b
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Willaert_Audite_insulae.mei;
+        dcterms:created                 "2024-03-27T07:44:49.414001739Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:9aa9ad7f-de63-488a-8fd5-c5892c16ad2e;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:43b3550e-08ba-4a11-ad69-207f6e2640c9
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Willaert_Audite_insulae.mei;
+        dcterms:created                 "2024-03-27T07:42:35.942509940Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  corpus:Willaert_Audite_insulae.mei;
+        crm:P141_assigned               iremus:6f10a8a2-443f-44e3-9efd-0e75114466ad;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:ecc93370-b9f6-44f9-9f63-ad9a2783eeba
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Willaert_Audite_insulae.mei;
+        dcterms:created                 "2024-03-27T07:44:35.174920831Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:2b8cd68e-57dd-4479-90c4-3acc451ffd75;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:57d1e59e-8954-4c9f-a7da-248ac57ceb91
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Willaert_Audite_insulae.mei;
+        dcterms:created                 "2024-03-27T07:43:24.561834896Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:f3e7b3b1-ddf1-4231-ab65-736a3620cb6a;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:d82a6335-e7c4-4b0e-851f-6d20391d8ab1
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Willaert_Audite_insulae.mei;
+        dcterms:created                 "2024-03-27T07:43:39.518407626Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:f3e7b3b1-ddf1-4231-ab65-736a3620cb6a;
+        crm:P141_assigned               iremus:a7c484c6-e4c3-4280-af54-982768fc7e51;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:5f05e965-6bb3-4765-bb81-85d6e13c0d9d
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Willaert_Audite_insulae.mei;
+        dcterms:created                 "2024-03-27T07:44:41.403227418Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:b2f1577a-8f86-4807-aeca-3fe054313edc;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:182e8b5a-fa15-495e-9af1-6385f81a0dfd
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Willaert_Audite_insulae.mei;
+        dcterms:created                 "2024-03-27T07:44:49.634924425Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:b51ad153-eafd-4bbe-b3ea-cfeeae5e900d;
+        crm:P141_assigned               iremus:9aa9ad7f-de63-488a-8fd5-c5892c16ad2e;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:45221a35-84ac-4c7f-8104-50ca00dd7181
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Willaert_Audite_insulae.mei;
+        dcterms:created                 "2024-03-27T07:42:36.138196090Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:6f10a8a2-443f-44e3-9efd-0e75114466ad;
+        crm:P141_assigned               zarlino:Mode;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:d7f3f4ee-7837-4423-9604-4bac9b64e4f7
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Willaert_Audite_insulae.mei;
+        dcterms:created                 "2024-03-27T07:43:48.078412436Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1lmii0s;
+        crm:P141_assigned               iremus:00201af0-1336-4899-8078-d28cf82d0057;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:a4fa0708-0e21-4e26-be3a-574f257bc9bb
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Willaert_Audite_insulae.mei;
+        dcterms:created                 "2024-03-27T07:44:27.986328046Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1nvoirv , mei:n3aoqhr , mei:nrcc2lx , mei:nvpdhjl , mei:nmsehsi , mei:n16hpv52 , mei:n1xwd44f , mei:n19q96ag , mei:n1j708qb , mei:n1k16g7c , mei:nppasnv , mei:n1n7ymi1 , mei:nkfdxg3 , mei:n1tcypho , mei:n1rgd6fi , mei:n13qof1m;
+        crm:P141_assigned               iremus:b51ad153-eafd-4bbe-b3ea-cfeeae5e900d;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:a472c915-7b33-415e-9504-6b21d07994e5
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Willaert_Audite_insulae.mei;
+        dcterms:created                 "2024-03-27T07:44:41.595774649Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:b51ad153-eafd-4bbe-b3ea-cfeeae5e900d;
+        crm:P141_assigned               iremus:b2f1577a-8f86-4807-aeca-3fe054313edc;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .

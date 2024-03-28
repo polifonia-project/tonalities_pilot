@@ -1,0 +1,823 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="https://w3id.org/polifonia/ontology/music-analysis/"
+         xmlns:musi="https://w3id.org/polifonia/ontology/music-projection/"
+         xmlns:zarl="https://w3id.org/polifonia/ontology/music-analysis/zarlino/"
+         xmlns:core="https://w3id.org/polifonia/ontology/core/"
+         xmlns:x_1.1="http://purl.org/dc/elements/1.1/"
+         xmlns:term="http://purl.org/dc/terms/"
+         xmlns="https://w3id.org/polifonia/ontology/music-analysis/">
+
+<owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/music-analysis">
+  <owl:imports rdf:resource="https://raw.githubusercontent.com/polifonia-project/music-analysis-ontology/main/theoreticalModels/zarlino.owl"/>
+  <owl:imports rdf:resource="zarlino"/>
+</owl:Ontology>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1j708qb">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/441904bc-a6fc-489f-adb7-b6b6a5fd11f1"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/441904bc-a6fc-489f-adb7-b6b6a5fd11f1">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/G"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1e4gz62">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/72f380b9-a03f-4dfe-a8c0-2c104ec68561"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/72f380b9-a03f-4dfe-a8c0-2c104ec68561">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/G"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1rgd6fi">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/7ba981cd-f3f2-4a07-9600-e24e4dc3f9bd"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/7ba981cd-f3f2-4a07-9600-e24e4dc3f9bd">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/G"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#naaomyb">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/3f728341-b6ac-4531-ade4-5082d8dd7624"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/3f728341-b6ac-4531-ade4-5082d8dd7624">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/G"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1tcypho">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/b6abdf3a-471d-402f-b41e-797f39b8bf78"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/b6abdf3a-471d-402f-b41e-797f39b8bf78">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/G"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n16hpv52">
+  <musi:hasAccidental rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Sharp"/>
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/601ea6a0-be09-4474-918a-0980976bde7b"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/601ea6a0-be09-4474-918a-0980976bde7b">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/F"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n13qof1m">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/4bd4dba2-89e5-4343-bca1-feaa9a85d91a"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/4bd4dba2-89e5-4343-bca1-feaa9a85d91a">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/G"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1xwd44f">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/a8e48dc0-6629-4030-bfdb-f2e51f5c3312"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/a8e48dc0-6629-4030-bfdb-f2e51f5c3312">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/A"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1n7ymi1">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/9ce1721e-99b6-40a6-871b-a14586880e4c"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/9ce1721e-99b6-40a6-871b-a14586880e4c">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/G"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#nppasnv">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/94dc23aa-0113-4d04-b1ed-6025d700716b"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/94dc23aa-0113-4d04-b1ed-6025d700716b">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/B"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#nvpdhjl">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/a63f0092-4151-494a-90fc-0a7d3d1fcbd0"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/a63f0092-4151-494a-90fc-0a7d3d1fcbd0">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/D"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1k16g7c">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/2fd30c58-159c-471c-a0ed-3bd8ae34546d"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/2fd30c58-159c-471c-a0ed-3bd8ae34546d">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/A"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1nvoirv">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/31252426-c482-4ac6-a164-b1ce9bf76663"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/31252426-c482-4ac6-a164-b1ce9bf76663">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/D"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#nkfdxg3">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/7f59a0c9-fff6-4f81-aca6-8f220113c48e"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/7f59a0c9-fff6-4f81-aca6-8f220113c48e">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/C"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n3aoqhr">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/9801aada-2a1d-472c-a232-31be782eb143"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/9801aada-2a1d-472c-a232-31be782eb143">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/D"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#nrcc2lx">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/9d947f11-1451-4430-b7a7-3cf47c6907bd"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/9d947f11-1451-4430-b7a7-3cf47c6907bd">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/D"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#nmsehsi">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/f6116b61-2bbb-4244-91a2-bbfef676911e"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/f6116b61-2bbb-4244-91a2-bbfef676911e">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/D"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n19q96ag">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/90f2ccab-57b3-403e-b0a8-007afd2c83c7"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/90f2ccab-57b3-403e-b0a8-007afd2c83c7">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/D"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1urz78f">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/bba82f53-9c0e-4457-aab1-bf6aae192ab9"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/bba82f53-9c0e-4457-aab1-bf6aae192ab9">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/E"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#nc6snzq">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/4f9dc30e-74e1-4d02-ba9d-8ae993a63bd2"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/4f9dc30e-74e1-4d02-ba9d-8ae993a63bd2">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/G"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n11vl6ts">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/d654764f-0548-46d5-bfbc-e717992b32b3"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/d654764f-0548-46d5-bfbc-e717992b32b3">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/G"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n2d1gd9">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/93f8853e-f2df-47db-9aba-b60ac0fddfc6"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/93f8853e-f2df-47db-9aba-b60ac0fddfc6">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/F"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1te8jgx">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/f5327971-453e-437c-843c-c6867740ea25"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/f5327971-453e-437c-843c-c6867740ea25">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/G"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1v6l1x">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/1be69c7f-85de-4075-bc6d-7f65d7e7e016"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/1be69c7f-85de-4075-bc6d-7f65d7e7e016">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/B"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1jjzol2">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/898357d5-addb-45a6-bf57-484916eb4ebb"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/898357d5-addb-45a6-bf57-484916eb4ebb">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/C"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#neanfws">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/fac2c18d-d671-4d5b-ad4c-b902eb58acb4"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/fac2c18d-d671-4d5b-ad4c-b902eb58acb4">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/E"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1dmgju4">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/eba6f906-f5ff-4c33-8cd1-ec57f3c5207a"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/eba6f906-f5ff-4c33-8cd1-ec57f3c5207a">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/G"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n8t5a7s">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/89532bd6-0ea2-4502-a6cc-c8145b880085"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/89532bd6-0ea2-4502-a6cc-c8145b880085">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/D"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1saflzm">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/a4e67d62-ccad-4ad6-af5f-0c28a9d297de"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/a4e67d62-ccad-4ad6-af5f-0c28a9d297de">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/G"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1uxuqht">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/d5439b85-5dc8-42b7-89c3-426d13e52999"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/d5439b85-5dc8-42b7-89c3-426d13e52999">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/D"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1tdurjt">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/3ecf46a1-04cf-459c-af1c-63cd124f53ed"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/3ecf46a1-04cf-459c-af1c-63cd124f53ed">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/D"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n40hd3t">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/22fbc4a5-5b0c-486a-9d98-7a73470f5259"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/22fbc4a5-5b0c-486a-9d98-7a73470f5259">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/G"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1lq4c81">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/ab0d9252-bb9e-44b5-8f9a-40ba294bcac3"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/ab0d9252-bb9e-44b5-8f9a-40ba294bcac3">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/B"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1bj25yi">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/f6b10f67-7095-4ed2-bd54-193906e31960"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/f6b10f67-7095-4ed2-bd54-193906e31960">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/C"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n2rz5ew">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/91d3465e-3062-46e6-8b7b-f5d673aa398f"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/91d3465e-3062-46e6-8b7b-f5d673aa398f">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/D"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1lmii0s">
+  <musi:hasPitch rdf:resource="http://modality-tonality.huma-num.fr/representation/e4b28012-63ab-422e-a216-0f75bf3715b1"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="http://modality-tonality.huma-num.fr/representation/e4b28012-63ab-422e-a216-0f75bf3715b1">
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/G"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</musi:hasOctave>
+</musi:Pitch>
+
+<zarl:Mode rdf:about="45221a35-84ac-4c7f-8104-50ca00dd7181_Mode">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:isDefinedBy rdf:resource="57d1e59e-8954-4c9f-a7da-248ac57ceb91_Cadence"/>
+  <core:isDefinedBy rdf:resource="e428ebb7-fe81-4bb4-a25e-ac9ffa8a8387_Cadence"/>
+  <zarl:hasAmbitus rdf:resource="8e99c524-5110-41a7-ab38-ebaf2d4456c2"/>
+  <zarl:hasFinalis rdf:resource="9b71a24a-5033-4114-b047-1529bcf75a39"/>
+  <zarl:hasFinalis rdf:resource="bea8bfdc-83e2-4e24-8de7-8bfadf77388f"/>
+  <zarl:hasFinalis rdf:resource="453f8c74-5860-456b-98d0-dcc125c0b09e"/>
+  <zarl:hasInitialNote rdf:resource="36f11902-050a-4b2a-b8f9-eac638f03397"/>
+  <zarl:hasInitialNote rdf:resource="bd210542-bd01-4396-86c5-033690194bf6"/>
+  <zarl:hasInitialNote rdf:resource="9b884455-bf43-41c1-9142-ed2450eb28d3"/>
+  <zarl:hasInitialNote rdf:resource="fbbbf4ff-b964-452e-a4b5-d094a49b7b26"/>
+  <zarl:hasInitialNote rdf:resource="e5fdab82-ea68-4136-aeb7-27a406bfd780"/>
+  <zarl:hasInitialNote rdf:resource="4addc65e-939e-4f7b-a409-5e78c0c2f208"/>
+  <zarl:isInDiatonicSystem rdf:resource="zarlino/Untransposed"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cadence with target note(s) : ['G3', 'G2', 'G4']</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cadence with target note(s) : ['G2', 'G4', 'G3']</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cantus : lowest note :C4, highest note :C5, ambitus :plagal</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Altus : lowest note :E3, highest note :G4, ambitus :undefined</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quintus : lowest note :G3, highest note :G4, ambitus :authentic</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tenor : lowest note :C3, highest note :D4, ambitus :plagal</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sextus : lowest note :C3, highest note :D4, ambitus :plagal</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bassus : lowest note :F2, highest note :G3, ambitus :authentic</rdfs:comment>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-27T07:42:35.942509940Z</term:created>
+</zarl:Mode>
+
+<zarl:Cadence rdf:about="57d1e59e-8954-4c9f-a7da-248ac57ceb91_Cadence">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasTargetNote rdf:resource="962e5f4e-cd3a-4db5-87f0-539501a20a8c_TargetNote"/>
+  <zarl:hasTargetNote rdf:resource="ed7dfc97-f302-41e8-b23f-dcb9cca65fdb_TargetNote"/>
+  <zarl:hasTargetNote rdf:resource="70145ce7-f440-43c9-ae85-9d7d17cb31a0_TargetNote"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1urz78f"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#nc6snzq"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n11vl6ts"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n2d1gd9"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1te8jgx"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1v6l1x"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1jjzol2"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#neanfws"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1dmgju4"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#naaomyb"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n8t5a7s"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1saflzm"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1uxuqht"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1tdurjt"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n40hd3t"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1lq4c81"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1e4gz62"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1bj25yi"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n2rz5ew"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1lmii0s"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-27T07:43:23.351923483Z</term:created>
+</zarl:Cadence>
+
+<zarl:TargetNote rdf:about="962e5f4e-cd3a-4db5-87f0-539501a20a8c_TargetNote">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#naaomyb"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-27T07:43:39.146149677Z</term:created>
+</zarl:TargetNote>
+
+<zarl:TargetNote rdf:about="ed7dfc97-f302-41e8-b23f-dcb9cca65fdb_TargetNote">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1e4gz62"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-27T07:43:33.981738017Z</term:created>
+</zarl:TargetNote>
+
+<zarl:TargetNote rdf:about="70145ce7-f440-43c9-ae85-9d7d17cb31a0_TargetNote">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1lmii0s"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-27T07:43:48.078412436Z</term:created>
+</zarl:TargetNote>
+
+<zarl:Cadence rdf:about="e428ebb7-fe81-4bb4-a25e-ac9ffa8a8387_Cadence">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasTargetNote rdf:resource="ecc93370-b9f6-44f9-9f63-ad9a2783eeba_TargetNote"/>
+  <zarl:hasTargetNote rdf:resource="2a86b219-9aa3-45cf-b273-614543ba550b_TargetNote"/>
+  <zarl:hasTargetNote rdf:resource="5f05e965-6bb3-4765-bb81-85d6e13c0d9d_TargetNote"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n16hpv52"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n13qof1m"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1xwd44f"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1rgd6fi"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1n7ymi1"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#nppasnv"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#nvpdhjl"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1k16g7c"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1nvoirv"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1j708qb"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1tcypho"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#nkfdxg3"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n3aoqhr"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#nrcc2lx"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#nmsehsi"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n19q96ag"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-27T07:44:27.986328046Z</term:created>
+</zarl:Cadence>
+
+<zarl:TargetNote rdf:about="ecc93370-b9f6-44f9-9f63-ad9a2783eeba_TargetNote">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1j708qb"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-27T07:44:34.986749562Z</term:created>
+</zarl:TargetNote>
+
+<zarl:TargetNote rdf:about="2a86b219-9aa3-45cf-b273-614543ba550b_TargetNote">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1tcypho"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-27T07:44:49.227727137Z</term:created>
+</zarl:TargetNote>
+
+<zarl:TargetNote rdf:about="5f05e965-6bb3-4765-bb81-85d6e13c0d9d_TargetNote">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1rgd6fi"/>
+  <x_1.1:creator rdf:resource="http://modality-tonality.huma-num.fr/representation/5d7bdf74-addd-418b-ab43-38af4e70c158"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03-27T07:44:41.228061723Z</term:created>
+</zarl:TargetNote>
+
+<zarl:InitialNote rdf:about="36f11902-050a-4b2a-b8f9-eac638f03397">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n5rkp4y"/>
+</zarl:InitialNote>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n5rkp4y">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitch rdf:resource="ab527210-913c-433a-bdaf-5db15ecd76a1"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="ab527210-913c-433a-bdaf-5db15ecd76a1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/G"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</musi:hasOctave>
+</musi:Pitch>
+
+<zarl:InitialNote rdf:about="bd210542-bd01-4396-86c5-033690194bf6">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n14pey1c"/>
+</zarl:InitialNote>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n14pey1c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitch rdf:resource="989648da-65e0-4ddd-b8b3-d0668ad6834d"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="989648da-65e0-4ddd-b8b3-d0668ad6834d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/C"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</musi:hasOctave>
+</musi:Pitch>
+
+<zarl:InitialNote rdf:about="9b884455-bf43-41c1-9142-ed2450eb28d3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1cwlryr"/>
+</zarl:InitialNote>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1cwlryr">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitch rdf:resource="6efd985a-10c8-4fcf-b424-46ddb0aa7362"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="6efd985a-10c8-4fcf-b424-46ddb0aa7362">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/C"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</musi:hasOctave>
+</musi:Pitch>
+
+<zarl:InitialNote rdf:about="fbbbf4ff-b964-452e-a4b5-d094a49b7b26">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n14789vd"/>
+</zarl:InitialNote>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n14789vd">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitch rdf:resource="0e216f0f-5a12-41e9-8765-52ea0a6177f0"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="0e216f0f-5a12-41e9-8765-52ea0a6177f0">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/G"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<zarl:InitialNote rdf:about="e5fdab82-ea68-4136-aeb7-27a406bfd780">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#nwlt5q9"/>
+</zarl:InitialNote>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#nwlt5q9">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitch rdf:resource="bb47214e-6334-42fa-a61a-64886f839671"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="bb47214e-6334-42fa-a61a-64886f839671">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/G"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<zarl:InitialNote rdf:about="4addc65e-939e-4f7b-a409-5e78c0c2f208">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n9vb52f"/>
+</zarl:InitialNote>
+
+<musi:Note rdf:about="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n9vb52f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitch rdf:resource="7830c529-354f-43ce-ae72-1ff97201e483"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="7830c529-354f-43ce-ae72-1ff97201e483">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/C"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<zarl:Ambitus rdf:about="8e99c524-5110-41a7-ab38-ebaf2d4456c2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:composedOf rdf:resource="f0963bde-4b34-46fe-befb-40343262fe0d"/>
+  <zarl:composedOf rdf:resource="ff80aa81-330a-414b-acb0-ea214d6acbfc"/>
+  <zarl:composedOf rdf:resource="c2eb7e4e-f1de-4007-9288-19262a9a0790"/>
+  <zarl:composedOf rdf:resource="48792211-5da1-4591-979b-d902aeec2126"/>
+  <zarl:composedOf rdf:resource="1280a50f-811e-487d-a3be-7b9960738334"/>
+  <zarl:composedOf rdf:resource="b6d12d83-45f0-4848-a284-6d600a68548f"/>
+</zarl:Ambitus>
+
+<zarl:Part rdf:about="8b326588-8a8e-41a7-ba83-70946b70072d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasAmbitus rdf:resource="f0963bde-4b34-46fe-befb-40343262fe0d"/>
+  <zarl:hasPartType rdf:resource="c21b8567-583b-4976-8125-4c2c8b34f82d"/>
+</zarl:Part>
+
+<zarl:Cantus rdf:about="c21b8567-583b-4976-8125-4c2c8b34f82d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</zarl:Cantus>
+
+<zarl:Ambitus rdf:about="f0963bde-4b34-46fe-befb-40343262fe0d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:isAmbitusOf rdf:resource="8b326588-8a8e-41a7-ba83-70946b70072d"/>
+  <zarl:hasHighestPitch rdf:resource="85738007-722d-4a12-9cb8-469cf0305c4c"/>
+  <zarl:hasLowestPitch rdf:resource="02cc0604-e251-41f3-be12-525d857ae93a"/>
+  <musi:hasAmbitusType rdf:resource="zarlino/PlagalAmbitus"/>
+  <musi:hasAmbitusType rdf:resource="zarlino/RegularAmbitus"/>
+</zarl:Ambitus>
+
+<musi:Note rdf:about="02cc0604-e251-41f3-be12-525d857ae93a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitch rdf:resource="21af55eb-3fbe-4c23-8fe1-1deaacba594a"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="21af55eb-3fbe-4c23-8fe1-1deaacba594a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/C"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="85738007-722d-4a12-9cb8-469cf0305c4c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitch rdf:resource="927f4fb4-31f8-481e-b223-9c2acb159a74"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="927f4fb4-31f8-481e-b223-9c2acb159a74">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/C"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</musi:hasOctave>
+</musi:Pitch>
+
+<zarl:Part rdf:about="5a2d874c-1f9e-4ec8-a340-f3b50298abb8">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasAmbitus rdf:resource="ff80aa81-330a-414b-acb0-ea214d6acbfc"/>
+  <zarl:hasPartType rdf:resource="607dc3df-1d12-45a8-ba8d-a840cb0f434b"/>
+</zarl:Part>
+
+<zarl:Altus rdf:about="607dc3df-1d12-45a8-ba8d-a840cb0f434b">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</zarl:Altus>
+
+<zarl:Ambitus rdf:about="ff80aa81-330a-414b-acb0-ea214d6acbfc">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:isAmbitusOf rdf:resource="5a2d874c-1f9e-4ec8-a340-f3b50298abb8"/>
+  <zarl:hasHighestPitch rdf:resource="6c16e1a1-6999-4d48-91e1-bacebcede9cc"/>
+  <zarl:hasLowestPitch rdf:resource="59824808-2a50-4907-ab1a-199979df2e5f"/>
+</zarl:Ambitus>
+
+<musi:Note rdf:about="59824808-2a50-4907-ab1a-199979df2e5f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitch rdf:resource="7ba850f1-e95c-4cd1-8640-959af02a333e"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="7ba850f1-e95c-4cd1-8640-959af02a333e">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/E"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="6c16e1a1-6999-4d48-91e1-bacebcede9cc">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitch rdf:resource="1904d8af-b9c6-4ec9-8a58-05db96141a04"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="1904d8af-b9c6-4ec9-8a58-05db96141a04">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/G"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</musi:hasOctave>
+</musi:Pitch>
+
+<zarl:Part rdf:about="b433b31c-1579-47d1-821d-a81674e36c22">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasAmbitus rdf:resource="c2eb7e4e-f1de-4007-9288-19262a9a0790"/>
+</zarl:Part>
+
+<zarl:Ambitus rdf:about="c2eb7e4e-f1de-4007-9288-19262a9a0790">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:isAmbitusOf rdf:resource="b433b31c-1579-47d1-821d-a81674e36c22"/>
+  <zarl:hasHighestPitch rdf:resource="d7ce0ea0-2a41-4c4d-bf40-8e5e2b2872aa"/>
+  <zarl:hasLowestPitch rdf:resource="24df8e6d-548c-488a-b1de-16689a66b2c1"/>
+  <musi:hasAmbitusType rdf:resource="zarlino/AuthenticAmbitus"/>
+  <musi:hasAmbitusType rdf:resource="zarlino/RegularAmbitus"/>
+</zarl:Ambitus>
+
+<musi:Note rdf:about="24df8e6d-548c-488a-b1de-16689a66b2c1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitch rdf:resource="8bd53b7a-cc1c-4642-af0e-606b55492435"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="8bd53b7a-cc1c-4642-af0e-606b55492435">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/G"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="d7ce0ea0-2a41-4c4d-bf40-8e5e2b2872aa">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitch rdf:resource="70a26660-8a9f-43c5-8e5d-9694faa7f279"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="70a26660-8a9f-43c5-8e5d-9694faa7f279">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/G"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</musi:hasOctave>
+</musi:Pitch>
+
+<zarl:Part rdf:about="8533c052-8928-492b-a1f7-1b3791a38020">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasAmbitus rdf:resource="48792211-5da1-4591-979b-d902aeec2126"/>
+  <zarl:hasPartType rdf:resource="26314f3e-c3d9-4482-9f4f-4977ebafacc4"/>
+</zarl:Part>
+
+<zarl:Tenor rdf:about="26314f3e-c3d9-4482-9f4f-4977ebafacc4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</zarl:Tenor>
+
+<zarl:Ambitus rdf:about="48792211-5da1-4591-979b-d902aeec2126">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:isAmbitusOf rdf:resource="8533c052-8928-492b-a1f7-1b3791a38020"/>
+  <zarl:hasHighestPitch rdf:resource="01b78625-9dc2-4bcc-a83e-c9678f1d87ea"/>
+  <zarl:hasLowestPitch rdf:resource="74ed0eb2-99fe-4290-bb5a-a6d6be84bb32"/>
+  <musi:hasAmbitusType rdf:resource="zarlino/PlagalAmbitus"/>
+  <musi:hasAmbitusType rdf:resource="zarlino/RegularAmbitus"/>
+</zarl:Ambitus>
+
+<musi:Note rdf:about="74ed0eb2-99fe-4290-bb5a-a6d6be84bb32">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitch rdf:resource="47961762-3270-4d8d-bc54-436ff0ab4aa5"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="47961762-3270-4d8d-bc54-436ff0ab4aa5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/C"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="01b78625-9dc2-4bcc-a83e-c9678f1d87ea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitch rdf:resource="98bf94b3-ba53-422a-b91a-552c68fd32db"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="98bf94b3-ba53-422a-b91a-552c68fd32db">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/D"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</musi:hasOctave>
+</musi:Pitch>
+
+<zarl:Part rdf:about="44878483-63f8-4f74-8b88-f0aefa30bb0a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasAmbitus rdf:resource="1280a50f-811e-487d-a3be-7b9960738334"/>
+</zarl:Part>
+
+<zarl:Ambitus rdf:about="1280a50f-811e-487d-a3be-7b9960738334">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:isAmbitusOf rdf:resource="44878483-63f8-4f74-8b88-f0aefa30bb0a"/>
+  <zarl:hasHighestPitch rdf:resource="116f8144-f921-4b8a-8560-c6ccc7257fbc"/>
+  <zarl:hasLowestPitch rdf:resource="684833a9-4b9e-4191-be5a-2bc348ec4c9f"/>
+  <musi:hasAmbitusType rdf:resource="zarlino/PlagalAmbitus"/>
+  <musi:hasAmbitusType rdf:resource="zarlino/RegularAmbitus"/>
+</zarl:Ambitus>
+
+<musi:Note rdf:about="684833a9-4b9e-4191-be5a-2bc348ec4c9f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitch rdf:resource="73fd162f-1908-4aee-9458-0f62eff3aa52"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="73fd162f-1908-4aee-9458-0f62eff3aa52">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/C"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="116f8144-f921-4b8a-8560-c6ccc7257fbc">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitch rdf:resource="da18a395-dec8-44d7-ae55-ec0488551ac9"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="da18a395-dec8-44d7-ae55-ec0488551ac9">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/D"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</musi:hasOctave>
+</musi:Pitch>
+
+<zarl:Part rdf:about="365d06bf-35a2-4c92-b3d6-273ca150522c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:hasAmbitus rdf:resource="b6d12d83-45f0-4848-a284-6d600a68548f"/>
+  <zarl:hasPartType rdf:resource="15c1cb14-832e-4bfc-ad5c-7b970a25ebaa"/>
+</zarl:Part>
+
+<zarl:Bassus rdf:about="15c1cb14-832e-4bfc-ad5c-7b970a25ebaa">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</zarl:Bassus>
+
+<zarl:Ambitus rdf:about="b6d12d83-45f0-4848-a284-6d600a68548f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:isAmbitusOf rdf:resource="365d06bf-35a2-4c92-b3d6-273ca150522c"/>
+  <zarl:hasHighestPitch rdf:resource="8446e272-0816-4561-af19-788859fb61e8"/>
+  <zarl:hasLowestPitch rdf:resource="0fb30228-003b-4b4a-95a8-f81baa3f51ef"/>
+  <musi:hasAmbitusType rdf:resource="zarlino/AuthenticAmbitus"/>
+  <musi:hasAmbitusType rdf:resource="zarlino/RegularAmbitus"/>
+</zarl:Ambitus>
+
+<musi:Note rdf:about="0fb30228-003b-4b4a-95a8-f81baa3f51ef">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitch rdf:resource="18586543-3335-4aa8-9b83-2abd9f2c8b0a"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="18586543-3335-4aa8-9b83-2abd9f2c8b0a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/F"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</musi:hasOctave>
+</musi:Pitch>
+
+<musi:Note rdf:about="8446e272-0816-4561-af19-788859fb61e8">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitch rdf:resource="7aa4f2c5-29cc-48ca-94c2-820f4f0bc205"/>
+</musi:Note>
+
+<musi:Pitch rdf:about="7aa4f2c5-29cc-48ca-94c2-820f4f0bc205">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:hasPitchClass rdf:resource="https://w3id.org/polifonia/ontology/music-projection/G"/>
+  <musi:hasOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</musi:hasOctave>
+</musi:Pitch>
+
+<zarl:Finalis rdf:about="9b71a24a-5033-4114-b047-1529bcf75a39">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1tcypho"/>
+</zarl:Finalis>
+
+<zarl:Finalis rdf:about="bea8bfdc-83e2-4e24-8de7-8bfadf77388f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1rgd6fi"/>
+</zarl:Finalis>
+
+<zarl:Finalis rdf:about="453f8c74-5860-456b-98d0-dcc125c0b09e">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <zarl:involvesNote rdf:resource="https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Audite_insulae.mei#n1j708qb"/>
+</zarl:Finalis>
+
+
+</rdf:RDF>
