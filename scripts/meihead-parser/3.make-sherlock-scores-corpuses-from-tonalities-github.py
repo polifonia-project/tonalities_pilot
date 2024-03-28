@@ -37,7 +37,7 @@ for f in json_files:
         d = json.load(f)
         u = d['score_uri']
         u = u.split('/scores/')
-        corpus_name = '/'.join(u[1].split('/')[:-1])
+        corpus_name = '/'.join(u[1].split('/')[:-1]).replace('%20', ' ')
 
         # CORPUS
         corpus_uri = URIRef(cache.get_uuid(['corpuses', corpus_name, 'uuid'], True))
@@ -55,6 +55,7 @@ for f in json_files:
         g.add((corpus_e65_uri, CRM['P2_has_type'], URIRef('21816195-6708-4bbd-a758-ee354bb84900')))
         g.add((URIRef('d9dafa60-75d1-4c34-8d1d-5ec12ffa0ea8'), CRM['P9_consists_of'], corpus_e65_uri))
         g.add((corpus_e65_uri, CRM['P94_has_created'], corpus_uri))
+        g.add((corpus_e65_uri, CRM['P14_carried_out_by'], URIRef('56ed1334-b47a-440a-b78d-04c8d3cfc311')))  # Tonaliteam
 
         # F3
         f3_uri = URIRef(cache.get_uuid(['scores', d['score_uri'], 'uuid'], True))
