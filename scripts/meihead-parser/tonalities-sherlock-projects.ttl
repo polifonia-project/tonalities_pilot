@@ -8,6 +8,7 @@
         <2c4c52a5-97e9-4127-b687-45d64f14c494>,
         <39b51f10-0846-4ed5-94de-609866ccc270>,
         <3f97de31-97e2-447c-9308-4504b28e8990>,
+        <40a170f3-83dc-4f13-9c6f-2732272855d7>,
         <5913af05-fdd2-4a28-bad6-eb49bc76899a>,
         <67879d51-db02-4e21-a985-e7f8959dd290>,
         <907f5f4a-37d6-40d8-b2c4-fe78a15ea052>,
@@ -1765,6 +1766,10 @@
     crm:P2_has_type <792f6ea9-3d3d-4504-9042-4a3f8e23f542>,
         <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
 
+<2b2657a3-849b-4c65-9ced-ee5b389b438b> a sherlock:Corpus ;
+    sherlock:has_member <fa9db071-722c-4570-9cf4-a182e6831b71> ;
+    crm:P1_is_identified_by <d3b5e984-cdd8-4fbb-9fbe-f879d098f2bd> .
+
 <2b405aed-dfc0-40e6-99a2-2cf6dc869738> a lrmoo:F3_Manifestation ;
     crm:P1_is_identified_by <53a29b3f-10b8-4a28-83c9-6bd53b9e5276> ;
     crm:P2_has_type <792f6ea9-3d3d-4504-9042-4a3f8e23f542>,
@@ -2606,7 +2611,12 @@
 
 <31592cb1-f2b2-430a-8a2e-9236cf8bcc59> a sherlock:Corpus ;
     sherlock:has_member <22502d9b-c91b-44f8-b72d-ae831fcaa997>,
+        <5387cac9-77e3-4823-804c-2bf961b8fb0a>,
+        <682e0c35-f918-4503-b4f8-46dbd2ca6b30>,
+        <826ec8a9-5b47-4045-af25-e4b19e17a275>,
+        <b5c2b186-f45b-444d-b0b9-78451adcbd43>,
         <bf30343a-94bb-4b7e-940e-85aca9a2be8f>,
+        <c15c5231-b618-46a0-910b-66edb44ed9db>,
         <e152ca4d-b719-436e-9659-a85665418265>,
         <ea055ebd-9ff0-40ac-aac3-b806c6d64095> ;
     crm:P1_is_identified_by <fd2196e0-04f2-43ba-9813-cf6c1bc4636a> .
@@ -3065,7 +3075,8 @@
         <85365da4-7615-4ad8-a676-aecba236f78d>,
         <900cb46e-6001-458a-b1d2-fe900a1fa921>,
         <dd43ad57-49a1-40a4-9101-7d7c21103adb>,
-        <f7782ad0-522d-499f-bba2-c50ba31fc122> ;
+        <f7782ad0-522d-499f-bba2-c50ba31fc122>,
+        <ff8ff18d-cbf1-4c71-a6e9-d0b983056213> ;
     crm:P1_is_identified_by <d7fbbe82-87c2-4220-81dd-f8fe7775b297> .
 
 <39ff8561-b3ad-47dd-a7cd-629a53d92134> a lrmoo:F3_Manifestation ;
@@ -3347,6 +3358,11 @@
 <406e29a0-8502-4bec-8fcf-a63758405217> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Dufay/048.mei> ;
     crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
+
+<40a170f3-83dc-4f13-9c6f-2732272855d7> a crm:E65_Creation ;
+    crm:P14_carried_out_by <56ed1334-b47a-440a-b78d-04c8d3cfc311> ;
+    crm:P2_has_type <21816195-6708-4bbd-a758-ee354bb84900> ;
+    crm:P94_has_created <2b2657a3-849b-4c65-9ced-ee5b389b438b> .
 
 <40c24cfa-b337-4c44-9bd1-54b67efec471> a lrmoo:F3_Manifestation ;
     crm:P1_is_identified_by <dfcc616f-a5d2-4607-8337-54ed8edf4f15> ;
@@ -4109,6 +4125,11 @@
     crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/009.mei> ;
     crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
 
+<5387cac9-77e3-4823-804c-2bf961b8fb0a> a lrmoo:F3_Manifestation ;
+    crm:P1_is_identified_by <743a9167-8342-46a7-a72b-972ebacc8e96> ;
+    crm:P2_has_type <792f6ea9-3d3d-4504-9042-4a3f8e23f542>,
+        <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
+
 <539dbb00-d816-42c2-9290-c1fee8643a67> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/053.mei> ;
     crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
@@ -4809,6 +4830,11 @@
     crm:P2_has_type <792f6ea9-3d3d-4504-9042-4a3f8e23f542>,
         <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
 
+<682e0c35-f918-4503-b4f8-46dbd2ca6b30> a lrmoo:F3_Manifestation ;
+    crm:P1_is_identified_by <b23c56b9-6d5a-4cee-87ed-89541a8d9814> ;
+    crm:P2_has_type <792f6ea9-3d3d-4504-9042-4a3f8e23f542>,
+        <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
+
 <6848489a-f70c-45ad-8092-cd146a41b1b3> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/179.mei> ;
     crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
@@ -5456,10 +5482,18 @@
     crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/155.mei> ;
     crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
 
+<741152cf-f04c-49c9-9adb-5b0d534844d9> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Sacred_Music/Jos0402c-Missa_Gaudeamus-Credo.mei> ;
+    crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
+
 <7423bfba-902f-4568-af51-5233cfb5560e> a lrmoo:F3_Manifestation ;
     crm:P1_is_identified_by <bf6cf531-19e3-4e33-84f7-3ecb51d927a4> ;
     crm:P2_has_type <792f6ea9-3d3d-4504-9042-4a3f8e23f542>,
         <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
+
+<743a9167-8342-46a7-a72b-972ebacc8e96> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Sacred_Music/Jos0402a-Missa_Gaudeamus-Kyrie.mei> ;
+    crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
 
 <747aab30-5eb6-4776-bc2c-93e1da81499a> a lrmoo:F3_Manifestation ;
     crm:P1_is_identified_by <0950b023-c143-48ad-878e-bed6ca3ea1d2> ;
@@ -6119,6 +6153,11 @@
 <825db810-a5c2-470b-9a9b-070f8998d0bb> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2818.mei> ;
     crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
+
+<826ec8a9-5b47-4045-af25-e4b19e17a275> a lrmoo:F3_Manifestation ;
+    crm:P1_is_identified_by <741152cf-f04c-49c9-9adb-5b0d534844d9> ;
+    crm:P2_has_type <792f6ea9-3d3d-4504-9042-4a3f8e23f542>,
+        <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
 
 <8276765b-ca50-471b-8ebf-1cc90f0522e7> a lrmoo:F3_Manifestation ;
     crm:P1_is_identified_by <aaa95d4c-8df0-4ae8-a699-efd4ad4551fe> ;
@@ -8022,6 +8061,10 @@
     crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/440.mei> ;
     crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
 
+<b23c56b9-6d5a-4cee-87ed-89541a8d9814> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Sacred_Music/Jos0402e-Missa_Gaudeamus-Agnus.mei> ;
+    crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
+
 <b2451851-9c19-4f5e-adf0-cacea2c41fcb> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/DeLaRue/PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei> ;
     crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
@@ -8253,6 +8296,11 @@
 <b5c24b85-ed94-4592-b42d-5ced2828e3f5> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/324.mei> ;
     crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
+
+<b5c2b186-f45b-444d-b0b9-78451adcbd43> a lrmoo:F3_Manifestation ;
+    crm:P1_is_identified_by <f5cf7fc4-f131-42b2-abd4-4f88945e42a5> ;
+    crm:P2_has_type <792f6ea9-3d3d-4504-9042-4a3f8e23f542>,
+        <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
 
 <b5c716e5-2d95-4278-88ab-3a2d1d343f72> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Liete_et_pensose.mei> ;
@@ -8773,6 +8821,11 @@
     crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/307.mei> ;
     crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
 
+<c15c5231-b618-46a0-910b-66edb44ed9db> a lrmoo:F3_Manifestation ;
+    crm:P1_is_identified_by <c6d5882f-9e75-4b97-92e8-24352092eb53> ;
+    crm:P2_has_type <792f6ea9-3d3d-4504-9042-4a3f8e23f542>,
+        <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
+
 <c18b1bab-d25f-4662-adb0-a24645cc12b8> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/348.mei> ;
     crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
@@ -9045,6 +9098,10 @@
 
 <c6cb0524-fde2-4990-93a0-1935cbe44434> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/039.mei> ;
+    crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
+
+<c6d5882f-9e75-4b97-92e8-24352092eb53> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Sacred_Music/Jos0402b-Missa_Gaudeamus-Gloria.mei> ;
     crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
 
 <c6deb252-b9a8-492c-b6c8-94f53cd48557> a lrmoo:F3_Manifestation ;
@@ -9625,6 +9682,10 @@
     crm:P2_has_type <792f6ea9-3d3d-4504-9042-4a3f8e23f542>,
         <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
 
+<cb01c136-428a-46da-a4aa-f2fde6275433> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_Miserere.mei> ;
+    crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
+
 <cb221916-9e8c-4b7d-aa52-030f5056f4fe> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Dufay/026.mei> ;
     crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
@@ -9814,6 +9875,10 @@
     crm:P2_has_type <792f6ea9-3d3d-4504-9042-4a3f8e23f542>,
         <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
 
+<d08a06ec-afca-4bdd-bb7d-2b81909610d9> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Isaac/Isaac_O_Maria.mei> ;
+    crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
+
 <d0934c83-eca1-4255-8bba-f15d46787577> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Chansons/Jos2821.mei> ;
     crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
@@ -9983,6 +10048,9 @@
     crm:P1_is_identified_by <8cec8746-1064-4ddf-be75-ebd110c7b8c0> ;
     crm:P2_has_type <792f6ea9-3d3d-4504-9042-4a3f8e23f542>,
         <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
+
+<d3b5e984-cdd8-4fbb-9fbe-f879d098f2bd> a crm:E41_Identifier ;
+    crm:P190_has_symbolic_content "Isaac" .
 
 <d41145b6-0e9e-4c59-8186-4ff791a8c531> a lrmoo:F3_Manifestation ;
     crm:P1_is_identified_by <6f23bbf1-a06d-4385-b48d-9d3b25b13afa> ;
@@ -11417,6 +11485,10 @@
     crm:P2_has_type <792f6ea9-3d3d-4504-9042-4a3f8e23f542>,
         <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
 
+<f5cf7fc4-f131-42b2-abd4-4f88945e42a5> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Sacred_Music/Jos0402d-Missa_Gaudeamus-Sanctus.mei> ;
+    crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
+
 <f5de1992-2594-4716-85fc-c5ef175207af> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Praetorius/Terpsichore/445.mei> ;
     crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
@@ -11602,6 +11674,11 @@
 
 <fa790221-ac44-4187-8a28-36c9371b8f8b> a lrmoo:F3_Manifestation ;
     crm:P1_is_identified_by <af51a27d-551b-4c71-afbe-abcbbc8c4eee> ;
+    crm:P2_has_type <792f6ea9-3d3d-4504-9042-4a3f8e23f542>,
+        <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
+
+<fa9db071-722c-4570-9cf4-a182e6831b71> a lrmoo:F3_Manifestation ;
+    crm:P1_is_identified_by <d08a06ec-afca-4bdd-bb7d-2b81909610d9> ;
     crm:P2_has_type <792f6ea9-3d3d-4504-9042-4a3f8e23f542>,
         <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
 
@@ -11859,6 +11936,11 @@
 <ff894693-acff-497b-9127-b30e468a3d93> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Bach/Bach_Chorals/115.mei> ;
     crm:P2_has_type <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
+
+<ff8ff18d-cbf1-4c71-a6e9-d0b983056213> a lrmoo:F3_Manifestation ;
+    crm:P1_is_identified_by <cb01c136-428a-46da-a4aa-f2fde6275433> ;
+    crm:P2_has_type <792f6ea9-3d3d-4504-9042-4a3f8e23f542>,
+        <bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> .
 
 <ffb4b786-f14a-4e93-a37b-e889b1b83ad1> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Dufay/043.mei> ;
