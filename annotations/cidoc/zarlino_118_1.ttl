@@ -1,0 +1,440 @@
+@prefix chordsCommonPractices: <https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/> .
+@prefix corpus:                <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/DeLaRue/> .
+@prefix crm:                   <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms:               <http://purl.org/dc/terms/> .
+@prefix fugue:                 <https://w3id.org/polifonia/ontology/modal-tonal/Fugue/> .
+@prefix guillotel:             <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix guillotel2023:         <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix interpretation:        <https://w3id.org/polifonia/ontology/music-analysis/interpretation/> .
+@prefix iremus:                <http://data-iremus.huma-num.fr/id/> .
+@prefix lrmoo:                 <https://www.iflastandards.info/lrm/lrmoo> .
+@prefix manganisabaino:        <https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/> .
+@prefix mei:                   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/DeLaRue/PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei#> .
+@prefix oldFugue:              <https://w3id.org/polifonia/ontology/modal-tonal/Fugue#> .
+@prefix sherlock:              <http://data-iremus.huma-num.fr/ns/sherlock#> .
+@prefix zarlino:               <https://w3id.org/polifonia/ontology/music-analysis/zarlino/> .
+
+iremus:bd853775-dcbc-48e7-802d-fa0531893953
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:18:52.844493944Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:f08295d0-e458-4ef0-833d-660cce1a1e18;
+        crm:P141_assigned               iremus:50afbc7d-9445-4fcb-b283-3af168877b9f;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:f57065e3-730a-4e73-b2b9-cd45bc610d1c
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:19:23.638507556Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:4712fb0a-ced8-4d97-a96b-1e3f594745ac;
+        crm:P141_assigned               iremus:344b2000-1bcb-4fa6-8b1a-3c049d55923e;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:a26fd231-6453-4f24-9e51-8fe2a60937d0
+        a                          crm:E7_Activity;
+        sherlock:has_privacy_type  iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd;
+        dcterms:creator            iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P14_carried_out_by     iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P1_is_identified_by    "Modes_CGN";
+        crm:P2_has_type            iremus:21816195-6708-4bbd-a758-ee354bb84900;
+        crm:P4_has_time-span       iremus:4c3ed0eb-4e02-4d11-81cd-cf06ca4885b6;
+        crm:P9_consists_of         iremus:bd853775-dcbc-48e7-802d-fa0531893953 , iremus:40184a61-69f6-4f57-b233-1a2e0ee92d1c , iremus:a6e6e625-3727-450d-8a18-4fd6082c0050 , iremus:ef025e9a-43f8-4fcf-bfde-d0709beaa7c4 , iremus:7f977b12-6bac-4636-96d7-db6ee33c53ea , iremus:eb739ef5-bf7f-4a9b-b22c-f0f1325e9dd0 , iremus:1a8ee2f9-cc1b-46f3-98b8-de3769b51f1d , iremus:0e6755d2-b446-4f5c-b200-8808848ca072 , iremus:9629e6c4-e3fd-42e5-a56f-af11f51ea133 , iremus:d5dd8ff4-a3a6-4324-89d0-88cc7ed9f21b , iremus:c8fdaec8-e76e-46ea-a955-95b047a0c7f6 , iremus:d173a124-66ac-48a4-ad22-4ae453994215 , iremus:9242541e-abbc-4e3c-b8e6-b08dd1ceb0a0 , iremus:ea1cf841-c81b-4e6c-944e-e4d5fad63d5e , iremus:a8ece0e2-26eb-409e-be78-1d90fe1adfcc , iremus:2b6c9488-8921-405e-b882-2a1d7834c2f7 , iremus:0ec0479a-981a-45da-9be2-29c2bac0c3a8 , iremus:c74ad940-f8f6-4261-8cc0-46a9c3f60da3 , iremus:53196e3a-65c6-42ba-84e7-cdfeeb40f96f , iremus:f57065e3-730a-4e73-b2b9-cd45bc610d1c , iremus:05c03d51-8dbb-4cc4-b489-ebba838e9054 , iremus:9be8b767-7d1b-4eb6-824b-848a2a08d701 , iremus:52f65523-1f6f-47a3-ab0a-fdfbbc3cea83 , iremus:2e801481-e60c-410b-a65c-76707e1eec9c , iremus:96de53b1-e0c3-42b1-98d2-585089196f43 , iremus:ba24056e-b485-4fe3-b312-fbc8888bbeca , iremus:5ed03bc1-35d9-4278-b4ee-228975fa5509 , iremus:8a937940-ab95-42fc-b2c1-c68c9b331efa , iremus:5be744de-7686-4dfe-b58d-2941286c94b1 , iremus:5a2705a2-3fb4-4bab-a972-bbd653cd6c98 , iremus:cd7aaf47-5bbc-43fb-bc2a-d183062c4a9c , iremus:dd85238c-3dce-4d8d-80b1-51d791ef2447 , iremus:d31323a0-5e48-445c-8298-a22fc5ae8529 , iremus:1cae3193-f680-4efc-af86-d11c58effa0c , iremus:bc2cfdab-e1e3-4835-a3d9-303f881e8fd8 .
+
+iremus:2b6c9488-8921-405e-b882-2a1d7834c2f7
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:19:17.688065061Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:4712fb0a-ced8-4d97-a96b-1e3f594745ac;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:c8fdaec8-e76e-46ea-a955-95b047a0c7f6
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:18:47.676855411Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:nah90ay;
+        crm:P141_assigned               iremus:eceaff3e-e1c1-4952-8d08-8c28e6ec9403;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:4c3ed0eb-4e02-4d11-81cd-cf06ca4885b6
+        a                            crm:E52_Time-span;
+        crm:P82a_begin_of_the_begin  "2024-03-29T15:16:56.821743113Z" .
+
+iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Draft"@en , "Brouillon"@fr .
+
+corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei
+        a       crm:E1_CRM_Entity .
+
+iremus:d173a124-66ac-48a4-ad22-4ae453994215
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:18:39.772024138Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:f08295d0-e458-4ef0-833d-660cce1a1e18;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:5d7bdf74-addd-418b-ab43-38af4e70c158
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , crm:E21_Person;
+        dcterms:created          "2022-09-08T12:36:04.142112601Z";
+        crm:P1_is_identified_by  iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3 , iremus:481efbd2-651d-4cc8-9075-a261df46e6d6 , iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3 , iremus:68f4c1ef-da9c-40af-a8be-5e4a92e8c7fe .
+
+iremus:9be8b767-7d1b-4eb6-824b-848a2a08d701
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:18:02.697836416Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1ca7p38;
+        crm:P141_assigned               iremus:05ce623c-371a-4894-8c5f-51af73693e25;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:0e6755d2-b446-4f5c-b200-8808848ca072
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:17:19.802700979Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        crm:P141_assigned               iremus:d5da9dfb-fc34-44f9-aed2-27d8bfe4424a;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:5a2705a2-3fb4-4bab-a972-bbd653cd6c98
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:19:28.457123724Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:b4eb201d-7c25-437a-a419-c37630ea10fc;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:d5dd8ff4-a3a6-4324-89d0-88cc7ed9f21b
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:18:07.158061720Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1uaj3r7;
+        crm:P141_assigned               iremus:40998d2c-0107-41b1-ac85-98d9dabb7580;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:a6e6e625-3727-450d-8a18-4fd6082c0050
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:19:17.546624441Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:nsg84zp , mei:n84eas , mei:nb4j4ng , mei:n1xqcplu , mei:n178y09i , mei:n1eue3k8 , mei:n13o8hpb , mei:n1aa0ulm , mei:n1i3pkda , mei:n1ovarev , mei:naxlz9 , mei:n1fxh067 , mei:n1lmn3i0 , mei:n6gu28e , mei:n1ssfrxc , mei:nesjlvz , mei:nvdqxvq;
+        crm:P141_assigned               iremus:4712fb0a-ced8-4d97-a96b-1e3f594745ac;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:21816195-6708-4bbd-a758-ee354bb84900
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Knowledge production"@en , "Production de connaissances"@fr .
+
+iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3
+        a                              crm:E42_Identifier;
+        crm:P190_has_symbolic_content  "0000-0002-4817-3686";
+        crm:P2_has_type                iremus:d7ef2583-ff31-4913-9ed3-bc3a1c664b21 .
+
+iremus:2e801481-e60c-410b-a65c-76707e1eec9c
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:19:28.648188274Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:4712fb0a-ced8-4d97-a96b-1e3f594745ac;
+        crm:P141_assigned               iremus:b4eb201d-7c25-437a-a419-c37630ea10fc;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:52f65523-1f6f-47a3-ab0a-fdfbbc3cea83
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:17:58.686420254Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:2aeddd89-631d-4b5b-99b4-aecee4c5eaeb;
+        crm:P141_assigned               iremus:959cd952-dd22-4a66-b619-b39403c72ca1;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:c74ad940-f8f6-4261-8cc0-46a9c3f60da3
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:18:47.804374103Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:eceaff3e-e1c1-4952-8d08-8c28e6ec9403;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:5be744de-7686-4dfe-b58d-2941286c94b1
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:19:32.713777703Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:4712fb0a-ced8-4d97-a96b-1e3f594745ac;
+        crm:P141_assigned               iremus:507fcd3b-32d8-4da7-bf4e-b46fbabb0aac;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:a8ece0e2-26eb-409e-be78-1d90fe1adfcc
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:18:52.552217983Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1x3b2fn;
+        crm:P141_assigned               iremus:50afbc7d-9445-4fcb-b283-3af168877b9f;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:96de53b1-e0c3-42b1-98d2-585089196f43
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:19:32.535299156Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:507fcd3b-32d8-4da7-bf4e-b46fbabb0aac;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:1a8ee2f9-cc1b-46f3-98b8-de3769b51f1d
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:17:58.394403386Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1orr1qy;
+        crm:P141_assigned               iremus:959cd952-dd22-4a66-b619-b39403c72ca1;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:d31323a0-5e48-445c-8298-a22fc5ae8529
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:17:58.531743604Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:959cd952-dd22-4a66-b619-b39403c72ca1;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:05c03d51-8dbb-4cc4-b489-ebba838e9054
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:19:23.446963458Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:344b2000-1bcb-4fa6-8b1a-3c049d55923e;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:7f977b12-6bac-4636-96d7-db6ee33c53ea
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:18:07.298293577Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:40998d2c-0107-41b1-ac85-98d9dabb7580;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:bc2cfdab-e1e3-4835-a3d9-303f881e8fd8
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:18:47.958392048Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:f08295d0-e458-4ef0-833d-660cce1a1e18;
+        crm:P141_assigned               iremus:eceaff3e-e1c1-4952-8d08-8c28e6ec9403;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:1cae3193-f680-4efc-af86-d11c58effa0c
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:18:02.829170465Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:05ce623c-371a-4894-8c5f-51af73693e25;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:ef025e9a-43f8-4fcf-bfde-d0709beaa7c4
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:18:52.692637331Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:50afbc7d-9445-4fcb-b283-3af168877b9f;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:5ed03bc1-35d9-4278-b4ee-228975fa5509
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:18:39.638698262Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n11xr1t6 , mei:n1x3b2fn , mei:n1irrhci , mei:nah90ay , mei:nykgpez , mei:n1xp6mfj , mei:n2z00ym , mei:n5ybulx , mei:nstj3xi , mei:n1s7248e , mei:n18ml0g6 , mei:n1pmgy15 , mei:nasmok0 , mei:n1lyubq9 , mei:n11y4089 , mei:n1mjfa95;
+        crm:P141_assigned               iremus:f08295d0-e458-4ef0-833d-660cce1a1e18;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:dd85238c-3dce-4d8d-80b1-51d791ef2447
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:18:58.848471110Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1mjfa95;
+        crm:P141_assigned               iremus:cefb60fd-94f1-452b-8a24-7418370fa1ab;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:8a937940-ab95-42fc-b2c1-c68c9b331efa
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:17:50.580028126Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1g9htuh , mei:ntfykkq , mei:n1p04n7l , mei:n1uaj3r7 , mei:nhki9wh , mei:nq6030y , mei:nd0wkhb , mei:n149mk2z , mei:n1ajv23a , mei:nrbcjbf , mei:n5v7w2t , mei:n1orr1qy , mei:n10si716 , mei:n1fu4krq , mei:n1vp25vg , mei:n1gpkuta , mei:n1ca7p38 , mei:n1tg3s73;
+        crm:P141_assigned               iremus:2aeddd89-631d-4b5b-99b4-aecee4c5eaeb;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3
+        a                              crm:E41_Appellation;
+        crm:P190_has_symbolic_content  "Christophe Guillotel-Nothmann";
+        crm:P2_has_type                iremus:73ea8d74-3526-4f6a-8830-dd369795650d .
+
+iremus:eb739ef5-bf7f-4a9b-b22c-f0f1325e9dd0
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:17:19.948543152Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:d5da9dfb-fc34-44f9-aed2-27d8bfe4424a;
+        crm:P141_assigned               zarlino:Mode;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:9242541e-abbc-4e3c-b8e6-b08dd1ceb0a0
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:18:02.993633315Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:2aeddd89-631d-4b5b-99b4-aecee4c5eaeb;
+        crm:P141_assigned               iremus:05ce623c-371a-4894-8c5f-51af73693e25;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:53196e3a-65c6-42ba-84e7-cdfeeb40f96f
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:17:50.771073713Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:2aeddd89-631d-4b5b-99b4-aecee4c5eaeb;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:ba24056e-b485-4fe3-b312-fbc8888bbeca
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:18:58.991840184Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:cefb60fd-94f1-452b-8a24-7418370fa1ab;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:9629e6c4-e3fd-42e5-a56f-af11f51ea133
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:19:23.318256178Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n13o8hpb;
+        crm:P141_assigned               iremus:344b2000-1bcb-4fa6-8b1a-3c049d55923e;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:40184a61-69f6-4f57-b233-1a2e0ee92d1c
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:19:32.390041798Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:nb4j4ng;
+        crm:P141_assigned               iremus:507fcd3b-32d8-4da7-bf4e-b46fbabb0aac;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:0ec0479a-981a-45da-9be2-29c2bac0c3a8
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:18:07.476735417Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:2aeddd89-631d-4b5b-99b4-aecee4c5eaeb;
+        crm:P141_assigned               iremus:40998d2c-0107-41b1-ac85-98d9dabb7580;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:cd7aaf47-5bbc-43fb-bc2a-d183062c4a9c
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:18:59.150107856Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:f08295d0-e458-4ef0-833d-660cce1a1e18;
+        crm:P141_assigned               iremus:cefb60fd-94f1-452b-8a24-7418370fa1ab;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:ea1cf841-c81b-4e6c-944e-e4d5fad63d5e
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:PierreDeLaRue_AveMariaGratiaPlena_Kyrie.mei;
+        dcterms:created                 "2024-03-29T15:19:28.331169064Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1ovarev;
+        crm:P141_assigned               iremus:b4eb201d-7c25-437a-a419-c37630ea10fc;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .

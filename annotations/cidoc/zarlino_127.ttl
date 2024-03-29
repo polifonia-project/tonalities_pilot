@@ -1,0 +1,165 @@
+@prefix chordsCommonPractices: <https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/> .
+@prefix corpus:                <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Verdelot/> .
+@prefix crm:                   <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms:               <http://purl.org/dc/terms/> .
+@prefix fugue:                 <https://w3id.org/polifonia/ontology/modal-tonal/Fugue/> .
+@prefix guillotel:             <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix guillotel2023:         <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix interpretation:        <https://w3id.org/polifonia/ontology/music-analysis/interpretation/> .
+@prefix iremus:                <http://data-iremus.huma-num.fr/id/> .
+@prefix lrmoo:                 <https://www.iflastandards.info/lrm/lrmoo> .
+@prefix manganisabaino:        <https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/> .
+@prefix mei:                   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Verdelot/Verdelot_Gabriel_archangelus_apparuit.mei#> .
+@prefix oldFugue:              <https://w3id.org/polifonia/ontology/modal-tonal/Fugue#> .
+@prefix sherlock:              <http://data-iremus.huma-num.fr/ns/sherlock#> .
+@prefix zarlino:               <https://w3id.org/polifonia/ontology/music-analysis/zarlino/> .
+
+iremus:b668bfb3-949f-4f4e-932f-aa59f50b977a
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Verdelot_Gabriel_archangelus_apparuit.mei;
+        dcterms:created                 "2024-03-29T14:39:38.312498848Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:bb9ed867-c897-4114-b2aa-b04b8612b30d;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:21816195-6708-4bbd-a758-ee354bb84900
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Knowledge production"@en , "Production de connaissances"@fr .
+
+iremus:8e018e90-9479-473d-9da5-cc4d3043e973
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Verdelot_Gabriel_archangelus_apparuit.mei;
+        dcterms:created                 "2024-03-29T14:39:06.856973890Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  corpus:Verdelot_Gabriel_archangelus_apparuit.mei;
+        crm:P141_assigned               iremus:644ee471-0733-41a7-91a0-5b213d5576d0;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:13565d3a-0a52-4e99-b46b-0707be98c923
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Verdelot_Gabriel_archangelus_apparuit.mei;
+        dcterms:created                 "2024-03-29T14:39:43.942676070Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:41770963-0373-45d1-b030-60c6aac4d013;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:78ed8668-86c8-4294-a8c7-fbc0b97a83a8
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Verdelot_Gabriel_archangelus_apparuit.mei;
+        dcterms:created                 "2024-03-29T14:39:43.806031552Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n122bw8j;
+        crm:P141_assigned               iremus:41770963-0373-45d1-b030-60c6aac4d013;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3
+        a                              crm:E41_Appellation;
+        crm:P190_has_symbolic_content  "Christophe Guillotel-Nothmann";
+        crm:P2_has_type                iremus:73ea8d74-3526-4f6a-8830-dd369795650d .
+
+iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3
+        a                              crm:E42_Identifier;
+        crm:P190_has_symbolic_content  "0000-0002-4817-3686";
+        crm:P2_has_type                iremus:d7ef2583-ff31-4913-9ed3-bc3a1c664b21 .
+
+iremus:900e0892-aa13-4cbd-b4f2-bc39115b5610
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Verdelot_Gabriel_archangelus_apparuit.mei;
+        dcterms:created                 "2024-03-29T14:39:38.167625241Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:nxv84ds , mei:nz77o8h , mei:n12hc82l , mei:njjdhb8 , mei:n1h3qnd0 , mei:nqoqh21 , mei:n122bw8j , mei:n1iqzp24;
+        crm:P141_assigned               iremus:bb9ed867-c897-4114-b2aa-b04b8612b30d;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:b46b63ac-e455-4898-925f-3aa17c7b96a5
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Verdelot_Gabriel_archangelus_apparuit.mei;
+        dcterms:created                 "2024-03-29T14:39:44.108723448Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:bb9ed867-c897-4114-b2aa-b04b8612b30d;
+        crm:P141_assigned               iremus:41770963-0373-45d1-b030-60c6aac4d013;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:0729da01-d124-4d44-864d-e803611e6c76
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Verdelot_Gabriel_archangelus_apparuit.mei;
+        dcterms:created                 "2024-03-29T14:39:50.095539869Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:539bc5bc-b4e1-4f03-8d1a-b31cc20ef795;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:29dc45dc-ae3e-4949-8ccc-d6197accce71
+        a                            crm:E52_Time-span;
+        crm:P82a_begin_of_the_begin  "2024-03-29T14:38:57.173382055Z" .
+
+iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Draft"@en , "Brouillon"@fr .
+
+iremus:5d7bdf74-addd-418b-ab43-38af4e70c158
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , crm:E21_Person;
+        dcterms:created          "2022-09-08T12:36:04.142112601Z";
+        crm:P1_is_identified_by  iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3 , iremus:481efbd2-651d-4cc8-9075-a261df46e6d6 , iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3 , iremus:68f4c1ef-da9c-40af-a8be-5e4a92e8c7fe .
+
+corpus:Verdelot_Gabriel_archangelus_apparuit.mei
+        a       crm:E1_CRM_Entity .
+
+iremus:a315204e-9d32-42a3-aa61-7d2cb1de9c0f
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Verdelot_Gabriel_archangelus_apparuit.mei;
+        dcterms:created                 "2024-03-29T14:39:49.961914656Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n12hc82l;
+        crm:P141_assigned               iremus:539bc5bc-b4e1-4f03-8d1a-b31cc20ef795;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:39b08e60-7813-4282-a8e1-2d9cc65a8005
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Verdelot_Gabriel_archangelus_apparuit.mei;
+        dcterms:created                 "2024-03-29T14:39:07.005501440Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:644ee471-0733-41a7-91a0-5b213d5576d0;
+        crm:P141_assigned               zarlino:Mode;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:c0413956-a3b0-4403-9a1a-ccb59aa98a00
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Verdelot_Gabriel_archangelus_apparuit.mei;
+        dcterms:created                 "2024-03-29T14:39:50.263751906Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:bb9ed867-c897-4114-b2aa-b04b8612b30d;
+        crm:P141_assigned               iremus:539bc5bc-b4e1-4f03-8d1a-b31cc20ef795;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:cf1b8838-c6ac-40ff-ad45-aeccbee61eaf
+        a                          crm:E7_Activity;
+        sherlock:has_privacy_type  iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd;
+        dcterms:creator            iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P14_carried_out_by     iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P1_is_identified_by    "Modes_CGN";
+        crm:P2_has_type            iremus:21816195-6708-4bbd-a758-ee354bb84900;
+        crm:P4_has_time-span       iremus:29dc45dc-ae3e-4949-8ccc-d6197accce71;
+        crm:P9_consists_of         iremus:c0413956-a3b0-4403-9a1a-ccb59aa98a00 , iremus:900e0892-aa13-4cbd-b4f2-bc39115b5610 , iremus:b668bfb3-949f-4f4e-932f-aa59f50b977a , iremus:8e018e90-9479-473d-9da5-cc4d3043e973 , iremus:13565d3a-0a52-4e99-b46b-0707be98c923 , iremus:b46b63ac-e455-4898-925f-3aa17c7b96a5 , iremus:39b08e60-7813-4282-a8e1-2d9cc65a8005 , iremus:78ed8668-86c8-4294-a8c7-fbc0b97a83a8 , iremus:0729da01-d124-4d44-864d-e803611e6c76 , iremus:a315204e-9d32-42a3-aa61-7d2cb1de9c0f .
