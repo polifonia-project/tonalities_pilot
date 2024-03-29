@@ -1,0 +1,440 @@
+@prefix chordsCommonPractices: <https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/> .
+@prefix corpus:                <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/> .
+@prefix crm:                   <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms:               <http://purl.org/dc/terms/> .
+@prefix fugue:                 <https://w3id.org/polifonia/ontology/modal-tonal/Fugue/> .
+@prefix guillotel:             <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix guillotel2023:         <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix interpretation:        <https://w3id.org/polifonia/ontology/music-analysis/interpretation/> .
+@prefix iremus:                <http://data-iremus.huma-num.fr/id/> .
+@prefix lrmoo:                 <https://www.iflastandards.info/lrm/lrmoo> .
+@prefix manganisabaino:        <https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/> .
+@prefix mei:                   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_Miserere.mei#> .
+@prefix oldFugue:              <https://w3id.org/polifonia/ontology/modal-tonal/Fugue#> .
+@prefix sherlock:              <http://data-iremus.huma-num.fr/ns/sherlock#> .
+@prefix zarlino:               <https://w3id.org/polifonia/ontology/music-analysis/zarlino/> .
+
+iremus:ea4a6859-9b65-4323-ada7-a8c47f79dcbf
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:45:42.165359897Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:6e4de22b-e5ca-443b-af3b-659544b39026;
+        crm:P141_assigned               iremus:8447941f-216a-43e3-a868-4bc271b0db90;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:85f5246d-6e15-43f0-af26-a9c93fc1b496
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:45:46.479966495Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:6e4de22b-e5ca-443b-af3b-659544b39026;
+        crm:P141_assigned               iremus:572fa6e7-8857-409c-b0a2-461cd915d3fe;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:2e9e710e-b2f6-4794-aadf-1cb85151a467
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:46:50.677122153Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n14tx0pn;
+        crm:P141_assigned               iremus:c5c09ba5-9bc6-41ca-a964-eddcbcf995e4;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:100e140d-7870-4704-8bc3-90f82888b081
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:45:46.302234374Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:572fa6e7-8857-409c-b0a2-461cd915d3fe;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:162f1d3c-8588-4a1a-adb5-387d8f4ed175
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:46:41.298683375Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:1f83b0da-0584-4c46-a2b1-a416dcb20088;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:252b7b0d-136e-4fa0-9490-6dc05058a18c
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:46:45.402875667Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1gdhzw6;
+        crm:P141_assigned               iremus:661427b2-7333-4217-8610-0444257b04ee;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:1fd6f23a-51cd-4cac-b51a-a38496b3f452
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:44:22.177041242Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1addz0 , mei:ni4jvzt , mei:n1jh9ng , mei:n14air0j , mei:n1jmawo6 , mei:nox42xs , mei:nh7xjkh , mei:nrrt8e0 , mei:n1wwlsz2 , mei:n1awvyxm , mei:n12dqrf7 , mei:n1817ke;
+        crm:P141_assigned               iremus:95ae948d-f979-420a-aab3-7d31091e6b02;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:c93407b1-11fb-4a15-a9d8-c3fc3b8bfee8
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:44:43.115513554Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n14air0j;
+        crm:P141_assigned               iremus:c2b60317-a2b1-40ca-9905-af797942796a;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Draft"@en , "Brouillon"@fr .
+
+iremus:4f952a5a-8628-4e0d-bdb8-12ab98183ecc
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:46:45.532741626Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:661427b2-7333-4217-8610-0444257b04ee;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:5d7bdf74-addd-418b-ab43-38af4e70c158
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , crm:E21_Person;
+        dcterms:created          "2022-09-08T12:36:04.142112601Z";
+        crm:P1_is_identified_by  iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3 , iremus:481efbd2-651d-4cc8-9075-a261df46e6d6 , iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3 , iremus:68f4c1ef-da9c-40af-a8be-5e4a92e8c7fe .
+
+iremus:987d6137-e0ee-4ec9-a8e6-9a5aca275b41
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:45:36.515586932Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:6e4de22b-e5ca-443b-af3b-659544b39026;
+        crm:P141_assigned               iremus:f7d92509-9ba3-4bed-93c4-5194bc94eb3d;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:fae07c0a-f489-48c7-be6a-d3a9829c57ad
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:46:41.459314751Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:b34b5ff6-3f5c-4aa0-bcc7-7d6f5c48cc8d;
+        crm:P141_assigned               iremus:1f83b0da-0584-4c46-a2b1-a416dcb20088;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:fd77126d-9a3a-4de7-b833-706881f65a19
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:44:43.252216466Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:c2b60317-a2b1-40ca-9905-af797942796a;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:d76a3c19-5781-43bf-8db2-1184ef647e7d
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:46:35.133434187Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:b34b5ff6-3f5c-4aa0-bcc7-7d6f5c48cc8d;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:e5c9e95e-7b10-4cc2-8c64-70e045fd35ec
+        a                            crm:E52_Time-span;
+        crm:P82a_begin_of_the_begin  "2024-03-29T10:43:07.652145259Z" .
+
+iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3
+        a                              crm:E42_Identifier;
+        crm:P190_has_symbolic_content  "0000-0002-4817-3686";
+        crm:P2_has_type                iremus:d7ef2583-ff31-4913-9ed3-bc3a1c664b21 .
+
+iremus:dff70878-4bfb-4f84-ac80-e7518cdafcb1
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:45:41.966558308Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:8447941f-216a-43e3-a868-4bc271b0db90;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:21816195-6708-4bbd-a758-ee354bb84900
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Knowledge production"@en , "Production de connaissances"@fr .
+
+iremus:ece1908e-483d-44de-8c48-227170ff105c
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:45:36.221686153Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:neryyk2;
+        crm:P141_assigned               iremus:f7d92509-9ba3-4bed-93c4-5194bc94eb3d;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:1ca15342-101f-4e71-822d-ca2b235939aa
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:43:30.585238439Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:090b36ab-7024-4121-943e-831c1c1056a4;
+        crm:P141_assigned               zarlino:Mode;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+corpus:Zarlino_Miserere.mei
+        a       crm:E1_CRM_Entity .
+
+iremus:e405b7c2-3bca-4f17-9a30-dc72402e9341
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:45:27.742902563Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n88vqfd , mei:n1jw3aef , mei:n1jd6hop , mei:n1w300b5 , mei:n22q9wa , mei:n57r23g , mei:n6txg4i , mei:n1d814if , mei:ndvaflc , mei:nh7jr2j , mei:ni1h1hv , mei:n40xbe9 , mei:n1mv0ihs , mei:n1hbgl21 , mei:neryyk2;
+        crm:P141_assigned               iremus:6e4de22b-e5ca-443b-af3b-659544b39026;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:077a4b5f-ca42-40ba-9c24-e4d842eac105
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:46:51.094244174Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:b34b5ff6-3f5c-4aa0-bcc7-7d6f5c48cc8d;
+        crm:P141_assigned               iremus:c5c09ba5-9bc6-41ca-a964-eddcbcf995e4;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:f86e6425-cae4-4e20-b799-1c8bdd4c80ea
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:45:27.905485041Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:6e4de22b-e5ca-443b-af3b-659544b39026;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:b1ed64d0-770a-4013-b12a-7529198f9341
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:45:46.159290332Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n6txg4i;
+        crm:P141_assigned               iremus:572fa6e7-8857-409c-b0a2-461cd915d3fe;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:57b8da5f-8e48-4898-bf28-c76903593630
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:44:35.971231933Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:95ae948d-f979-420a-aab3-7d31091e6b02;
+        crm:P141_assigned               iremus:f15b934c-e7dc-4d3c-bbed-eb788a3694f8;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:1dfe32bb-e089-412a-97b3-23ce0b58e7a2
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:46:34.984512761Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1101nkz , mei:n1jy7y8q , mei:n1mrf8er , mei:n60i2zs , mei:n1gdhzw6 , mei:n1avq1nh , mei:n5rx7xl , mei:n1uiix0u , mei:ntut2f5 , mei:n1vcu5zw , mei:n1cm7j02 , mei:noqbj4q , mei:n7uvvtg , mei:n1ijxnnl , mei:n14tx0pn , mei:n14qwlst , mei:n1jsdleu;
+        crm:P141_assigned               iremus:b34b5ff6-3f5c-4aa0-bcc7-7d6f5c48cc8d;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:f1930aa1-4e80-4ce5-ba0f-0a4b2df565e8
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:44:30.455156631Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:17c3e6e0-2169-40dc-af11-709b01b4e3c8;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:f05ce131-2bf4-4885-9ede-f2f642090a3f
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:45:36.351087392Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:f7d92509-9ba3-4bed-93c4-5194bc94eb3d;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:f748a842-783b-41a1-8cd0-3563e12f8809
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:44:43.414100030Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:95ae948d-f979-420a-aab3-7d31091e6b02;
+        crm:P141_assigned               iremus:c2b60317-a2b1-40ca-9905-af797942796a;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:3699ac21-8aed-4ed4-bbc3-16878c0c0b6a
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:44:35.771295756Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:f15b934c-e7dc-4d3c-bbed-eb788a3694f8;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:d6edb220-f075-4820-ad0d-acd54fe97d53
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:45:41.830823082Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1w300b5;
+        crm:P141_assigned               iremus:8447941f-216a-43e3-a868-4bc271b0db90;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3
+        a                              crm:E41_Appellation;
+        crm:P190_has_symbolic_content  "Christophe Guillotel-Nothmann";
+        crm:P2_has_type                iremus:73ea8d74-3526-4f6a-8830-dd369795650d .
+
+iremus:4a9c5c5a-9e28-44dc-ae6e-e3b5795f719d
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:44:30.323349481Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1awvyxm;
+        crm:P141_assigned               iremus:17c3e6e0-2169-40dc-af11-709b01b4e3c8;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:6f2325b1-dc9f-4b59-b47b-42049784d12e
+        a                          crm:E7_Activity;
+        sherlock:has_privacy_type  iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd;
+        dcterms:creator            iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P14_carried_out_by     iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P1_is_identified_by    "Modes_CGN";
+        crm:P2_has_type            iremus:21816195-6708-4bbd-a758-ee354bb84900;
+        crm:P4_has_time-span       iremus:e5c9e95e-7b10-4cc2-8c64-70e045fd35ec;
+        crm:P9_consists_of         iremus:8678db35-bb9c-4d8d-bdc7-11615efb1a89 , iremus:dff70878-4bfb-4f84-ac80-e7518cdafcb1 , iremus:987d6137-e0ee-4ec9-a8e6-9a5aca275b41 , iremus:2e9e710e-b2f6-4794-aadf-1cb85151a467 , iremus:f546494f-edc5-4de1-a2ec-a55cc2106036 , iremus:95ba805c-d93f-4626-8b6a-68e55a8498bd , iremus:57b8da5f-8e48-4898-bf28-c76903593630 , iremus:c93407b1-11fb-4a15-a9d8-c3fc3b8bfee8 , iremus:d41b92d4-8944-4e97-8a82-9bdb00aabbe4 , iremus:d76a3c19-5781-43bf-8db2-1184ef647e7d , iremus:ea4a6859-9b65-4323-ada7-a8c47f79dcbf , iremus:df67eec1-a658-4a7e-82fb-be9448db24bb , iremus:162f1d3c-8588-4a1a-adb5-387d8f4ed175 , iremus:1dfe32bb-e089-412a-97b3-23ce0b58e7a2 , iremus:dadbfcdd-f46a-401f-aff1-fe1209b4e21d , iremus:e405b7c2-3bca-4f17-9a30-dc72402e9341 , iremus:1ca15342-101f-4e71-822d-ca2b235939aa , iremus:077a4b5f-ca42-40ba-9c24-e4d842eac105 , iremus:fd77126d-9a3a-4de7-b833-706881f65a19 , iremus:4f952a5a-8628-4e0d-bdb8-12ab98183ecc , iremus:f05ce131-2bf4-4885-9ede-f2f642090a3f , iremus:fae07c0a-f489-48c7-be6a-d3a9829c57ad , iremus:f748a842-783b-41a1-8cd0-3563e12f8809 , iremus:100e140d-7870-4704-8bc3-90f82888b081 , iremus:252b7b0d-136e-4fa0-9490-6dc05058a18c , iremus:d6edb220-f075-4820-ad0d-acd54fe97d53 , iremus:1fd6f23a-51cd-4cac-b51a-a38496b3f452 , iremus:b1ed64d0-770a-4013-b12a-7529198f9341 , iremus:f1930aa1-4e80-4ce5-ba0f-0a4b2df565e8 , iremus:08a0b11d-b65c-49dd-9f18-188cbd69e506 , iremus:4a9c5c5a-9e28-44dc-ae6e-e3b5795f719d , iremus:f86e6425-cae4-4e20-b799-1c8bdd4c80ea , iremus:ece1908e-483d-44de-8c48-227170ff105c , iremus:3699ac21-8aed-4ed4-bbc3-16878c0c0b6a , iremus:85f5246d-6e15-43f0-af26-a9c93fc1b496 .
+
+iremus:df67eec1-a658-4a7e-82fb-be9448db24bb
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:46:45.685953458Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:b34b5ff6-3f5c-4aa0-bcc7-7d6f5c48cc8d;
+        crm:P141_assigned               iremus:661427b2-7333-4217-8610-0444257b04ee;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:d41b92d4-8944-4e97-8a82-9bdb00aabbe4
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:46:41.162853637Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n14qwlst;
+        crm:P141_assigned               iremus:1f83b0da-0584-4c46-a2b1-a416dcb20088;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:dadbfcdd-f46a-401f-aff1-fe1209b4e21d
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:46:50.841675012Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:c5c09ba5-9bc6-41ca-a964-eddcbcf995e4;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:08a0b11d-b65c-49dd-9f18-188cbd69e506
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:44:35.617700376Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n12dqrf7;
+        crm:P141_assigned               iremus:f15b934c-e7dc-4d3c-bbed-eb788a3694f8;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:8678db35-bb9c-4d8d-bdc7-11615efb1a89
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:44:22.331407641Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:95ae948d-f979-420a-aab3-7d31091e6b02;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:95ba805c-d93f-4626-8b6a-68e55a8498bd
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:44:30.613864137Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:95ae948d-f979-420a-aab3-7d31091e6b02;
+        crm:P141_assigned               iremus:17c3e6e0-2169-40dc-af11-709b01b4e3c8;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:f546494f-edc5-4de1-a2ec-a55cc2106036
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_Miserere.mei;
+        dcterms:created                 "2024-03-29T10:43:30.446101190Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  corpus:Zarlino_Miserere.mei;
+        crm:P141_assigned               iremus:090b36ab-7024-4121-943e-831c1c1056a4;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
