@@ -1,0 +1,165 @@
+@prefix chordsCommonPractices: <https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/> .
+@prefix corpus:                <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/De_Mantua/> .
+@prefix crm:                   <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms:               <http://purl.org/dc/terms/> .
+@prefix fugue:                 <https://w3id.org/polifonia/ontology/modal-tonal/Fugue/> .
+@prefix guillotel:             <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix guillotel2023:         <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix interpretation:        <https://w3id.org/polifonia/ontology/music-analysis/interpretation/> .
+@prefix iremus:                <http://data-iremus.huma-num.fr/id/> .
+@prefix lrmoo:                 <https://www.iflastandards.info/lrm/lrmoo> .
+@prefix manganisabaino:        <https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/> .
+@prefix mei:                   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/De_Mantua/De_Mantua_Spem_in_alium.mei#> .
+@prefix oldFugue:              <https://w3id.org/polifonia/ontology/modal-tonal/Fugue#> .
+@prefix sherlock:              <http://data-iremus.huma-num.fr/ns/sherlock#> .
+@prefix zarlino:               <https://w3id.org/polifonia/ontology/music-analysis/zarlino/> .
+
+iremus:d0c44411-22bf-4d66-883c-f29f5773005f
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Mantua_Spem_in_alium.mei;
+        dcterms:created                 "2024-03-28T19:05:00.316798034Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:8580e635-6195-44cb-9161-8bd141c778b9;
+        crm:P141_assigned               iremus:d111f19e-a517-4ced-9986-b651603b835f;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:21816195-6708-4bbd-a758-ee354bb84900
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Knowledge production"@en , "Production de connaissances"@fr .
+
+iremus:38044b1d-5a9b-4fee-8f1d-d93cb46a818a
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Mantua_Spem_in_alium.mei;
+        dcterms:created                 "2024-03-28T19:04:55.772304104Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:8580e635-6195-44cb-9161-8bd141c778b9;
+        crm:P141_assigned               iremus:f59f1c21-0859-4a7c-80e5-4b6f4ae66c64;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:fd1819e2-ba0f-430f-8820-4fe63f2f02af
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Mantua_Spem_in_alium.mei;
+        dcterms:created                 "2024-03-28T19:04:55.584054485Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:f59f1c21-0859-4a7c-80e5-4b6f4ae66c64;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:2e44ffd5-e0f2-4a56-9a40-a02074dda5b3
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Mantua_Spem_in_alium.mei;
+        dcterms:created                 "2024-03-28T19:04:55.413404606Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1d0u7zr;
+        crm:P141_assigned               iremus:f59f1c21-0859-4a7c-80e5-4b6f4ae66c64;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:6eb55211-ec9b-4c0a-8976-ec8d45cca7ce
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Mantua_Spem_in_alium.mei;
+        dcterms:created                 "2024-03-28T19:04:47.358821178Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1e571ox , mei:n17ur6ps , mei:nam9p6b , mei:n1bvyd9k , mei:ndjj405 , mei:n1se8zz1 , mei:njtlmb0 , mei:nrxjswa , mei:n1kg8195 , mei:n1d0u7zr , mei:ndg3mls;
+        crm:P141_assigned               iremus:8580e635-6195-44cb-9161-8bd141c778b9;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:21e7366e-b9f0-467d-b89f-f7e1f28379d1
+        a                            crm:E52_Time-span;
+        crm:P82a_begin_of_the_begin  "2024-03-28T19:03:59.320373671Z" .
+
+iremus:67a6d914-6b18-491f-9e64-26407e7417ca
+        a                          crm:E7_Activity;
+        sherlock:has_privacy_type  iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd;
+        dcterms:creator            iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P14_carried_out_by     iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P1_is_identified_by    "Modes_CGN";
+        crm:P2_has_type            iremus:21816195-6708-4bbd-a758-ee354bb84900;
+        crm:P4_has_time-span       iremus:21e7366e-b9f0-467d-b89f-f7e1f28379d1;
+        crm:P9_consists_of         iremus:6eb55211-ec9b-4c0a-8976-ec8d45cca7ce , iremus:ec545cad-e66c-43b3-827e-b9a5ce06c818 , iremus:fd1819e2-ba0f-430f-8820-4fe63f2f02af , iremus:ca554f96-7000-4ce6-8585-70cebbb5c47d , iremus:96a69b7c-2e33-472f-a53a-7413e124b5f6 , iremus:38044b1d-5a9b-4fee-8f1d-d93cb46a818a , iremus:4a1ef7ba-d89a-44a3-a6ea-daaabe224fe6 , iremus:d0c44411-22bf-4d66-883c-f29f5773005f , iremus:2e44ffd5-e0f2-4a56-9a40-a02074dda5b3 , iremus:863af6fa-3034-43c3-b33c-c153d4bda863 .
+
+iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3
+        a                              crm:E41_Appellation;
+        crm:P190_has_symbolic_content  "Christophe Guillotel-Nothmann";
+        crm:P2_has_type                iremus:73ea8d74-3526-4f6a-8830-dd369795650d .
+
+iremus:ec545cad-e66c-43b3-827e-b9a5ce06c818
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Mantua_Spem_in_alium.mei;
+        dcterms:created                 "2024-03-28T19:04:47.558268601Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:8580e635-6195-44cb-9161-8bd141c778b9;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3
+        a                              crm:E42_Identifier;
+        crm:P190_has_symbolic_content  "0000-0002-4817-3686";
+        crm:P2_has_type                iremus:d7ef2583-ff31-4913-9ed3-bc3a1c664b21 .
+
+iremus:863af6fa-3034-43c3-b33c-c153d4bda863
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Mantua_Spem_in_alium.mei;
+        dcterms:created                 "2024-03-28T19:04:59.896293011Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n17ur6ps;
+        crm:P141_assigned               iremus:d111f19e-a517-4ced-9986-b651603b835f;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:96a69b7c-2e33-472f-a53a-7413e124b5f6
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Mantua_Spem_in_alium.mei;
+        dcterms:created                 "2024-03-28T19:04:05.108573787Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:e9e9c4c1-f501-4ba8-9078-d6d4502cc7c0;
+        crm:P141_assigned               zarlino:Mode;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+corpus:De_Mantua_Spem_in_alium.mei
+        a       crm:E1_CRM_Entity .
+
+iremus:4a1ef7ba-d89a-44a3-a6ea-daaabe224fe6
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Mantua_Spem_in_alium.mei;
+        dcterms:created                 "2024-03-28T19:04:04.898326851Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  corpus:De_Mantua_Spem_in_alium.mei;
+        crm:P141_assigned               iremus:e9e9c4c1-f501-4ba8-9078-d6d4502cc7c0;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Draft"@en , "Brouillon"@fr .
+
+iremus:ca554f96-7000-4ce6-8585-70cebbb5c47d
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Mantua_Spem_in_alium.mei;
+        dcterms:created                 "2024-03-28T19:05:00.076487857Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:d111f19e-a517-4ced-9986-b651603b835f;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:5d7bdf74-addd-418b-ab43-38af4e70c158
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , crm:E21_Person;
+        dcterms:created          "2022-09-08T12:36:04.142112601Z";
+        crm:P1_is_identified_by  iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3 , iremus:481efbd2-651d-4cc8-9075-a261df46e6d6 , iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3 , iremus:68f4c1ef-da9c-40af-a8be-5e4a92e8c7fe .

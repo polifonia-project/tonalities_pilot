@@ -1,0 +1,198 @@
+@prefix chordsCommonPractices: <https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/> .
+@prefix corpus:                <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/De_Mantua/> .
+@prefix crm:                   <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms:               <http://purl.org/dc/terms/> .
+@prefix fugue:                 <https://w3id.org/polifonia/ontology/modal-tonal/Fugue/> .
+@prefix guillotel:             <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix guillotel2023:         <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix interpretation:        <https://w3id.org/polifonia/ontology/music-analysis/interpretation/> .
+@prefix iremus:                <http://data-iremus.huma-num.fr/id/> .
+@prefix lrmoo:                 <https://www.iflastandards.info/lrm/lrmoo> .
+@prefix manganisabaino:        <https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/> .
+@prefix mei:                   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/De_Mantua/De_Mantua_Descendi_in_hortum_meum.mei#> .
+@prefix oldFugue:              <https://w3id.org/polifonia/ontology/modal-tonal/Fugue#> .
+@prefix sherlock:              <http://data-iremus.huma-num.fr/ns/sherlock#> .
+@prefix zarlino:               <https://w3id.org/polifonia/ontology/music-analysis/zarlino/> .
+
+iremus:21816195-6708-4bbd-a758-ee354bb84900
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Knowledge production"@en , "Production de connaissances"@fr .
+
+iremus:bb0b7c0a-5388-4ace-b7c9-27556b91cc18
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Mantua_Descendi_in_hortum_meum.mei;
+        dcterms:created                 "2024-03-28T19:06:18.415755867Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  corpus:De_Mantua_Descendi_in_hortum_meum.mei;
+        crm:P141_assigned               iremus:071b1e3e-4dd5-4a12-bab3-4f9ed1f0464f;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:735954ec-6ffd-4807-9a23-aa407298be56
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Mantua_Descendi_in_hortum_meum.mei;
+        dcterms:created                 "2024-03-28T19:07:16.327000070Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:28bb6e09-f9d3-40d8-9b3c-bdf2c3eceb2b;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:6e804d6e-ab4e-45ef-ba65-e6a9dff003ca
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Mantua_Descendi_in_hortum_meum.mei;
+        dcterms:created                 "2024-03-28T19:07:22.668065886Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1w6k5ve;
+        crm:P141_assigned               iremus:95c534c2-5d4e-481e-a40f-784884ac8aab;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:52123cf1-f87e-4c92-9292-e6116d080813
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Mantua_Descendi_in_hortum_meum.mei;
+        dcterms:created                 "2024-03-28T19:07:23.080095954Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:28bb6e09-f9d3-40d8-9b3c-bdf2c3eceb2b;
+        crm:P141_assigned               iremus:95c534c2-5d4e-481e-a40f-784884ac8aab;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3
+        a                              crm:E41_Appellation;
+        crm:P190_has_symbolic_content  "Christophe Guillotel-Nothmann";
+        crm:P2_has_type                iremus:73ea8d74-3526-4f6a-8830-dd369795650d .
+
+iremus:3152a9ff-5281-48cf-a80e-47480c341de5
+        a                          crm:E7_Activity;
+        sherlock:has_privacy_type  iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd;
+        dcterms:creator            iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P14_carried_out_by     iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P1_is_identified_by    "Modes_CGN";
+        crm:P2_has_type            iremus:21816195-6708-4bbd-a758-ee354bb84900;
+        crm:P4_has_time-span       iremus:1b25d47d-b7e4-4ba0-82e5-50c32a63ca38;
+        crm:P9_consists_of         iremus:735954ec-6ffd-4807-9a23-aa407298be56 , iremus:6e804d6e-ab4e-45ef-ba65-e6a9dff003ca , iremus:927fbdfa-26d4-4b70-a587-c2f26b20d88b , iremus:f9ee3af8-c601-44dd-8390-2fa0ac0df09d , iremus:52123cf1-f87e-4c92-9292-e6116d080813 , iremus:6394182f-4f1c-4e5d-8a3b-808d7c812fc6 , iremus:bb0b7c0a-5388-4ace-b7c9-27556b91cc18 , iremus:c6ea7809-8c3d-4be8-8d51-26b25355e783 , iremus:38e542f3-e3e0-4be6-881c-4a7d96a12be7 , iremus:e071c846-7fd6-4945-b3d9-d62c5fe34fc8 , iremus:9b7fafd8-fd29-485d-a208-43c70f5a034a , iremus:66e5616b-a84f-4447-ad53-09e47dd144ba , iremus:a68ee6d7-f3bd-4a89-b644-0154c6f285c4 .
+
+iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3
+        a                              crm:E42_Identifier;
+        crm:P190_has_symbolic_content  "0000-0002-4817-3686";
+        crm:P2_has_type                iremus:d7ef2583-ff31-4913-9ed3-bc3a1c664b21 .
+
+iremus:e071c846-7fd6-4945-b3d9-d62c5fe34fc8
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Mantua_Descendi_in_hortum_meum.mei;
+        dcterms:created                 "2024-03-28T19:07:16.118551455Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1s9x9t9 , mei:n15ud7pg , mei:n140ln7o , mei:n1pb4u4a , mei:n5zjau0 , mei:nb0rdyu , mei:n3lp7kz , mei:n1t9fipa , mei:n1poy9hj , mei:n156bf51 , mei:n155fb6t , mei:n1vq0f0s , mei:n16cnsft , mei:n2ou2hs , mei:nr1hunt , mei:n1cckhzs , mei:n1w6k5ve , mei:n1rt78s9 , mei:n1s2l1i8 , mei:n12et4rk , mei:n1ren3ue , mei:n10p2qpd , mei:n16i351e , mei:n1c2bxou , mei:n1cz00nc , mei:n1co1rl1 , mei:nw6ttgt , mei:n12ln3oh , mei:n17ur0i9 , mei:n1h8fvft;
+        crm:P141_assigned               iremus:28bb6e09-f9d3-40d8-9b3c-bdf2c3eceb2b;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:c6ea7809-8c3d-4be8-8d51-26b25355e783
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Mantua_Descendi_in_hortum_meum.mei;
+        dcterms:created                 "2024-03-28T19:07:39.757672428Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1cz00nc;
+        crm:P141_assigned               iremus:8534dd3b-5b42-4b00-90e8-1c15c0c7b375;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Draft"@en , "Brouillon"@fr .
+
+iremus:1b25d47d-b7e4-4ba0-82e5-50c32a63ca38
+        a                            crm:E52_Time-span;
+        crm:P82a_begin_of_the_begin  "2024-03-28T19:06:10.315451646Z" .
+
+iremus:5d7bdf74-addd-418b-ab43-38af4e70c158
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , crm:E21_Person;
+        dcterms:created          "2022-09-08T12:36:04.142112601Z";
+        crm:P1_is_identified_by  iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3 , iremus:481efbd2-651d-4cc8-9075-a261df46e6d6 , iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3 , iremus:68f4c1ef-da9c-40af-a8be-5e4a92e8c7fe .
+
+iremus:f9ee3af8-c601-44dd-8390-2fa0ac0df09d
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Mantua_Descendi_in_hortum_meum.mei;
+        dcterms:created                 "2024-03-28T19:07:31.117434298Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:28bb6e09-f9d3-40d8-9b3c-bdf2c3eceb2b;
+        crm:P141_assigned               iremus:6e49e284-4118-446d-857b-ee37ddd6c9ba;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+corpus:De_Mantua_Descendi_in_hortum_meum.mei
+        a       crm:E1_CRM_Entity .
+
+iremus:66e5616b-a84f-4447-ad53-09e47dd144ba
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Mantua_Descendi_in_hortum_meum.mei;
+        dcterms:created                 "2024-03-28T19:07:22.857620829Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:95c534c2-5d4e-481e-a40f-784884ac8aab;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:a68ee6d7-f3bd-4a89-b644-0154c6f285c4
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Mantua_Descendi_in_hortum_meum.mei;
+        dcterms:created                 "2024-03-28T19:07:30.887808318Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:6e49e284-4118-446d-857b-ee37ddd6c9ba;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:9b7fafd8-fd29-485d-a208-43c70f5a034a
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Mantua_Descendi_in_hortum_meum.mei;
+        dcterms:created                 "2024-03-28T19:07:39.977660270Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:8534dd3b-5b42-4b00-90e8-1c15c0c7b375;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:38e542f3-e3e0-4be6-881c-4a7d96a12be7
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Mantua_Descendi_in_hortum_meum.mei;
+        dcterms:created                 "2024-03-28T19:06:18.728295965Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:071b1e3e-4dd5-4a12-bab3-4f9ed1f0464f;
+        crm:P141_assigned               zarlino:Mode;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:6394182f-4f1c-4e5d-8a3b-808d7c812fc6
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Mantua_Descendi_in_hortum_meum.mei;
+        dcterms:created                 "2024-03-28T19:07:30.700633371Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1s9x9t9;
+        crm:P141_assigned               iremus:6e49e284-4118-446d-857b-ee37ddd6c9ba;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:927fbdfa-26d4-4b70-a587-c2f26b20d88b
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Mantua_Descendi_in_hortum_meum.mei;
+        dcterms:created                 "2024-03-28T19:07:40.228721205Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:28bb6e09-f9d3-40d8-9b3c-bdf2c3eceb2b;
+        crm:P141_assigned               iremus:8534dd3b-5b42-4b00-90e8-1c15c0c7b375;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .

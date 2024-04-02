@@ -1,0 +1,319 @@
+@prefix chordsCommonPractices: <https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/> .
+@prefix corpus:                <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/> .
+@prefix crm:                   <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms:               <http://purl.org/dc/terms/> .
+@prefix fugue:                 <https://w3id.org/polifonia/ontology/modal-tonal/Fugue/> .
+@prefix guillotel:             <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix guillotel2023:         <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix interpretation:        <https://w3id.org/polifonia/ontology/music-analysis/interpretation/> .
+@prefix iremus:                <http://data-iremus.huma-num.fr/id/> .
+@prefix lrmoo:                 <https://www.iflastandards.info/lrm/lrmoo> .
+@prefix manganisabaino:        <https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/> .
+@prefix mei:                   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei#> .
+@prefix oldFugue:              <https://w3id.org/polifonia/ontology/modal-tonal/Fugue#> .
+@prefix sherlock:              <http://data-iremus.huma-num.fr/ns/sherlock#> .
+@prefix zarlino:               <https://w3id.org/polifonia/ontology/music-analysis/zarlino/> .
+
+iremus:1003b8f2-39e1-481d-9804-db6bebdef0a7
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        dcterms:created                 "2024-03-29T16:10:00.685335365Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1n5u05h;
+        crm:P141_assigned               iremus:f2fe1447-4e5e-4b16-a314-e7ec04d635ee;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:21816195-6708-4bbd-a758-ee354bb84900
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Knowledge production"@en , "Production de connaissances"@fr .
+
+iremus:343faba2-873f-43df-ba0e-c41863810466
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        dcterms:created                 "2024-03-29T16:09:03.308576838Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:nf70vnh;
+        crm:P141_assigned               iremus:bf44dad7-fc5e-4e6e-9734-85b4334871c0;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:bceaa6a1-376d-46ae-83f8-a287721ed20c
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        dcterms:created                 "2024-03-29T16:09:46.267249777Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1irba16 , mei:n1xh9brr , mei:n12v04ng , mei:n1ldhr47 , mei:n1a4py0l , mei:ngf6p49 , mei:nbs1tgs , mei:n1746io1 , mei:n1n5u05h , mei:n1pq2kiw , mei:n1mchha3 , mei:n9bpd97 , mei:ncqy8s , mei:nrcbfqh , mei:nn0de3w , mei:nf0l8du , mei:nto47h , mei:n16ec1w9 , mei:n8m4l5g , mei:n1ikxuys , mei:n1hc8plz , mei:n12b6wk9 , mei:nxgpjoi , mei:n1xo251f , mei:n85hwdg , mei:nkc4okb;
+        crm:P141_assigned               iremus:4b9cf61d-68f8-4688-bbfa-f8004892a98f;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:9d77b18c-7af4-48f8-9e47-3e952c63bef4
+        a                          crm:E7_Activity;
+        sherlock:has_privacy_type  iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd;
+        dcterms:creator            iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P14_carried_out_by     iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P1_is_identified_by    "Modes_CGN";
+        crm:P2_has_type            iremus:21816195-6708-4bbd-a758-ee354bb84900;
+        crm:P4_has_time-span       iremus:bc602ac8-6a55-4410-b568-57d169900454;
+        crm:P9_consists_of         iremus:b663376f-a382-482f-8beb-3e067fd9fc71 , iremus:8dcb5b02-debc-4f76-96c3-12eb0c280da6 , iremus:0416d05d-3ccd-4896-be1a-a5cca6510490 , iremus:f0300f9b-13e5-446c-abcc-8e57eb5b8c8e , iremus:8d66d098-ec7c-4562-b43a-4f85b9b599f9 , iremus:4a96df76-a721-40d0-b4c0-a8361af4a5aa , iremus:71558f70-bb25-4beb-a5ef-bae7b4a3bfad , iremus:1003b8f2-39e1-481d-9804-db6bebdef0a7 , iremus:98dd0ba8-6efc-4b36-8118-801fea28b8e5 , iremus:ec27b855-340e-4249-a84a-f1a80b3a55f9 , iremus:459adcfd-2b84-49d2-b203-34a19d3b3db9 , iremus:0022ced7-0490-4163-a658-0110d753987a , iremus:a27e2ff5-bb7e-4b50-94da-40f7749cdbfa , iremus:27a06331-5e7d-4c95-b599-b4e622d59270 , iremus:447b792b-a379-4dcd-8e3e-c5fc4d822014 , iremus:69b0759c-4833-4bac-9c17-a07957df81c4 , iremus:343faba2-873f-43df-ba0e-c41863810466 , iremus:cc5152ce-85b1-4a18-b41a-5f8f29f12f85 , iremus:f691c94b-ad02-43f9-b868-a3e3bea27685 , iremus:fb18e96e-83d7-4165-b5a3-64c76b3c45c2 , iremus:da4d57bc-ed9b-476c-b30c-0cb263e598bc , iremus:bceaa6a1-376d-46ae-83f8-a287721ed20c , iremus:e99c8f60-a559-4e22-b548-086e9bbad689 , iremus:dcba9031-a4ad-4936-bc90-7228c0b03ae2 .
+
+iremus:e99c8f60-a559-4e22-b548-086e9bbad689
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        dcterms:created                 "2024-03-29T16:09:55.726492939Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1ldhr47;
+        crm:P141_assigned               iremus:27d43bf5-4a7a-497e-aa07-f725ae1c29be;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:69b0759c-4833-4bac-9c17-a07957df81c4
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        dcterms:created                 "2024-03-29T16:08:51.874199836Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:f77c0119-7877-4f6e-b5e6-9ccc5adbbaa9;
+        crm:P141_assigned               iremus:6a446f36-e3f2-4c23-be4b-cb3a33110776;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:f0300f9b-13e5-446c-abcc-8e57eb5b8c8e
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        dcterms:created                 "2024-03-29T16:09:03.603210509Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:f77c0119-7877-4f6e-b5e6-9ccc5adbbaa9;
+        crm:P141_assigned               iremus:bf44dad7-fc5e-4e6e-9734-85b4334871c0;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:4a96df76-a721-40d0-b4c0-a8361af4a5aa
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        dcterms:created                 "2024-03-29T16:09:55.853565386Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:27d43bf5-4a7a-497e-aa07-f725ae1c29be;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:bc602ac8-6a55-4410-b568-57d169900454
+        a                            crm:E52_Time-span;
+        crm:P82a_begin_of_the_begin  "2024-03-29T16:07:53.062215565Z" .
+
+iremus:27a06331-5e7d-4c95-b599-b4e622d59270
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        dcterms:created                 "2024-03-29T16:08:51.723619183Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:6a446f36-e3f2-4c23-be4b-cb3a33110776;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:b663376f-a382-482f-8beb-3e067fd9fc71
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        dcterms:created                 "2024-03-29T16:09:51.971721342Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:2b402c1f-ae6f-4a07-a3b0-98051641ed09;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:fb18e96e-83d7-4165-b5a3-64c76b3c45c2
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        dcterms:created                 "2024-03-29T16:09:56.013034813Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:4b9cf61d-68f8-4688-bbfa-f8004892a98f;
+        crm:P141_assigned               iremus:27d43bf5-4a7a-497e-aa07-f725ae1c29be;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3
+        a                              crm:E41_Appellation;
+        crm:P190_has_symbolic_content  "Christophe Guillotel-Nothmann";
+        crm:P2_has_type                iremus:73ea8d74-3526-4f6a-8830-dd369795650d .
+
+iremus:8dcb5b02-debc-4f76-96c3-12eb0c280da6
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        dcterms:created                 "2024-03-29T16:10:01.227683046Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:4b9cf61d-68f8-4688-bbfa-f8004892a98f;
+        crm:P141_assigned               iremus:f2fe1447-4e5e-4b16-a314-e7ec04d635ee;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:0416d05d-3ccd-4896-be1a-a5cca6510490
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        dcterms:created                 "2024-03-29T16:08:51.572929036Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:noqkn33;
+        crm:P141_assigned               iremus:6a446f36-e3f2-4c23-be4b-cb3a33110776;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3
+        a                              crm:E42_Identifier;
+        crm:P190_has_symbolic_content  "0000-0002-4817-3686";
+        crm:P2_has_type                iremus:d7ef2583-ff31-4913-9ed3-bc3a1c664b21 .
+
+iremus:dcba9031-a4ad-4936-bc90-7228c0b03ae2
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        dcterms:created                 "2024-03-29T16:08:45.417628001Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:nueqyi , mei:nf70vnh , mei:n1u1jhwb , mei:n303gnm , mei:n136lmem , mei:n1dde4x3 , mei:n1mgzr6u , mei:n54xkc3 , mei:n1dwy3k0 , mei:nhsj3y0 , mei:n13w0i1m , mei:ntkv9so , mei:ndcsqi5 , mei:noqkn33 , mei:n192aw2h , mei:n1jd7bab , mei:n14qldmb , mei:n1wnjqcy , mei:nt2u0zw , mei:n426bi5 , mei:n13lrlrc;
+        crm:P141_assigned               iremus:f77c0119-7877-4f6e-b5e6-9ccc5adbbaa9;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:da4d57bc-ed9b-476c-b30c-0cb263e598bc
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        dcterms:created                 "2024-03-29T16:07:57.218330155Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:197a6852-e995-457f-8105-247ef97f8b9a;
+        crm:P141_assigned               zarlino:Mode;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Draft"@en , "Brouillon"@fr .
+
+iremus:5d7bdf74-addd-418b-ab43-38af4e70c158
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , crm:E21_Person;
+        dcterms:created          "2022-09-08T12:36:04.142112601Z";
+        crm:P1_is_identified_by  iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3 , iremus:481efbd2-651d-4cc8-9075-a261df46e6d6 , iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3 , iremus:68f4c1ef-da9c-40af-a8be-5e4a92e8c7fe .
+
+iremus:447b792b-a379-4dcd-8e3e-c5fc4d822014
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        dcterms:created                 "2024-03-29T16:10:00.908008731Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:f2fe1447-4e5e-4b16-a314-e7ec04d635ee;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:8d66d098-ec7c-4562-b43a-4f85b9b599f9
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        dcterms:created                 "2024-03-29T16:08:45.552301558Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:f77c0119-7877-4f6e-b5e6-9ccc5adbbaa9;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:71558f70-bb25-4beb-a5ef-bae7b4a3bfad
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        dcterms:created                 "2024-03-29T16:09:46.420854729Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:4b9cf61d-68f8-4688-bbfa-f8004892a98f;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:a27e2ff5-bb7e-4b50-94da-40f7749cdbfa
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        dcterms:created                 "2024-03-29T16:08:56.563905658Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:nhsj3y0;
+        crm:P141_assigned               iremus:08ee713e-636a-48d8-b2bf-cc05c3228400;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:98dd0ba8-6efc-4b36-8118-801fea28b8e5
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        dcterms:created                 "2024-03-29T16:08:56.843952515Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:f77c0119-7877-4f6e-b5e6-9ccc5adbbaa9;
+        crm:P141_assigned               iremus:08ee713e-636a-48d8-b2bf-cc05c3228400;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:ec27b855-340e-4249-a84a-f1a80b3a55f9
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        dcterms:created                 "2024-03-29T16:09:51.846267229Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n9bpd97;
+        crm:P141_assigned               iremus:2b402c1f-ae6f-4a07-a3b0-98051641ed09;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+<https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>
+        a       crm:E1_CRM_Entity .
+
+iremus:cc5152ce-85b1-4a18-b41a-5f8f29f12f85
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        dcterms:created                 "2024-03-29T16:09:52.177518615Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:4b9cf61d-68f8-4688-bbfa-f8004892a98f;
+        crm:P141_assigned               iremus:2b402c1f-ae6f-4a07-a3b0-98051641ed09;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:0022ced7-0490-4163-a658-0110d753987a
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        dcterms:created                 "2024-03-29T16:07:57.090028040Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        crm:P141_assigned               iremus:197a6852-e995-457f-8105-247ef97f8b9a;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:f691c94b-ad02-43f9-b868-a3e3bea27685
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        dcterms:created                 "2024-03-29T16:08:56.691325205Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:08ee713e-636a-48d8-b2bf-cc05c3228400;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:459adcfd-2b84-49d2-b203-34a19d3b3db9
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Willaert/Willaert_Inviolata%20integra.mei>;
+        dcterms:created                 "2024-03-29T16:09:03.439677731Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:bf44dad7-fc5e-4e6e-9734-85b4334871c0;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .

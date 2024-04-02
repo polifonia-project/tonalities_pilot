@@ -1,0 +1,286 @@
+@prefix chordsCommonPractices: <https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/> .
+@prefix corpus:                <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/> .
+@prefix crm:                   <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms:               <http://purl.org/dc/terms/> .
+@prefix fugue:                 <https://w3id.org/polifonia/ontology/modal-tonal/Fugue/> .
+@prefix guillotel:             <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix guillotel2023:         <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix interpretation:        <https://w3id.org/polifonia/ontology/music-analysis/interpretation/> .
+@prefix iremus:                <http://data-iremus.huma-num.fr/id/> .
+@prefix lrmoo:                 <https://www.iflastandards.info/lrm/lrmoo> .
+@prefix manganisabaino:        <https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/> .
+@prefix mei:                   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_FerculumFecitSibi.mei#> .
+@prefix oldFugue:              <https://w3id.org/polifonia/ontology/modal-tonal/Fugue#> .
+@prefix sherlock:              <http://data-iremus.huma-num.fr/ns/sherlock#> .
+@prefix zarlino:               <https://w3id.org/polifonia/ontology/music-analysis/zarlino/> .
+
+iremus:e3e8025f-d3e1-44b8-8540-9b6bf68390e9
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_FerculumFecitSibi.mei;
+        dcterms:created                 "2024-03-28T17:26:02.456757040Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1fv5wfz , mei:nh8qtnz , mei:nli1r2s , mei:n13hzotl , mei:nyro2q9 , mei:n8m0y1d , mei:n1el033 , mei:ny353dm , mei:n1whztg1;
+        crm:P141_assigned               iremus:f607dc68-a231-4651-9537-7c484849baa0;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:21816195-6708-4bbd-a758-ee354bb84900
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Knowledge production"@en , "Production de connaissances"@fr .
+
+iremus:9c625b42-0c33-4ff2-895a-a063b9e4d6db
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_FerculumFecitSibi.mei;
+        dcterms:created                 "2024-03-28T17:26:15.033913579Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1el033;
+        crm:P141_assigned               iremus:9b441ea1-d45c-49cf-9e62-6c56555d8d08;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:18c5d430-2306-4034-8e85-bbc3c3a6f51a
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_FerculumFecitSibi.mei;
+        dcterms:created                 "2024-03-28T17:25:26.357040108Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:2fb7f8bb-3da8-448a-96a0-273e8adc47fc;
+        crm:P141_assigned               iremus:e1a2aa78-b49f-439c-a45b-194eab4eb074;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:6c3d2fd9-8d43-4fa7-bf85-b60a3da542ea
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_FerculumFecitSibi.mei;
+        dcterms:created                 "2024-03-28T17:25:20.176361722Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1kvmce2;
+        crm:P141_assigned               iremus:77ec91ad-75c7-4f60-85ce-0e14e0cc193f;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:882b9cac-3829-4241-9991-02e48bf312e9
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_FerculumFecitSibi.mei;
+        dcterms:created                 "2024-03-28T17:26:09.488731543Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:f607dc68-a231-4651-9537-7c484849baa0;
+        crm:P141_assigned               iremus:5afc7bc7-0142-480f-af80-35f5ee155833;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:17d69ac3-078e-4b87-a0c0-09f70b17a1c6
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_FerculumFecitSibi.mei;
+        dcterms:created                 "2024-03-28T17:25:20.476991085Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:2fb7f8bb-3da8-448a-96a0-273e8adc47fc;
+        crm:P141_assigned               iremus:77ec91ad-75c7-4f60-85ce-0e14e0cc193f;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:2cdeb872-4c55-4a96-951e-3a56c223a77d
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_FerculumFecitSibi.mei;
+        dcterms:created                 "2024-03-28T17:26:09.201278036Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n13hzotl;
+        crm:P141_assigned               iremus:5afc7bc7-0142-480f-af80-35f5ee155833;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:969e47b2-d7d3-4185-88ab-f55693a09a37
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_FerculumFecitSibi.mei;
+        dcterms:created                 "2024-03-28T17:26:09.335304711Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:5afc7bc7-0142-480f-af80-35f5ee155833;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:53b63458-20bd-4ee6-87e8-273effd01289
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_FerculumFecitSibi.mei;
+        dcterms:created                 "2024-03-28T17:25:26.159904581Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:e1a2aa78-b49f-439c-a45b-194eab4eb074;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3
+        a                              crm:E41_Appellation;
+        crm:P190_has_symbolic_content  "Christophe Guillotel-Nothmann";
+        crm:P2_has_type                iremus:73ea8d74-3526-4f6a-8830-dd369795650d .
+
+iremus:42b6dab4-9a1f-4855-a3d5-1747e390846a
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_FerculumFecitSibi.mei;
+        dcterms:created                 "2024-03-28T17:26:21.352743201Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:f607dc68-a231-4651-9537-7c484849baa0;
+        crm:P141_assigned               iremus:c4fea776-a451-4320-9dfb-8557afe3bb50;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:f7ab3d02-4622-423f-b819-f28b03ab95c7
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_FerculumFecitSibi.mei;
+        dcterms:created                 "2024-03-28T17:25:20.314134180Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:77ec91ad-75c7-4f60-85ce-0e14e0cc193f;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:e4154650-d8a9-4acd-b820-a8e19c72fcb3
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_FerculumFecitSibi.mei;
+        dcterms:created                 "2024-03-28T17:26:21.187959592Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:c4fea776-a451-4320-9dfb-8557afe3bb50;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3
+        a                              crm:E42_Identifier;
+        crm:P190_has_symbolic_content  "0000-0002-4817-3686";
+        crm:P2_has_type                iremus:d7ef2583-ff31-4913-9ed3-bc3a1c664b21 .
+
+iremus:5e7e881a-ddbb-4037-b1d4-510de1736138
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_FerculumFecitSibi.mei;
+        dcterms:created                 "2024-03-28T17:25:13.036912763Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:2fb7f8bb-3da8-448a-96a0-273e8adc47fc;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+corpus:Zarlino_FerculumFecitSibi.mei
+        a       crm:E1_CRM_Entity .
+
+iremus:48048ab2-85d1-4a51-9484-a0ef330e3a88
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_FerculumFecitSibi.mei;
+        dcterms:created                 "2024-03-28T17:26:15.338311118Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:f607dc68-a231-4651-9537-7c484849baa0;
+        crm:P141_assigned               iremus:9b441ea1-d45c-49cf-9e62-6c56555d8d08;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:d975f7db-713c-4f6a-a5bc-878db337901d
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_FerculumFecitSibi.mei;
+        dcterms:created                 "2024-03-28T17:26:21.061253746Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:nyro2q9;
+        crm:P141_assigned               iremus:c4fea776-a451-4320-9dfb-8557afe3bb50;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Draft"@en , "Brouillon"@fr .
+
+iremus:5d7bdf74-addd-418b-ab43-38af4e70c158
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , crm:E21_Person;
+        dcterms:created          "2022-09-08T12:36:04.142112601Z";
+        crm:P1_is_identified_by  iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3 , iremus:481efbd2-651d-4cc8-9075-a261df46e6d6 , iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3 , iremus:68f4c1ef-da9c-40af-a8be-5e4a92e8c7fe .
+
+iremus:2d2fd161-cfd3-4836-90f4-f27ae4a719ae
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_FerculumFecitSibi.mei;
+        dcterms:created                 "2024-03-28T17:24:39.544889677Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:8ddd6e15-d760-4e71-a1b8-a55b7dba5024;
+        crm:P141_assigned               zarlino:Mode;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:e382e54d-70cd-40c7-8999-ef570f574996
+        a                            crm:E52_Time-span;
+        crm:P82a_begin_of_the_begin  "2024-03-28T17:24:28.850281049Z" .
+
+iremus:89339068-4ad4-4a66-b9a5-9db4de683ace
+        a                          crm:E7_Activity;
+        sherlock:has_privacy_type  iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd;
+        dcterms:creator            iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P14_carried_out_by     iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P1_is_identified_by    "Modes_CGN";
+        crm:P2_has_type            iremus:21816195-6708-4bbd-a758-ee354bb84900;
+        crm:P4_has_time-span       iremus:e382e54d-70cd-40c7-8999-ef570f574996;
+        crm:P9_consists_of         iremus:2d2fd161-cfd3-4836-90f4-f27ae4a719ae , iremus:969e47b2-d7d3-4185-88ab-f55693a09a37 , iremus:d64ad819-503a-4912-bfca-09251b532d08 , iremus:42b6dab4-9a1f-4855-a3d5-1747e390846a , iremus:9c625b42-0c33-4ff2-895a-a063b9e4d6db , iremus:882b9cac-3829-4241-9991-02e48bf312e9 , iremus:cacb856d-958b-4ee5-aa95-e98c2d9d9f3b , iremus:4cc76c77-5ff0-43a6-9e2b-be0f343e8951 , iremus:48048ab2-85d1-4a51-9484-a0ef330e3a88 , iremus:2cdeb872-4c55-4a96-951e-3a56c223a77d , iremus:5e7e881a-ddbb-4037-b1d4-510de1736138 , iremus:eff40026-901d-4d1c-b0be-18fab7213635 , iremus:2d9ee2ca-26ef-4ae2-b74d-15c6aa883e35 , iremus:18c5d430-2306-4034-8e85-bbc3c3a6f51a , iremus:6c3d2fd9-8d43-4fa7-bf85-b60a3da542ea , iremus:17d69ac3-078e-4b87-a0c0-09f70b17a1c6 , iremus:e3e8025f-d3e1-44b8-8540-9b6bf68390e9 , iremus:d975f7db-713c-4f6a-a5bc-878db337901d , iremus:53b63458-20bd-4ee6-87e8-273effd01289 , iremus:e4154650-d8a9-4acd-b820-a8e19c72fcb3 , iremus:f7ab3d02-4622-423f-b819-f28b03ab95c7 .
+
+iremus:eff40026-901d-4d1c-b0be-18fab7213635
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_FerculumFecitSibi.mei;
+        dcterms:created                 "2024-03-28T17:26:02.607600282Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:f607dc68-a231-4651-9537-7c484849baa0;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:d64ad819-503a-4912-bfca-09251b532d08
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_FerculumFecitSibi.mei;
+        dcterms:created                 "2024-03-28T17:25:12.876128588Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1v9uh9z , mei:n1kvmce2 , mei:nlho243 , mei:n1sm7r7e , mei:n1a5h8r8 , mei:n1jl5u6v , mei:n1xmtqt4 , mei:num6eut , mei:na2p50z , mei:nqzdpby , mei:ndkggxl , mei:n133jfo7 , mei:nnl8x6c , mei:n19u6nn0;
+        crm:P141_assigned               iremus:2fb7f8bb-3da8-448a-96a0-273e8adc47fc;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:4cc76c77-5ff0-43a6-9e2b-be0f343e8951
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_FerculumFecitSibi.mei;
+        dcterms:created                 "2024-03-28T17:24:39.411125471Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  corpus:Zarlino_FerculumFecitSibi.mei;
+        crm:P141_assigned               iremus:8ddd6e15-d760-4e71-a1b8-a55b7dba5024;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:2d9ee2ca-26ef-4ae2-b74d-15c6aa883e35
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_FerculumFecitSibi.mei;
+        dcterms:created                 "2024-03-28T17:26:15.175836259Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:9b441ea1-d45c-49cf-9e62-6c56555d8d08;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:cacb856d-958b-4ee5-aa95-e98c2d9d9f3b
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Zarlino_FerculumFecitSibi.mei;
+        dcterms:created                 "2024-03-28T17:25:26.006369147Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1v9uh9z;
+        crm:P141_assigned               iremus:e1a2aa78-b49f-439c-a45b-194eab4eb074;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .

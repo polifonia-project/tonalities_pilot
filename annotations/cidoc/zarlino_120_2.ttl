@@ -1,0 +1,341 @@
+@prefix chordsCommonPractices: <https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/> .
+@prefix corpus:                <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Sacred_Music/> .
+@prefix crm:                   <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms:               <http://purl.org/dc/terms/> .
+@prefix fugue:                 <https://w3id.org/polifonia/ontology/modal-tonal/Fugue/> .
+@prefix guillotel:             <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix guillotel2023:         <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix interpretation:        <https://w3id.org/polifonia/ontology/music-analysis/interpretation/> .
+@prefix iremus:                <http://data-iremus.huma-num.fr/id/> .
+@prefix lrmoo:                 <https://www.iflastandards.info/lrm/lrmoo> .
+@prefix manganisabaino:        <https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/> .
+@prefix mei:                   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Josquin/Josquin_Sacred_Music/Jos0402b-Missa_Gaudeamus-Gloria.mei#> .
+@prefix oldFugue:              <https://w3id.org/polifonia/ontology/modal-tonal/Fugue#> .
+@prefix sherlock:              <http://data-iremus.huma-num.fr/ns/sherlock#> .
+@prefix zarlino:               <https://w3id.org/polifonia/ontology/music-analysis/zarlino/> .
+
+iremus:21816195-6708-4bbd-a758-ee354bb84900
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Knowledge production"@en , "Production de connaissances"@fr .
+
+iremus:a1141487-2921-4347-b902-c975613de1de
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:41:51.104515231Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:bda8241e-dbdb-4fa9-b106-b0376834ca4c;
+        crm:P141_assigned               iremus:3ace6e51-c284-45cb-9274-ee169d297c1c;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:ed8f7285-ea22-4f90-b588-b5f43538f793
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:42:52.804066890Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:note-L979F7;
+        crm:P141_assigned               iremus:03c68bd9-7cf2-4681-afaf-53d047b6fdcf;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:093643ab-798c-4fa2-a1fd-0de35a225404
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:41:50.789584574Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:note-L894F5;
+        crm:P141_assigned               iremus:3ace6e51-c284-45cb-9274-ee169d297c1c;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:985539e1-5e55-46e1-8013-4d3d44505c8a
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:42:45.731973637Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:note-L979F3;
+        crm:P141_assigned               iremus:b757c9fc-b6a4-4996-a78e-c10c46946072;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:de3eae0e-cdb8-4529-99bf-4e7cde154404
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:42:52.931308059Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:03c68bd9-7cf2-4681-afaf-53d047b6fdcf;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:bcfac002-ab7c-4d3c-83ee-669106280988
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:42:28.603648649Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:4afb71f0-5fc4-4ef9-8cad-c84c5145db4d;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:ec77c9f4-7a53-4d29-bce0-996c4768c52d
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:40:56.348527416Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:33bed5a6-fa26-4757-b23b-c3fdc5449003;
+        crm:P141_assigned               iremus:b4cd9f4c-6834-4f1b-9c41-39ce1402a6c3;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:303b75e8-ec14-4a73-9ab0-97b2d7077c17
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:41:44.710663988Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:05de1efd-032a-495d-b271-341763c76d76;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:4286b5e5-b109-4380-b4ad-59bd08efbc86
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:41:35.719438396Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:bda8241e-dbdb-4fa9-b106-b0376834ca4c;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3
+        a                              crm:E41_Appellation;
+        crm:P190_has_symbolic_content  "Christophe Guillotel-Nothmann";
+        crm:P2_has_type                iremus:73ea8d74-3526-4f6a-8830-dd369795650d .
+
+iremus:ffb36baf-635c-43e2-8190-83764b243833
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:41:44.577642421Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:note-L894F1;
+        crm:P141_assigned               iremus:05de1efd-032a-495d-b271-341763c76d76;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:481785b5-49ad-4a9b-816e-c32b167228a0
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:40:08.250891334Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        crm:P141_assigned               iremus:2d582913-ea1c-4784-97b5-9a5dc6d556b4;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3
+        a                              crm:E42_Identifier;
+        crm:P190_has_symbolic_content  "0000-0002-4817-3686";
+        crm:P2_has_type                iremus:d7ef2583-ff31-4913-9ed3-bc3a1c664b21 .
+
+iremus:fab1c2df-9d9a-4f8b-b610-1a9a45bfc830
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:42:39.665952613Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:note-L979F1;
+        crm:P141_assigned               iremus:b8b2ae21-4be2-4cdc-826e-1ffbb9a9c8bf;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:132efd2c-85ba-487c-906d-2d236ea8d624
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:40:45.773807835Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:note-L434F1 , mei:note-L436F5 , mei:note-L434F7 , mei:note-L436F1 , mei:note-L436F7 , mei:note-L434F5;
+        crm:P141_assigned               iremus:33bed5a6-fa26-4757-b23b-c3fdc5449003;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei
+        a       crm:E1_CRM_Entity .
+
+iremus:d2478c3a-2c02-4ab1-851d-8a855cca17b5
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:42:46.017196556Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:4afb71f0-5fc4-4ef9-8cad-c84c5145db4d;
+        crm:P141_assigned               iremus:b757c9fc-b6a4-4996-a78e-c10c46946072;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:248d78b0-d216-450c-8db4-803f6b027431
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:40:56.193175210Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:b4cd9f4c-6834-4f1b-9c41-39ce1402a6c3;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:9aea3a46-a71b-4f14-9c35-025c9ff71991
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:42:39.796588933Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:b8b2ae21-4be2-4cdc-826e-1ffbb9a9c8bf;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Draft"@en , "Brouillon"@fr .
+
+iremus:f87a0e1e-aa63-449b-9050-b71a2340afe8
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:42:28.470170560Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:note-L976F5 , mei:note-L975F1 , mei:note-L979F3 , mei:note-L975F7 , mei:note-L975F3 , mei:note-L979F5 , mei:note-L976F1 , mei:note-L979F7 , mei:note-L976F3 , mei:note-L975F5 , mei:note-L979F1 , mei:note-L977F7;
+        crm:P141_assigned               iremus:4afb71f0-5fc4-4ef9-8cad-c84c5145db4d;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:02c7a7c8-d4cd-47d1-a82b-153ab23e6301
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:40:45.910598180Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:33bed5a6-fa26-4757-b23b-c3fdc5449003;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:5d7bdf74-addd-418b-ab43-38af4e70c158
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , crm:E21_Person;
+        dcterms:created          "2022-09-08T12:36:04.142112601Z";
+        crm:P1_is_identified_by  iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3 , iremus:481efbd2-651d-4cc8-9075-a261df46e6d6 , iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3 , iremus:68f4c1ef-da9c-40af-a8be-5e4a92e8c7fe .
+
+iremus:819a5b49-6889-4be2-a1b7-a22d7e839152
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:42:45.865730010Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:b757c9fc-b6a4-4996-a78e-c10c46946072;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:8bd5fc13-a9c4-4673-b2d0-aa9a9ecc45cc
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:42:53.083567937Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:4afb71f0-5fc4-4ef9-8cad-c84c5145db4d;
+        crm:P141_assigned               iremus:03c68bd9-7cf2-4681-afaf-53d047b6fdcf;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:bae5ed5a-ed4b-49ea-bc99-97c041fee1e0
+        a                            crm:E52_Time-span;
+        crm:P82a_begin_of_the_begin  "2024-03-29T11:39:52.267220242Z" .
+
+iremus:b815f68f-eaf2-460d-a4c8-69e93c4b1c3a
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:40:56.058241280Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:note-L436F1;
+        crm:P141_assigned               iremus:b4cd9f4c-6834-4f1b-9c41-39ce1402a6c3;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:3ee982de-c88d-44ad-aab0-8cf819be5859
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:41:50.918285759Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:3ace6e51-c284-45cb-9274-ee169d297c1c;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:26bf1bc4-5efd-4cc8-b935-271d2e458ac3
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:40:08.383360322Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:2d582913-ea1c-4784-97b5-9a5dc6d556b4;
+        crm:P141_assigned               zarlino:Mode;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:638c3855-4482-481f-bf70-31f1fd7d1789
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:42:39.971806837Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:4afb71f0-5fc4-4ef9-8cad-c84c5145db4d;
+        crm:P141_assigned               iremus:b8b2ae21-4be2-4cdc-826e-1ffbb9a9c8bf;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:b9d24ee9-75a3-44db-81ef-284b64032dce
+        a                          crm:E7_Activity;
+        sherlock:has_privacy_type  iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd;
+        dcterms:creator            iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P14_carried_out_by     iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P1_is_identified_by    "Modes_CGN";
+        crm:P2_has_type            iremus:21816195-6708-4bbd-a758-ee354bb84900;
+        crm:P4_has_time-span       iremus:bae5ed5a-ed4b-49ea-bc99-97c041fee1e0;
+        crm:P9_consists_of         iremus:de3eae0e-cdb8-4529-99bf-4e7cde154404 , iremus:481785b5-49ad-4a9b-816e-c32b167228a0 , iremus:638c3855-4482-481f-bf70-31f1fd7d1789 , iremus:985539e1-5e55-46e1-8013-4d3d44505c8a , iremus:9aea3a46-a71b-4f14-9c35-025c9ff71991 , iremus:ed8f7285-ea22-4f90-b588-b5f43538f793 , iremus:c9d666ed-06a0-450f-996d-407c6bea11df , iremus:d2478c3a-2c02-4ab1-851d-8a855cca17b5 , iremus:248d78b0-d216-450c-8db4-803f6b027431 , iremus:4286b5e5-b109-4380-b4ad-59bd08efbc86 , iremus:a1141487-2921-4347-b902-c975613de1de , iremus:bcfac002-ab7c-4d3c-83ee-669106280988 , iremus:fab1c2df-9d9a-4f8b-b610-1a9a45bfc830 , iremus:26bf1bc4-5efd-4cc8-b935-271d2e458ac3 , iremus:02c7a7c8-d4cd-47d1-a82b-153ab23e6301 , iremus:132efd2c-85ba-487c-906d-2d236ea8d624 , iremus:a727a979-5905-4943-9bdd-a1a38b06f955 , iremus:303b75e8-ec14-4a73-9ab0-97b2d7077c17 , iremus:3ee982de-c88d-44ad-aab0-8cf819be5859 , iremus:b815f68f-eaf2-460d-a4c8-69e93c4b1c3a , iremus:8bd5fc13-a9c4-4673-b2d0-aa9a9ecc45cc , iremus:ec77c9f4-7a53-4d29-bce0-996c4768c52d , iremus:093643ab-798c-4fa2-a1fd-0de35a225404 , iremus:819a5b49-6889-4be2-a1b7-a22d7e839152 , iremus:ffb36baf-635c-43e2-8190-83764b243833 , iremus:f87a0e1e-aa63-449b-9050-b71a2340afe8 .
+
+iremus:a727a979-5905-4943-9bdd-a1a38b06f955
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:41:35.585355202Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:note-L886F1 , mei:note-L888F1 , mei:note-L888F5 , mei:note-L894F5 , mei:note-L894F3 , mei:note-L894F7 , mei:note-L886F5 , mei:note-L894F1 , mei:note-L889F1 , mei:note-L887F5 , mei:note-L890F5;
+        crm:P141_assigned               iremus:bda8241e-dbdb-4fa9-b106-b0376834ca4c;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:c9d666ed-06a0-450f-996d-407c6bea11df
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:Jos0402b-Missa_Gaudeamus-Gloria.mei;
+        dcterms:created                 "2024-03-29T11:41:44.868955301Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:bda8241e-dbdb-4fa9-b106-b0376834ca4c;
+        crm:P141_assigned               iremus:05de1efd-032a-495d-b271-341763c76d76;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .

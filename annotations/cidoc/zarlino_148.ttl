@@ -1,0 +1,198 @@
+@prefix chordsCommonPractices: <https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/> .
+@prefix corpus:                <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/> .
+@prefix crm:                   <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms:               <http://purl.org/dc/terms/> .
+@prefix fugue:                 <https://w3id.org/polifonia/ontology/modal-tonal/Fugue/> .
+@prefix guillotel:             <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix guillotel2023:         <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix interpretation:        <https://w3id.org/polifonia/ontology/music-analysis/interpretation/> .
+@prefix iremus:                <http://data-iremus.huma-num.fr/id/> .
+@prefix lrmoo:                 <https://www.iflastandards.info/lrm/lrmoo> .
+@prefix manganisabaino:        <https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/> .
+@prefix mei:                   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_O_quam_gloriosum_est_regnum%20MG.mei#> .
+@prefix oldFugue:              <https://w3id.org/polifonia/ontology/modal-tonal/Fugue#> .
+@prefix sherlock:              <http://data-iremus.huma-num.fr/ns/sherlock#> .
+@prefix zarlino:               <https://w3id.org/polifonia/ontology/music-analysis/zarlino/> .
+
+iremus:21816195-6708-4bbd-a758-ee354bb84900
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Knowledge production"@en , "Production de connaissances"@fr .
+
+<https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_O_quam_gloriosum_est_regnum%20MG.mei>
+        a       crm:E1_CRM_Entity .
+
+iremus:5d995d2c-ac43-4006-a814-18a8cb09363f
+        a                            crm:E52_Time-span;
+        crm:P82a_begin_of_the_begin  "2024-03-29T16:37:02.346939965Z" .
+
+iremus:04149be5-1dd1-468b-81a9-8e0f101b98ec
+        a                          crm:E7_Activity;
+        sherlock:has_privacy_type  iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd;
+        dcterms:creator            iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P14_carried_out_by     iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P1_is_identified_by    "Modes_CGN";
+        crm:P2_has_type            iremus:21816195-6708-4bbd-a758-ee354bb84900;
+        crm:P4_has_time-span       iremus:5d995d2c-ac43-4006-a814-18a8cb09363f;
+        crm:P9_consists_of         iremus:bfc1ead3-cdfc-48e0-8e8a-25725060478d , iremus:1751e8ea-2580-43d2-9dbb-5c54cf88df14 , iremus:e51fc191-bf75-47b7-9482-9306e2b33df5 , iremus:4646b54c-6e94-4bad-b0eb-d10d2437aad1 , iremus:63fbbf33-9057-470a-8520-3b49597652b9 , iremus:69ca12be-edec-4f02-9132-606aad0a53fc , iremus:3c9baa48-0974-4930-97b7-721d999ff659 , iremus:c3f34e7c-85f0-4700-8718-efd9bb8af095 , iremus:859636ba-9106-43a2-b6b5-3bb04b68d43e , iremus:58710a7a-2879-4da5-a653-178ac2756edd , iremus:8edb4764-c9a4-45e1-8291-4d394bbc42a2 , iremus:c3c3aa35-5c59-44c3-a07b-247c46f72ab9 , iremus:f83665d4-6f21-4d05-ab27-dbf6521e363a .
+
+iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3
+        a                              crm:E41_Appellation;
+        crm:P190_has_symbolic_content  "Christophe Guillotel-Nothmann";
+        crm:P2_has_type                iremus:73ea8d74-3526-4f6a-8830-dd369795650d .
+
+iremus:f83665d4-6f21-4d05-ab27-dbf6521e363a
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_O_quam_gloriosum_est_regnum%20MG.mei>;
+        dcterms:created                 "2024-03-29T16:38:02.812155127Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:6abb885a-8cc6-4cdb-9ca8-e2f6bf0233df;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3
+        a                              crm:E42_Identifier;
+        crm:P190_has_symbolic_content  "0000-0002-4817-3686";
+        crm:P2_has_type                iremus:d7ef2583-ff31-4913-9ed3-bc3a1c664b21 .
+
+iremus:1751e8ea-2580-43d2-9dbb-5c54cf88df14
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_O_quam_gloriosum_est_regnum%20MG.mei>;
+        dcterms:created                 "2024-03-29T16:38:09.091771556Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:da62f089-faae-4107-84d7-a82feaf61a3b;
+        crm:P141_assigned               iremus:ee2b00d3-9964-48df-8afa-f1e3d4da2a73;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:63fbbf33-9057-470a-8520-3b49597652b9
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_O_quam_gloriosum_est_regnum%20MG.mei>;
+        dcterms:created                 "2024-03-29T16:38:08.913261438Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:ee2b00d3-9964-48df-8afa-f1e3d4da2a73;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:8edb4764-c9a4-45e1-8291-4d394bbc42a2
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_O_quam_gloriosum_est_regnum%20MG.mei>;
+        dcterms:created                 "2024-03-29T16:37:58.493722046Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:e24144b0-d1ee-4ab7-9aec-fa9508cd2a8f;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Draft"@en , "Brouillon"@fr .
+
+iremus:4646b54c-6e94-4bad-b0eb-d10d2437aad1
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_O_quam_gloriosum_est_regnum%20MG.mei>;
+        dcterms:created                 "2024-03-29T16:37:06.455375864Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_O_quam_gloriosum_est_regnum%20MG.mei>;
+        crm:P141_assigned               iremus:4e0fa948-8b93-4502-8967-db5b9bb476ab;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:5d7bdf74-addd-418b-ab43-38af4e70c158
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , crm:E21_Person;
+        dcterms:created          "2022-09-08T12:36:04.142112601Z";
+        crm:P1_is_identified_by  iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3 , iremus:481efbd2-651d-4cc8-9075-a261df46e6d6 , iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3 , iremus:68f4c1ef-da9c-40af-a8be-5e4a92e8c7fe .
+
+iremus:c3c3aa35-5c59-44c3-a07b-247c46f72ab9
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_O_quam_gloriosum_est_regnum%20MG.mei>;
+        dcterms:created                 "2024-03-29T16:37:53.226292258Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1rkf50r , mei:nqjgczx , mei:n1srxgza , mei:nzwpbex , mei:n12qdp9d , mei:ncxplb0 , mei:neqnk2y , mei:n5kj2rv , mei:n1dyzqfi , mei:n55g07t , mei:n1ugaen6 , mei:n1xstskw , mei:nmmn1ma , mei:n1vvfyoq , mei:nur9296 , mei:nc54p6f , mei:nozoh8t , mei:n12r2dap , mei:n1svro45 , mei:nvchlqm , mei:njxmzsq , mei:n562pw4;
+        crm:P141_assigned               iremus:da62f089-faae-4107-84d7-a82feaf61a3b;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:e51fc191-bf75-47b7-9482-9306e2b33df5
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_O_quam_gloriosum_est_regnum%20MG.mei>;
+        dcterms:created                 "2024-03-29T16:38:02.998801076Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:da62f089-faae-4107-84d7-a82feaf61a3b;
+        crm:P141_assigned               iremus:6abb885a-8cc6-4cdb-9ca8-e2f6bf0233df;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:69ca12be-edec-4f02-9132-606aad0a53fc
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_O_quam_gloriosum_est_regnum%20MG.mei>;
+        dcterms:created                 "2024-03-29T16:38:02.685804880Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1svro45;
+        crm:P141_assigned               iremus:6abb885a-8cc6-4cdb-9ca8-e2f6bf0233df;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:859636ba-9106-43a2-b6b5-3bb04b68d43e
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_O_quam_gloriosum_est_regnum%20MG.mei>;
+        dcterms:created                 "2024-03-29T16:38:08.787772724Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:ncxplb0;
+        crm:P141_assigned               iremus:ee2b00d3-9964-48df-8afa-f1e3d4da2a73;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:bfc1ead3-cdfc-48e0-8e8a-25725060478d
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_O_quam_gloriosum_est_regnum%20MG.mei>;
+        dcterms:created                 "2024-03-29T16:37:06.579641018Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:4e0fa948-8b93-4502-8967-db5b9bb476ab;
+        crm:P141_assigned               zarlino:Mode;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:3c9baa48-0974-4930-97b7-721d999ff659
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_O_quam_gloriosum_est_regnum%20MG.mei>;
+        dcterms:created                 "2024-03-29T16:37:58.692755186Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:da62f089-faae-4107-84d7-a82feaf61a3b;
+        crm:P141_assigned               iremus:e24144b0-d1ee-4ab7-9aec-fa9508cd2a8f;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:c3f34e7c-85f0-4700-8718-efd9bb8af095
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_O_quam_gloriosum_est_regnum%20MG.mei>;
+        dcterms:created                 "2024-03-29T16:37:53.361265620Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:da62f089-faae-4107-84d7-a82feaf61a3b;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:58710a7a-2879-4da5-a653-178ac2756edd
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_O_quam_gloriosum_est_regnum%20MG.mei>;
+        dcterms:created                 "2024-03-29T16:37:58.358098061Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:nvchlqm;
+        crm:P141_assigned               iremus:e24144b0-d1ee-4ab7-9aec-fa9508cd2a8f;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .

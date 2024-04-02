@@ -1,0 +1,319 @@
+@prefix chordsCommonPractices: <https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/> .
+@prefix corpus:                <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/> .
+@prefix crm:                   <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms:               <http://purl.org/dc/terms/> .
+@prefix fugue:                 <https://w3id.org/polifonia/ontology/modal-tonal/Fugue/> .
+@prefix guillotel:             <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix guillotel2023:         <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix interpretation:        <https://w3id.org/polifonia/ontology/music-analysis/interpretation/> .
+@prefix iremus:                <http://data-iremus.huma-num.fr/id/> .
+@prefix lrmoo:                 <https://www.iflastandards.info/lrm/lrmoo> .
+@prefix manganisabaino:        <https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/> .
+@prefix mei:                   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei#> .
+@prefix oldFugue:              <https://w3id.org/polifonia/ontology/modal-tonal/Fugue#> .
+@prefix sherlock:              <http://data-iremus.huma-num.fr/ns/sherlock#> .
+@prefix zarlino:               <https://w3id.org/polifonia/ontology/music-analysis/zarlino/> .
+
+iremus:21816195-6708-4bbd-a758-ee354bb84900
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Knowledge production"@en , "Production de connaissances"@fr .
+
+iremus:89d980b2-2013-4375-9e25-61c2eccf9218
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        dcterms:created                 "2024-03-28T14:35:52.784209731Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:62ccfd69-fee4-48cc-84ec-bad41b743f22;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:aad4bb01-48fd-4fdf-89fd-c4db8020587c
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        dcterms:created                 "2024-03-28T14:36:02.317546809Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:251603ca-c2d7-4938-a56f-f6dab9d3cf16;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:35d95273-5052-4b09-968e-6188579ee240
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        dcterms:created                 "2024-03-28T14:35:45.752975800Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:3b5f2b36-fe4a-4c8f-9a80-9c958318dec4;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+<https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>
+        a       crm:E1_CRM_Entity .
+
+iremus:4e2a0d0e-ddb1-44a7-bdc7-93a48249b3b1
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        dcterms:created                 "2024-03-28T14:35:45.576382624Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n18pwv57 , mei:n6kq56q , mei:n1wqnkal , mei:n1rhdfig , mei:n1uz9t97 , mei:nq9fjgk , mei:nc7ubek , mei:n9ipojg , mei:n9fqzdu , mei:n109oep5 , mei:n13q7mp9 , mei:n1jp53e5;
+        crm:P141_assigned               iremus:3b5f2b36-fe4a-4c8f-9a80-9c958318dec4;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:7448b9c1-a604-4359-b673-6b1c2d0b4f97
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        dcterms:created                 "2024-03-28T14:36:02.485679955Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:3b5f2b36-fe4a-4c8f-9a80-9c958318dec4;
+        crm:P141_assigned               iremus:251603ca-c2d7-4938-a56f-f6dab9d3cf16;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:7e5ed3af-28b9-4f04-9e63-59632f07c88c
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        dcterms:created                 "2024-03-28T14:36:30.137352599Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1sf4a4w , mei:n1f1wyt9 , mei:ndfg1vf , mei:nvimq4i , mei:n1k8xiuo , mei:n3isej7 , mei:n3bb2fp , mei:necgt3p , mei:njsin0v , mei:n1onpmbr , mei:ndgf5ob , mei:ntedkfw , mei:n1mkht6z;
+        crm:P141_assigned               iremus:8099bcbb-c10d-44b8-9c7e-cea162252944;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:6214d478-39ec-4910-9fb3-053a16e89b4d
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        dcterms:created                 "2024-03-28T14:36:36.415754387Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:f77ed9ae-6efe-45db-a402-439e2880991e;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:2451c2ed-ad02-4cea-9dd5-a3e45a7201be
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        dcterms:created                 "2024-03-28T14:36:40.408811508Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:ndfg1vf;
+        crm:P141_assigned               iremus:1adfba38-e576-43f2-9c78-f765eb365302;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:6dcbe4f3-4806-4f88-83c6-f0113b500ac6
+        a                          crm:E7_Activity;
+        sherlock:has_privacy_type  iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd;
+        dcterms:creator            iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P14_carried_out_by     iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P1_is_identified_by    "Modes_CGN";
+        crm:P2_has_type            iremus:21816195-6708-4bbd-a758-ee354bb84900;
+        crm:P4_has_time-span       iremus:331cb61a-03cb-4ab1-babe-cc43890b3797;
+        crm:P9_consists_of         iremus:5cb51c60-c117-4cc9-b84a-a213da88d2ac , iremus:45a6dd8c-30c5-4c32-99cc-dc43a53f5599 , iremus:4e2a0d0e-ddb1-44a7-bdc7-93a48249b3b1 , iremus:7e5ed3af-28b9-4f04-9e63-59632f07c88c , iremus:36469914-e18b-4fc3-af88-9ea0499ff449 , iremus:aad4bb01-48fd-4fdf-89fd-c4db8020587c , iremus:63931c9f-7cad-4a8a-807f-3bfa7b5bd881 , iremus:1ca99c53-f279-4d3e-a0dd-8e549d39083d , iremus:89d980b2-2013-4375-9e25-61c2eccf9218 , iremus:35d95273-5052-4b09-968e-6188579ee240 , iremus:7448b9c1-a604-4359-b673-6b1c2d0b4f97 , iremus:98cef215-324b-4836-ae27-1273c6fd88bf , iremus:2b97cd6c-4dee-4883-bf57-0c4649cc53cf , iremus:bcbbe700-d2f8-4bea-a77d-fdfbde408339 , iremus:f21ea002-4e57-4738-a108-4f5ba1b216ea , iremus:bfbdea02-70a8-4bdd-9706-1d75f296e54c , iremus:b6f49956-d1d0-4828-a818-f67b1d15bfcc , iremus:0e583df8-39ee-418c-b69c-78a0be2af091 , iremus:3b6af5ff-4d16-4a0b-8fd8-d3d4e0d17fd3 , iremus:6214d478-39ec-4910-9fb3-053a16e89b4d , iremus:fdebd238-6880-4d38-9b2e-d6e0bcb218e8 , iremus:3ef8832e-ed31-4df8-a052-a92f6523fb9d , iremus:2451c2ed-ad02-4cea-9dd5-a3e45a7201be , iremus:69411212-fb71-4895-a56e-d2d6278b9610 .
+
+iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3
+        a                              crm:E41_Appellation;
+        crm:P190_has_symbolic_content  "Christophe Guillotel-Nothmann";
+        crm:P2_has_type                iremus:73ea8d74-3526-4f6a-8830-dd369795650d .
+
+iremus:3ef8832e-ed31-4df8-a052-a92f6523fb9d
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        dcterms:created                 "2024-03-28T14:32:20.478372140Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:4e421c92-2d5a-48e0-840f-885a62fd0c2c;
+        crm:P141_assigned               zarlino:Mode;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3
+        a                              crm:E42_Identifier;
+        crm:P190_has_symbolic_content  "0000-0002-4817-3686";
+        crm:P2_has_type                iremus:d7ef2583-ff31-4913-9ed3-bc3a1c664b21 .
+
+iremus:1ca99c53-f279-4d3e-a0dd-8e549d39083d
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        dcterms:created                 "2024-03-28T14:35:52.638450273Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:nc7ubek;
+        crm:P141_assigned               iremus:62ccfd69-fee4-48cc-84ec-bad41b743f22;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:f21ea002-4e57-4738-a108-4f5ba1b216ea
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        dcterms:created                 "2024-03-28T14:35:52.973823784Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:3b5f2b36-fe4a-4c8f-9a80-9c958318dec4;
+        crm:P141_assigned               iremus:62ccfd69-fee4-48cc-84ec-bad41b743f22;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:69411212-fb71-4895-a56e-d2d6278b9610
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        dcterms:created                 "2024-03-28T14:36:45.751084686Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:b22162a6-0522-48cc-b6a2-7e6bb87755c7;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:0e583df8-39ee-418c-b69c-78a0be2af091
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        dcterms:created                 "2024-03-28T14:36:36.626360740Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:8099bcbb-c10d-44b8-9c7e-cea162252944;
+        crm:P141_assigned               iremus:f77ed9ae-6efe-45db-a402-439e2880991e;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:98cef215-324b-4836-ae27-1273c6fd88bf
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        dcterms:created                 "2024-03-28T14:35:57.421197849Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:67ccef3a-61cd-4a76-a99b-931ffb11c192;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Draft"@en , "Brouillon"@fr .
+
+iremus:5d7bdf74-addd-418b-ab43-38af4e70c158
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , crm:E21_Person;
+        dcterms:created          "2022-09-08T12:36:04.142112601Z";
+        crm:P1_is_identified_by  iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3 , iremus:481efbd2-651d-4cc8-9075-a261df46e6d6 , iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3 , iremus:68f4c1ef-da9c-40af-a8be-5e4a92e8c7fe .
+
+iremus:fdebd238-6880-4d38-9b2e-d6e0bcb218e8
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        dcterms:created                 "2024-03-28T14:35:57.275945982Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n9ipojg;
+        crm:P141_assigned               iremus:67ccef3a-61cd-4a76-a99b-931ffb11c192;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:45a6dd8c-30c5-4c32-99cc-dc43a53f5599
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        dcterms:created                 "2024-03-28T14:36:30.318588273Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:8099bcbb-c10d-44b8-9c7e-cea162252944;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:2b97cd6c-4dee-4883-bf57-0c4649cc53cf
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        dcterms:created                 "2024-03-28T14:36:40.541697611Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:1adfba38-e576-43f2-9c78-f765eb365302;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:bfbdea02-70a8-4bdd-9706-1d75f296e54c
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        dcterms:created                 "2024-03-28T14:35:57.605664861Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:3b5f2b36-fe4a-4c8f-9a80-9c958318dec4;
+        crm:P141_assigned               iremus:67ccef3a-61cd-4a76-a99b-931ffb11c192;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:5cb51c60-c117-4cc9-b84a-a213da88d2ac
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        dcterms:created                 "2024-03-28T14:32:20.020728461Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        crm:P141_assigned               iremus:4e421c92-2d5a-48e0-840f-885a62fd0c2c;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:63931c9f-7cad-4a8a-807f-3bfa7b5bd881
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        dcterms:created                 "2024-03-28T14:36:45.600651677Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n3bb2fp;
+        crm:P141_assigned               iremus:b22162a6-0522-48cc-b6a2-7e6bb87755c7;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:3b6af5ff-4d16-4a0b-8fd8-d3d4e0d17fd3
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        dcterms:created                 "2024-03-28T14:36:36.275512224Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1mkht6z;
+        crm:P141_assigned               iremus:f77ed9ae-6efe-45db-a402-439e2880991e;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:b6f49956-d1d0-4828-a818-f67b1d15bfcc
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        dcterms:created                 "2024-03-28T14:36:40.703521358Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:8099bcbb-c10d-44b8-9c7e-cea162252944;
+        crm:P141_assigned               iremus:1adfba38-e576-43f2-9c78-f765eb365302;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:331cb61a-03cb-4ab1-babe-cc43890b3797
+        a                            crm:E52_Time-span;
+        crm:P82a_begin_of_the_begin  "2024-03-28T14:32:08.809109938Z" .
+
+iremus:36469914-e18b-4fc3-af88-9ea0499ff449
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        dcterms:created                 "2024-03-28T14:36:02.168020894Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n9fqzdu;
+        crm:P141_assigned               iremus:251603ca-c2d7-4938-a56f-f6dab9d3cf16;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:bcbbe700-d2f8-4bea-a77d-fdfbde408339
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/Zarlino/Zarlino_I'_vo_piangendo.mei>;
+        dcterms:created                 "2024-03-28T14:36:45.921616840Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:8099bcbb-c10d-44b8-9c7e-cea162252944;
+        crm:P141_assigned               iremus:b22162a6-0522-48cc-b6a2-7e6bb87755c7;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .

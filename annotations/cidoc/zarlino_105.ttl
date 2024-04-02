@@ -1,0 +1,165 @@
+@prefix chordsCommonPractices: <https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/> .
+@prefix corpus:                <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/De_Rore/> .
+@prefix crm:                   <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms:               <http://purl.org/dc/terms/> .
+@prefix fugue:                 <https://w3id.org/polifonia/ontology/modal-tonal/Fugue/> .
+@prefix guillotel:             <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix guillotel2023:         <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#> .
+@prefix interpretation:        <https://w3id.org/polifonia/ontology/music-analysis/interpretation/> .
+@prefix iremus:                <http://data-iremus.huma-num.fr/id/> .
+@prefix lrmoo:                 <https://www.iflastandards.info/lrm/lrmoo> .
+@prefix manganisabaino:        <https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/> .
+@prefix mei:                   <https://raw.githubusercontent.com/polifonia-project/tonalities_pilot/main/scores/De_Rore/De_Rore_Donna_che_ornata_sete.mei#> .
+@prefix oldFugue:              <https://w3id.org/polifonia/ontology/modal-tonal/Fugue#> .
+@prefix sherlock:              <http://data-iremus.huma-num.fr/ns/sherlock#> .
+@prefix zarlino:               <https://w3id.org/polifonia/ontology/music-analysis/zarlino/> .
+
+iremus:59990230-4002-46f3-9c9a-32f03daa69c6
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Rore_Donna_che_ornata_sete.mei;
+        dcterms:created                 "2024-03-28T07:31:12.051658827Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  corpus:De_Rore_Donna_che_ornata_sete.mei;
+        crm:P141_assigned               iremus:1ab18944-e318-40ea-ad72-69759de7943e;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:21816195-6708-4bbd-a758-ee354bb84900
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Knowledge production"@en , "Production de connaissances"@fr .
+
+iremus:3ed09470-c125-44c5-b642-6e4d422a4e5f
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Rore_Donna_che_ornata_sete.mei;
+        dcterms:created                 "2024-03-28T14:21:01.652125151Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:a6c49cb1-2f71-4b2d-9c56-6b1fa58d5d83;
+        crm:P141_assigned               zarlino:Cadence;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:a9514ae1-d349-4880-9c14-fa0c22ccfead
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Rore_Donna_che_ornata_sete.mei;
+        dcterms:created                 "2024-03-28T14:21:01.474265276Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1m9ax2a , mei:nk06b5 , mei:nukjn9u , mei:n1vnhtzq , mei:nts6hzs , mei:nanqc7e , mei:n1nj18t , mei:n10eyfdw , mei:n1du8dj3 , mei:npmx4k4 , mei:n1lz7gv0 , mei:nl3lkuu , mei:n18f0044 , mei:n17qu2fr , mei:nzwxm4q , mei:n4vn2jf , mei:n4pjxhx , mei:n1c74fbd , mei:nvajscd , mei:n1c7a98x;
+        crm:P141_assigned               iremus:a6c49cb1-2f71-4b2d-9c56-6b1fa58d5d83;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:1c51c492-0a3b-4bc4-a1ea-24a1eb943a04
+        a                          crm:E7_Activity;
+        sherlock:has_privacy_type  iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd;
+        dcterms:creator            iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P14_carried_out_by     iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P1_is_identified_by    "Modes_CGN";
+        crm:P2_has_type            iremus:21816195-6708-4bbd-a758-ee354bb84900;
+        crm:P4_has_time-span       iremus:44491a33-0e22-436b-9aae-c24ca680ede8;
+        crm:P9_consists_of         iremus:a1e2954d-d2cf-49c2-b4e0-8f01c9448c02 , iremus:3ed09470-c125-44c5-b642-6e4d422a4e5f , iremus:34d42ca2-0109-4d2a-b6ee-6f3720fc6613 , iremus:a9514ae1-d349-4880-9c14-fa0c22ccfead , iremus:59990230-4002-46f3-9c9a-32f03daa69c6 , iremus:83e42509-ece3-4dc3-be7b-33ed8830e774 , iremus:1d1c0300-25ba-43a8-8dfa-dc50e167631a , iremus:8e55cb22-8d28-4f4b-bc3b-a6348ff70d98 , iremus:93f9a06d-4222-4e69-886b-78d792d1551c , iremus:c5ad4a1d-4ceb-4fd2-b27a-55adf5bce141 .
+
+iremus:8e55cb22-8d28-4f4b-bc3b-a6348ff70d98
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Rore_Donna_che_ornata_sete.mei;
+        dcterms:created                 "2024-03-28T14:21:11.384674534Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:6b4631d8-ff7a-4fbc-98c2-4da667bfebca;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:1d1c0300-25ba-43a8-8dfa-dc50e167631a
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Rore_Donna_che_ornata_sete.mei;
+        dcterms:created                 "2024-03-28T07:31:12.269529767Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:1ab18944-e318-40ea-ad72-69759de7943e;
+        crm:P141_assigned               zarlino:Mode;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:93f9a06d-4222-4e69-886b-78d792d1551c
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Rore_Donna_che_ornata_sete.mei;
+        dcterms:created                 "2024-03-28T14:21:16.467740598Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:a0dd4b1e-0a8e-4891-86b9-b8c69098b5be;
+        crm:P141_assigned               zarlino:TargetNote;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P2_has_type .
+
+iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3
+        a                              crm:E41_Appellation;
+        crm:P190_has_symbolic_content  "Christophe Guillotel-Nothmann";
+        crm:P2_has_type                iremus:73ea8d74-3526-4f6a-8830-dd369795650d .
+
+iremus:44491a33-0e22-436b-9aae-c24ca680ede8
+        a                            crm:E52_Time-span;
+        crm:P82a_begin_of_the_begin  "2024-03-28T07:31:00.087229233Z" .
+
+iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3
+        a                              crm:E42_Identifier;
+        crm:P190_has_symbolic_content  "0000-0002-4817-3686";
+        crm:P2_has_type                iremus:d7ef2583-ff31-4913-9ed3-bc3a1c664b21 .
+
+iremus:34d42ca2-0109-4d2a-b6ee-6f3720fc6613
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Rore_Donna_che_ornata_sete.mei;
+        dcterms:created                 "2024-03-28T14:21:16.324673395Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:n1lz7gv0;
+        crm:P141_assigned               iremus:a0dd4b1e-0a8e-4891-86b9-b8c69098b5be;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:a1e2954d-d2cf-49c2-b4e0-8f01c9448c02
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Rore_Donna_che_ornata_sete.mei;
+        dcterms:created                 "2024-03-28T14:21:11.225590621Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  mei:nanqc7e;
+        crm:P141_assigned               iremus:6b4631d8-ff7a-4fbc-98c2-4da667bfebca;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P67_refers_to .
+
+iremus:83e42509-ece3-4dc3-be7b-33ed8830e774
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Rore_Donna_che_ornata_sete.mei;
+        dcterms:created                 "2024-03-28T14:21:16.629829970Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:a6c49cb1-2f71-4b2d-9c56-6b1fa58d5d83;
+        crm:P141_assigned               iremus:a0dd4b1e-0a8e-4891-86b9-b8c69098b5be;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
+
+iremus:cabe46bf-23d4-4392-aa20-b3eb21ad7dfd
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://www.w3.org/2002/07/owl#Thing> , crm:E55_Type;
+        crm:P1_is_identified_by  "Draft"@en , "Brouillon"@fr .
+
+iremus:5d7bdf74-addd-418b-ab43-38af4e70c158
+        a                        <http://www.w3.org/2002/07/owl#NamedIndividual> , crm:E21_Person;
+        dcterms:created          "2022-09-08T12:36:04.142112601Z";
+        crm:P1_is_identified_by  iremus:409b230d-1a2e-4f01-a264-f8046c4fadd3 , iremus:481efbd2-651d-4cc8-9075-a261df46e6d6 , iremus:d380fc1d-dc99-44ad-92e2-523b401e67f3 , iremus:68f4c1ef-da9c-40af-a8be-5e4a92e8c7fe .
+
+corpus:De_Rore_Donna_che_ornata_sete.mei
+        a       crm:E1_CRM_Entity .
+
+iremus:c5ad4a1d-4ceb-4fd2-b27a-55adf5bce141
+        a                               crm:E13_Attribute_Assignment;
+        sherlock:has_document_context   corpus:De_Rore_Donna_che_ornata_sete.mei;
+        dcterms:created                 "2024-03-28T14:21:11.563726968Z";
+        dcterms:creator                 iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P140_assigned_attribute_to  iremus:a6c49cb1-2f71-4b2d-9c56-6b1fa58d5d83;
+        crm:P141_assigned               iremus:6b4631d8-ff7a-4fbc-98c2-4da667bfebca;
+        crm:P14_carried_out_by          iremus:5d7bdf74-addd-418b-ab43-38af4e70c158;
+        crm:P177_assigned_property_of_type
+                crm:P106_is_composed_of .
