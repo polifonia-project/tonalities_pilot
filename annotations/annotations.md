@@ -17,7 +17,7 @@ keywords:
 licence:
   - CC BY-NC-SA 4.0
 resource:
-  - "https://data-iremus.huma-num.fr/tonalities"
+  - "https://github.com/polifonia-project/tonalities_pilot/tree/main/annotations"
 credits:
   - Thomas Bottini  (IReMus)
   - Christophe Guillotel-Nothmann (IReMus)
