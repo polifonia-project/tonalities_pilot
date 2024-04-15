@@ -9,14 +9,37 @@ metadata in the header:
 pitches; 
 rhythmic values.
 
-The encoding process for all these parameters is heterogeneous and depends on the origin of the MEI files (in particular for external datasets) and on the MEI practice adopted by each research team which produced them.
-For example, in Tonalities native MEI files the genre metadata has been encoded using the following tags and labels :
 
+In Tonalities native MEI files the metadata have been encoded using the following tags and labels :
+
+[composer]
+<composer xml:id="...">
+   <persName role="creator" xml:id="..."></persName>
+</composer>
+
+[title]
+<titleStmt xml:id="...">
+   <title xml:id="..."></title>
+
+[encoder/editor]
+<respStmt xml:id="...">
+   <persName role="editor" xml:id="..."></persName>
+</respStmt>
+
+[licence]
+<pubStmt xml:id="...">
+   <availability xml:id="...">
+      <useRestrict xml : id="..."><useRestrict/>
+   </availability>
+</pubStmt>
+
+[genre]
 <classification>
-    <termList>
-      <term label="music genre">chorale</term>
-    </termList>
+   <termList>
+    <term label="music genre"></term>
+   </termList>
 </classification>
 
-We manage this heterogeneity through a script (https://github.com/polifonia-project/tonalities_pilot/tree/main/scripts/meihead-parser) expressly conceived for this purpose.
+The encoding process for all these parameters is heterogeneous and depends on the origin of the MEI files (in particular for external datasets) and on the MEI practice adopted by each research team which produced them.
+We manage this heterogeneity through a script (https://github.com/polifonia-project/tonalities_pilot/tree/main/scripts/meihead-parser) expressly conceived for injecting them into a homogeneous model (cidoc), on the basis of which we contribute to Polifonia's knowledge graph in music-meta (https://github.com/polifonia-project/music-meta-ontology).
 TSQVP protocol may be object of minor adaptations and modifications, due to the progressing workflow and to the forthcoming integration of other music repertories.
