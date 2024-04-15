@@ -29,7 +29,7 @@ credits:
   - et al.
 related-components: []
 bibliography:
-  - main-publication: "Thomas Bottini, Christophe Guillotel-Nothmann, Marco Gurrieri, Félix Poullet-Pagès. Tonalities: a Collaborative Annotation Interface for Music Analysis. Musical Heritage Knowledge Graphs workshop during the 22nd International Semantic Web Conference 2022, Oct 2022, Hangzhou, China. ⟨hal-03923731⟩"
+  - main-publication: "List of MEI files displayed by Tonalities App <DOI 10.5281/zenodo.10940069>"
 ---
 
 # Tonalities scores
