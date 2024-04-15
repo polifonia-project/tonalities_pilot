@@ -20,7 +20,7 @@ credits:
   - Thomas Bottini (IReMus)
 related-components: []
 bibliography:
-  - "Tonalities Meihead Parser Script" <10.5281/zenodo.10974021>
+"Tonalities Meihead Parser Script" <10.5281/zenodo.10974021>
 ---
 
 # Tonalities Meihead-Parser
