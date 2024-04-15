@@ -29,7 +29,7 @@ credits:
   - et al.
 related-components: []
 bibliography:
-  - main-publication: "List of MEI files displayed by Tonalities App <DOI 10.5281/zenodo.10940069>"
+  - main-publication: "Guillotel-Nothmann, C., Gurrieri, M., & Greentree, M. (2024). List of MEI files displayed by Tonalities App [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10940070"
 ---
 
 # Tonalities scores
