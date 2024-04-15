@@ -26,7 +26,7 @@ credits:
   - et al.
 related-components: []
 bibliography:
-  - main-publication: "Thomas Bottini, Christophe Guillotel-Nothmann, Marco Gurrieri, Félix Poullet-Pagès. Tonalities: a Collaborative Annotation Interface for Music Analysis. Musical Heritage Knowledge Graphs workshop during the 22nd International Semantic Web Conference 2022, Oct 2022, Hangzhou, China. ⟨hal-03923731⟩"
+  - main-publication: "Guillotel-Nothmann, C., Gurrieri, M., Mangani, M., Ceulemans, A.-E., Freedman, R., Poullet-Pagès, F., & Filaber, A. (2024). Tonalities annotations [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10940035"
 ---
 
 # Tonalities annotations
