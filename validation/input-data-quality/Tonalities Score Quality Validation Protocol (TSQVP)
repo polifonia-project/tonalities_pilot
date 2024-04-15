@@ -9,4 +9,14 @@ metadata in the header:
 pitches; 
 rhythmic values.
 
+The encoding process for all these parameters is heterogeneous and depends on the origin of the MEI files (in particular for external datasets) and on the MEI practice adopted by each research team which produced them.
+For example, in Tonalities native MEI files the genre metadata has been encoded using the following tags and labels :
+
+<classification>
+    <termList>
+      <term label="music genre">chorale</term>
+    </termList>
+</classification>
+
+We manage this heterogeneity through a script (https://github.com/polifonia-project/tonalities_pilot/tree/main/scripts/meihead-parser) expressly conceived for this purpose.
 TSQVP protocol may be object of minor adaptations and modifications, due to the progressing workflow and to the forthcoming integration of other music repertories.
