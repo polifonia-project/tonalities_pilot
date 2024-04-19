@@ -29,7 +29,7 @@ In Tonalities native MEI files the metadata have been encoded using the followin
 [licence]
 <pubStmt xml:id="...">
    <availability xml:id="...">
-      <useRestrict xml : id="..."><useRestrict/>
+      <useRestrict xml:id="..."><useRestrict/>
    </availability>
 </pubStmt>
 
@@ -42,4 +42,5 @@ In Tonalities native MEI files the metadata have been encoded using the followin
 
 The encoding process for all these parameters is heterogeneous and depends on the origin of the MEI files (in particular for external datasets) and on the MEI practice adopted by each research team which produced them.
 We manage this heterogeneity through a script (https://github.com/polifonia-project/tonalities_pilot/tree/main/scripts/meihead-parser) expressly conceived for injecting them into a homogeneous model (cidoc), on the basis of which we contribute to Polifonia's knowledge graph in music-meta (https://github.com/polifonia-project/music-meta-ontology).
+
 TSQVP protocol may be object of minor adaptations and modifications, due to the progressing workflow and to the forthcoming integration of other music repertories.
