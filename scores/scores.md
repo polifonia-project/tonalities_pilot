@@ -23,11 +23,13 @@ licence:
 resource:
   - "https://github.com/polifonia-project/tonalities_pilot/tree/main/scores"
 credits:
+  - Margaret Greentree
   - Christophe Guillotel-Nothmann (IReMus)
   - Marco Gurrieri (IReMus)
+  - et al.
 related-components: []
 bibliography:
-  - main-publication: "Thomas Bottini, Christophe Guillotel-Nothmann, Marco Gurrieri, Félix Poullet-Pagès. Tonalities: a Collaborative Annotation Interface for Music Analysis. Musical Heritage Knowledge Graphs workshop during the 22nd International Semantic Web Conference 2022, Oct 2022, Hangzhou, China. ⟨hal-03923731⟩"
+  - main-publication: "Guillotel-Nothmann, C., Gurrieri, M., & Greentree, M. (2024). List of MEI files displayed by Tonalities App [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10940070"
 ---
 
 # Tonalities scores
