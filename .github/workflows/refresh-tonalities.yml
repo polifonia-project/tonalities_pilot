@@ -1,0 +1,17 @@
+name: Refresh scorelist
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  refresh-tonalities:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Refresh scorelist
+        uses: indiesdev/curl@v1.1
+        with:
+          url: https://gitlab.huma-num.fr/api/v4/projects/3940/trigger/pipeline
+          method: "POST"
+          params: '{ "token": "${{ secrets.HUMA-NUM_TRIGGER_TOKEN }}", "ref": "main" }'
