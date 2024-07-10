@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Refresh scorelist
-        uses: indiesdev/curl@v1.1
-        with:
-          url: https://gitlab.huma-num.fr/api/v4/projects/3940/trigger/pipeline
-          method: "POST"
-          params: '{ "token": "${{ secrets.HUMANUM_TRIGGER_TOKEN }}", "ref": "main" }'
+        run: |
+          curl --request POST \
+            --form token=${{ secrets.HUMANUM_TRIGGER_TOKEN }} \
+            --form ref=main \
+            https://gitlab.huma-num.fr/api/v4/projects/3940/trigger/pipeline
