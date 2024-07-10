@@ -14,4 +14,4 @@ jobs:
         with:
           url: https://gitlab.huma-num.fr/api/v4/projects/3940/trigger/pipeline
           method: "POST"
-          params: '{ "token": "${{ secrets.HUMA-NUM_TRIGGER_TOKEN }}", "ref": "main" }'
+          params: '{ "token": "${{ secrets.HUMANUM_TRIGGER_TOKEN }}", "ref": "main" }'
