@@ -1,0 +1,26 @@
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX iremus: <http://data-iremus.huma-num.fr/id/> 
+PREFIX sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#>
+PREFIX cadences: <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/>
+
+SELECT ?E13 (GROUP_CONCAT(DISTINCT ?docContext; SEPARATOR=",") AS ?scoreURI) (GROUP_CONCAT(DISTINCT ?E7; SEPARATOR=",") AS ?projectID) (GROUP_CONCAT(DISTINCT ?note; SEPARATOR=",") AS ?notes)  (GROUP_CONCAT(DISTINCT ?concept; SEPARATOR=",") AS ?concepts)
+
+
+FROM <http://data-iremus.huma-num.fr/graph/sherlock>
+FROM <http://data-iremus.huma-num.fr/graph/users>
+WHERE { 
+  ?project crm:P9_consists_of ?E13.
+  ?E13 sherlock:has_document_context ?docContext.
+  ?E13 crm:P177_assigned_property_of_type crm:P2_has_type.
+  ?E13 crm:P141_assigned cadences:Bassizans_P.
+  ?E13 crm:P141_assigned ?concept.
+  ?E7 crm:P9_consists_of ?E13.
+  
+  ?E13 crm:P140_assigned_attribute_to ?E28.
+  ?E13_P67 crm:P141_assigned ?E28.
+      
+  ?E13_P67 crm:P140_assigned_attribute_to ?noteUri.
+    BIND(STRAFTER(STR(?noteUri), "#") AS ?note)
+   
+}
+GROUP BY ?E13

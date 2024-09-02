@@ -1,0 +1,13 @@
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX iremus: <http://data-iremus.huma-num.fr/id/> 
+PREFIX sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#>
+
+SELECT DISTINCT ?project ?docContext
+FROM <http://data-iremus.huma-num.fr/graph/sherlock>
+FROM <http://data-iremus.huma-num.fr/graph/users>
+WHERE {
+    VALUES ?project {iremus:{PROJECT}}.
+  ?project crm:P9_consists_of ?E13.
+  ?E13 sherlock:has_document_context ?docContext
+   
+}
